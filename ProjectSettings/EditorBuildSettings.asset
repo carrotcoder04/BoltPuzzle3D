@@ -6,6 +6,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   m_Scenes:
   - enabled: 1
-    path: Assets/Screw3D/AAResources/Splash/SplashScene.unity
+    path: Assets/_Game/Scenes/SplashScene.unity
     guid: ac157f9b81fdb434ca48275382880c68
   m_configObjects: {}
