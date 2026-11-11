@@ -118,6 +118,7 @@ public class InventoryManager : MonoBehaviour
 		if (Data.Hearts >= MaxHearts) Data.NextHeartUtc = (Now + HeartRegen).Ticks;
 		Data.Hearts--;
 		Save();
+		AnalyticsManager.CurrencySpend("heart", 1, "level");
 		OnHeartsChanged?.Invoke();
 		return true;
 	}

@@ -25,7 +25,7 @@ public class FailDialogContent : DialogContent
 		_coinBtn = transform.BindButton(ads ? "ReviveBtnGroup/CoinBtn" : "ReviveBtnCoinOnly", () => ReviveWithCoins(price));
 		var countText = ads ? transform.FindText("CoinBtn") : transform.FindComp<TMP_Text>("ReviveBtnCoinOnly/Content/Count");
 		UIUtil.SetText(countText, price.ToString());
-		if (ads) transform.BindButton("ReviveBtnGroup/RvBtn", () => AdsService.ShowRewarded("revive", ok => { if (ok) DoRevive(); }));
+		if (ads) transform.BindButton("ReviveBtnGroup/RvBtn", () => AdsService.ShowRewarded("revive", ok => { if (ok) DoRevive("ad"); }));
 
 		transform.BindButton("RetryBtn", () => { if (GameController.Instance != null) GameController.Instance.Retry(); });
 		transform.BindButton("Ribbon/CloseButton", () => { if (GameController.Instance != null) GameController.Instance.QuitLevel(); });
@@ -42,14 +42,14 @@ public class FailDialogContent : DialogContent
 	{
 		var ud = Managers.UserData;
 		if (ud == null || !ud.TrySpendCoins(price, "revive")) { UIUtil.Deny(_coinBtn); return; }
-		DoRevive();
+		DoRevive("coin");
 	}
 
-	void DoRevive()
+	void DoRevive(string method)
 	{
 		var gc = GameController.Instance;
 		Close(0);
-		if (gc != null) gc.Revive();
+		if (gc != null) gc.Revive(method);
 	}
 
 	// Đóng bằng nền/back = bỏ cuộc

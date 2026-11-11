@@ -37,6 +37,8 @@ public class Managers : MonoBehaviour
 		Get<InventoryManager>().Init();
 		Get<VibrationManager>().Init();
 		Get<AudioManager>().Init();
+		Get<FirebaseManager>().Init();
+		Get<IapManager>().Init();
 		IsReady = true;
 	}
 

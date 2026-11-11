@@ -60,6 +60,9 @@ public class GameController : MonoBehaviour
 	readonly List<Screw> _reserve = new List<Screw>();
 	readonly List<Screw> _boardScrews = new List<Screw>();
 	GameObject _oneLeft;
+	float _startTime;
+	int _boostersUsed;
+	int _taps;
 	Transform _reserveRoot;
 	bool _checkPending;
 
@@ -161,6 +164,8 @@ public class GameController : MonoBehaviour
 		if (GameCanvas != null) GameCanvas.Bind(this);
 		OnProgressChanged?.Invoke();
 		if (Managers.Audio != null) Managers.Audio.PlaySfx(Sfx.Whoosh);
+		_startTime = Time.time;
+		AnalyticsManager.LevelStart(Level, puzzle.name, ud != null ? ud.Data.LevelAttempt : 1);
 	}
 
 	public bool InputLocked => IsGameOver || IsGameFail || DialogManager.Count > 0;
@@ -270,7 +275,9 @@ public class GameController : MonoBehaviour
 			return;
 		}
 		if (GameCreator.IsBlocked(screw)) { screw.ShakeBlocked(); return; }
-		if (!TryRoute(screw, false)) screw.ShakeBlocked();
+		if (!TryRoute(screw, false)) { screw.ShakeBlocked(); return; }
+		if (PlayableConfig.IsPlayable && PlayableConfig.MaxScrewTaps > 0 && ++_taps >= PlayableConfig.MaxScrewTaps)
+			DOVirtual.DelayedCall(0.8f, () => { if (!IsGameOver) { IsGameOver = true; PlayableEndcard.Show("Great job!"); } }).SetLink(gameObject);
 	}
 
 	/// <summary>Đưa ốc trên tấm tới hộp cùng màu, nếu không thì vào lỗ chờ; allowReserve = cho vào kho ẩn khi hết chỗ.</summary>
@@ -379,6 +386,8 @@ public class GameController : MonoBehaviour
 	{
 		var inv = Managers.Inventory;
 		if (inv != null) inv.TryUseBooster(type);
+		_boostersUsed++;
+		AnalyticsManager.BoosterUse(type);
 		if (Managers.Audio != null) Managers.Audio.PlaySfx(sfx);
 		SetMode(ToolMode.None);
 	}
@@ -418,6 +427,7 @@ public class GameController : MonoBehaviour
 	{
 		if (UnlockedBoxSlots >= MaxBoxSlots) return false;
 		int slot = UnlockedBoxSlots++;
+		AnalyticsManager.BoosterUse(BoosterType.AddBox);
 		SpawnBox(slot);
 		return true;
 	}
@@ -455,8 +465,10 @@ public class GameController : MonoBehaviour
 		foreach (var h in _holes) if (h.IsActive) h.ShowFailNotice(true);
 		if (Managers.Audio != null) Managers.Audio.PlaySfx(Sfx.Fail);
 		if (Managers.Vibration != null) Managers.Vibration.Heavy();
+		AnalyticsManager.LevelFail(Level, "holes_full", TotalScrews - CollectedScrews);
 		DOVirtual.DelayedCall(0.8f, () =>
 		{
+			if (PlayableConfig.IsPlayable) { IsGameOver = true; PlayableEndcard.Show("Try the full game!"); return; }
 			if (_cfg != null && _cfg.FailDialog != null) DialogManager.Show(_cfg.FailDialog);
 		}).SetLink(gameObject);
 	}
@@ -472,9 +484,10 @@ public class GameController : MonoBehaviour
 	}
 
 	/// <summary>Hồi sinh: mở lỗ Hole6/7 nếu còn, nếu không thì dùng hiệu ứng chổi.</summary>
-	public void Revive()
+	public void Revive(string method = "coin")
 	{
 		ReviveCount++;
+		AnalyticsManager.LevelRevive(Level, method);
 		IsGameFail = false;
 		foreach (var h in _holes) h.ShowFailNotice(false);
 		Hole locked = null;
@@ -492,8 +505,10 @@ public class GameController : MonoBehaviour
 		SetMode(ToolMode.None);
 		UpdateHoleNotice();
 		if (Managers.Audio != null) Managers.Audio.PlaySfx(Sfx.Win);
+		AnalyticsManager.LevelWin(Level, Time.time - _startTime, TotalScrews, _boostersUsed);
 		DOVirtual.DelayedCall(0.6f, () =>
 		{
+			if (PlayableConfig.IsPlayable) { PlayableEndcard.Show("Level Complete!"); return; }
 			if (_cfg != null && _cfg.WinDialog != null) DialogManager.Show(_cfg.WinDialog);
 			else ClaimWinAndGoHome(1);
 		}).SetLink(gameObject);

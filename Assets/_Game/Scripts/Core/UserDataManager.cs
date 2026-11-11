@@ -80,6 +80,7 @@ public class UserDataManager : MonoBehaviour
 		if (amount == 0) return;
 		Data.Coins = Mathf.Max(0, Data.Coins + amount);
 		Save();
+		if (amount > 0) AnalyticsManager.CurrencyEarn("coin", amount, source);
 		OnCoinsChanged?.Invoke(Data.Coins);
 	}
 
@@ -88,6 +89,7 @@ public class UserDataManager : MonoBehaviour
 		if (amount < 0 || Data.Coins < amount) return false;
 		Data.Coins -= amount;
 		Save();
+		AnalyticsManager.CurrencySpend("coin", amount, reason);
 		OnCoinsChanged?.Invoke(Data.Coins);
 		return true;
 	}

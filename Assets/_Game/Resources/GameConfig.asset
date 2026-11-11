@@ -98,3 +98,8 @@ MonoBehaviour:
   PauseDialog: {fileID: 1709254077376921, guid: 2332fcd9951dc144697b88ee8f8c1abf, type: 3}
   WinDialog: {fileID: 1709254077376921, guid: c35700c9f5a32ae46b2898e4cc169ff9, type: 3}
   FailDialog: {fileID: 1709254077376921, guid: 13b7abade444d68459612390e116e35b, type: 3}
+  ShopContent: {fileID: 1709254077376921, guid: a4f1ee7249120414bac02e994f60f170, type: 3}
+  ShopCoinItem: {fileID: 1709254077376921, guid: 107bdc9917ff4ff47b329938906048a1, type: 3}
+  ShopBundleItem: {fileID: 1709254077376921, guid: 6cccc85395418be4e98c2b565b500b1d, type: 3}
+  SettingsDialog: {fileID: 1709254077376921, guid: 4ed73c799d5491e4092aea54b633fc62, type: 3}
+  StageRewardDialog: {fileID: 1709254077376921, guid: 081b810ab0438e7488c0d9820bc7e310, type: 3}

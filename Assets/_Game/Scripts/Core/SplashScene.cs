@@ -55,8 +55,9 @@ public class SplashScene : MonoBehaviour
 	IEnumerator Start()
 	{
 		Managers.Ensure();
+		AnalyticsManager.AppLaunch();
 		float start = Time.unscaledTime;
-		var op = SceneManager.LoadSceneAsync(HomeSceneName);
+		var op = SceneManager.LoadSceneAsync(PlayableConfig.IsPlayable ? "GameScene" : HomeSceneName);
 		if (op == null)
 		{
 			Debug.LogError("[Splash] HomeScene chưa có trong Build Settings");

@@ -21,6 +21,15 @@ public class GameConfig : ScriptableObject
 	public GameObject WinDialog;
 	public GameObject FailDialog;
 
+	[Header("Home / Shop")]
+	public GameObject ShopContent;
+	public GameObject ShopCoinItem;
+	public GameObject ShopBundleItem;
+	public GameObject SettingsDialog;
+	public GameObject StageRewardDialog;
+	public int ChestEveryLevels = 5;
+	public int ChestCoins = 100;
+
 	[Header("Gameplay")]
 	public int StartHoleCount = 5;
 	public int StartBoxSlots = 2;
