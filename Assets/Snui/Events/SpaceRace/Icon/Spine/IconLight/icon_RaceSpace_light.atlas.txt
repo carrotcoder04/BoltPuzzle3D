@@ -1,5 +1,0 @@
-icon_RaceSpace_light.png
-size:110,62
-filter:Linear,Linear
-ty_icon_sweep
-bounds:2,2,106,58

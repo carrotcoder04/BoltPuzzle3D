@@ -1,5 +1,0 @@
-iconprop_teambattle.png
-size:103,84
-filter:Linear,Linear
-iconprop_Team battle
-bounds:2,2,99,80

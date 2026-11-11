@@ -1,6 +1,0 @@
-iconprop_KeyHunter.png
-size:63,83
-filter:Linear,Linear
-iconprop_KeyHunter
-bounds:2,2,59,79
-offsets:0,1,59,81

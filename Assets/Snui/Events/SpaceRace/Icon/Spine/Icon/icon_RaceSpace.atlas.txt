@@ -1,8 +1,0 @@
-icon_RaceSpace.png
-size:123,94
-filter:Linear,Linear
-space_01
-bounds:2,2,91,90
-space_02
-bounds:95,63,29,26
-rotate:90

@@ -1,6 +1,0 @@
-bottle.png
-size:60,100
-filter:Linear,Linear
-train_19
-bounds:2,2,56,93
-offsets:1,1,58,95

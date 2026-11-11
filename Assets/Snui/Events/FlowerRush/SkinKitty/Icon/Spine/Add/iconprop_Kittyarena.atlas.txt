@@ -1,5 +1,0 @@
-iconprop_Kittyarena.png
-size:102,85
-filter:Linear,Linear
-icon_Kittyarena_2
-bounds:2,2,98,81

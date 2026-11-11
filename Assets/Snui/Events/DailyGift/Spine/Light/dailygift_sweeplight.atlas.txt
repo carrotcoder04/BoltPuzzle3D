@@ -1,8 +1,0 @@
-dailygift_sweeplight.png
-size:297,254
-filter:Linear,Linear
-dailygift_bg_2
-bounds:2,2,250,264
-rotate:90
-dailygift_clow
-bounds:268,147,27,105

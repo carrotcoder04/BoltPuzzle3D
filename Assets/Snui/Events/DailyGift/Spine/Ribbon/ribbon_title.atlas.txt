@@ -1,5 +1,0 @@
-ribbon_title.png
-size:887,210
-filter:Linear,Linear
-ty_caiqi
-bounds:2,2,883,206

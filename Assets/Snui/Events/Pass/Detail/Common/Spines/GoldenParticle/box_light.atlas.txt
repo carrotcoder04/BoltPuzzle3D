@@ -1,6 +1,0 @@
-box_light.png
-size:88,84
-filter:Linear,Linear
-star
-bounds:2,2,84,80
-offsets:2,2,88,82

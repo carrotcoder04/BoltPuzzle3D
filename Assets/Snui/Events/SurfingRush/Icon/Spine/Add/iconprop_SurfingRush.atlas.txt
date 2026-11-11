@@ -1,7 +1,0 @@
-iconprop_SurfingRush.png
-size:190,104
-filter:Linear,Linear
-iconprop_SurfingRush
-bounds:2,2,92,100
-iconprop_teasure rush
-bounds:96,2,92,100

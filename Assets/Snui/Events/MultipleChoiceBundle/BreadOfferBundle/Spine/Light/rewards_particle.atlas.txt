@@ -1,6 +1,0 @@
-rewards_particle.png
-size:40,40
-filter:Linear,Linear
-little_star
-bounds:2,2,36,36
-offsets:3,4,45,43

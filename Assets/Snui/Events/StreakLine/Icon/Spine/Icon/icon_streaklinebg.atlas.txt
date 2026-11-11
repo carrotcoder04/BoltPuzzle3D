@@ -1,6 +1,0 @@
-icon_streaklinebg.png
-size:114,41
-filter:Linear,Linear
-yun
-bounds:2,2,110,37
-offsets:0,1,110,38

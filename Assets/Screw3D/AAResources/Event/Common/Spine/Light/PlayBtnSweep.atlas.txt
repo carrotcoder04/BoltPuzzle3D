@@ -1,5 +1,0 @@
-PlayBtnSweep.png
-size:43,72
-filter:Linear,Linear
-ui_36
-bounds:2,2,39,68
