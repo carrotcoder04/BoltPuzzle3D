@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aecae2a74e033ea0f3031a0758bd00be, type: 3}
+  m_Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
   m_Name: stage_case_SkeletonData
   m_EditorClassIdentifier:
   atlasAssets:

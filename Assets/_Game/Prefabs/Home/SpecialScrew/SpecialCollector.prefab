@@ -330,7 +330,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1730242686860875}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48efa0cfb8a4d6b4901b88b6bb4a8e09, type: 3}
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   skeletonDataAsset: {fileID: 11400000, guid: 7e35fe75b52083f41a07ff40250f84d3, type: 2}
@@ -5102,7 +5102,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1703437598541787}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48efa0cfb8a4d6b4901b88b6bb4a8e09, type: 3}
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   skeletonDataAsset: {fileID: 11400000, guid: 32546d5d51e64b54d977ab27810ab1c3, type: 2}
@@ -5207,7 +5207,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1884547391421755}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48efa0cfb8a4d6b4901b88b6bb4a8e09, type: 3}
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   skeletonDataAsset: {fileID: 11400000, guid: 906b65ec801847143bf955974f5a653e, type: 2}
@@ -5766,7 +5766,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1709867586078768}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20f101d6086ee11eb76e4c7e97048caa, type: 3}
+  m_Script: {fileID: 11500000, guid: a1fd8daaed7b64148a34acb96ba14ce1, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   skeletonRenderer: {fileID: 114711914853252429}

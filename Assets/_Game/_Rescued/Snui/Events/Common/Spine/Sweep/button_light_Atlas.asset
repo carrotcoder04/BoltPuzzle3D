@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb6a9381bd1153e90fb3841230adf0c3, type: 3}
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: button_light_Atlas
   m_EditorClassIdentifier:
   textureLoadingMode: 0

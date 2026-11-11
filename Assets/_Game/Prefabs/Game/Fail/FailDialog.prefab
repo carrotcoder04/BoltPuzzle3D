@@ -1837,7 +1837,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1618682377417806}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff326197253ae4cec0b46632391386ec, type: 3}
+  m_Script: {fileID: 11500000, guid: d85b887af7e6c3f45a2e2d2920d641bc, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Material: {fileID: 0}
@@ -1849,9 +1849,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   skeletonDataAsset: {fileID: 0}
-  additiveMaterial: {fileID: 2100000, guid: bfb6a383f6ace1c41be56658edbebba4, type: 2}
-  multiplyMaterial: {fileID: 2100000, guid: 33b5e21297f90ae46b6b04787afbf216, type: 2}
-  screenMaterial: {fileID: 2100000, guid: 2f1f3e2c27dc59d49a805f834a7bb6e8, type: 2}
+  additiveMaterial: {fileID: 2100000, guid: 2e8245019faeb8c43b75f9ca3ac8ee34, type: 2}
+  multiplyMaterial: {fileID: 2100000, guid: e74a1f8978a7da348a721508d0d58834, type: 2}
+  screenMaterial: {fileID: 2100000, guid: bab24c479f34eec45be6ea8595891569, type: 2}
   initialSkinName:
   initialFlipX: 0
   initialFlipY: 0

@@ -14996,7 +14996,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1985305603660343}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff326197253ae4cec0b46632391386ec, type: 3}
+  m_Script: {fileID: 11500000, guid: d85b887af7e6c3f45a2e2d2920d641bc, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Material: {fileID: 2100000, guid: fb3be036de89a0e4988f0a8f862d3864, type: 2}
@@ -15008,9 +15008,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   skeletonDataAsset: {fileID: 11400000, guid: 2268208f65161294b8a9fd676475ea9b, type: 2}
-  additiveMaterial: {fileID: 2100000, guid: bfb6a383f6ace1c41be56658edbebba4, type: 2}
-  multiplyMaterial: {fileID: 2100000, guid: 33b5e21297f90ae46b6b04787afbf216, type: 2}
-  screenMaterial: {fileID: 2100000, guid: 2f1f3e2c27dc59d49a805f834a7bb6e8, type: 2}
+  additiveMaterial: {fileID: 2100000, guid: 2e8245019faeb8c43b75f9ca3ac8ee34, type: 2}
+  multiplyMaterial: {fileID: 2100000, guid: e74a1f8978a7da348a721508d0d58834, type: 2}
+  screenMaterial: {fileID: 2100000, guid: bab24c479f34eec45be6ea8595891569, type: 2}
   initialSkinName:
   initialFlipX: 0
   initialFlipY: 0
@@ -15079,7 +15079,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1705390221481576}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff326197253ae4cec0b46632391386ec, type: 3}
+  m_Script: {fileID: 11500000, guid: d85b887af7e6c3f45a2e2d2920d641bc, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Material: {fileID: 2100000, guid: 1d892908e7649d14c8bc1d715c12df13, type: 2}
@@ -15091,9 +15091,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   skeletonDataAsset: {fileID: 11400000, guid: ccd081063f8b10e4d9166307b6c3e99e, type: 2}
-  additiveMaterial: {fileID: 2100000, guid: bfb6a383f6ace1c41be56658edbebba4, type: 2}
-  multiplyMaterial: {fileID: 2100000, guid: 33b5e21297f90ae46b6b04787afbf216, type: 2}
-  screenMaterial: {fileID: 2100000, guid: 2f1f3e2c27dc59d49a805f834a7bb6e8, type: 2}
+  additiveMaterial: {fileID: 2100000, guid: 2e8245019faeb8c43b75f9ca3ac8ee34, type: 2}
+  multiplyMaterial: {fileID: 2100000, guid: e74a1f8978a7da348a721508d0d58834, type: 2}
+  screenMaterial: {fileID: 2100000, guid: bab24c479f34eec45be6ea8595891569, type: 2}
   initialSkinName:
   initialFlipX: 0
   initialFlipY: 0
@@ -15162,7 +15162,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1977153420339851}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff326197253ae4cec0b46632391386ec, type: 3}
+  m_Script: {fileID: 11500000, guid: d85b887af7e6c3f45a2e2d2920d641bc, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Material: {fileID: 2100000, guid: f46c8f971615e1440a189940e1f59f0f, type: 2}
@@ -15174,9 +15174,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   skeletonDataAsset: {fileID: 11400000, guid: 10eff9b130382674e8bfa8aa4a1bf255, type: 2}
-  additiveMaterial: {fileID: 2100000, guid: bfb6a383f6ace1c41be56658edbebba4, type: 2}
-  multiplyMaterial: {fileID: 2100000, guid: 33b5e21297f90ae46b6b04787afbf216, type: 2}
-  screenMaterial: {fileID: 2100000, guid: 2f1f3e2c27dc59d49a805f834a7bb6e8, type: 2}
+  additiveMaterial: {fileID: 2100000, guid: 2e8245019faeb8c43b75f9ca3ac8ee34, type: 2}
+  multiplyMaterial: {fileID: 2100000, guid: e74a1f8978a7da348a721508d0d58834, type: 2}
+  screenMaterial: {fileID: 2100000, guid: bab24c479f34eec45be6ea8595891569, type: 2}
   initialSkinName:
   initialFlipX: 0
   initialFlipY: 0
@@ -18389,7 +18389,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1833703512093738}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff326197253ae4cec0b46632391386ec, type: 3}
+  m_Script: {fileID: 11500000, guid: d85b887af7e6c3f45a2e2d2920d641bc, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Material: {fileID: 2100000, guid: b26210e42d36cc542bc4a61ef5b13a20, type: 2}
@@ -18402,7 +18402,7 @@ MonoBehaviour:
       m_Calls: []
   skeletonDataAsset: {fileID: 11400000, guid: 2b7e34e0867560d43b82850cb2f021aa, type: 2}
   additiveMaterial: {fileID: 2100000, guid: 3cf978405624e784e8810f35f063d5a7, type: 2}
-  multiplyMaterial: {fileID: 2100000, guid: 33b5e21297f90ae46b6b04787afbf216, type: 2}
+  multiplyMaterial: {fileID: 2100000, guid: e74a1f8978a7da348a721508d0d58834, type: 2}
   screenMaterial: {fileID: 2100000, guid: b26210e42d36cc542bc4a61ef5b13a20, type: 2}
   initialSkinName:
   initialFlipX: 0
@@ -18476,7 +18476,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1632746491512912}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1e790895e5edacc6b732811d26ae2c0, type: 3}
+  m_Script: {fileID: 11500000, guid: deeb12332c062954093c24a3fab10b83, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Material: {fileID: 0}
@@ -18524,7 +18524,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1719342369648492}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1e790895e5edacc6b732811d26ae2c0, type: 3}
+  m_Script: {fileID: 11500000, guid: deeb12332c062954093c24a3fab10b83, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Material: {fileID: 0}
@@ -18572,7 +18572,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1726790013014859}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1e790895e5edacc6b732811d26ae2c0, type: 3}
+  m_Script: {fileID: 11500000, guid: deeb12332c062954093c24a3fab10b83, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Material: {fileID: 0}
@@ -18620,7 +18620,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1436073260064126}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1e790895e5edacc6b732811d26ae2c0, type: 3}
+  m_Script: {fileID: 11500000, guid: deeb12332c062954093c24a3fab10b83, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Material: {fileID: 0}
@@ -27191,7 +27191,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1043919389829319}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff326197253ae4cec0b46632391386ec, type: 3}
+  m_Script: {fileID: 11500000, guid: d85b887af7e6c3f45a2e2d2920d641bc, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Material: {fileID: 2100000, guid: b26210e42d36cc542bc4a61ef5b13a20, type: 2}
@@ -27204,7 +27204,7 @@ MonoBehaviour:
       m_Calls: []
   skeletonDataAsset: {fileID: 11400000, guid: 2b7e34e0867560d43b82850cb2f021aa, type: 2}
   additiveMaterial: {fileID: 2100000, guid: 3cf978405624e784e8810f35f063d5a7, type: 2}
-  multiplyMaterial: {fileID: 2100000, guid: 33b5e21297f90ae46b6b04787afbf216, type: 2}
+  multiplyMaterial: {fileID: 2100000, guid: e74a1f8978a7da348a721508d0d58834, type: 2}
   screenMaterial: {fileID: 2100000, guid: b26210e42d36cc542bc4a61ef5b13a20, type: 2}
   initialSkinName:
   initialFlipX: 0
@@ -27278,7 +27278,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1743393880019028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1e790895e5edacc6b732811d26ae2c0, type: 3}
+  m_Script: {fileID: 11500000, guid: deeb12332c062954093c24a3fab10b83, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Material: {fileID: 0}
@@ -27326,7 +27326,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1094320201520353}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1e790895e5edacc6b732811d26ae2c0, type: 3}
+  m_Script: {fileID: 11500000, guid: deeb12332c062954093c24a3fab10b83, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Material: {fileID: 0}
@@ -27374,7 +27374,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1026196548002408}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1e790895e5edacc6b732811d26ae2c0, type: 3}
+  m_Script: {fileID: 11500000, guid: deeb12332c062954093c24a3fab10b83, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Material: {fileID: 0}
@@ -27422,7 +27422,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1572839542275309}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1e790895e5edacc6b732811d26ae2c0, type: 3}
+  m_Script: {fileID: 11500000, guid: deeb12332c062954093c24a3fab10b83, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Material: {fileID: 0}
@@ -35993,7 +35993,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1574190619683098}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff326197253ae4cec0b46632391386ec, type: 3}
+  m_Script: {fileID: 11500000, guid: d85b887af7e6c3f45a2e2d2920d641bc, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Material: {fileID: 2100000, guid: b26210e42d36cc542bc4a61ef5b13a20, type: 2}
@@ -36006,7 +36006,7 @@ MonoBehaviour:
       m_Calls: []
   skeletonDataAsset: {fileID: 11400000, guid: 2b7e34e0867560d43b82850cb2f021aa, type: 2}
   additiveMaterial: {fileID: 2100000, guid: 3cf978405624e784e8810f35f063d5a7, type: 2}
-  multiplyMaterial: {fileID: 2100000, guid: 33b5e21297f90ae46b6b04787afbf216, type: 2}
+  multiplyMaterial: {fileID: 2100000, guid: e74a1f8978a7da348a721508d0d58834, type: 2}
   screenMaterial: {fileID: 2100000, guid: b26210e42d36cc542bc4a61ef5b13a20, type: 2}
   initialSkinName:
   initialFlipX: 0
@@ -36080,7 +36080,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1552309709192268}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1e790895e5edacc6b732811d26ae2c0, type: 3}
+  m_Script: {fileID: 11500000, guid: deeb12332c062954093c24a3fab10b83, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Material: {fileID: 0}
@@ -36128,7 +36128,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1571878917323452}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1e790895e5edacc6b732811d26ae2c0, type: 3}
+  m_Script: {fileID: 11500000, guid: deeb12332c062954093c24a3fab10b83, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Material: {fileID: 0}
@@ -36176,7 +36176,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1534704304255049}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1e790895e5edacc6b732811d26ae2c0, type: 3}
+  m_Script: {fileID: 11500000, guid: deeb12332c062954093c24a3fab10b83, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Material: {fileID: 0}
@@ -36224,7 +36224,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1651560128206891}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1e790895e5edacc6b732811d26ae2c0, type: 3}
+  m_Script: {fileID: 11500000, guid: deeb12332c062954093c24a3fab10b83, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Material: {fileID: 0}
