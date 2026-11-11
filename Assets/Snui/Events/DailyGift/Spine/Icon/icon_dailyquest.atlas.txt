@@ -1,0 +1,7 @@
+icon_dailyquest.png
+size:176,104
+filter:Linear,Linear
+icon_quest2
+bounds:2,2,85,100
+icon_quest3
+bounds:89,2,85,100

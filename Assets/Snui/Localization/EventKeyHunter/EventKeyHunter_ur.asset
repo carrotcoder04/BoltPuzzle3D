@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventKeyHunter_ur
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ur
+  m_SharedData: {fileID: 11400000, guid: 87af58f7a2918874db9d4a82217c227f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 626313388032
+    m_Localized: پیچ کس جمع کریں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626330165248
+    m_Localized: چابیاں تلاش کریں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359552
+    m_Localized: انعامات حاصل کریں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359553
+    m_Localized: یہ آپ کے پیچ کس استعمال کرنے کا آخری موقع ہے۔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553856
+    m_Localized: کوئی پیچ کس باقی نہیں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553857
+    m_Localized: "مبارک ہو!\nآپ نے کی ہنٹر مکمل کر لیا!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553858
+    m_Localized: خوش قسمتی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553859
+    m_Localized: آگے بڑھتے رہیں
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553860
+    m_Localized: زیادہ سے زیادہ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553861
+    m_Localized: اگر آپ اب چھوڑیں گے تو آپ اپنے پیچ کس گنوا دیں گے!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553862
+    m_Localized: آپ کے پاس انعامات حاصل کرنے کے لیے پیچ کس موجود ہیں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748160
+    m_Localized: سب ظاہر کریں
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748161
+    m_Localized: کی ہنٹر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748162
+    m_Localized: زیادہ حاصل کرنے کے لیے لیولز مکمل کریں
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748163
+    m_Localized: دوبارہ کوشش کریں
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3765309530112
+    m_Localized: سطحیں جیتیں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748164
+    m_Localized: لیول جیتیں تاکہ سکریڈریور حاصل کر سکیں۔ اس ٹیب کو کھولنے کے لئے سکریڈریور استعمال کریں۔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748165
+    m_Localized: آخری انعامات حاصل کرنے کے لئے چابیاں تلاش کریں!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

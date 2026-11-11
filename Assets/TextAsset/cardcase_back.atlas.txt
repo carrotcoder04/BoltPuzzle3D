@@ -1,0 +1,5 @@
+cardcase_back.png
+size:356,60
+filter:Linear,Linear
+bei
+bounds:2,2,352,53

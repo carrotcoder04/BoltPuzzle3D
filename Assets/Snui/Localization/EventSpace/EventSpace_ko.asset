@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventSpace_ko
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ko
+  m_SharedData: {fileID: 11400000, guid: 55c2385c307f3234c81cef7f035cacfc, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 12850290688
+    m_Localized: 스페이스 레이스
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362658975965184
+    m_Localized: 레이스에 참여하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705781535072256
+    m_Localized: 제한 시간 안에 별을 모아보세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705880910716928
+    m_Localized: 별을 가장 많이 모아 승리하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705922719539200
+    m_Localized: 서프라이즈 보상을 얻어가세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1817044948344832
+    m_Localized: 스테이지 {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1820701395771392
+    m_Localized: 1등을 차지하고 서프라이즈 보상을 받아가세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3365873879343104
+    m_Localized: 플레이어를 찾고 있습니다...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5486405265383424
+    m_Localized: 한번 더 해 보세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5486452900093952
+    m_Localized: 다음엔 더 잘할 수 있어요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5490799222448128
+    m_Localized: 축하합니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5490866880765952
+    m_Localized: 1등입니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38765328639975424
+    m_Localized: 스페이스 레이스
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

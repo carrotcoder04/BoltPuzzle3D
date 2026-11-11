@@ -1,0 +1,11 @@
+light_collect_speeds.png
+size:247,108
+filter:Linear,Linear
+content_4
+bounds:2,2,104,104
+offsets:1,1,106,106
+jindupao
+bounds:192,53,53,53
+offsets:2,2,57,57
+light
+bounds:108,24,82,82

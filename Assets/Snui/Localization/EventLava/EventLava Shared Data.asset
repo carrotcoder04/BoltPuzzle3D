@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a537cc18c49c4b6d9d42f48ab13b66c, type: 3}
+  m_Name: EventLava Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: EventLava
+  m_TableCollectionNameGuidString: f393dde2d898346f3afa742d7ffc5e65
+  m_Entries:
+  - m_Id: 159505708477308928
+    m_Key: Lava-CdDesc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27276818049392640
+    m_Key: Lava-OpenDesc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29338599487954944
+    m_Key: Lava-FailedDesc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239245050109952
+    m_Key: Lava-Info1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239359034515456
+    m_Key: Lava-Info2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239395415908352
+    m_Key: Lava-Info3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008956788989952
+    m_Key: Lava-Levels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27976254979301376
+    m_Key: Lava-MatchTip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008534560989184
+    m_Key: Lava-Players
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159534441011601408
+    m_Key: Lava-TimeOverDesc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26880132651147264
+    m_Key: Lava-Tip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155012007616512
+    m_Key: Lava-TutorialDesc1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155983760744448
+    m_Key: Lava-TutorialDesc2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159156661325389824
+    m_Key: Lava-TutorialDesc3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239984476545024
+    m_Key: Lava-WinTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240163988561920
+    m_Key: Lava-WinDesc1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240243852304384
+    m_Key: Lava-WinDesc2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493591639646208
+    m_Key: Lava-CubeTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493656198373376
+    m_Key: Lava-ColumnsTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493696933453824
+    m_Key: Lava-PillarsTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790256730112
+    m_Key: Lava-BouncyTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493735013539840
+    m_Key: Lava-CubeJumping
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493762054217728
+    m_Key: Lava-ColumnsJumping
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493766349185024
+    m_Key: Lava-PillarsJumping
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790294478848
+    m_Key: Lava-BouncyJumping
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2007290963018121218
+  references:
+    version: 2
+    RefIds:
+    - rid: 2007290963018121218
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1753321363538

@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventLava_fi
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: fi
+  m_SharedData: {fileID: 11400000, guid: 08c21e7866fc7f240a80c30d403d01db, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 1603597504982810672
+  m_TableData:
+  - m_Id: 159505708477308928
+    m_Localized: 'Seuraava hyppääminen alkaa:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27276818049392640
+    m_Localized: Voita {0} tasoa läpäisemättä haastetta!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29338599487954944
+    m_Localized: Epäonnistuit haasteessa. Parempaa onnea ensi kerralla!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239245050109952
+    m_Localized: Aloita haaste {0} pelaajalla!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239359034515456
+    m_Localized: Voita tasot ilman epäonnistumisia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239395415908352
+    m_Localized: Ansaitse osuutesi kolikoista!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008956788989952
+    m_Localized: Tasot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27976254979301376
+    m_Localized: Etsitään samantasoisia pelaajia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008534560989184
+    m_Localized: Pelaajat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240243852304384
+    m_Localized: Jaat palkinnon {0} muun voittajan kanssa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240163988561920
+    m_Localized: Voitit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159534441011601408
+    m_Localized: '{0} on päättynyt! Onnea ensi kerralla!'
+    m_Metadata:
+      m_Items:
+      - rid: 1603597504982810672
+  - m_Id: 26880132651147264
+    m_Localized: Voita {0} tasoa läpäistäksesi haasteen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155012007616512
+    m_Localized: Haasteessa on <color=#C8332D>{0} pelaajaa</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155983760744448
+    m_Localized: Voita tasoja läpäistäksesi haasteen ja edetäksesi seuraaviin vaiheisiin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159156661325389824
+    m_Localized: '<color=#C8332D>Pääpalkinto</color> jaetaan tasan <color=#C8332D>voittajien</color> kesken!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239984476545024
+    m_Localized: ONNEKSI OLKOON!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493591639646208
+    m_Localized: KUUTIOIDEN HYPPY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493656198373376
+    m_Localized: SAAKKEJEN HYPPY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493696933453824
+    m_Localized: PYSTYJEN HYPPY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493735013539840
+    m_Localized: kuutioiden hyppy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493762054217728
+    m_Localized: saakkejen hyppy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493766349185024
+    m_Localized: pystyjen hyppy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790256730112
+    m_Localized: POMPPURYSÄYS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790294478848
+    m_Localized: pomppurysäys
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 1603597504982810672
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 159534441011601408

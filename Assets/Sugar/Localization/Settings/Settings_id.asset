@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: Settings_id
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: id
+  m_SharedData: {fileID: 11400000, guid: a746a06ec6d2ac94e96f9393645c795b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 15779792674816
+    m_Localized: Pengaturan Khusus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15779796869120
+    m_Localized: Privasi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15779796869121
+    m_Localized: Syarat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15779796869122
+    m_Localized: TENTANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22299657887744
+    m_Localized: BAHASA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12665741312
+    m_Localized: Tentang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141197758464
+    m_Localized: Hubungi kami
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141197758465
+    m_Localized: Bahasa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141197758466
+    m_Localized: Suara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2482099970048
+    m_Localized: PENGATURAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141201952768
+    m_Localized: Versi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141201952769
+    m_Localized: Getar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7692479523446784
+    m_Localized: Simpan permainan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7693806831919104
+    m_Localized: Simpan permainan anda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7693834774372352
+    m_Localized: Keluar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7693856026910720
+    m_Localized: Permainan anda telah disimpan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7702418941796352
+    m_Localized: Ikuti kami
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7702546968731648
+    m_Localized: Hapun akun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2977110430834688
+    m_Localized: Musik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8754095488753664
+    m_Localized: PEMBARUAN VERSI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44192551605886976
+    m_Localized: Pulihkan pembelian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45631217423343616
+    m_Localized: Ulasan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136393433168207872
+    m_Localized: Tetapkan nama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170409449950797824
+    m_Localized: Pembelian Anda dipulihkan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320776652045934592
+    m_Localized: Buta warna
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

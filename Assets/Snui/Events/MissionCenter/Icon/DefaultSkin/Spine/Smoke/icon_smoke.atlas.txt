@@ -1,0 +1,10 @@
+icon_smoke.png
+size:252,136
+filter:Linear,Linear
+y1
+bounds:121,6,126,126
+offsets:0,4,133,132
+y3
+bounds:2,2,130,117
+offsets:0,3,130,123
+rotate:90

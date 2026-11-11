@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventKeyHunter_nl
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: nl
+  m_SharedData: {fileID: 11400000, guid: 87af58f7a2918874db9d4a82217c227f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 626313388032
+    m_Localized: Verzamel schroevendraaiers!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626330165248
+    m_Localized: Vind Sleutels!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359552
+    m_Localized: Verdien beloningen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359553
+    m_Localized: Dit is je laatste kans om schroevendraaiers te gebruiken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553856
+    m_Localized: Geen schroevendraaiers meer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553857
+    m_Localized: "Gefeliciteerd!\nJe hebt SLEUTEL JAGER voltooid!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553858
+    m_Localized: VEEL SUCCES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553859
+    m_Localized: GA DOOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553860
+    m_Localized: MAX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553861
+    m_Localized: Als je nu stopt, verlies je je schroevendraaiers!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553862
+    m_Localized: Je hebt schroevendraaiers om beloningen te verdienen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748160
+    m_Localized: ONTHUL ALLES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748161
+    m_Localized: SLEUTEL JAGER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748162
+    m_Localized: Voltooi levels om meer te krijgen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748163
+    m_Localized: PROBEER HET OP NIEUW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3765309530112
+    m_Localized: Win levels!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748164
+    m_Localized: Win niveaus om schroevendraaiers te krijgen. Gebruik de schroevendraaier om dit tabblad te ontgrendelen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748165
+    m_Localized: Vind sleutels om de laatste beloningen te krijgen!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

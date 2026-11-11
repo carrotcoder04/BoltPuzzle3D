@@ -1,0 +1,428 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a537cc18c49c4b6d9d42f48ab13b66c, type: 3}
+  m_Name: Language Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: Language
+  m_TableCollectionNameGuidString: c5a24a8aecb354e3cafe80970fa767a2
+  m_Entries:
+  - m_Id: 365780000768
+    m_Key: Feedback-Load-Fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1671097737216
+    m_Key: Rate-Option-Desc1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2006998573056
+    m_Key: Rate-Option-Desc2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2008537882624
+    m_Key: Rate-Option-Desc3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2010119135232
+    m_Key: Rate-Option-Desc4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2265040543744
+    m_Key: Rate-Picture
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14182546999861248
+    m_Key: Tool-Drill-Full
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14182607217483776
+    m_Key: Tool-Broom-Clear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14430059359100928
+    m_Key: Product-Name-iOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14430184026398720
+    m_Key: Product-Name-Android
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17424358203973632
+    m_Key: Toast-Load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17711244432629760
+    m_Key: Common-No-Coin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19859794792800256
+    m_Key: iOS-ATTDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20224634396860416
+    m_Key: Product-About-Name-iOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20224637282541568
+    m_Key: Product-About-Name-Android
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332155161370624
+    m_Key: Tutorial-Desc1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332301794238464
+    m_Key: Tutorial-Desc2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332320983179264
+    m_Key: Tutorial-Desc3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332328943968256
+    m_Key: Tutorial-Desc4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332331062091776
+    m_Key: Tutorial-Desc5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332336523075584
+    m_Key: Done-Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332337328381952
+    m_Key: Fail-Retry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332338196602880
+    m_Key: Fail-Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332339001909248
+    m_Key: Fail-Desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21426829767204864
+    m_Key: Fail-Desc2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332339710746624
+    m_Key: Tool-Buy-Drill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332341468160000
+    m_Key: Tool-Drill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332925856342016
+    m_Key: Tool-Hammer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332927840247808
+    m_Key: Tool-Buy-Hammer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332929249533952
+    m_Key: Tool-Broom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332930449104896
+    m_Key: Tool-Buy-Broom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332931858391040
+    m_Key: Common-Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333309966508032
+    m_Key: Tool-Hammer-Tip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333313808490496
+    m_Key: Common-Term
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333437041336320
+    m_Key: Common-Privacy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333440157704192
+    m_Key: Common-Loading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21428140755640320
+    m_Key: Common-Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859456
+    m_Key: Special-Screw-Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859457
+    m_Key: Special-Screw-Info-Desc-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859458
+    m_Key: Special-Screw-Info-Desc-2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053760
+    m_Key: Special-Screw-Info-Desc-3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053762
+    m_Key: Special-Screw-Dialog-Desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053763
+    m_Key: Special-Screw-Game-Desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899772248064
+    m_Key: Special-Screw-Completed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61304828918226944
+    m_Key: Time-Finished
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34836419909246976
+    m_Key: Common-Win-Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8070819077939200
+    m_Key: Common-Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616564219905
+    m_Key: Quest-Collect-Screws
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616564219907
+    m_Key: Quest-Collect-Specials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062784
+    m_Key: Tool-Tutorial-Drill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062785
+    m_Key: Tool-Tutorial-Hammer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062786
+    m_Key: Tool-Tutorial-Broom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54743339331739648
+    m_Key: Color-Blindness-Btn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56917147161452544
+    m_Key: Common-Home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56916809062801408
+    m_Key: Tool-Tip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65524306266808320
+    m_Key: Fail-Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41015862499467264
+    m_Key: Special_UnlockLv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947387843141632
+    m_Key: Push-BonusTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947389877379072
+    m_Key: Push-RestoreLv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947391869673472
+    m_Key: Push-UpdateBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947393778081792
+    m_Key: Push-UpdateDesc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947395959119872
+    m_Key: Push-UpdateTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947762847473664
+    m_Key: Special-Screw-Time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729669470281728
+    m_Key: Tool-Unlock-Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729684733353984
+    m_Key: Tool-Unlock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729687115718656
+    m_Key: Home-LevelBox-Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729689330311168
+    m_Key: Home-LevelBox-Desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90278512504594432
+    m_Key: Fail-Revive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89826605159931904
+    m_Key: Level-Recover-Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89826608586678272
+    m_Key: Level-Recover-Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91270772847271936
+    m_Key: RemoveAd-Reward-Desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147063343653314560
+    m_Key: Shop-RemoveAdsContent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574626926592
+    m_Key: Quest-Use-Tool-Drills
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120896
+    m_Key: Quest-Use-Tool-Hammers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120897
+    m_Key: Quest-Use-Tool-Brooms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120899
+    m_Key: Quest-Collect-Boxes-Colors
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754157372137472
+    m_Key: Splash-Content1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754232760557568
+    m_Key: Splash-Content2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754235302305792
+    m_Key: Splash-Content3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754236803866624
+    m_Key: Splash-Content4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754239249145856
+    m_Key: Splash-Content5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754240528408576
+    m_Key: Splash-Content6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754241262411776
+    m_Key: Splash-Content7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645270635569152
+    m_Key: Fail-LavaDesc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645275379326976
+    m_Key: Fail-SpecialDesc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645305515401216
+    m_Key: Fail-SpecialDesc2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645315657228288
+    m_Key: Fail-SreakDesc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624041025536
+    m_Key: Fail-PlayOn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219840
+    m_Key: Booster-Bundle-Desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219845
+    m_Key: Reward-Dialog-Title-UpdateGift
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219846
+    m_Key: Reward-Dialog-Desc-UpdateGift
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219847
+    m_Key: Tool-Addbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219848
+    m_Key: Tool-Buy-Addbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624049414146
+    m_Key: ChallengeLevel-Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624049414148
+    m_Key: Game-LevelFailed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 161578115962757120
+    m_Key: Level-Achievement-Desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169587814167470080
+    m_Key: Special-Screw-Name2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169587814171664384
+    m_Key: Fail-LavaDesc2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204681899265744896
+    m_Key: Fail-LoseDesc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209106736197394432
+    m_Key: Home-Hard
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6963056756217348098
+  references:
+    version: 2
+    RefIds:
+    - rid: 6963056756217348098
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1728629042634

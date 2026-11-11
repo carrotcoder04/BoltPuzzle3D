@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a537cc18c49c4b6d9d42f48ab13b66c, type: 3}
+  m_Name: EventMissionCenter Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: EventMissionCenter
+  m_TableCollectionNameGuidString: 7f6984fe7a0664b32a79bec3513fd4bb
+  m_Entries:
+  - m_Id: 759331545088
+    m_Key: MissionCenter-Stage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876483923968
+    m_Key: MissionCenter-Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701184
+    m_Key: MissionCenter-WinDesc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701185
+    m_Key: MissionCenter-Tutorial1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701186
+    m_Key: MissionCenter-Tutorial2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701187
+    m_Key: MissionCenter-Info1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701188
+    m_Key: MissionCenter-Info2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701189
+    m_Key: MissionCenter-Info3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701190
+    m_Key: MissionCenter-Info4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701191
+    m_Key: MissionCenter-Tips1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701192
+    m_Key: MissionCenter-Tips2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876504895488
+    m_Key: MissionCenter-Tips3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133379687869046784
+    m_Key: Quest-Earn-Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133379687885824000
+    m_Key: Quest-Spend-Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616560025601
+    m_Key: Quest-WinLevels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12277718623182848
+    m_Key: Quest-WinLevel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671104
+    m_Key: Quest-KeyHunter-Box1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671105
+    m_Key: Quest-KeyHunter-Box-Detail1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671106
+    m_Key: Quest-KeyHunter-Box2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671107
+    m_Key: Quest-KeyHunter-Box-Detail2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671108
+    m_Key: Quest-FlowerRush-Items
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671109
+    m_Key: Quest-FlowerRush-Items-Detail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71334918540484608
+    m_Key: Quest-FlowerRush-Items2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71334921883344896
+    m_Key: Quest-FlowerRush-Items2-Detail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20293628076220418
+    m_Key: Pot-MissionCenter-Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20293628076220419
+    m_Key: Pot-MissionCenter-Tutorial1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20293628076220420
+    m_Key: Pot-MissionCenter-Info2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334096543744
+    m_Key: Quest-Get-StreakLine-Box1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334125903872
+    m_Key: Quest-Get-StreakLine-Box2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334134292480
+    m_Key: Quest-Get-StreakLine-Box-Detail1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334138486784
+    m_Key: Quest-Get-StreakLine-Box-Detail2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25343820374728704
+    m_Key: Quest-WinLevelOnFirstTry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27128643292487680
+    m_Key: MissionCenter-Congratulations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27179891731456000
+    m_Key: Quest-Win-Events
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27179893568561152
+    m_Key: Quest-Win-Races-Detail1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27179895367917568
+    m_Key: Quest-Win-Races-Detail2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77504036679442432
+    m_Key: Quest-FlowerRush-Items3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77504039380574208
+    m_Key: Quest-FlowerRush-Items3-Detail
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2423356082099322887
+  references:
+    version: 2
+    RefIds:
+    - rid: 2423356082099322887
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1758795166666

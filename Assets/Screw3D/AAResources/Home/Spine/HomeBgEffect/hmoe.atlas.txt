@@ -1,0 +1,17 @@
+hmoe.png
+size:235,150
+filter:Linear,Linear
+autumn_forest_1226
+bounds:2,2,141,146
+offsets:10,8,165,167
+autumn_forest_1508
+bounds:145,17,59,66
+offsets:2,1,62,68
+autumn_forest_1509
+bounds:145,85,63,81
+offsets:1,1,66,83
+rotate:90
+autumn_forest_1565
+bounds:206,57,26,27
+offsets:4,3,34,33
+rotate:90

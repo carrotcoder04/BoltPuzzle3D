@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventKeyHunter_en
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 87af58f7a2918874db9d4a82217c227f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 626313388032
+    m_Localized: Collect screwdrivers!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626330165248
+    m_Localized: Find Keys!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359552
+    m_Localized: Earn rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359553
+    m_Localized: This is your last chance to use screwdrivers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553856
+    m_Localized: No screwdrivers left!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553857
+    m_Localized: "Congratulations! \nYou completed KEY HUNTER!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553858
+    m_Localized: GOOD LUCK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553859
+    m_Localized: KEEP GOING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553860
+    m_Localized: MAX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553861
+    m_Localized: If you quit now, you’ll lose your screwdrivers!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553862
+    m_Localized: You have screwdrivers to earn rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748160
+    m_Localized: REVEAL ALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748161
+    m_Localized: KEY HUNTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748162
+    m_Localized: "Complete levels to\nget more screwdrivers!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748163
+    m_Localized: TRY AGAIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748164
+    m_Localized: Win levels to get screwdrivers. Use screwdriver to unlock this board.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748165
+    m_Localized: Find keys to get the final rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3765309530112
+    m_Localized: Win levels!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

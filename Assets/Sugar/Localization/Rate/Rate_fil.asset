@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: Rate_fil
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: fil
+  m_SharedData: {fileID: 11400000, guid: 376336e44518ff54d9519b270e11ca2b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 456884477952
+    m_Localized: Paano mo kami ia-rate?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456888672256
+    m_Localized: ISUMITE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866562
+    m_Localized: MAGRATE SA AMIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866563
+    m_Localized: Paki sabihin sa amin kung ano ang mali
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866564
+    m_Localized: Maglagay ng komento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060864
+    m_Localized: SORRY NA MARINIG YAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060865
+    m_Localized: Sana ay makakuha kami ng mas maraming payo mula sa iyo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060866
+    m_Localized: Mangyaring iwan ang iyong opinyon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060867
+    m_Localized: SALAMAT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67727879299072
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67390011334656
+    m_Localized: Nabigo ang pagpasa, subukan muli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67390028111872
+    m_Localized: HINDI PUMASA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866560
+    m_Localized: Ang iyong rating at feedback ay makakatulong sa amin na mapabuti ang laro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322255095586816
+    m_Localized: Antas ng Kahinaan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322399882960896
+    m_Localized: Isyu sa Ad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322457621749760
+    m_Localized: Mga Isyu sa Laro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322468799569920
+    m_Localized: Isyu sa Pagbili
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322648710045696
+    m_Localized: Mga Kaganapan at Gantimpala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322700010577920
+    m_Localized: Mga Ideya para sa Pagpapabuti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352342747844173824
+    m_Localized: Pumili ng paksa
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

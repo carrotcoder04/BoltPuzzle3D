@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventMissionCenter_ko
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ko
+  m_SharedData: {fileID: 11400000, guid: 7fd541ff32453a84fb58a575787300c6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 759331545088
+    m_Localized: 스테이지 {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876483923968
+    m_Localized: 퀘스트 센터
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701184
+    m_Localized: 모든 미션 완료!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701185
+    m_Localized: 미션을 완료하고 <color=#C31439>연료</color>를 모으세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701186
+    m_Localized: 모든 미션을 클리어하면 다음 스테이지가 잠금 해제되고, 서프라이즈 보상도 받을 수 있습니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701187
+    m_Localized: 미션을 완료하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701188
+    m_Localized: 연료를 모으세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701189
+    m_Localized: 서프라이즈 보상을 받아가세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701190
+    m_Localized: 현재 스테이지를 클리어하여 앞으로 나아가세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701191
+    m_Localized: 보물 상자가 이미 열렸습니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701192
+    m_Localized: 이미 보상을 받은 미션입니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876504895488
+    m_Localized: 이 미션을 시작하려면, 이전의 모든 스테이지를 완료해야 합니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133379687869046784
+    m_Localized: '{0} 코인을 획득하기!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133379687885824000
+    m_Localized: '{0} 코인을 사용하기!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616560025601
+    m_Localized: 레벨 {0}개 클리어하기!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12277718623182848
+    m_Localized: 레벨 1개 클리어하기!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671104
+    m_Localized: 보물 상자 1개 받기!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671105
+    m_Localized: 보물 상자 {0}개 받기!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671106
+    m_Localized: 선물 상자 {0}개 열기!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671107
+    m_Localized: 키 헌터에서 선물 상자 {0}개를 열어보세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671108
+    m_Localized: 꽃 {0}송이 모으기!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671109
+    m_Localized: 가든 아레나에서 꽃 {0}송이 모으기!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20293628076220418
+    m_Localized: 미션 허브
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20293628076220419
+    m_Localized: 미션을 완료하고 <color=#C31439>포션</color>을 모으세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20293628076220420
+    m_Localized: 포션을 모으세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334096543744
+    m_Localized: 선물 상자 1개 받기!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334125903872
+    m_Localized: 선물 상자 {0}개 받기!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334134292480
+    m_Localized: 벌룬 저니에서 선물 상자 1개 받기!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334138486784
+    m_Localized: 벌룬 저니에서 선물 상자 {0}개 받기!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25343820374728704
+    m_Localized: 첫 시도에 레벨 {0}개 클리어하기!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27128643292487680
+    m_Localized: 축하합니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27179891731456000
+    m_Localized: '{1}에서 {0}번 승리!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27179893568561152
+    m_Localized: '{0}에서 1번 승리!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27179895367917568
+    m_Localized: '{1}에서 {0}번 승리!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71334918540484608
+    m_Localized: 버거 {0}개를 수집하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71334921883344896
+    m_Localized: 버거 경기장에서 버거 {0}개를 수집하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77504036679442432
+    m_Localized: 캔 {0} 개 수집!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77504039380574208
+    m_Localized: 냥이 아레나 에서 캔 {0} 개 수집!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

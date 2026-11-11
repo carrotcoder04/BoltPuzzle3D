@@ -1,0 +1,16 @@
+icon_keyhunter.png
+size:302,111
+filter:Linear,Linear
+icon_keyhunter_1
+bounds:2,13,96,96
+icon_keyhunter_3
+bounds:100,9,67,100
+offsets:1,1,68,101
+ty_icon_sweep
+bounds:169,3,106,58
+rotate:90
+ty_icon_sweep_2
+bounds:229,26,83,71
+rotate:90
+ty_particle_11
+bounds:229,2,18,22

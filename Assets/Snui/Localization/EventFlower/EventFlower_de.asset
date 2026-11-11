@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventFlower_de
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: c27726ec506177c4094cec49fcd1e7cc, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 168417876528594989
+  m_TableData:
+  - m_Id: 60585833185402880
+    m_Localized: Sammle Blumen, schalte Belohnungen frei und kämpfe in der <color=#FFEE2B>Gartenarena</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60246434811731968
+    m_Localized: Gewinne Level, ohne zu scheitern, um den Punkte-Multiplikator zu erhöhen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61248678940106752
+    m_Localized: Super gemacht! Glückwunsch!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61343243856502784
+    m_Localized: Dein Fortschritt beim Punkte-Multiplikator wird zurückgesetzt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63869017910140928
+    m_Localized: BELOHNUNGEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60246351366053888
+    m_Localized: GARTENARENA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61233480611127296
+    m_Localized: Level gewinnen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61233531257348096
+    m_Localized: Erhöhe den Punkte-Multiplikator, ohne zu scheitern!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61233552585383936
+    m_Localized: Erstaunliche Belohnungen verdienen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63868946472755200
+    m_Localized: DEIN RANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191802079158722560
+    m_Localized: Du wirst deinen <color=#C31439>Multiplikatorfortschritt</color> verlieren!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2142630904324096
+    m_Localized: 'Persönliche Belohnungen: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2811815930093568
+    m_Localized: Abgeschlossen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2149988078444544
+    m_Localized: Hol dir beim nächsten Mal die Belohnungen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3240164863238144
+    m_Localized: Mega Belohnung!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3258403383140352
+    m_Localized: "Gartenarena\nPersönliche Belohnungen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43375333200617472
+    m_Localized: BURGER-ARENA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43375338904870912
+    m_Localized: Sammle Burger, um Belohnungen freizuschalten und in der <color=#FFEE2B>Burger-Arena</color> anzutreten!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43375341207543808
+    m_Localized: "BURGER-ARENA\nPERSÖNLICHE BELOHNUNGEN"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 265605705924337664
+    m_Localized: KATZEN-ARENA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 265611107713933312
+    m_Localized: Sammle Dosen, um Belohnungen freizuschalten und in der <color=#{0}>KATZEN-ARENA</color> anzutreten!
+    m_Metadata:
+      m_Items:
+      - rid: 168417876528594989
+  - m_Id: 271744063847260160
+    m_Localized: "KATZEN-ARENA\nPERSÖNLICHE BELOHNUNGEN"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 168417876528594989
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 265611107713933312

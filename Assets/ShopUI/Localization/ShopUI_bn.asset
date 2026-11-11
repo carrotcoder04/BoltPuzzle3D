@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: ShopUI_bn
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: bn
+  m_SharedData: {fileID: 11400000, guid: ea53d7dabf6e4fe4587fa53b68aaddef, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 1603597482842914852
+  m_TableData:
+  - m_Id: 14446482153472
+    m_Localized: প্রাথমিক বান্ডেল
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1742614440173568
+    m_Localized: সেরা মূল্য!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14113282449408
+    m_Localized: বাতিল করা হয়েছে
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13346152636416
+    m_Localized: চালিয়ে যান
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15200370548736
+    m_Localized: বিনামূল্যে
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16573329825792
+    m_Localized: দৈত্য বান্ডেল
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17052365479936
+    m_Localized: কিংবদন্তি বান্ডেল
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16223801696256
+    m_Localized: সীমিত অফার!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17154383536128
+    m_Localized: মাস্টার বান্ডেল
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17264207192064
+    m_Localized: মেগা বান্ডেল
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12736836303577088
+    m_Localized: আরো অফার!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17855167848448
+    m_Localized: সবচেয়ে জনপ্রিয়!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15607314505728
+    m_Localized: বিজ্ঞাপনের সাথে খেলুন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230547251200
+    m_Localized: আপনার ক্রয় বাতিল করা হয়েছে.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15410249326592
+    m_Localized: বিজ্ঞাপনগুলি সরান৷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15534962761728
+    m_Localized: স্বয়ংক্রিয় বিজ্ঞাপন স্থায়ীভাবে সরান!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15906989137920
+    m_Localized: দোকান
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17414367469568
+    m_Localized: আল্ট্রা বান্ডেল
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54661344438247424
+    m_Localized: দৈনিক বান্ডেল
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54661686546653184
+    m_Localized: নতুন মাইলস্টোন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75395962292396032
+    m_Localized: ক্রয় সাফল্য
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153221218880708608
+    m_Localized: এই স্তরের জন্য বিনামূল্যে <color=#fddc25>পুনর্জীবিত</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178259481198583808
+    m_Localized: বুস্টার বান্ডিল
+    m_Metadata:
+      m_Items: []
+  - m_Id: 192394475516977152
+    m_Localized: এই স্তরের জন্য বিনামূল্যে <color={0}>পুনর্জীবিত</color>!
+    m_Metadata:
+      m_Items:
+      - rid: 1603597482842914852
+  - m_Id: 130456000597581824
+    m_Localized: মান
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 1603597482842914852
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 192394475516977152

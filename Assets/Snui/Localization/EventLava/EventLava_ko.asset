@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventLava_ko
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ko
+  m_SharedData: {fileID: 11400000, guid: 08c21e7866fc7f240a80c30d403d01db, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 1603597504982810681
+  m_TableData:
+  - m_Id: 159505708477308928
+    m_Localized: '다음 라운드 시작까지:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27276818049392640
+    m_Localized: 실패 없이 {0}개의 레벨을 클리어하고 도전을 완성하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29338599487954944
+    m_Localized: 도전 실패했습니다. 화이팅하시고 다시 도전하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239245050109952
+    m_Localized: "플레이어 {0}명과 함께\n도전을 시작하세요!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239359034515456
+    m_Localized: 실패없이 레벨을 클리어하세요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239395415908352
+    m_Localized: "코인을\n나눠받으세요!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008956788989952
+    m_Localized: 레벨
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27976254979301376
+    m_Localized: 비슷한 레벨의 플레이어를 찾는 중입니다...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008534560989184
+    m_Localized: 플레이어
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240243852304384
+    m_Localized: '{0}명의 다른 우승자들과 보상을 나누고 있습니다!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240163988561920
+    m_Localized: 승리!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159534441011601408
+    m_Localized: '{0} 종료! 다음 번에 도전해 보세요!'
+    m_Metadata:
+      m_Items:
+      - rid: 1603597504982810681
+  - m_Id: 26880132651147264
+    m_Localized: 레벨 {0}개를 클리어하고 도전을 완료하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155012007616512
+    m_Localized: "이 도전에는 <color=#C8332D>{0}명의 플레이어</color>가\n참여하고 있어요!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155983760744448
+    m_Localized: "실패 없이 레벨을 클리어하고 다음 단계를\n향해 전진하세요!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159156661325389824
+    m_Localized: '<color=#C8332D>대상</color>은 <color=#C8332D>우승자들</color>에게 똑같이 나누어 지급됩니다!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239984476545024
+    m_Localized: 축하합니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493591639646208
+    m_Localized: 큐브 점핑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493656198373376
+    m_Localized: 컬럼 점핑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493696933453824
+    m_Localized: 필러 점핑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493735013539840
+    m_Localized: 큐브 점핑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493762054217728
+    m_Localized: 컬럼 점핑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493766349185024
+    m_Localized: 필러 점핑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790256730112
+    m_Localized: 바운시 러시
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790294478848
+    m_Localized: 바운시 러시
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 1603597504982810681
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 159534441011601408

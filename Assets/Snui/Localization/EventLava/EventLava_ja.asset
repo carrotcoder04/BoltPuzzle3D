@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventLava_ja
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 08c21e7866fc7f240a80c30d403d01db, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 1603597504982810679
+  m_TableData:
+  - m_Id: 159505708477308928
+    m_Localized: 次のラウンド開始まで：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27276818049392640
+    m_Localized: 一度も失敗せずに{0}ステージクリアを目指そう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29338599487954944
+    m_Localized: 失敗した。次回、頑張ってね！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239245050109952
+    m_Localized: '{0}人のプレイヤーと挑戦開始！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239359034515456
+    m_Localized: 失敗せずにステージをクリアしよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239395415908352
+    m_Localized: コインを山分けしよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008956788989952
+    m_Localized: ステージ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27976254979301376
+    m_Localized: 同レベルのプレイヤーを探しています
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008534560989184
+    m_Localized: プレーヤー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240243852304384
+    m_Localized: 報酬を{0}人のウイナーと分け合います！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240163988561920
+    m_Localized: 勝利！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159534441011601408
+    m_Localized: '{0}は終了！次回を楽しみに！'
+    m_Metadata:
+      m_Items:
+      - rid: 1603597504982810679
+  - m_Id: 26880132651147264
+    m_Localized: '{0}連勝してチャレンジに挑戦！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155012007616512
+    m_Localized: 今回のチャレンジには<color=#C8332D>{0}人のプレイヤー</color>が参加中！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155983760744448
+    m_Localized: 一度も失敗せずにクリアして、次へ進もう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159156661325389824
+    m_Localized: '<color=#C8332D>大賞</color>は<color=#C8332D>ウイナー全員</color>で山分けします'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239984476545024
+    m_Localized: おめでとう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493591639646208
+    m_Localized: キューブジャンプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493656198373376
+    m_Localized: カラムジャンプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493696933453824
+    m_Localized: ピラージャンプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493735013539840
+    m_Localized: キューブジャンプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493762054217728
+    m_Localized: カラムジャンプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493766349185024
+    m_Localized: ピラージャンプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790256730112
+    m_Localized: バウンシーラッシュ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790294478848
+    m_Localized: バウンシーラッシュ
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 1603597504982810679
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 159534441011601408

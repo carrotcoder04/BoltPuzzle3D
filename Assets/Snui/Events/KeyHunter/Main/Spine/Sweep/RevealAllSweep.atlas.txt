@@ -1,0 +1,6 @@
+RevealAllSweep.png
+size:88,71
+filter:Linear,Linear
+sweep
+bounds:2,2,84,67
+offsets:1,0,85,67

@@ -1,0 +1,17 @@
+homescene.png
+size:38,350
+filter:Linear,Linear
+图层 12
+bounds:2,339,9,14
+rotate:90
+图层 13
+bounds:18,339,18,9
+图层 14
+bounds:2,328,9,13
+rotate:90
+图层 15
+bounds:2,2,29,122
+图层 16
+bounds:2,126,32,104
+图层 17
+bounds:2,232,29,94

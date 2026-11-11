@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventLava_de
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 08c21e7866fc7f240a80c30d403d01db, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 1603597504982810669
+  m_TableData:
+  - m_Id: 159505708477308928
+    m_Localized: 'Die nächste Runde startet in:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27276818049392640
+    m_Localized: Schaffe {0} Levels ohne zu scheitern, um die Challenge zu meistern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29338599487954944
+    m_Localized: Du hast die Herausforderung nicht bestanden. Mehr Glück beim nächsten Mal!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239245050109952
+    m_Localized: Beginn die Challenge mit {0} Spielern!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239359034515456
+    m_Localized: "Gewinne Levels, \nohne zu scheitern!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239395415908352
+    m_Localized: "Verdiene deinen\nAnteil an Münzen!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008956788989952
+    m_Localized: Levels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27976254979301376
+    m_Localized: Suche Spieler auf deinem Niveau!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008534560989184
+    m_Localized: Spieler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240243852304384
+    m_Localized: Du teilst dir die Belohnung mit {0} anderen Gewinnern!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240163988561920
+    m_Localized: Du hast gewonnen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159534441011601408
+    m_Localized: '{0} ist vorbei. Viel Glück beim nächsten Mal!'
+    m_Metadata:
+      m_Items:
+      - rid: 1603597504982810669
+  - m_Id: 26880132651147264
+    m_Localized: Meistere {0} Levels und besiege die Herausforderung!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155012007616512
+    m_Localized: Es sind <color=#C8332D>{0} Spieler</color> in der Challenge!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155983760744448
+    m_Localized: "Meistere Levels,\nohne zu scheitern, um fortzufahren!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159156661325389824
+    m_Localized: Der <color=#C8332D>Hauptpreis</color> wird gleichmäßig unter den <color=#C8332D>Gewinnern</color> aufgeteilt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239984476545024
+    m_Localized: GLÜCKWUNSCH!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493591639646208
+    m_Localized: WÜRFELSPRUNG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493656198373376
+    m_Localized: SÄULENSPRUNG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493696933453824
+    m_Localized: PFEILERSPRUNG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493735013539840
+    m_Localized: Würfelspung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493762054217728
+    m_Localized: Säulensprung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493766349185024
+    m_Localized: Pfeilersprung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790256730112
+    m_Localized: HÜPF-RUSH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790294478848
+    m_Localized: Hüpf-Rush
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 1603597504982810669
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 159534441011601408

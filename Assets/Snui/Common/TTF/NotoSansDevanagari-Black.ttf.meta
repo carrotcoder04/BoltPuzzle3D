@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 625495eaa7f8799449b7a7660a3c894d
+timeCreated: 1794388314
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  externalObjects: {}
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Noto Sans Devanagari
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData:
+  assetBundleName: 9d890dfc297526411c0edabf8b264f1d
+  assetBundleVariant:

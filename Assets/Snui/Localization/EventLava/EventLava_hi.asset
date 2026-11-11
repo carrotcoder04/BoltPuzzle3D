@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventLava_hi
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: hi
+  m_SharedData: {fileID: 11400000, guid: 08c21e7866fc7f240a80c30d403d01db, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 1603597504982810675
+  m_TableData:
+  - m_Id: 159505708477308928
+    m_Localized: 'अगला कूदने का समय शुरू होगा:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27276818049392640
+    m_Localized: चुनौती पूरी किए बिना {0} लेवल जीतें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29338599487954944
+    m_Localized: आपने चुनौती को असफल कर दिया है। अगली बार कोशिश करें मोहार!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239245050109952
+    m_Localized: '{0} खिलाड़ियों के साथ चुनौती शुरू करें!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239359034515456
+    m_Localized: हारे बिना स्तर जीतें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239395415908352
+    m_Localized: सिक्कों का अपना हिस्सा कमाएं!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008956788989952
+    m_Localized: स्तर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27976254979301376
+    m_Localized: आपके स्तर के खिलाड़ियों की तलाश है
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008534560989184
+    m_Localized: खिलाड़ियों
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240243852304384
+    m_Localized: आप {0} अन्य विजेताओं के साथ इनाम साझा कर रहे हैं!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240163988561920
+    m_Localized: आप जीते।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159534441011601408
+    m_Localized: '{0} समाप्त! अगली बार अच्छी किस्मत!'
+    m_Metadata:
+      m_Items:
+      - rid: 1603597504982810675
+  - m_Id: 26880132651147264
+    m_Localized: चुनौती पूरी करने के लिए {0} लेवल जीतें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155012007616512
+    m_Localized: चुनौती में <color=#C8332D>{0} खिलाड़ी</color> हैं!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155983760744448
+    m_Localized: अगले चरणों में आगे बढ़ने के लिए बिना चूके लेवल जीतें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159156661325389824
+    m_Localized: '<color=#C8332D>महापुरस्कार</color> विजेताओं के बीच बराबर-बराबर बाँटा जाएगा!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239984476545024
+    m_Localized: संदेश के रूप में खेलें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493591639646208
+    m_Localized: घन कूदते
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493656198373376
+    m_Localized: स्तंभ कूदते
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493696933453824
+    m_Localized: स्तंभ कूदते
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493735013539840
+    m_Localized: घन कूदते
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493762054217728
+    m_Localized: स्तंभ कूदते
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493766349185024
+    m_Localized: स्तंभ कूदते
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790256730112
+    m_Localized: बाउंसी रश
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790294478848
+    m_Localized: बाउंसी रश
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 1603597504982810675
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 159534441011601408

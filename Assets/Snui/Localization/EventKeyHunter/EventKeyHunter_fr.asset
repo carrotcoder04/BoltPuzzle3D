@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventKeyHunter_fr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 87af58f7a2918874db9d4a82217c227f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 626313388032
+    m_Localized: Récupérez les tournevis !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626330165248
+    m_Localized: Trouvez les clés !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359552
+    m_Localized: Gagnez des récompenses !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359553
+    m_Localized: C'est votre dernière chance d'utiliser des tournevis.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553856
+    m_Localized: Il ne reste plus de tournevis !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553857
+    m_Localized: "Félicitations !\nVous avez terminé CHASSEUR DE CLÉS !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553858
+    m_Localized: BONNE CHANCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553859
+    m_Localized: CONTINUER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553860
+    m_Localized: MAX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553861
+    m_Localized: Si vous abandonnez maintenant, vous perdez vos tournevis !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553862
+    m_Localized: Vous avez des tournevis pour gagner des récompenses !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748160
+    m_Localized: RÉVÉLER TOUT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748161
+    m_Localized: CHASSEUR DE CLÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748162
+    m_Localized: Terminez les niveaux pour en obtenir plus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748163
+    m_Localized: RÉESSAYER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3765309530112
+    m_Localized: Gagnez des niveaux !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748164
+    m_Localized: Gagnez des niveaux pour obtenir des tournevis. Utilisez le tournevis pour déverrouiller cet onglet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748165
+    m_Localized: Trouvez les clés pour obtenir les récompenses finales !
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

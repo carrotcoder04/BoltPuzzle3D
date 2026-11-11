@@ -1,0 +1,1667 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: SnuiCommon_sv
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: sv
+  m_SharedData: {fileID: 11400000, guid: 56d4b1d6a9621d04eb877a1525a91b26, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 233343164604416
+    m_Localized: GRATIS LIV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233280816275456
+    m_Localized: PÅFYLLNING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266123567161344
+    m_Localized: KRAV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12288803132661760
+    m_Localized: Gratis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304573871808512
+    m_Localized: Fritt liv!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1697441651875840
+    m_Localized: Dina liv är fulla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436200639389696
+    m_Localized: Nivåkista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12288946942763008
+    m_Localized: Specialsamling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436162156650496
+    m_Localized: Stjärnkista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320630867091456
+    m_Localized: '{0} Gratis liv'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264074574159872
+    m_Localized: LIVBANK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232529176027136
+    m_Localized: FÅ MERA LIV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35481137106116608
+    m_Localized: Full
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026433
+    m_Localized: Skriv ditt smeknamn...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026434
+    m_Localized: Vänligen ange ett smeknamn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026435
+    m_Localized: Ogiltigt namn. Skriv ett annat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026432
+    m_Localized: Det är bara gratis för en gångs skull!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026436
+    m_Localized: Skriv minst 3 tecken!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026437
+    m_Localized: Skriv högst 15 tecken!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39808712133566464
+    m_Localized: BYT NAMN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40123526764552192
+    m_Localized: REDIGERA PROFIL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900277404950528
+    m_Localized: FÄRRE ANNONSER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900312473526272
+    m_Localized: Tillåt spårning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900371902619648
+    m_Localized: Tillåt spårning för att ta bort irrelevanta annonser och få {0} gratis mynt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900440034893824
+    m_Localized: Tillåt spårning för att få belöningar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900487157899264
+    m_Localized: Missa inte!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900528459210752
+    m_Localized: Få aviseringar om tidsbegränsade händelser och uppdateringar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41986630234398720
+    m_Localized: Inte nu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41986630246981632
+    m_Localized: Ja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41991704809562112
+    m_Localized: Tillåt aviseringar för att få tidsbegränsade händelser och uppdateringar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375679755411456
+    m_Localized: LOGGA IN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375726647730176
+    m_Localized: Spara dina framsteg i molnet gratis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252780607135744
+    m_Localized: VÄLJ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252819287007232
+    m_Localized: SKAPA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50335704901738496
+    m_Localized: NEJ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252991467380736
+    m_Localized: SPARA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45199535239061504
+    m_Localized: VY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51007642271735808
+    m_Localized: skickade dig ett liv!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193240967405568
+    m_Localized: Få gratis mynt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193180493930496
+    m_Localized: 'Gå med eller skapa lag för att:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52896768214425600
+    m_Localized: Lagkapaciteten är full
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193207886929920
+    m_Localized: Få gratis liv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52896720361611264
+    m_Localized: Din nivå är inte tillräcklig för att gå med i detta lag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48191512465367040
+    m_Localized: GÅ MED I ETT LAG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50334557843480576
+    m_Localized: Är du säker på att du vill sparka ut denna spelare?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50332880616808448
+    m_Localized: KICKA UT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634758253076480
+    m_Localized: AVBRYT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634806575652864
+    m_Localized: Är du säker på att du vill lämna ditt lag?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634666892746752
+    m_Localized: LÄMNA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634620147228672
+    m_Localized: LÄMNA LAGET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48164027749097472
+    m_Localized: Vänligen kontrollera din internetanslutning.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48163983373361152
+    m_Localized: Anslutning förlorad!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52805192968560640
+    m_Localized: Namnändring lyckades!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52780918081839104
+    m_Localized: Anslut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52798812643647488
+    m_Localized: Tecken stöds inte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375933552746496
+    m_Localized: LOGGA IN MED APPLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375887180521472
+    m_Localized: LOGGA IN MED FACEBOOK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375955442819072
+    m_Localized: LOGGA IN MED GOOGLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42721386727202816
+    m_Localized: Ditt framsteg är sparat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42721333207883776
+    m_Localized: FRAMGÅNG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42730837634965504
+    m_Localized: FORTFARANDE UTLOGGAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726401105715200
+    m_Localized: Spelet kommer att starta om från <color=#EF4C4C>nivå 1</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726463454044160
+    m_Localized: 'Tips: Du kan logga in igen för att återuppta ditt framsteg.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726296550105088
+    m_Localized: LOGGA UT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45200576651190272
+    m_Localized: Kapacitet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45176701162872832
+    m_Localized: SKAPA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47003035736465408
+    m_Localized: REDIGERA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252406294863872
+    m_Localized: Nödvändig nivå
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111296
+    m_Localized: Nå nivå {0} för att öka kravet på nivågräns.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252313470722048
+    m_Localized: Lagmärke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45262366646984704
+    m_Localized: VÄLJ LOGO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252369947025408
+    m_Localized: Lagnamn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252486565453824
+    m_Localized: '*Laglogotyp/namn kan inte ändras efter skapande'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111297
+    m_Localized: HJÄLP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45176682426916864
+    m_Localized: GÅ MED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50241104296009728
+    m_Localized: Sparka ut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47002942832631808
+    m_Localized: LÄMNA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44926451865083904
+    m_Localized: MITT LAG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45250024622252032
+    m_Localized: Ange lagnamn...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45199495682580480
+    m_Localized: SÖK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111298
+    m_Localized: Det finns inga resultat för detta namn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44926427412291584
+    m_Localized: LAGEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305600
+    m_Localized: Era liv är fulla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305601
+    m_Localized: Du har redan hjälpt med den här förfrågan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305602
+    m_Localized: Du måste vänta {0} minuter innan du kan hjälpa till igen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305603
+    m_Localized: Du har redan ställt den här förfrågan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46997273542909952
+    m_Localized: 'Krävd Nivå:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46995160800681984
+    m_Localized: 'Lagpoäng:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46002148947779584
+    m_Localized: LAGINFO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46996381083099136
+    m_Localized: 'Veckans Hjälp:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072008410750976
+    m_Localized: Hjälp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072106691682304
+    m_Localized: Ledare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072050559311872
+    m_Localized: Nivåer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50707987734454272
+    m_Localized: BE OM LIV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50728058632527872
+    m_Localized: '{0} har gått med i laget.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50728091402625024
+    m_Localized: '{0} har sparkats ut.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50708198070411264
+    m_Localized: FÖRFRÅGAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50736182525419520
+    m_Localized: ber om liv!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57494596047855616
+    m_Localized: Du måste lämna ditt lag innan du går med i ett nytt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57496004599996416
+    m_Localized: RANKNING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57494080442064896
+    m_Localized: Poäng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149430573719552
+    m_Localized: LAG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149277246742528
+    m_Localized: LEDARTAVLA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149395333177344
+    m_Localized: SPELARE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57493952461266944
+    m_Localized: Visa lag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63674767004131328
+    m_Localized: ÅTERKOPPLING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717830468558848
+    m_Localized: Välj eller beskriv dina problem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717859195346944
+    m_Localized: Beskriv problemen eller förslagen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717953256808448
+    m_Localized: SKICKA IN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63719952446644224
+    m_Localized: Ange din e-post här
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63740716600254464
+    m_Localized: Tack för din feedback!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63741145136488448
+    m_Localized: Misslyckades med att skicka, försök igen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63762870901399552
+    m_Localized: LADDNINGSFEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63764307005923328
+    m_Localized: Välj eller beskriv dina problem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63764348902825984
+    m_Localized: Ange din e-post här
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010148310736896
+    m_Localized: Vill du radera din data från den här enheten och våra servrar?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010253747150848
+    m_Localized: Din speldata kommer att tas bort från den här enheten och våra servrar omedelbart. All din data och dina framsteg kommer att gå förlorade och kan inte återställas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010270369177600
+    m_Localized: Du har aktiva prenumerationer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010281240813568
+    m_Localized: För att undvika ytterligare kostnader, gå till App Store > Konto > Prenumerationer och avbryt först eventuella aktiva prenumerationer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010291277783040
+    m_Localized: Är du säker på att du raderar dina uppgifter? Du kommer att förlora dina nuvarande framsteg och det kan inte återställas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010303109914624
+    m_Localized: Genom att trycka på "Ja" kommer du att starta om spelet som en ny användare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010720036315136
+    m_Localized: JAG FÖRSTÅR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95625466474389504
+    m_Localized: Vad heter du?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95625437298810880
+    m_Localized: ANGE NAMN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111216658851291136
+    m_Localized: Tjäna gratis liv från dina lagmedlemmar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111930957190127616
+    m_Localized: Du har inga gratis liv.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115602396111953920
+    m_Localized: MEDDELANDE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118470840675196928
+    m_Localized: Tryck för att redigera din profil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118480965112684544
+    m_Localized: Skapa ditt smeknamn!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118485440464412672
+    m_Localized: VÄLJ BILD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125717701572157440
+    m_Localized: Maximal teckengräns är {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125725518169366528
+    m_Localized: MIN PROFIL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125734265910452224
+    m_Localized: 'Nuvarande nivå:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125736013802758144
+    m_Localized: ALLMÄN STATISTIK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125737398732578816
+    m_Localized: Första försöket vinner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125737783090208768
+    m_Localized: Hjälp given
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126423333916893184
+    m_Localized: Hjälp mottagen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67417490278309888
+    m_Localized: ÄR DU SÄKER?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67417490278309889
+    m_Localized: Vill du verkligen avsluta spelet?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875570810881
+    m_Localized: STANNA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875562422272
+    m_Localized: AVSLUTA NIVÅ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875570810880
+    m_Localized: Är du säker på att du vill avsluta?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 149290068038639616
+    m_Localized: FORTSÄTTA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661760
+    m_Localized: Tillåt spårning för att förbättra annonsupplevelsen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661761
+    m_Localized: Du kommer att dirigeras till dina enhetsinställningar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661762
+    m_Localized: Sätt på!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661763
+    m_Localized: Tillåt meddelande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661764
+    m_Localized: Tillåt spårning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155136856064
+    m_Localized: Var god och aktivera aviseringar från dina enhetsinställningar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158623746145378304
+    m_Localized: Inget lag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159757269296209920
+    m_Localized: TAPPA FÖR ATT FORTSÄTTA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164882056993562624
+    m_Localized: TRYCK FÖR ATT HÄMTA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167298491044847616
+    m_Localized: START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167388066735972352
+    m_Localized: ERBJUDANDEN FÖR DIG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167388656706772992
+    m_Localized: 3 I 1 ERBJUDANDE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167390104249163776
+    m_Localized: KÖP ALLT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754245507047424
+    m_Localized: SKAPARSET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754499891585024
+    m_Localized: Hämta varje erbjudande för att låsa upp gratis belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754502554968064
+    m_Localized: Glöm inte att hämta gratis belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172042873425879040
+    m_Localized: Brödpaket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172075683758989312
+    m_Localized: VÄLJ EN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180366206789738496
+    m_Localized: KRAV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186520677521547265
+    m_Localized: INGEN INTERNET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186520677521547264
+    m_Localized: "Denna åtgärd kräver en internetanslutning.\nvänligen försök igen senare."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186506587038277632
+    m_Localized: "{0}\nBELÖNINGAR!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219843
+    m_Localized: Här är dina oinsamlade belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179369413868249088
+    m_Localized: SPELA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188378725424816128
+    m_Localized: RACKETFÖRSÄLJNING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188407241268781056
+    m_Localized: Gratis livpåfyllning!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191590517525438464
+    m_Localized: BELÖNINGAR!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195269482039468032
+    m_Localized: '<sprite=0> Njut av dina belöningar från <color=#FFFF0B>Play Points</color>!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195312493884596224
+    m_Localized: GLAD HALLOWEEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197048656911654912
+    m_Localized: GRATTIS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199617985050042368
+    m_Localized: SÄRSKILD ERBJUDANDE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199621120049012736
+    m_Localized: Ta bort popup-annonser för alltid!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199625686962397184
+    m_Localized: BARA EN GANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 201820360875696128
+    m_Localized: GRATIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204334129812070400
+    m_Localized: JULREA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 208692138415742976
+    m_Localized: FÖRSÖK IGEN!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205711112789811200
+    m_Localized: Black Friday Rea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759028850688
+    m_Localized: KRAFTPAKET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793728
+    m_Localized: Köp 1 paket & få 1 GRATIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793729
+    m_Localized: Kräv paketet för att låsa upp gratis belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793730
+    m_Localized: Hämtat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213344241960607744
+    m_Localized: Samla {0} Stjärnor!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213385543838326784
+    m_Localized: UTMANINGSPAKET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213385629515374592
+    m_Localized: Lås upp paketet för att få upp till <color=#FFE315>{0}</color> mynt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214475252614291456
+    m_Localized: Lås upp paketet för att hämta dina belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214520926147960832
+    m_Localized: KRäV!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214539340325314560
+    m_Localized: Samla stjärnor inom tidsgränsen för att låsa upp upp till <color=#FFE315>{0}</color> mynt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769054264582144
+    m_Localized: SISTA CHANSEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769183633694720
+    m_Localized: Är du säker på att du vill ge upp alla dina intjänade belöningar?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769539012878336
+    m_Localized: GE UPP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214783103136161792
+    m_Localized: Upp till
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214839998228193280
+    m_Localized: Samla stjärnor för att låsa upp belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214867523276890112
+    m_Localized: LÅS UPP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 215234507382448128
+    m_Localized: Lås upp paketet och samla stjärnor för att hämta dina belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159497032479793152
+    m_Localized: Stora Priset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 220645188114046976
+    m_Localized: KOLLEKTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224668775510695936
+    m_Localized: '<color=#fddc25>Ny kollektion</color> kommer snart!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224920229035106304
+    m_Localized: Reach <color={0}>level {1}</color> för att låsa upp kollektionen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224920905328877568
+    m_Localized: Samling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224923537313357824
+    m_Localized: '<color={0}>Laddar…</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228241451726659584
+    m_Localized: Nå nivå {0} för att låsa upp Samlingen och se dina märken!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228241896872337408
+    m_Localized: AVATAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242197553602560
+    m_Localized: RAM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242241958699008
+    m_Localized: NAMN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242435928481792
+    m_Localized: MÄRKE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228243239926226944
+    m_Localized: Aktivera passet för att låsa upp denna stil under en begränsad tid!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230438899417079808
+    m_Localized: TA AV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230438918601826304
+    m_Localized: UTRUSTA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233681610001604608
+    m_Localized: SLUTA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009152
+    m_Localized: Avslutat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009153
+    m_Localized: HEM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009154
+    m_Localized: GRATTIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390117552128
+    m_Localized: AVSLUTA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390121746432
+    m_Localized: SPELA OM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390130135040
+    m_Localized: NIVÅ {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390130135041
+    m_Localized: LADDAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390134329346
+    m_Localized: HOPPA ÖVER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390142717952
+    m_Localized: BRA JOBBAT!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390163689472
+    m_Localized: Din rank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390163689473
+    m_Localized: Belöning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246559818866688
+    m_Localized: AVSLUTA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246575794970624
+    m_Localized: SPELA OM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246590647001088
+    m_Localized: NIVÅ {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246601078235136
+    m_Localized: LADDAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246643658809344
+    m_Localized: HOPPA ÖVER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246711614922752
+    m_Localized: BRA JOBBAT!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246748369608704
+    m_Localized: Din rank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246760054939648
+    m_Localized: Belöning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245536492576768
+    m_Localized: SENARE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246615879933952
+    m_Localized: PAUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235891040235544576
+    m_Localized: 'Belöningar:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246657709727744
+    m_Localized: Lås upp vid LV {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816862262222848
+    m_Localized: FANSBELÖNINGAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816800794697728
+    m_Localized: Gå med i vår växande Facebook-community och spela tillsammans!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816831106932736
+    m_Localized: GÅ MED NU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816773359755264
+    m_Localized: Gå med och spela med oss!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246673576779776
+    m_Localized: Grafiken är bra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246681361408000
+    m_Localized: Spelet är roligt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246694510551040
+    m_Localized: För många annonser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246703058542592
+    m_Localized: Spelet har buggar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245482302169088
+    m_Localized: Uppdatera till den senaste versionen för att få en bättre upplevelse.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245456964378624
+    m_Localized: UPPDATERING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237620428677308416
+    m_Localized: SKICKA KORT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237665078654001152
+    m_Localized: TEAMMEDLEMMAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237687049928302592
+    m_Localized: Du är på väg att skicka detta kort till {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237712387861372928
+    m_Localized: SKICKA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237958163799728128
+    m_Localized: Gå med i ett team för att byta kort med teammedlemmar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237981312209641472
+    m_Localized: 'Denna begäran är tillgänglig för:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238028475220353024
+    m_Localized: Daglig gräns {0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238061569860165632
+    m_Localized: ber om ett kort!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238326946397675520
+    m_Localized: KORT MOTTAGET!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238392037197471744
+    m_Localized: Från
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238436267575992320
+    m_Localized: BE OM KORT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238438330066264064
+    m_Localized: '<color=#B5DAFF>Silverkort</color> kan ges bort bland teammedlemmar.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238438440233852928
+    m_Localized: '<color=#FDDC25>Guld kort</color> kan endast samlas in från evenemang och belöningar.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239838413705961472
+    m_Localized: Detta kort kan samlas in från evenemang, belöningar och teammedlemmar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239838802429861888
+    m_Localized: '<color=#FDDC25>Guldkort</color> kan inte skickas!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239840300178071552
+    m_Localized: Du behöver ett duplicerat kort för att skicka det.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239840360295030784
+    m_Localized: Du har redan skickat 3 kort idag.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239841109020237824
+    m_Localized: Du har redan begärt ett kort idag.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267800449324670976
+    m_Localized: VÄLKOMMEN TILLBAKA!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267800545017716736
+    m_Localized: Vi saknade dig! Ockuptera dina gåvor och fortsätt din resa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246035593416400896
+    m_Localized: Detta kort kan samlas in från evenemang och belöningar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 245969547665858560
+    m_Localized: Kort skickat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247400907857190912
+    m_Localized: Bonusbelöningar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401008721813504
+    m_Localized: Samla köp utan tidsgräns och få fantastiska belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401059258982400
+    m_Localized: "Huvud-\npris"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401253006467072
+    m_Localized: BONUSBELÖNINGAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247775982527700992
+    m_Localized: Grattis! Du har samlat alla kort!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248229689585295360
+    m_Localized: Bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164245458944
+    m_Localized: GULD PASS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236160
+    m_Localized: '<color=#FFF200>{0}</color> har startat! Samla stjärnor för att låsa upp exklusiva belöningar!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236161
+    m_Localized: '<color=#FFF200>{0}</color> har avslutats! Nya <color=#FFF200>{1}</color> börjar snart!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236162
+    m_Localized: '<color=#FFF200>{0}</color> aktivera för att låsa upp exklusaiva belöningar!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236163
+    m_Localized: Speciella Belöningar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430464
+    m_Localized: Få exklusiva bonusar tills evenemanget tar slut!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430465
+    m_Localized: 8 liv istället för 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430466
+    m_Localized: Gyldene ram och gyllene namn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430467
+    m_Localized: Samla stjärnor!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430468
+    m_Localized: Lås upp belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430469
+    m_Localized: '<color=#FDF36D>{0}</color> aktivera för att låsa upp exklusiva belöningar!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430470
+    m_Localized: Grattis! Du har aktiverat <color=#FFF34F>{0}</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430471
+    m_Localized: Din profilbildsram och namn är gyllene!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430472
+    m_Localized: Gåvan delas med ditt lag!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430473
+    m_Localized: Det maximala antalet liv ökas till 8!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430474
+    m_Localized: AKTIVERA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430475
+    m_Localized: Lås upp speciella belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430476
+    m_Localized: '<color=#FFF34F>{0}</color> uppnåtts!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430477
+    m_Localized: Din gåva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430478
+    m_Localized: Du har redan krävt denna belöning!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624768
+    m_Localized: Tjäna fler stjärnor för att öppna detta steg och låsa upp denna belöning!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624769
+    m_Localized: Skaffa {0} för att hämta belöningen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624770
+    m_Localized: Avsluta detta steg och lås upp {0} för att få belöningen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624771
+    m_Localized: Avsluta nivå {0} för att låsa upp {1}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624772
+    m_Localized: Tjäna fler stjärnor för att öppna detta steg!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624773
+    m_Localized: Tjäna fler stjärnor för att nå nästa steg!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624774
+    m_Localized: Avsluta detta steg och lås upp {0} för att öppna Skattkistan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624775
+    m_Localized: Skaffa <color=#FFF34F>{0}</color> och ta alla mynt när eventet slutar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624776
+    m_Localized: Skaffa <color=#FFF34F>{0}</color> för att låsa upp Skattkistan i slutet av nivåerna!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624777
+    m_Localized: Spara 10 mynt i Skattkistan för varje 10 stjärnor! Ta emot dem när evenemanget slutar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624778
+    m_Localized: Avsluta nivåer för att spara 10 mynt i Skattkistan för varje 10 stjärnor! Samla dem när evenemanget slutar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819072
+    m_Localized: SLUTBONUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819073
+    m_Localized: Här är dina oöppnade belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819074
+    m_Localized: '<color=#fff34f>{0}</color> är öppet, här är din första belöning!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819075
+    m_Localized: "Att slutföra en nivå för att samla stjärnor låser upp belöningar! \nTryck för att lära dig hur man samlar dem!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819076
+    m_Localized: Lås upp <color=#fff34f>{0}</color> för att tjäna exklusiva belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819077
+    m_Localized: TRYCK FÖR ATT SKIPPA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819078
+    m_Localized: AKTIVERAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819079
+    m_Localized: AKTIVERA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819080
+    m_Localized: Present till dina lagkamrater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5353076616585216
+    m_Localized: Vinn nivåer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5372156589367296
+    m_Localized: GRATIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43766314718715904
+    m_Localized: JULPASS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41612858264379392
+    m_Localized: Julpass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43168464116899840
+    m_Localized: Guldpass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19695394816
+    m_Localized: SURFRUSNING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197617770496
+    m_Localized: Samla fler snäckor än andra spelare på 30 minuter!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233189662720
+    m_Localized: MÄSTARE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273316569088
+    m_Localized: Vinn Surfrusning Mästare för att få dessa belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301875585024
+    m_Localized: Du har redan hämtat dessa belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444700024832
+    m_Localized: Samla snäckor under den begränsade tiden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 476987777024
+    m_Localized: Slutför mot andra spelare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500748509184
+    m_Localized: Tjäna fantastiska belöningar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536987295744
+    m_Localized: Gå med i Surf Rush
+    m_Metadata:
+      m_Items: []
+  - m_Id: 675730677760
+    m_Localized: Rank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395896868864
+    m_Localized: Belöning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 775722885120
+    m_Localized: Söker efter spelare...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251465525600706560
+    m_Localized: Vinn Surfrusning för att få dessa belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251109559260667904
+    m_Localized: Detta paket innehåller {0} kort!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 253212636654592000
+    m_Localized: Inloggningsdagar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255097381692891136
+    m_Localized: 'Belöningsstadium: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348499468288
+    m_Localized: Avslutad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051200
+    m_Localized: Var först och vinn fantastiska belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051201
+    m_Localized: Avsluta {0} nivåer först för att vinna storkovan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051204
+    m_Localized: '{0} Nivåer'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051205
+    m_Localized: Du kom först!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051206
+    m_Localized: Söker efter spelare...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051207
+    m_Localized: STEG {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051210
+    m_Localized: Vinn nivåer före andra för att slutföra uppdraget
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051211
+    m_Localized: Tjäna fantastiska belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051212
+    m_Localized: Gå med i racet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051213
+    m_Localized: ENHÖRNINGSLOPP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051209
+    m_Localized: Starta uppdraget mot andra spelare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9561896378368
+    m_Localized: Stort pris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051203
+    m_Localized: Försök igen och ta ledningen för belöningarna!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8358106793762816
+    m_Localized: FÖRSÖK IGEN!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000105134579712
+    m_Localized: Grattis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000232930828288
+    m_Localized: Racet är över
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000346080567296
+    m_Localized: Var först att avsluta nästa gång!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8358723339673600
+    m_Localized: Avsluta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27990813114884096
+    m_Localized: Nästan klar! Ta ledningen, inspirera och vinn stort nästa gång!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40226007532167168
+    m_Localized: Enhörningslopp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258714048939417600
+    m_Localized: KANINRACE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 261220253826015232
+    m_Localized: Kaninrace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 262986913796841472
+    m_Localized: INFO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 262986960378781696
+    m_Localized: LAG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271045432789950464
+    m_Localized: ÄNDRA LAG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273924986122526720
+    m_Localized: Rekommendationer för topplag!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825505589190656
+    m_Localized: VARNING!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825568310812672
+    m_Localized: kan inte gå med igen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825591157186560
+    m_Localized: Du kan inte gå med i teamet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277826028287549440
+    m_Localized: SPARKA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615821602775040
+    m_Localized: Nivå
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615873058496512
+    m_Localized: VÄRLD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615967702966272
+    m_Localized: MASTERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278616096044474368
+    m_Localized: TOPP SPELLARE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278616189900414976
+    m_Localized: TOPP LAG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278643930016243712
+    m_Localized: RANKING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278668086418071552
+    m_Localized: Poäng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280381325501784064
+    m_Localized: Höj ditt teamresultat för den månaden!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280381518901141504
+    m_Localized: Tävla till fronten och bli en legend!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280382392553693184
+    m_Localized: Höj ditt resultat för den månaden!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280723815215915008
+    m_Localized: Kapacitet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281101773235544064
+    m_Localized: Topp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281101820337577984
+    m_Localized: Botten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303936521708232704
+    m_Localized: SKATEBOARDTÄVLING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303936521725009920
+    m_Localized: Skateboardtävling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328674388338532352
+    m_Localized: Lagstorm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328674935795867648
+    m_Localized: Samla skrytpoäng!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675153786429440
+    m_Localized: Gå med i ett lag och bidra till Lagstorm!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675265375887360
+    m_Localized: Om du lämnar ditt lag lämnar du även den pågående Lagstormen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675424260317184
+    m_Localized: Klara nivåer för att samla båtar som ett lag och tjäna fantastiska belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675526479699968
+    m_Localized: Ingen insats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691474817343488
+    m_Localized: Lagkamp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691548192497664
+    m_Localized: Lagsrankning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691671190462464
+    m_Localized: Bra jobbat! Grattis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691834302750720
+    m_Localized: STRID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691895833190400
+    m_Localized: MITT LAG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692100393590784
+    m_Localized: 'Personliga belöningar: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692220749144064
+    m_Localized: Samla vattenpistoler i nivåerna!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692289833525248
+    m_Localized: Tävla med ditt lag för att vinna!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692350239891456
+    m_Localized: Samla mer för personliga belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692455319789568
+    m_Localized: Gå med i ett lag och tävla med ditt lag för att tjäna fantastiska belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692559271419904
+    m_Localized: Om du lämnar ditt lag lämnar du även den pågående Lagkampen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692653794254848
+    m_Localized: Samla vattenpistoler och tävla med ditt lag för att tjäna fantastiska belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692775722672128
+    m_Localized: PERSONLIGA BELÖNINGAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692921290186752
+    m_Localized: Aktuell rankning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328693020170903552
+    m_Localized: Aktuell poäng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329403534840684544
+    m_Localized: Samla minst en båt för att göra anspråk på dina belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329403596081717248
+    m_Localized: Bidra nästa gång för att få lagbelöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407227346116608
+    m_Localized: Lagstorm-belöningar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407337861832704
+    m_Localized: '{0} personliga belöningar!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407487313272832
+    m_Localized: '{0} lagbelöningar!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330435785229590528
+    m_Localized: Personliga belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330443706701176832
+    m_Localized: '{0} personliga belöningar!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331096417918509056
+    m_Localized: Samla vattenpistoler på banorna för att bidra och besegra de andra!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331096633254076416
+    m_Localized: Samla fler för personliga belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331098070130352128
+    m_Localized: Bidra för att få belöningar nästa gång!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

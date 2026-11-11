@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventMissionCenter_uk
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: uk
+  m_SharedData: {fileID: 11400000, guid: 7fd541ff32453a84fb58a575787300c6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 759331545088
+    m_Localized: ЕТАП {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876483923968
+    m_Localized: ЦЕНТР ЗАВДАНЬ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701184
+    m_Localized: Всі завдання виконано!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701185
+    m_Localized: Виконуйте завдання, щоб зібрати <color=#C31439>Паливo</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701186
+    m_Localized: Завершіть всі завдання, щоб розблокувати наступний етап і отримати чудові нагороди!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701187
+    m_Localized: Завершіть завдання!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701188
+    m_Localized: Збирайте паливо!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701189
+    m_Localized: Заробляйте чудові винагороди!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701190
+    m_Localized: Очистіть поточний етап, щоб рухатися вперед!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701191
+    m_Localized: Скриня вже відкрита!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701192
+    m_Localized: Завдання вже виконане!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876504895488
+    m_Localized: Заверште всі попередні етапи, щоб отримати доступ до цього завдання!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133379687869046784
+    m_Localized: Заробіть {0} монет!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133379687885824000
+    m_Localized: Витратьте {0} монет!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616560025601
+    m_Localized: Виграйте {0} рівнів!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12277718623182848
+    m_Localized: Виграй 1 рівень!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671104
+    m_Localized: Відкрий 1 подарункову коробку!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671105
+    m_Localized: Відкрийте 1 подарункову скриньку в Ловці Ключів!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671106
+    m_Localized: Відкрий {0} подарункові коробки!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671107
+    m_Localized: Відкрийте {0} подарункових скриньок у Ловці Ключів!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671108
+    m_Localized: Зберіть {0} квітів!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671109
+    m_Localized: Зберіть {0} Квітів у Садовій Арені!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20293628076220418
+    m_Localized: Центр місій
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20293628076220419
+    m_Localized: Виконуйте завдання, щоб зібрати <color=#C31439>Зілля</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20293628076220420
+    m_Localized: Збирайте зілля!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334096543744
+    m_Localized: Отримай 1 подарункову коробку!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334125903872
+    m_Localized: Отримай {0} подарункові коробки!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334134292480
+    m_Localized: Отримай 1 подарункову коробку в Подорожі Випускників!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334138486784
+    m_Localized: Отримай {0} подарункові коробки в Подорожі Випускників!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25343820374728704
+    m_Localized: Виграйте {0} рівнів з першої спроби!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27128643292487680
+    m_Localized: ВІТАЄМО!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27179891731456000
+    m_Localized: Виграй {0} {1}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27179893568561152
+    m_Localized: Виграй 1 гонку в {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27179895367917568
+    m_Localized: Виграй {0} гонки в {1}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71334918540484608
+    m_Localized: Збери {0} бургерів!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71334921883344896
+    m_Localized: Збери {0} бургерів у Бургер-арена!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77504036679442432
+    m_Localized: Зберіть {0} бляшанок!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77504039380574208
+    m_Localized: Зберіть {0} бляшанок на Арені котів!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

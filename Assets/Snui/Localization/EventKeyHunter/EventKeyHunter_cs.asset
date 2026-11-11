@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventKeyHunter_cs
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: cs
+  m_SharedData: {fileID: 11400000, guid: 87af58f7a2918874db9d4a82217c227f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 626313388032
+    m_Localized: Sbírejte šroubováky!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626330165248
+    m_Localized: Najděte klíče!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359552
+    m_Localized: Získejte odměny!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359553
+    m_Localized: Toto je vaše poslední šance použít šroubováky.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553856
+    m_Localized: Žádné šroubováky nezbyly!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553857
+    m_Localized: "Gratulujeme!\nDokončili jste HUNTER KLÍČŮ!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553858
+    m_Localized: HODNĚ ŠTĚSTÍ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553859
+    m_Localized: POKRAČUJTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553860
+    m_Localized: MAX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553861
+    m_Localized: Pokud nyní odejdete, přijdete o své šroubováky!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553862
+    m_Localized: Máte šroubováky pro získání odměn!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748160
+    m_Localized: ODHALIT VŠE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748161
+    m_Localized: HUNTER KLÍČŮ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748162
+    m_Localized: Dokončete úrovně, abyste získali více
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748163
+    m_Localized: ZKUSIT ZNOVU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3765309530112
+    m_Localized: Vyhrajte úrovně!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748164
+    m_Localized: Vyhrajte úrovně, abyste získali šroubováky. Použijte šroubovák k odemčení této karty.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748165
+    m_Localized: Najděte klíče, abyste získali konečné odměny!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

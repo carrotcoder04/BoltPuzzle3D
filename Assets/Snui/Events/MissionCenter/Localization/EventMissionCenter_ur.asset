@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventMissionCenter_ur
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ur
+  m_SharedData: {fileID: 11400000, guid: 7fd541ff32453a84fb58a575787300c6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 759331545088
+    m_Localized: مرحلہ {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876483923968
+    m_Localized: ٹاسک سینٹر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701184
+    m_Localized: تمام کام مکمل!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701185
+    m_Localized: ٹاسک مکمل کریں تاکہ <color=#C31439>ایندھن</color> جمع کر سکیں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701186
+    m_Localized: اگلے مرحلے کو انلاک کرنے اور شاندار انعامات حاصل کرنے کے لیے تمام ٹاسک مکمل کریں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701187
+    m_Localized: کام مکمل کریں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701188
+    m_Localized: ایندھن جمع کریں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701189
+    m_Localized: حیرت انگیز انعامات حاصل کریں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701190
+    m_Localized: آگے بڑھنے کے لیے موجودہ مرحلہ صاف کریں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701191
+    m_Localized: چیست پہلے ہی کھل چکی ہے!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701192
+    m_Localized: ٹاسک پہلے ہی حاصل کر لیا گیا ہے!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876504895488
+    m_Localized: اس ٹاسک تک رسائی کے لیے تمام پچھلے مراحل مکمل کریں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133379687869046784
+    m_Localized: '{0} سکے کما ئیں!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133379687885824000
+    m_Localized: '{0} سکے خرچ کریں!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616560025601
+    m_Localized: '{0} سطحیں جیتیں'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12277718623182848
+    m_Localized: ایک لیول جیتیں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671104
+    m_Localized: 1 تحفہ باکس کھولیں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671105
+    m_Localized: کی ہنٹر میں 1 گفٹ باکس کھولیں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671106
+    m_Localized: '{0} تحفہ باکس کھولیں!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671107
+    m_Localized: کی ہنٹر میں {0} گفٹ باکس کھولیں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671108
+    m_Localized: '{0} پھول جمع کریں!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671109
+    m_Localized: باغ کے میدان میں {0} پھول جمع کریں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20293628076220418
+    m_Localized: مشن حب
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20293628076220419
+    m_Localized: ٹاسک مکمل کریں تاکہ <color=#C31439>جادو کی دوائیں</color> جمع کر سکیں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20293628076220420
+    m_Localized: مادے جمع کریں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334096543744
+    m_Localized: '!1 گفٹ باکس حاصل کریں'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334125903872
+    m_Localized: '!{0} گفٹ باکسز حاصل کریں'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334134292480
+    m_Localized: '!غبارے کے سفر میں 1 گفٹ باکس حاصل کریں'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334138486784
+    m_Localized: '!غبارے کے سفر میں {0} گفٹ باکسز حاصل کریں'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25343820374728704
+    m_Localized: پہلی کوشش میں {0} لیولز جیتیں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27128643292487680
+    m_Localized: مبارک ہو!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27179891731456000
+    m_Localized: '{0} {1} جیتیں!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27179893568561152
+    m_Localized: '{0} میں 1 ریس جیتیں!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27179895367917568
+    m_Localized: '{1} میں {0} ریسیں جیتیں!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71334918540484608
+    m_Localized: '{0} برگر اکٹھے کریں!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71334921883344896
+    m_Localized: برگر ایرینا میں {0} برگر اکٹھے کریں!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77504036679442432
+    m_Localized: '{0} کین جمع کریں!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77504039380574208
+    m_Localized: بلیوں کے میدان میں {0} کین جمع کریں!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

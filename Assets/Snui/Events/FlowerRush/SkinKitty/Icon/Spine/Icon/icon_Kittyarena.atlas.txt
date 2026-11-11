@@ -1,0 +1,12 @@
+icon_Kittyarena.png
+size:224,110
+filter:Linear,Linear
+icon_Kittyarena_1
+bounds:2,12,96,79
+rotate:90
+icon_Kittyarena_2
+bounds:83,12,96,79
+rotate:90
+ty_icon_sweep
+bounds:164,2,106,58
+rotate:90

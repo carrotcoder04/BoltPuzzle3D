@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventStreakLine_th
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: th
+  m_SharedData: {fileID: 11400000, guid: 8961d34ad65e8a44abb7374a6d1b7339, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 5675320074240
+    m_Localized: เก็บหีบสมบัติระหว่างทางขึ้น!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5675341045760
+    m_Localized: "ขอแสดงความยินดี!\n\"การเดินทางในบอลลูน\" เสร็จสมบูรณ์!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5675341045761
+    m_Localized: รักษาความก้าวหน้าในการเดินทางในบอลลูนของคุณ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5675341045762
+    m_Localized: ปล่อยให้ลูกโป่งลอยขึ้น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5675341045763
+    m_Localized: ชนะด่านเพื่อลอยขึ้นให้สูงขึ้น!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5675341045764
+    m_Localized: การเดินทางของลูกโป่ง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5675341045765
+    m_Localized: ชนะด่านโดยไม่แพ้!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13691204074987520
+    m_Localized: เรียกร้องทั้งหมด
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

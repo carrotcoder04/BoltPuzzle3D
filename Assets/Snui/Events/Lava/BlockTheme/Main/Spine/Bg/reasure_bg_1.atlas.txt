@@ -1,0 +1,6 @@
+reasure_bg_1.png
+size:1256,356
+filter:Linear,Linear
+yun_01
+bounds:2,2,1252,352
+offsets:0,0,1252,364

@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: Settings_en
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: a746a06ec6d2ac94e96f9393645c795b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 15779792674816
+    m_Localized: Personalized Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15779796869120
+    m_Localized: Privacy Policy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15779796869121
+    m_Localized: Terms of Service
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15779796869122
+    m_Localized: ABOUT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12665741312
+    m_Localized: About
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141197758464
+    m_Localized: Contact us
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141197758465
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141197758466
+    m_Localized: Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2482099970048
+    m_Localized: SETTINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141201952768
+    m_Localized: Version
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141201952769
+    m_Localized: Vibration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22299657887744
+    m_Localized: LANGUAGES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2977110430834688
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7692479523446784
+    m_Localized: Save progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7693806831919104
+    m_Localized: Save your progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7693834774372352
+    m_Localized: Sign out
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7693856026910720
+    m_Localized: Your progress is saved.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7702546968731648
+    m_Localized: Delete account
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7702418941796352
+    m_Localized: Follow us
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8754095488753664
+    m_Localized: VERSION UPDATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44192551605886976
+    m_Localized: Restore purchases
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45631217423343616
+    m_Localized: Review
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136393433168207872
+    m_Localized: Set nickname
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170409449950797824
+    m_Localized: Your purchases have been restored.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320776652045934592
+    m_Localized: Colorblind mode
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,1667 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: SnuiCommon_el
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: el
+  m_SharedData: {fileID: 11400000, guid: 56d4b1d6a9621d04eb877a1525a91b26, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 156517155132661764
+    m_Localized: Επιτρέψτε Παρακολούθηση
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900312473526272
+    m_Localized: Να επιτρέπεται η παρακολούθηση
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900371902619648
+    m_Localized: Επιτρέψτε την παρακολούθηση για την κατάργηση άσχετων διαφημίσεων και λάβετε {0} δωρεάν νομίσματα!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661760
+    m_Localized: Επιτρέψτε την παρακολούθηση για να βελτιώσετε την εμπειρία διαφήμισης
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900440034893824
+    m_Localized: Επιτρέψτε την παρακολούθηση για να λάβετε ανταμοιβές.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900277404950528
+    m_Localized: ΛΙΓΟΤΕΡΕΣ ΔΙΑΦΗΜΙΣΕΙΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252780607135744
+    m_Localized: ΔΙΑΛΕΞΕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180366206789738496
+    m_Localized: ΑΠΑΙΤΗΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 149290068038639616
+    m_Localized: ΣΥΝΕΧΕΙΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252819287007232
+    m_Localized: ΔΗΜΙΟΥΡΓΗΣΕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233343164604416
+    m_Localized: ΕΛΕΥΘΕΡΕΣ ΖΩΕΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115602396111953920
+    m_Localized: ΜΗΝΥΜΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50335704901738496
+    m_Localized: ΟΧΙ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41986630234398720
+    m_Localized: Όχι τώρα
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233280816275456
+    m_Localized: ΞΑΝΑΓΕΜΙΣΜΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252991467380736
+    m_Localized: ΑΠΟΘΗΚΕΥΣΕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167298491044847616
+    m_Localized: ΕΝΑΡΞΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164882056993562624
+    m_Localized: Πατήστε για να αξιώσετε
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159757269296209920
+    m_Localized: ΠΑΤΗΣΤΕ ΓΙΑ ΝΑ ΣΥΝΕΧΊΣΕΤΕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266123567161344
+    m_Localized: ΧΡΗΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45199535239061504
+    m_Localized: ΘΈΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41986630246981632
+    m_Localized: Ναί
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010148310736896
+    m_Localized: Θέλετε να διαγράψετε τα δεδομένα σας από αυτή τη συσκευή και τους διακομιστές μας;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010253747150848
+    m_Localized: Τα δεδομένα του παιχνιδιού σας θα διαγραφούν αμέσως από αυτή τη συσκευή και τους διακομιστές μας. Όλα τα δεδομένα και η πρόοδός σας θα χαθούν και δεν θα μπορέσουν να αποκατασταθούν.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010270369177600
+    m_Localized: Έχετε ενεργές συνδρομές.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010281240813568
+    m_Localized: Για να αποφύγετε περαιτέρω χρεώσεις, μεταβείτε στο App Store > Λογαριασμός > Συνδρομές και ακυρώστε πρώτα τυχόν ενεργές συνδρομές.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010291277783040
+    m_Localized: Είστε βέβαιοι ότι θέλετε να διαγράψετε τα δεδομένα σας; Θα χάσετε την τρέχουσα πρόοδό σας και δεν θα είναι δυνατή η ανάκτηση.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010303109914624
+    m_Localized: Πατώντας “Ναι”, θα ξεκινήσετε το παιχνίδι ως νέος χρήστης.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010720036315136
+    m_Localized: ΚΑΤΑΛΑΒΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717830468558848
+    m_Localized: Επιλέξτε ή περιγράψτε τα προβλήματά σας
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63719952446644224
+    m_Localized: Εισάγετε το email σας εδώ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63741145136488448
+    m_Localized: Αποτυχία αποστολής, παρακαλώ δοκιμάστε ξανά.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63762870901399552
+    m_Localized: Αποτυχία φόρτωσης
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717859195346944
+    m_Localized: Περιγράψτε τα προβλήματα ή τις προτάσεις
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717953256808448
+    m_Localized: ΥΠΟΒΑΛΛΟΥΝ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63740716600254464
+    m_Localized: Ευχαριστούμε για τα σχόλιά σας!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63764307005923328
+    m_Localized: Επιλέξτε ή περιγράψτε τα προβλήματά σας
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63764348902825984
+    m_Localized: Εισάγετε το email σας εδώ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63674767004131328
+    m_Localized: Ανατροφοδότηση
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35481137106116608
+    m_Localized: Πλήρες
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12288803132661760
+    m_Localized: Δωρεάν
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304573871808512
+    m_Localized: Δωρεάν ζωή!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1697441651875840
+    m_Localized: Οι ζωές σας είναι πλήρεις
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436200639389696
+    m_Localized: Θήκη επιπέδου
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111930957190127616
+    m_Localized: Δεν έχεις καμία δωρεάν ζωή.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111216658851291136
+    m_Localized: Κέρδισε δωρεάν ζωές από τα μέλη της ομάδας σου.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51007642271735808
+    m_Localized: σου έστειλε μια ζωή!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12288946942763008
+    m_Localized: Ειδική συλλογή
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436162156650496
+    m_Localized: Θήκη αστέρι
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320630867091456
+    m_Localized: '{0} Δωρεάν ζωές'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264074574159872
+    m_Localized: ΤΡΑΠΕΖΑ ΖΩΗΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193240967405568
+    m_Localized: Αποκτήστε δωρεάν νομίσματα
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193180493930496
+    m_Localized: 'Προσχωρήστε ή δημιουργήστε ομάδα για:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52896768214425600
+    m_Localized: Η χωρητικότητα της ομάδας είναι πλήρης
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193207886929920
+    m_Localized: Αποκτήστε δωρεάν ζωές
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57494596047855616
+    m_Localized: Πρέπει να αποχωρήσετε από την ομάδα σας πριν ενταχθείτε σε καινούργια!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52896720361611264
+    m_Localized: Το επίπεδό σας δεν είναι αρκετά υψηλό για να ενταχθείτε σε αυτήν την ομάδα
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48191512465367040
+    m_Localized: ΜΠΕΙΤΕ ΣΕ ΜΙΑ ΟΜΑΔΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50334557843480576
+    m_Localized: Είστε σίγουροι πως θέλετε να διώξετε αυτόν τον παίκτη?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50332880616808448
+    m_Localized: ΕΞΑΙΡΕΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634758253076480
+    m_Localized: ΑΚΥΡΩΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634806575652864
+    m_Localized: Είστε σίγουροι πως θέλετε να αφήσετε την ομάδα σας?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634666892746752
+    m_Localized: ΑΠΟΧΩΡΗΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634620147228672
+    m_Localized: ΑΠΟΧΩΡΗΣΗ ΟΜΑΔΑΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232529176027136
+    m_Localized: ΠΕΡΙΣΣΟΤΕΡΕΣ ΖΩΕΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125736013802758144
+    m_Localized: ΓΕΝΙΚΑ ΣΤΑΤΙΣΤΙΚΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125737783090208768
+    m_Localized: Βοήθεια που δόθηκε
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125734265910452224
+    m_Localized: 'Τρέχον Επίπεδο:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158623746145378304
+    m_Localized: Καμιά Ομάδα
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126423333916893184
+    m_Localized: Βοήθεια που Received
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125725518169366528
+    m_Localized: Το Προφίλ Μου
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125737398732578816
+    m_Localized: Η πρώτη προσπάθεια κερδίζει
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48164027749097472
+    m_Localized: Παρακαλώ ελέγξτε τη σύνδεσή σας στο διαδίκτυο.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48163983373361152
+    m_Localized: Απώλεια Σύνδεσης!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026432
+    m_Localized: Είναι δωρεάν μόνο για μία φορά!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026434
+    m_Localized: Ορίστε παρακαλώ ένα ψευδώνυμο
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026435
+    m_Localized: Μη έγκυρο όνομα. Πληκτρολογήστε άλλο ένα
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026436
+    m_Localized: Πληκτρολογήστε τουλάχιστον 3 χαρακτήρες!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026437
+    m_Localized: Πληκτρολογήστε το πολύ 15 χαρακτήρες!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026433
+    m_Localized: Πληκτρολογήστε το ψευδώνυμό σας...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52805192968560640
+    m_Localized: Η αλλαγή ονόματος ήταν επιτυχής!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39808712133566464
+    m_Localized: ΑΛΛΑΞΕ ΟΝΟΜΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52780918081839104
+    m_Localized: Συνδέστε
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95625466474389504
+    m_Localized: Ποιο είναι το όνομά σας;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95625437298810880
+    m_Localized: ΕΙΣΑΓΕΤΕ ΟΝΟΜΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52798812643647488
+    m_Localized: Ο χαρακτήρας δεν υποστηρίζεται.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40123526764552192
+    m_Localized: ΕΠΕΞΕΡΓΑΣΙΑ ΠΡΟΦΙΛ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118480965112684544
+    m_Localized: Δημιουργήστε το ψευδώνυμό σας!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118485440464412672
+    m_Localized: ΕΠΙΛΕΞΤΕ ΦΩΤΟΓΡΑΦΙΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118470840675196928
+    m_Localized: Πατήστε για να επεξεργαστείτε το προφίλ σας
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661763
+    m_Localized: Επιτρέψτε Ειδοποίηση
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900528459210752
+    m_Localized: Λάβετε ειδοποιήσεις για συμβάντα και ενημερώσεις περιορισμένου χρόνου.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155136856064
+    m_Localized: Παρακαλώ ενεργοποιήστε τις ειδοποιήσεις από τις ρυθμίσεις της συσκευής σας
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41991704809562112
+    m_Localized: Παρακαλώ επιτρέψτε ειδοποιήσεις για να λαμβάνετε εκδηλώσεις και ενημερώσεις περιορισμένου χρόνου.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661761
+    m_Localized: Θα σας κατευθύνουμε στις ρυθμίσεις της συσκευής σας
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900487157899264
+    m_Localized: Μην το χάσετε!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661762
+    m_Localized: Άνοιξε!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67417490278309889
+    m_Localized: Θέλεις πραγματικά να σταματήσεις το παιχνίδι;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67417490278309888
+    m_Localized: ΕΙΣΑΙ ΣΙΓΟΥΡΟΣ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875570810880
+    m_Localized: Είσαι σίγουρος ότι θέλεις να παραιτηθείς?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875562422272
+    m_Localized: ΕΠΙΠΕΔΟ ΑΠΟΧΩΡΗΣΗΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875570810881
+    m_Localized: ΜΕΙΝΕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57496004599996416
+    m_Localized: ΚΑΤΆΤΑΞΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57494080442064896
+    m_Localized: Βαθμολογία
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149430573719552
+    m_Localized: ΟΜΆΔΕΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149277246742528
+    m_Localized: ΠΊΝΑΚΑΣ ΚΑΤΆΤΑΞΗΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149395333177344
+    m_Localized: ΠΑΊΚΤΕΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57493952461266944
+    m_Localized: Προβολή ομάδας
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375726647730176
+    m_Localized: Αποθηκεύστε την πρόοδό σας στο cloud δωρεάν!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375933552746496
+    m_Localized: ΣΥΝΔΕΣΗ ΜΕ APPLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375887180521472
+    m_Localized: ΣΥΝΔΕΣΗ ΜΕ FACEBOOK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375955442819072
+    m_Localized: ΣΥΝΔΕΣΗ ΜΕ GOOGLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42721386727202816
+    m_Localized: Η πρόοδός σας αποθηκεύεται.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42721333207883776
+    m_Localized: ΕΠΙΤΥΧΙΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375679755411456
+    m_Localized: ΣΥΝΔΕΘΕΙΤΕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42730837634965504
+    m_Localized: ΑΚΟΜΑ ΣΥΝΔΕΔΕΜΕΝΟΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726401105715200
+    m_Localized: Το παιχνίδι θα επανεκκινηθεί από το επίπεδο <color=#EF4C4C>1</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726463454044160
+    m_Localized: 'Συμβουλή: Μπορείτε να εισέλθετε ξανά για να συνεχίσετε από εκεί που σταματήσατε.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726296550105088
+    m_Localized: ΑΠΟΣΥΝΔΕΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45200576651190272
+    m_Localized: Χωρητικότητα
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45176701162872832
+    m_Localized: ΔΗΜΙΟΥΡΓΙΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47003035736465408
+    m_Localized: ΕΠΕΞΕΡΓΑΣΙΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252406294863872
+    m_Localized: Απαιτούμενο Επίπεδο
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111296
+    m_Localized: Φτάστε το επίπεδο {0} για να αυξήσετε το όριο του Απαιτούμενου επιπέδου.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252313470722048
+    m_Localized: Λογότυπο ομάδας
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45262366646984704
+    m_Localized: ΕΠΙΛΕΞΤΕ ΛΟΓΟΤΥΠΟ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252369947025408
+    m_Localized: Όνομα ομάδας
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252486565453824
+    m_Localized: '*Το λογότυπο/όνομα της ομάδας δεν μπορεί να αλλάξει μετά τη δημιουργία'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111297
+    m_Localized: ΒΟΗΘΕΙΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125717701572157440
+    m_Localized: Η μέγιστη επιτρεπόμενη ποσότητα χαρακτήρων είναι {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45176682426916864
+    m_Localized: ΣΥΜΜΕΤΕΧΕΤΕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50241104296009728
+    m_Localized: Αποβολή
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47002942832631808
+    m_Localized: ΑΠΟΧΩΡΗΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44926451865083904
+    m_Localized: Η ΟΜΑΔΑ ΜΟΥ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45250024622252032
+    m_Localized: Εισαγάγετε όνομα ομάδας...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45199495682580480
+    m_Localized: ΑΝΑΖΗΤΗΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111298
+    m_Localized: Δεν υπάρχουν αποτελέσματα για αυτό το όνομα.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44926427412291584
+    m_Localized: ΟΜΑΔΕΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305600
+    m_Localized: Οι ζωές σας είναι γεμάτες
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305601
+    m_Localized: Έχετε ήδη βοηθήσει σε αυτό το αίτημα.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305602
+    m_Localized: Πρέπει να περιμένετε {0} λεπτά μέχρι να μπορέσετε να βοηθήσετε ξανά!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305603
+    m_Localized: Έχετε ήδη ζητήσει αυτό το αίτημα.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46997273542909952
+    m_Localized: 'Απαιτούμενο Επίπεδο:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46995160800681984
+    m_Localized: 'Βαθμολογία Ομάδας:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46002148947779584
+    m_Localized: ΠΛΗΡΟΦΟΡΙΕΣ ΟΜΑΔΑΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46996381083099136
+    m_Localized: 'Εβδομαδιαίες Βοήθειες:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072008410750976
+    m_Localized: Βοήθειες
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072106691682304
+    m_Localized: Αρχηγός
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072050559311872
+    m_Localized: Επίπεδα
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50707987734454272
+    m_Localized: ΖΗΤΗΣΤΕ ΖΩΕΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50728058632527872
+    m_Localized: '{0} έχει ενταχθεί στην ομάδα.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50728091402625024
+    m_Localized: '{0} έχει αποβληθεί.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50708198070411264
+    m_Localized: ΑΙΤΗΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50736182525419520
+    m_Localized: ζητώντας για ζωές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167388066735972352
+    m_Localized: ΠΡΟΣΦΟΡΕΣ ΓΙΑ ΕΣΕΝΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167388656706772992
+    m_Localized: 3 ΣΕ 1 ΠΡΟΣΦΟΡΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167390104249163776
+    m_Localized: ΑΓΟΡΑΣΕ ΟΛΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754245507047424
+    m_Localized: ΚΙΤ ΚΑΤΑΣΚΕΥΑΣΤΩΝ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754499891585024
+    m_Localized: Διεκδικείστε κάθε προσφορά για να ξεκλειδώσετε δωρεάν ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754502554968064
+    m_Localized: Μην ξεχάσετε να διεκδικήσετε δωρεάν ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172042873425879040
+    m_Localized: Πακέτο ψωμιού
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172075683758989312
+    m_Localized: ΕΠΙΛΕΞΤΕ ΕΝΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186506587038277632
+    m_Localized: "{0}\nΑΝΤΑΜΟΙΒΕΣ!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186520677521547264
+    m_Localized: "Αυτή η ενέργεια απαιτεί σύνδεση στο διαδίκτυο.\nπαρακαλώ προσπαθήστε ξανά αργότερα."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186520677521547265
+    m_Localized: ΧΩΡΙΣ ΔΙΑΔΙΚΤΥΟ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219843
+    m_Localized: Ορίστε οι μη διεκδικήσιμες ανταμοιβές σου!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179369413868249088
+    m_Localized: ΠΑΙΞΕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188378725424816128
+    m_Localized: ΠΩΛΗΣΗ ΒΑΛΙΤΣΑΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188407241268781056
+    m_Localized: Δωρεάν αναγόμωση ζωής!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191590517525438464
+    m_Localized: ΑΝΤΑΜΟΙΒΕΣ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195269482039468032
+    m_Localized: '<sprite=0> Απόλαυσε τις ανταμοιβές σου με <color=#FFFF0B>Play Points</color>!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195312493884596224
+    m_Localized: ΕΥΤΥΧΙΣΜΕΝΟ HALLOWEEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197048656911654912
+    m_Localized: Συγχαρητήρια!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199617985050042368
+    m_Localized: ΕΙΔΙΚΗ ΠΡΟΣΦΟΡΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199621120049012736
+    m_Localized: Διαγραφή αναδυόμενων διαφημίσεων για πάντα!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199625686962397184
+    m_Localized: ΜΟΝΟ ΜΙΑ ΦΟΡΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 201820360875696128
+    m_Localized: ΔΩΡΕΑΝ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204334129812070400
+    m_Localized: ΧΡΙΣΤΟΥΓΕΝΝΙΑΤΙΚΟ ΔΩΡΟ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 208692138415742976
+    m_Localized: ΔΟΚΙΜΑΣΤΕ ΞΑΝΑ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205711112789811200
+    m_Localized: ΣΟΥΠΕΡ ΠΡΟΣΦΟΡΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759028850688
+    m_Localized: ΠΑΡΕΧΟΜΕΝΗ ΙΣΧΥΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793728
+    m_Localized: Αγόρασε 1 πακέτο & κέρδισε 1 ΔΩΡΕΑΝ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793729
+    m_Localized: Αξίωσε το πακέτο για να ξεκλειδώσεις δωρεάν ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793730
+    m_Localized: Απαιτήθηκε
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213344241960607744
+    m_Localized: Συλλέξτε {0} Αστέρια!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213385543838326784
+    m_Localized: ΠΑΚΕΤΟ ΠΡΟΚΛΗΣΗΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213385629515374592
+    m_Localized: Απελευθερώστε το πακέτο για να διεκδικήσετε μέχρι <color=#FFE315>{0}</color> νομίσματα!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214475252614291456
+    m_Localized: Απελευθερώστε το πακέτο για να διεκδικήσετε τις ανταμοιβές σας!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214520926147960832
+    m_Localized: ΔΙΕΚΔΙΚΗΣΗ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214539340325314560
+    m_Localized: Συλλέξτε αστέρια εντός του χρονικού ορίου για να ξεκλειδώσετε έως και <color=#FFE315>{0}</color> νομίσματα!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769054264582144
+    m_Localized: ΤΕΛΕΥΤΑΙΑ ΕΥΚΑΙΡΙΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769183633694720
+    m_Localized: Είστε σίγουροι ότι θέλετε να εγκαταλείψετε όλες τις κερδισμένες ανταμοιβές σας;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769539012878336
+    m_Localized: ΠΑΡΑΙΤΗΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214783103136161792
+    m_Localized: Μέχρι
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214839998228193280
+    m_Localized: Συλλέξτε αστέρια για να απελευθερώσετε ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214867523276890112
+    m_Localized: ΑΠΕΛΕΥΘΕΡΩΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 215234507382448128
+    m_Localized: Απελευθερώστε το πακέτο και συλλέξτε αστέρια για να διεκδικήσετε τις ανταμοιβές σας!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 220645188114046976
+    m_Localized: ΣΥΛΛΟΓΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159497032479793152
+    m_Localized: Μεγάλο Βραβείο
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224668775510695936
+    m_Localized: '<color=#fddc25>Νέα Συλλογή</color> έρχεται σύντομα!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224920229035106304
+    m_Localized: Φτάστε στο <color={0}>επίπεδο {1}</color> για να ξεκλειδώσετε τη Συλλογή!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224920905328877568
+    m_Localized: Συλλογή
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224923537313357824
+    m_Localized: '<color={0}>Κατεβάζω…</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228241451726659584
+    m_Localized: Φτάστε στο Επίπεδο {0} για να ξεκλειδώσετε τη Συλλογή και να δείτε τα σήματά σας!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228241896872337408
+    m_Localized: ΆΒΑΤΑΡ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242197553602560
+    m_Localized: KΆΔΡΟ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242241958699008
+    m_Localized: ΌΝΟΜΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242435928481792
+    m_Localized: ΣΉΜΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228243239926226944
+    m_Localized: Ενεργοποιήστε το Pass για να ξεκλειδώσετε αυτό το στυλ για περιορισμένο χρόνο!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230438899417079808
+    m_Localized: ΑΦΑΊΡΕΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230438918601826304
+    m_Localized: ΕΞΌΠΛΙΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233681610001604608
+    m_Localized: ΕΞΟΔΟΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009152
+    m_Localized: Ολοκληρώθηκε!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009153
+    m_Localized: ΣΠΙΤΙ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009154
+    m_Localized: ΣΥΓΧΑΡΗΤΗΡΙΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390117552128
+    m_Localized: ΑΠΟΧΩΡΗΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390121746432
+    m_Localized: ΕΠΑΝΑΛΗΨΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390130135040
+    m_Localized: ΕΠΙΠΕΔΟ {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390130135041
+    m_Localized: ΦΟΡΤΩΝΕΙ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390134329346
+    m_Localized: ΠΕΡΝΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390142717952
+    m_Localized: ΚΑΛΑ ΠΕΡΑΣΜΕΝΟ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390163689472
+    m_Localized: Η κατάταξή σου
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390163689473
+    m_Localized: Επίβραβευση
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246559818866688
+    m_Localized: ΑΠΟΧΩΡΗΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246575794970624
+    m_Localized: ΕΠΑΝΑΛΗΨΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246590647001088
+    m_Localized: ΕΠΙΠΕΔΟ {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246601078235136
+    m_Localized: ΦΟΡΤΩΝΕΙ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246643658809344
+    m_Localized: ΠΕΡΝΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246711614922752
+    m_Localized: ΚΑΛΑ ΠΕΡΑΣΜΕΝΟ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246748369608704
+    m_Localized: Η κατάταξή σου
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246760054939648
+    m_Localized: Επίβραβευση
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245536492576768
+    m_Localized: ΑΡΓΟΤΕΡΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246615879933952
+    m_Localized: ΠΑΥΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235891040235544576
+    m_Localized: 'Ανταμοιβές:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246657709727744
+    m_Localized: Ξεκλειδώστε στο LV {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816862262222848
+    m_Localized: ΑΝΤΑΜΟΙΒΕΣ ΟΠΑΔΩΝ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816800794697728
+    m_Localized: Γίνετε μέλος της αναπτυσσόμενης κοινότητάς μας στο Facebook και παίξτε μαζί!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816831106932736
+    m_Localized: ΓΙΝΕΤΕ ΜΕΛΟΣ ΤΩΡΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816773359755264
+    m_Localized: Γίνετε μέλος και παίξτε μαζί μας!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246673576779776
+    m_Localized: Τα γραφικά είναι καλά
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246681361408000
+    m_Localized: Το παιχνίδι είναι διασκεδαστικό
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246694510551040
+    m_Localized: Υπερβολικά πολλές διαφημίσεις
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246703058542592
+    m_Localized: Το παιχνίδι έχει σφάλματα
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245482302169088
+    m_Localized: Ενημερώστε το στην πιο πρόσφατη έκδοση για να απολαύσετε μια καλύτερη εμπειρία.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245456964378624
+    m_Localized: ΕΝΗΜΕΡΩΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237620428677308416
+    m_Localized: ΣΤΕΙΛΤΕ ΚΑΡΤΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237665078654001152
+    m_Localized: ΜΕΛΗ ΟΜΑΔΑΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237687049928302592
+    m_Localized: Είσαι έτοιμος να στείλεις αυτή την κάρτα στον {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237712387861372928
+    m_Localized: ΣΤΕΙΛΤΕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237958163799728128
+    m_Localized: ΕJoin μια ομάδα για να ανταλλάξεις κάρτες με τα μέλη της ομάδας!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237981312209641472
+    m_Localized: 'Αυτή η αίτηση είναι διαθέσιμη για:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238028475220353024
+    m_Localized: Ημερήσιο Όριο {0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238061569860165632
+    m_Localized: ζητώντας μια κάρτα!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238326946397675520
+    m_Localized: ΚΑΡΤΑ ΛΗΦΘΗΚΕ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238392037197471744
+    m_Localized: Από
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238436267575992320
+    m_Localized: ΑΙΤΗΣΗ ΚΑΡΤΑΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238438330066264064
+    m_Localized: '<color=#B5DAFF>Ασημένιες Κάρτες</color> μπορούν να δωρηθούν μεταξύ των μελών της ομάδας.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238438440233852928
+    m_Localized: '<color=#FDDC25>Χρυσές Κάρτες</color> μπορούν να συλλεχθούν μόνο από εκδηλώσεις και ανταμοιβές.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239838413705961472
+    m_Localized: Αυτή η κάρτα μπορεί να συλλεχθεί από εκδηλώσεις, ανταμοιβές και μέλη της ομάδας.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239838802429861888
+    m_Localized: '<color=#FDDC25>Χρυσές κάρτες</color> δεν μπορούν να σταλούν!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239840300178071552
+    m_Localized: Χρειάζεσαι μια διπλή κάρτα για να την στείλεις.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239840360295030784
+    m_Localized: Έχεις ήδη στείλει 3 κάρτες σήμερα.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239841109020237824
+    m_Localized: Έχεις ήδη ζητήσει μια κάρτα σήμερα.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267800449324670976
+    m_Localized: ΚΑΛΩΣ ΞΑΝΑ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267800545017716736
+    m_Localized: Μας έλειψες! ΔClaim τα δώρα σου και συνέχισε το ταξίδι σου!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246035593416400896
+    m_Localized: Αυτή η κάρτα μπορεί να συλλεχθεί από εκδηλώσεις και ανταμοιβές.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 245969547665858560
+    m_Localized: Η κάρτα στάλθηκε!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247400907857190912
+    m_Localized: Μπόνους ανταμοιβές
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401008721813504
+    m_Localized: Συγκεντρώστε αγορές χωρίς χρονικό περιορισμό και κερδίστε καταπληκτικές ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401059258982400
+    m_Localized: "Μεγάλο\nέπαθλο"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401253006467072
+    m_Localized: ΜΠΟΝΟΥΣ ΑΝΤΑΜΟΙΒΕΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247775982527700992
+    m_Localized: Συγχαρητήρια! Έχεις συλλέξει όλες τις κάρτες!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248229689585295360
+    m_Localized: Μπόνους
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164245458944
+    m_Localized: ΧΡΥΣΟ ΠΕΡΑΣΜΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236160
+    m_Localized: Το <color=#FFF200>{0}</color> ξεκίνησε! Συλλέγετε αστέρια για να ξεκλειδώσετε εξαιρετικές ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236161
+    m_Localized: Το <color=#FFF200>{0}</color> έχει λήξει! Το νέο <color=#FFF200>{1}</color> ξεκινά σύντομα!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236162
+    m_Localized: '<color=#FFF200>{0}</color> ενεργοποιήστε για να ξεκλειδώσετε ειδικές ανταμοιβές!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236163
+    m_Localized: Ειδικές Ανταμοιβές
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430464
+    m_Localized: Αποκτήστε αποκλειστικά μπόνους μέχρι να τελειώσει η εκδήλωση!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430465
+    m_Localized: 8 ζωές αντί για 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430466
+    m_Localized: Χρυσό πλαίσιο και χρυσό όνομα
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430467
+    m_Localized: Μάζεψε αστέρια!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430468
+    m_Localized: Ξεκλειδώστε τις ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430469
+    m_Localized: Ενεργοποιήστε το <color=#FDF36D>{0}</color> για ειδικές ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430470
+    m_Localized: Συγχαρητήρια! Έχεις ενεργοποιήσει το <color=#FFF34F>{0}</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430471
+    m_Localized: Το πλαίσιο της φωτογραφίας προφίλ και το όνομά σας είναι χρυσά!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430472
+    m_Localized: Το δώρο μοιράζεται με τους συμπαίκτες σας!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430473
+    m_Localized: Η μέγιστη ποσότητα ζωών αυξάνεται σε 8!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430474
+    m_Localized: ΕΝΕΡΓΟΠΟΙΗΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430475
+    m_Localized: Ξεκλειδώστε ειδικές ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430476
+    m_Localized: Έχετε λάβει το <color=#FFF34F>{0}</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430477
+    m_Localized: Το δώρο σας
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430478
+    m_Localized: Έχετε ήδη διεκδικήσει αυτή την ανταμοιβή!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624768
+    m_Localized: Κερδίστε περισσότερα αστέρια για να ανοίξετε αυτή τη φάση και να ξεκλειδώσετε αυτή την ανταμοιβή!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624769
+    m_Localized: Πάρτε {0} για να διεκδικήσετε την ανταμοιβή!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624770
+    m_Localized: Ολοκληρώστε αυτό το στάδιο και ξεκλειδώστε το {0} για να πάρετε την ανταμοιβή!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624771
+    m_Localized: Ολοκληρώστε επίπεδο {0} για ξεκλείδωμα του {1}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624772
+    m_Localized: Κερδίστε περισσότερα αστέρια για να ανοίξετε αυτή τη φάση!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624773
+    m_Localized: Κερδίστε περισσότερα αστέρια για να φτάσετε στην επόμενη φάση!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624774
+    m_Localized: Ολοκληρώστε αυτό το στάδιο και ξεκλειδώστε {0} για να ανοίξετε το Σεντούκι με Θησαυρούς!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624775
+    m_Localized: Αποκτήστε το <color=#FFF34F>{0}</color> και μαζέψτε όλα τα νομίσματά σας όταν το event τελειώσει!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624776
+    m_Localized: Αποκτήστε το <color=#FFF34F>{0}</color> για να ξεκλειδώσετε το Σεντούκι Θησαυρού στα τέλη των σταδίων!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624777
+    m_Localized: Αποθήκευσε 10 νομίσματα στο Θησαυροφυλάκιο για κάθε 10 αστέρια! Διεκδίκησέ τα όταν τελειώνει η εκδήλωση!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624778
+    m_Localized: Ολοκληρώστε τα στάδια για να κερδίσετε 10 νομίσματα στον Θησαυρό για κάθε 10 αστέρια! Συλλέξτε τα όταν τελειώσει η εκδήλωση!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819072
+    m_Localized: ΤΕΛΙΚΟ ΜΠΟΝΟΥΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819073
+    m_Localized: Αυτές είναι οι ανεκπλήρωτες ανταμοιβές σου!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819074
+    m_Localized: Το <color=#fff34f>{0}</color> είναι ανοιχτό, αυτό είναι το πρώτο σου βραβείο!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819075
+    m_Localized: "Η ολοκλήρωση ενός επιπέδου για τη συλλογή αστεριών ξεκλειδώνει ανταμοιβές! \nΠατήστε για να μάθετε πώς να τις συλλέξετε!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819076
+    m_Localized: Ξεκλειδώστε το <color=#fff34f>{0}</color> για αποκλειστικές ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819077
+    m_Localized: ΠΑΤΗΣΤΕ ΓΙΑ ΝΑ ΠΑΡΑΚΑΜΨΕΤΕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819078
+    m_Localized: ΕΝΕΡΓΟΠΟΙΗΜΕΝΟ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819079
+    m_Localized: ΕΝΕΡΓΟΠΟΙΗΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819080
+    m_Localized: Δώρο για τους συμπαίκτες σου
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5353076616585216
+    m_Localized: Κέρδισε επίπεδα!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5372156589367296
+    m_Localized: ΔΩΡΕΑΝ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43766314718715904
+    m_Localized: ΧΡΙΣΤΟΥΓΕΝΝΙΑΤΙΚΟΣ ΔΙΑΒΑΤΗΡΙΟΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41612858264379392
+    m_Localized: Χριστουγεννιάτικο Πάσο
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43168464116899840
+    m_Localized: Χρυσό Πάσο
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19695394816
+    m_Localized: ΚΎΜΑ ΤΟΥ ΣΈΡΦΙΝΓΚ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197617770496
+    m_Localized: Συλλέξτε περισσότερα κοχύλια από τους άλλους παίκτες σε 30 λεπτά!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233189662720
+    m_Localized: ΜΑΣΤΕΡ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273316569088
+    m_Localized: Νικήστε στο Master του Κύματος για να κερδίσετε αυτά τα δώρα!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301875585024
+    m_Localized: Έχετε ήδη διεκδικήσει αυτές τις ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444700024832
+    m_Localized: Συλλέξτε Κοχύλια στον περιορισμένο χρόνο
+    m_Metadata:
+      m_Items: []
+  - m_Id: 476987777024
+    m_Localized: Ολοκληρώστε εναντίον άλλων παικτών
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500748509184
+    m_Localized: Κερδίστε εκπληκτικές ανταμοιβές
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536987295744
+    m_Localized: Συμμετείχε στο Σερφ Ρας
+    m_Metadata:
+      m_Items: []
+  - m_Id: 675730677760
+    m_Localized: Βαθμολογία
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395896868864
+    m_Localized: Ανταμοιβή
+    m_Metadata:
+      m_Items: []
+  - m_Id: 775722885120
+    m_Localized: Αναζητούνται παίκτες...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251465525600706560
+    m_Localized: Νικήστε στο Κύμα του Σέρφινγκ για να κερδίσετε αυτά τα δώρα!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251109559260667904
+    m_Localized: Αυτό το πακέτο περιέχει {0} κάρτες!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 253212636654592000
+    m_Localized: Ημέρες σύνδεσης
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255097381692891136
+    m_Localized: 'Στάδιο ανταμοιβών: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348499468288
+    m_Localized: Ολοκληρώθηκε
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051200
+    m_Localized: Να είστε ο πρώτος και να κερδίσετε εκπληκτικές ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051201
+    m_Localized: Ολοκληρώστε πρώτα {0} επίπεδα για να κερδίσετε το Μεγάλο Βραβείο!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051204
+    m_Localized: '{0} Επίπεδα'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051205
+    m_Localized: Τελείωσες πρώτος!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051206
+    m_Localized: Αναζητώντας παίκτες...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051207
+    m_Localized: ΣΤΑΔΙΟ {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051210
+    m_Localized: Κερδίστε επίπεδα πριν από άλλους για να ολοκληρώσετε την αποστολή
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051211
+    m_Localized: Κέρδισε εκπληκτικές ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051212
+    m_Localized: Συμμετοχή στον αγώνα!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051213
+    m_Localized: ΑΓΩΝΑΣ ΜΟΝΟΚΕΡΟΥ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051209
+    m_Localized: Ξεκινήστε την αποστολή ενάντια σε άλλους παίκτες
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9561896378368
+    m_Localized: Μεγάλο Βραβείο
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051203
+    m_Localized: Προσπαθήστε ξανά και πάρτε το προβάδισμα για ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8358106793762816
+    m_Localized: ΔΟΚΙΜΑΣΤΕ ΞΑΝΑ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000105134579712
+    m_Localized: Συγχαρητήρια!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000232930828288
+    m_Localized: Ο αγώνας τελείωσε
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000346080567296
+    m_Localized: Να είσαι ο πρώτος που θα ολοκληρώσει την επόμενη φορά!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8358723339673600
+    m_Localized: Τελειώστε
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27990813114884096
+    m_Localized: Σχεδόν τα καταφέρατε! Προχωρήστε, αναλάβετε ηγεσία και κερδίστε μεγάλα την επόμενη φορά!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40226007532167168
+    m_Localized: Αγώνας Μονόκερου
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258714048939417600
+    m_Localized: ΑΓΩΝΑΣ ΚΟΥΝΕΛΙΩΝ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 261220253826015232
+    m_Localized: Αγώνας κουνελιών
+    m_Metadata:
+      m_Items: []
+  - m_Id: 262986913796841472
+    m_Localized: ΠΛΗΡ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 262986960378781696
+    m_Localized: ΟΜΑΔΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271045432789950464
+    m_Localized: ΕΠΕΞ. ΟΜΑΔΑΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273924986122526720
+    m_Localized: Προτάσεις κορυφαίων ομάδων!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825505589190656
+    m_Localized: ΠΡΟΕΙΔΟΠΟΙΗΣΗ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825568310812672
+    m_Localized: δεν θα μπορεί να συμμετάσχει ξανά.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825591157186560
+    m_Localized: Δεν μπορείτε να μπείτε στην ομάδα.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277826028287549440
+    m_Localized: ΑΠΟΒΟΛΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615821602775040
+    m_Localized: Επίπεδο
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615873058496512
+    m_Localized: ΚΟΣΜΟΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615967702966272
+    m_Localized: ΜΑΓΕΣΤΡΟΙ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278616096044474368
+    m_Localized: ΚΑΛΥΤΕΡΟΙ ΠΑΙΚΤΕΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278616189900414976
+    m_Localized: ΚΑΛΥΤΕΡΕΣ ΟΜΑΔΕΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278643930016243712
+    m_Localized: ΚΑΤΑΤΑΞΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278668086418071552
+    m_Localized: Βαθμός
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280381325501784064
+    m_Localized: Αύξησε την βαθμολογία της ομάδας σου για εκείνο τον μήνα!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280381518901141504
+    m_Localized: Τρέξε μπροστά και γίνε θρύλος!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280382392553693184
+    m_Localized: Αύξησε την βαθμολογία σου για εκείνον τον μήνα!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280723815215915008
+    m_Localized: Χωρητικότητα
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281101773235544064
+    m_Localized: Κορυφή
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281101820337577984
+    m_Localized: Βάση
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303936521708232704
+    m_Localized: ΑΓΩΝΑΣ ΣΚΕΪΤΜΠΟΡΝΤ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303936521725009920
+    m_Localized: Αγώνας σκέιτμπορντ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328674388338532352
+    m_Localized: Ομαδική Έφοδος
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328674935795867648
+    m_Localized: Συλλέξτε καυχησιολογίες!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675153786429440
+    m_Localized: Μπες σε μια ομάδα και συνεισέφερε στην Ομαδική Έφοδο!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675265375887360
+    m_Localized: Αν αποχωρήσεις από την ομάδα σου, θα βγεις από την τρέχουσα Ομαδική Έφοδο!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675424260317184
+    m_Localized: Πέρασε επίπεδα για να συλλέξεις βάρκες ως ομάδα και να κερδίσεις εκπληκτικές ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675526479699968
+    m_Localized: Χωρίς Συνεισφορά
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691474817343488
+    m_Localized: Ομαδική Αναμέτρηση
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691548192497664
+    m_Localized: Κατάταξη Ομάδας
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691671190462464
+    m_Localized: Μπράβο! Συγχαρητήρια!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691834302750720
+    m_Localized: ΣΥΓΚΡΟΥΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691895833190400
+    m_Localized: Η ΟΜΑΔΑ ΜΟΥ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692100393590784
+    m_Localized: 'Προσωπικές ανταμοιβές: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692220749144064
+    m_Localized: Συλλέξτε νεροπίστολα στα επίπεδα!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692289833525248
+    m_Localized: Αντιπαρατεθείτε με την ομάδα σας για να κερδίσετε!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692350239891456
+    m_Localized: Συλλέξτε περισσότερα για προσωπικές ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692455319789568
+    m_Localized: Γίνε μέλος μιας ομάδας και αντιπαρατέσου με την ομάδα σου για να κερδίσεις εκπληκτικές ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692559271419904
+    m_Localized: Αν αποχωρήσεις από την ομάδα σου, θα βγεις από την τρέχουσα Ομαδική Αναμέτρηση!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692653794254848
+    m_Localized: Συλλέξτε νεροπίστολα και αντιπαρατεθείτε με την ομάδα σας για να κερδίσετε εκπληκτικές ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692775722672128
+    m_Localized: ΠΡΟΣΩΠΙΚΕΣ ΑΜΟΙΒΕΣ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692921290186752
+    m_Localized: Τρέχουσα Κατάταξη
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328693020170903552
+    m_Localized: Τρέχουσα Βαθμολογία
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329403534840684544
+    m_Localized: Συλλέξτε τουλάχιστον ένα σκάφος για να διεκδικήσετε τις ανταμοιβές σας!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329403596081717248
+    m_Localized: Συμμετάσχετε την επόμενη φορά για να λάβετε ομαδικές ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407227346116608
+    m_Localized: Ανταμοιβές Ομαδικής Εφόδου
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407337861832704
+    m_Localized: '{0} προσωπικές ανταμοιβές!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407487313272832
+    m_Localized: '{0} ομαδικές ανταμοιβές!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330435785229590528
+    m_Localized: Προσωπικές ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330443706701176832
+    m_Localized: '{0} προσωπικές ανταμοιβές!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331096417918509056
+    m_Localized: Μάζεψε νεροπίστολα από τα επίπεδα για να συνεισφέρεις και να νικήσεις τους άλλους!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331096633254076416
+    m_Localized: Μάζεψε περισσότερα για προσωπικές ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331098070130352128
+    m_Localized: Συνεισέφερε για να κερδίσεις ανταμοιβές την επόμενη φορά!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

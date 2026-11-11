@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: ShopUI_ko
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ko
+  m_SharedData: {fileID: 11400000, guid: ea53d7dabf6e4fe4587fa53b68aaddef, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 1603597482842914830
+  m_TableData:
+  - m_Id: 14446482153472
+    m_Localized: 초보자 패키지
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1742614440173568
+    m_Localized: 가성비 최고
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14113282449408
+    m_Localized: 취소됨
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13346152636416
+    m_Localized: 계속
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15200370548736
+    m_Localized: 무료
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16573329825792
+    m_Localized: 자이언트 패키지
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17052365479936
+    m_Localized: 레전더리 패키지
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16223801696256
+    m_Localized: 한정 할인!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17154383536128
+    m_Localized: 마스터 패키지
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17264207192064
+    m_Localized: 메가 패키지
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17855167848448
+    m_Localized: 인기왕!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15607314505728
+    m_Localized: 광고 시청 후 플레이
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230547251200
+    m_Localized: 구매가 취소되었습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15410249326592
+    m_Localized: 광고 제거
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15534962761728
+    m_Localized: 보상광고를 제외한 모든 광고를 영구적으로 제거합니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15906989137920
+    m_Localized: 상점
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17414367469568
+    m_Localized: 슈퍼 패키지
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12736836303577088
+    m_Localized: 더 많은 혜택!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54661344438247424
+    m_Localized: 데일리 패키지
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54661686546653184
+    m_Localized: 새로운 이정표
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75395962292396032
+    m_Localized: 구매 성공!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153221218880708608
+    m_Localized: 이 레벨 무료로 <color=#fddc25>부활</color>하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178259481198583808
+    m_Localized: 부스터 패키지
+    m_Metadata:
+      m_Items: []
+  - m_Id: 192394475516977152
+    m_Localized: 이 레벨 무료로 <color={0}>부활</color>하세요!
+    m_Metadata:
+      m_Items:
+      - rid: 1603597482842914830
+  - m_Id: 130456000597581824
+    m_Localized: 가치
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 1603597482842914830
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 192394475516977152

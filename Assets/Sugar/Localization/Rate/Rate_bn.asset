@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: Rate_bn
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: bn
+  m_SharedData: {fileID: 11400000, guid: 376336e44518ff54d9519b270e11ca2b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 456884477952
+    m_Localized: আপনি আমাদের কিভাবে মূল্যায়ন করবেন?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456888672256
+    m_Localized: জমা দিন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866562
+    m_Localized: হার
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866563
+    m_Localized: কি ভুল আমাদের বলুন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866564
+    m_Localized: একটি মন্তব্য লিখুন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060864
+    m_Localized: এটা শুনে দুঃখিত
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060865
+    m_Localized: আপনার কাছ থেকে আরো পরামর্শ আশা করি
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060866
+    m_Localized: আপনার মতামত ছেড়ে দিন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060867
+    m_Localized: ধন্যবাদ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67727879299072
+    m_Localized: ঠিক আছে
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67390011334656
+    m_Localized: জমা দিতে ব্যর্থ হয়েছে, আবার চেষ্টা করুন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67390028111872
+    m_Localized: ব্যর্থ হয়েছে
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866560
+    m_Localized: আপনার রেটিং এবং প্রতিক্রিয়া আমাদের খেলা উন্নত করতে সাহায্য করবে
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322255095586816
+    m_Localized: স্তরের কঠিনতা
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322399882960896
+    m_Localized: এাড সমস্যা
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322457621749760
+    m_Localized: গেমের সমস্যা
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322468799569920
+    m_Localized: ক্রয় সমস্যা
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322648710045696
+    m_Localized: অনুষ্ঠান ও পুরস্কার
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322700010577920
+    m_Localized: উন্নতির জন্য আইডিয়া
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352342747844173824
+    m_Localized: একটি বিষয় নির্বাচন করুন
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

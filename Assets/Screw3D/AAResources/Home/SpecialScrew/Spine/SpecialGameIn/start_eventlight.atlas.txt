@@ -1,0 +1,6 @@
+start_eventlight.png
+size:57,57
+filter:Linear,Linear
+jindupao
+bounds:2,2,53,53
+offsets:2,2,57,57

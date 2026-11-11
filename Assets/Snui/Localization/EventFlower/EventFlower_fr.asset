@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventFlower_fr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: c27726ec506177c4094cec49fcd1e7cc, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 168417876528594984
+  m_TableData:
+  - m_Id: 60585833185402880
+    m_Localized: Récoltez des fleurs pour débloquer des récompenses et affrontez-vous dans l'<color=#FFEE2B>Arène du Jardin</color> !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60246434811731968
+    m_Localized: Gagnez les niveaux sans échouer pour multiplier votre score !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61248678940106752
+    m_Localized: Un grand travail ! Félicitations à !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61343243856502784
+    m_Localized: La progression de votre score multiplié sera réinitialisée !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63869017910140928
+    m_Localized: RÉCOMPENSES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60246351366053888
+    m_Localized: ARÈNE DU JARDIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61233480611127296
+    m_Localized: Gagnez des niveaux !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61233531257348096
+    m_Localized: Multipliez le score sans échouer !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61233552585383936
+    m_Localized: Gagnez des récompenses incroyables !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63868946472755200
+    m_Localized: Votre Classement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191802079158722560
+    m_Localized: Vous allez perdre votre <color=#C31439>progression multiplié !</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2142630904324096
+    m_Localized: 'Récomp. Pers. : {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2811815930093568
+    m_Localized: Terminé !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2149988078444544
+    m_Localized: À la prochaine fois !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3240164863238144
+    m_Localized: Récompense exceptionnelle !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3258403383140352
+    m_Localized: "Arène du Jardin\nRécompenses Personnelles"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43375333200617472
+    m_Localized: ARÈNE DU BURGER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43375338904870912
+    m_Localized: Collectez des burgers pour débloquer des récompenses dans <color=#FFEE2B>Arena du Burger!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43375341207543808
+    m_Localized: "ARÈNE DU BURGER\nRÉCOMP. PERSONNELLES"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 265605705924337664
+    m_Localized: ARÈNE DES CHATS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 265611107713933312
+    m_Localized: Collectez des boîtes pour débloquer des récompenses et rivaliser dans l'<color=#{0}>ARÈNE DES CHATS</color> !
+    m_Metadata:
+      m_Items:
+      - rid: 168417876528594984
+  - m_Id: 271744063847260160
+    m_Localized: "ARÈNE DES CHATS\nRÉCOMPENSES PERSONNELLES"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 168417876528594984
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 265611107713933312

@@ -1,0 +1,16 @@
+icon_TeamSurge.png
+size:177,157
+filter:Linear,Linear
+icon_TeamSurge_1
+bounds:72,3,65,34
+icon_TeamSurge_2
+bounds:2,2,68,35
+icon_TeamSurge_3
+bounds:84,39,56,89
+rotate:90
+icon_TeamSurge_4
+bounds:2,52,103,80
+rotate:90
+icon_TeamSurge_5
+bounds:84,97,58,91
+rotate:90

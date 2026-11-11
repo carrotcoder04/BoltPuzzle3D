@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a537cc18c49c4b6d9d42f48ab13b66c, type: 3}
+  m_Name: Settings Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: Settings
+  m_TableCollectionNameGuidString: 4b9869ac48d44437683a4aa29b696ef2
+  m_Entries:
+  - m_Id: 15779792674816
+    m_Key: About-Personalized
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15779796869120
+    m_Key: About-Privacy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15779796869121
+    m_Key: About-Terms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15779796869122
+    m_Key: About-Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8754095488753664
+    m_Key: About-VersionUpdate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22299657887744
+    m_Key: Language-Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12665741312
+    m_Key: Setting-About
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141197758464
+    m_Key: Setting-ContactUs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7702546968731648
+    m_Key: Setting-Delete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7702418941796352
+    m_Key: Setting-Facebook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141197758465
+    m_Key: Setting-Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2977110430834688
+    m_Key: Setting-Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136393433168207872
+    m_Key: Setting-Nickname
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44192551605886976
+    m_Key: Setting-RestorePurchases
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45631217423343616
+    m_Key: Setting-ReviewUs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7692479523446784
+    m_Key: Setting-SignIn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7693806831919104
+    m_Key: Setting-SignInContent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7693834774372352
+    m_Key: Setting-SignOut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7693856026910720
+    m_Key: Setting-SignOutContent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141197758466
+    m_Key: Setting-Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2482099970048
+    m_Key: Setting-Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141201952768
+    m_Key: Setting-Version
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141201952769
+    m_Key: Setting-Vibrate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170409449950797824
+    m_Key: Setting-RestoreFinish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320776652045934592
+    m_Key: Setting-ColorBlind
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8879009782005497858
+  references:
+    version: 2
+    RefIds:
+    - rid: 8879009782005497858
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1689566962898

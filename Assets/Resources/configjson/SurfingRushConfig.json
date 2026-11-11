@@ -1,0 +1,163 @@
+{
+ "UnlockLevel": 60,
+ "Duration": 1800,
+ "OpponentsFinalShells": [
+  3,
+  6,
+  9,
+  12,
+  15,
+  21,
+  24,
+  27,
+  30,
+  33
+ ],
+ "OpponentsDifficultyGroup": [
+  [1, 1, 2, 2],
+  [1, 2, 2, 3],
+  [1, 2, 2, 4],
+  [1, 2, 3, 5],
+  [1, 2, 4, 6],
+  [1, 2, 5, 7],
+  [2, 4, 6, 8],
+  [1, 2, 5, 9],
+  [2, 3, 6, 10]
+ ],
+ "DefaultStagesGroup": [
+  2,
+  5
+ ],
+ "OpponentsStagesDifficulties": [
+  {
+   "PrevDayRank1": 1,
+   "PrevDayRank2": 1,
+   "GroupOffsetRange1": [0, 1, 2],
+   "GroupOffsetRange2": [0, 1, 2]
+  },
+  {
+   "PrevDayRank1": 1,
+   "PrevDayRank2": 2,
+   "GroupOffsetRange1": [0, 1, 2],
+   "GroupOffsetRange2": [0, -1]
+  },
+  {
+   "PrevDayRank1": 1,
+   "PrevDayRank2": 3,
+   "GroupOffsetRange1": [0, 1, 2],
+   "GroupOffsetRange2": [0, -1, -2]
+  },
+  {
+   "PrevDayRank1": 1,
+   "PrevDayRank2": 4,
+   "GroupOffsetRange1": [0, 1, 2],
+   "GroupOffsetRange2": [-1, -2]
+  },
+  {
+   "PrevDayRank1": 1,
+   "PrevDayRank2": 5,
+   "GroupOffsetRange1": [0, 1, 2],
+   "GroupOffsetRange2": [-1, -2]
+  },
+  {
+   "PrevDayRank1": 1,
+   "PrevDayRank2": 0,
+   "GroupOffsetRange1": [0, 1, 2],
+   "GroupOffsetRange2": [0]
+  },
+  {
+   "PrevDayRank1": 2,
+   "PrevDayRank2": 0,
+   "GroupOffsetRange1": [0, -1],
+   "GroupOffsetRange2": [0]
+  },
+  {
+   "PrevDayRank1": 3,
+   "PrevDayRank2": 0,
+   "GroupOffsetRange1": [0, -1, -2],
+   "GroupOffsetRange2": [0]
+  },
+  {
+   "PrevDayRank1": 4,
+   "PrevDayRank2": 0,
+   "GroupOffsetRange1": [-1, -2],
+   "GroupOffsetRange2": [0]
+  },
+  {
+   "PrevDayRank1": 5,
+   "PrevDayRank2": 0,
+   "GroupOffsetRange1": [-1, -2],
+   "GroupOffsetRange2": [0]
+  },
+  {
+   "PrevDayRank1": 0,
+   "PrevDayRank2": 0,
+   "GroupOffsetRange1": [0],
+   "GroupOffsetRange2": [0]
+  }
+ ],
+ "InitialRewards": [
+  {
+   "type": "inf_heart",
+   "count": 1800
+  }
+ ],
+ "StageRewards": [
+  [
+   {
+    "type": "drill",
+    "count": 1
+   },
+   {
+    "type": "hammer",
+    "count": 1
+   }
+  ],
+  [
+   {
+    "type": "drill",
+    "count": 1
+   },
+   {
+    "type": "hammer",
+    "count": 1
+   },
+   {
+    "type": "broom",
+    "count": 1
+   }
+  ],
+  [
+   {
+    "type": "card_2",
+    "count": 1
+   },
+   {
+    "type": "drill",
+    "count": 1
+   },
+   {
+    "type": "hammer",
+    "count": 1
+   }
+  ],
+  [
+   {
+    "type": "card_3",
+    "count": 1
+   },
+   {
+    "type": "drill",
+    "count": 1
+   },
+   {
+    "type": "hammer",
+    "count": 1
+   },
+   {
+    "type": "broom",
+    "count": 1
+   }
+  ]
+ ]
+}

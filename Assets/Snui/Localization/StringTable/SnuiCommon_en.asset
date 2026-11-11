@@ -1,0 +1,1699 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: SnuiCommon_en
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 56d4b1d6a9621d04eb877a1525a91b26, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 232529176027136
+    m_Localized: GET MORE LIVES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233280816275456
+    m_Localized: REFILL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233343164604416
+    m_Localized: FREE LIVES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264074574159872
+    m_Localized: LIFE BANK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266123567161344
+    m_Localized: USE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304573871808512
+    m_Localized: Free life!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320630867091456
+    m_Localized: '{0} Free lives'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436162156650496
+    m_Localized: Star chest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436200639389696
+    m_Localized: Level chest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1697441651875840
+    m_Localized: Lives Full.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12288803132661760
+    m_Localized: Free
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12288946942763008
+    m_Localized: Special collection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35481137106116608
+    m_Localized: Full
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39808712133566464
+    m_Localized: CHANGE NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026432
+    m_Localized: Free for the first change only!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026433
+    m_Localized: Enter nickname...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026434
+    m_Localized: Please set a nickname
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026435
+    m_Localized: Invalid name. Please try another.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026436
+    m_Localized: Type at least 3 characters!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026437
+    m_Localized: Type at most 15 characters!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40123526764552192
+    m_Localized: EDIT PROFILE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900277404950528
+    m_Localized: FEWER ADS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900312473526272
+    m_Localized: Allow Tracking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900371902619648
+    m_Localized: Allow tracking to remove irrelevant ads and get {0} free coins!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900440034893824
+    m_Localized: Please allow tracking to get rewards.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900487157899264
+    m_Localized: DON'T MISS OUT!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900528459210752
+    m_Localized: Get notified about limited-time events and updates.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41986630234398720
+    m_Localized: NOT NOW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41986630246981632
+    m_Localized: YES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41991704809562112
+    m_Localized: Please allow notifications to get  limited-time events and updates.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375679755411456
+    m_Localized: SIGN IN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375726647730176
+    m_Localized: Save your progress in the cloud for free!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375887180521472
+    m_Localized: SIGN IN WITH FACEBOOK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375933552746496
+    m_Localized: SIGN IN WITH APPLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375955442819072
+    m_Localized: SIGN IN WITH GOOGLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42721333207883776
+    m_Localized: SUCCESS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42721386727202816
+    m_Localized: Your progress is saved.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726296550105088
+    m_Localized: SIGN OUT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726401105715200
+    m_Localized: Game will restart from <color=#EF4C4C>level 1</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726463454044160
+    m_Localized: 'Tips: You can sign back in to resume your progress.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42730837634965504
+    m_Localized: CONFIRM SIGN OUT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44926427412291584
+    m_Localized: TEAMS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44926451865083904
+    m_Localized: MY TEAM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45176682426916864
+    m_Localized: JOIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45176701162872832
+    m_Localized: CREATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45199495682580480
+    m_Localized: SEARCH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45199535239061504
+    m_Localized: VIEW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45200576651190272
+    m_Localized: Members
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45250024622252032
+    m_Localized: Enter team name...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252313470722048
+    m_Localized: Team Logo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252369947025408
+    m_Localized: Team Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252406294863872
+    m_Localized: Required Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252486565453824
+    m_Localized: '*Team logo/name cannot be changed after create'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252780607135744
+    m_Localized: CHOOSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252819287007232
+    m_Localized: CREATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252991467380736
+    m_Localized: SAVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45262366646984704
+    m_Localized: CHOOSE LOGO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46002148947779584
+    m_Localized: TEAM INFO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46995160800681984
+    m_Localized: 'Team Score:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46996381083099136
+    m_Localized: 'Weekly Helps:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46997273542909952
+    m_Localized: 'Required Level:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47002942832631808
+    m_Localized: LEAVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111296
+    m_Localized: Reach Level {0} to set higher requirements.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47003035736465408
+    m_Localized: EDIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072008410750976
+    m_Localized: Helps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072050559311872
+    m_Localized: Levels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072106691682304
+    m_Localized: Leader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48163983373361152
+    m_Localized: Connection Lost!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48164027749097472
+    m_Localized: Please check your internet connection.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48191512465367040
+    m_Localized: JOIN A TEAM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193180493930496
+    m_Localized: 'Join or create a team to:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193207886929920
+    m_Localized: Get free lives
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193240967405568
+    m_Localized: Get free coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634620147228672
+    m_Localized: LEAVE TEAM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634666892746752
+    m_Localized: LEAVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634758253076480
+    m_Localized: CANCEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634806575652864
+    m_Localized: Are you sure you want to leave your team?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50241104296009728
+    m_Localized: Kick Out
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50332880616808448
+    m_Localized: KICK OUT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50334557843480576
+    m_Localized: Are you sure you want to kick this player out?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50335704901738496
+    m_Localized: NO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50707987734454272
+    m_Localized: ASK LIVES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50708198070411264
+    m_Localized: REQUEST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50728058632527872
+    m_Localized: '{0} has joined the team'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50728091402625024
+    m_Localized: '{0} has been kicked.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50736182525419520
+    m_Localized: Asking for lives!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51007642271735808
+    m_Localized: sent you a life!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52780918081839104
+    m_Localized: Connect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52798812643647488
+    m_Localized: Character not supported.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52805192968560640
+    m_Localized: Name changed successfully!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52896768214425600
+    m_Localized: Team is full
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52896720361611264
+    m_Localized: Insufficient levels to join this team
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111297
+    m_Localized: HELP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111298
+    m_Localized: No results found.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305600
+    m_Localized: Your lives are full
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305601
+    m_Localized: You already helped this request.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305602
+    m_Localized: You have to wait {0} minutes until you can help again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305603
+    m_Localized: You already made this request.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149277246742528
+    m_Localized: LEADERBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149395333177344
+    m_Localized: PLAYERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149430573719552
+    m_Localized: TEAMS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57493952461266944
+    m_Localized: View Team
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57494080442064896
+    m_Localized: Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57494596047855616
+    m_Localized: You must leave your team before joining a new one!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57496004599996416
+    m_Localized: RANK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63674767004131328
+    m_Localized: FEEDBACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717830468558848
+    m_Localized: Please select or describe your issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717859195346944
+    m_Localized: Describe the issues or suggestions...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717953256808448
+    m_Localized: SUBMIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63719952446644224
+    m_Localized: Enter your email here
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63740716600254464
+    m_Localized: Thanks for your feedback!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63741145136488448
+    m_Localized: Submission failed. Please try again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63762870901399552
+    m_Localized: LOADING FAILED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63764307005923328
+    m_Localized: Please select or describe your issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63764348902825984
+    m_Localized: Enter your email here
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010148310736896
+    m_Localized: Do you want to delete your data from this device and our servers?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010253747150848
+    m_Localized: Your game data will be removed from this device and our servers immediately. All your data and your progress will be lost and cannot be restored.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010270369177600
+    m_Localized: You have active subscriptions.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010281240813568
+    m_Localized: To avoid further charges, please go to App Store > Account > Subscriptions and cancel any active subscriptions first.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010291277783040
+    m_Localized: Are you sure you want to delete your data? You will lose your current progress and it cannot be recovered.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010303109914624
+    m_Localized: By tapping "Yes", you will restart the game as a new user.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010720036315136
+    m_Localized: I UNDERSTAND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95625437298810880
+    m_Localized: ENTER NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95625466474389504
+    m_Localized: What is your name?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111216658851291136
+    m_Localized: Earn free lives from your team members.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111930957190127616
+    m_Localized: No free lives available.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115602396111953920
+    m_Localized: MESSAGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118470840675196928
+    m_Localized: Tap to edit your profile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118480965112684544
+    m_Localized: Create your nickname!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118485440464412672
+    m_Localized: CHOOSE PHOTO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125717701572157440
+    m_Localized: 'Max characters: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125725518169366528
+    m_Localized: MY PROFILE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125734265910452224
+    m_Localized: 'Current Level:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125736013802758144
+    m_Localized: GENERAL STATS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125737398732578816
+    m_Localized: First try wins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125737783090208768
+    m_Localized: Helps made
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126423333916893184
+    m_Localized: Help received
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67417490278309888
+    m_Localized: ARE YOU SURE?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67417490278309889
+    m_Localized: Do you really want to quit the game?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875570810881
+    m_Localized: STAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875562422272
+    m_Localized: QUIT LEVEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875570810880
+    m_Localized: Are you sure you want to quit?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 149290068038639616
+    m_Localized: CONTINUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661760
+    m_Localized: Allow tracking to improve your ad experience
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661761
+    m_Localized: You will be directed to your device settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661762
+    m_Localized: Turn On!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661763
+    m_Localized: Allow Notifications
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661764
+    m_Localized: Allow Tracking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155136856064
+    m_Localized: Please turn on notifications from your device settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158623746145378304
+    m_Localized: No Team
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159757269296209920
+    m_Localized: TAP TO CONTINUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164882056993562624
+    m_Localized: TAP TO CLAIM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167298491044847616
+    m_Localized: START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167388066735972352
+    m_Localized: DEALS FOR YOU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167388656706772992
+    m_Localized: 3 IN 1 DEAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167390104249163776
+    m_Localized: BUY ALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754245507047424
+    m_Localized: CRAFTER KITS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754499891585024
+    m_Localized: Claim each offer to unlock free rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754502554968064
+    m_Localized: Don't forget to claim free rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172042873425879040
+    m_Localized: BREAD OFFER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172075683758989312
+    m_Localized: CHOOSE ONE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180366206789738496
+    m_Localized: CLAIM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186520677521547265
+    m_Localized: NETWORK ISSUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186520677521547264
+    m_Localized: "This action requires an internet connection.\nPlease try again later."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186506587038277632
+    m_Localized: "{0}\nREWARDS!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219843
+    m_Localized: Here are your unclaimed rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179369413868249088
+    m_Localized: PLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188378725424816128
+    m_Localized: ROCKET SALE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188407241268781056
+    m_Localized: Free life refill!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191590517525438464
+    m_Localized: REWARDS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195269482039468032
+    m_Localized: '<sprite=0> Enjoy your <color=#FFFF0B>Play Points</color> rewards!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195312493884596224
+    m_Localized: HAPPY HALLOWEEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197048656911654912
+    m_Localized: CONGRATS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199617985050042368
+    m_Localized: SPECIAL OFFER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199621120049012736
+    m_Localized: Remove Pop-up Ads Forever!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199625686962397184
+    m_Localized: ONCE ONLY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 201820360875696128
+    m_Localized: FREE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204334129812070400
+    m_Localized: CHRISTMAS SALE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 208692138415742976
+    m_Localized: TRY AGAIN!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205711112789811200
+    m_Localized: BLACK FRIDAY SALE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759028850688
+    m_Localized: POWER PACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793728
+    m_Localized: Buy 1 pack & get 1 FREE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793729
+    m_Localized: Claim the pack to unlock free rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793730
+    m_Localized: CLAIMED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213344241960607744
+    m_Localized: Collect {0} Stars!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213385543838326784
+    m_Localized: CHALLENGE PACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213385629515374592
+    m_Localized: Unlock the pack to claim up to <color=#FFE315>{0}</color> coins!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214475252614291456
+    m_Localized: Unlock the pack to claim your rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214520926147960832
+    m_Localized: CLAIM!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214539340325314560
+    m_Localized: Collect stars within the time limit to unlock up to <color=#FFE315>{0}</color> coins!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769054264582144
+    m_Localized: LAST CHANCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769183633694720
+    m_Localized: Are you sure you want to give up all your earned rewards?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769539012878336
+    m_Localized: GIVE UP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214783103136161792
+    m_Localized: Up to
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214839998228193280
+    m_Localized: Collect stars to unlock rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214867523276890112
+    m_Localized: UNLOCK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 215234507382448128
+    m_Localized: Unlock the pack and collect stars to claim your rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 220645188114046976
+    m_Localized: COLLECTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159497032479793152
+    m_Localized: Grand Prize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224668775510695936
+    m_Localized: '<color=#fddc25>New Collection</color> is coming soon!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224920229035106304
+    m_Localized: Reach <color={0}>level {1}</color> to unlock the Collection!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224920905328877568
+    m_Localized: Collection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224923537313357824
+    m_Localized: '<color={0}>Downloading…</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228241451726659584
+    m_Localized: Reach Level {0} to unlock the Collection and view your Tokens!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228241896872337408
+    m_Localized: AVATAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242197553602560
+    m_Localized: FRAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242241958699008
+    m_Localized: NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242435928481792
+    m_Localized: TOKEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228243239926226944
+    m_Localized: Activate the Pass to unlock this style for a limited time!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230438899417079808
+    m_Localized: UNEQUIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230438918601826304
+    m_Localized: EQUIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233681610001604608
+    m_Localized: QUIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816773359755264
+    m_Localized: Join & Play with Us!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816800794697728
+    m_Localized: Join our growing Facebook community and play together!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816831106932736
+    m_Localized: JOIN NOW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816862262222848
+    m_Localized: FANS REWARDS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009152
+    m_Localized: Completed!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009153
+    m_Localized: HOME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009154
+    m_Localized: CONGRATULATIONS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235891040235544576
+    m_Localized: 'Rewards:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390117552128
+    m_Localized: QUIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390121746432
+    m_Localized: REPLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390130135040
+    m_Localized: LEVEL {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390130135041
+    m_Localized: LOADING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390130135042
+    m_Localized: PAUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390134329344
+    m_Localized: QUIT LEVEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390134329345
+    m_Localized: 'Rewards:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390134329346
+    m_Localized: SKIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390134329347
+    m_Localized: Unlock at LV {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390138523648
+    m_Localized: Graphic is good
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390138523649
+    m_Localized: Game is fun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390138523650
+    m_Localized: Too many ads
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390138523651
+    m_Localized: Game has bugs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390142717952
+    m_Localized: WELL DONE!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390163689472
+    m_Localized: Your rank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390163689473
+    m_Localized: Reward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245456964378624
+    m_Localized: UPDATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245482302169088
+    m_Localized: Please update to the latest version to enjoy a better experience.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245536492576768
+    m_Localized: LATER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246559818866688
+    m_Localized: QUIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246575794970624
+    m_Localized: REPLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246590647001088
+    m_Localized: LEVEL {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246601078235136
+    m_Localized: LOADING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246615879933952
+    m_Localized: PAUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246643658809344
+    m_Localized: SKIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246657709727744
+    m_Localized: Unlock at LV {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246673576779776
+    m_Localized: Graphic is good
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246681361408000
+    m_Localized: Game is fun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246694510551040
+    m_Localized: Too many ads
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246703058542592
+    m_Localized: Game has bugs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246711614922752
+    m_Localized: WELL DONE!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246748369608704
+    m_Localized: Your rank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246760054939648
+    m_Localized: Reward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237620428677308416
+    m_Localized: SEND CARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237665078654001152
+    m_Localized: TEAM MEMBERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237687049928302592
+    m_Localized: You are about to send this card to {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237712387861372928
+    m_Localized: SEND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237958163799728128
+    m_Localized: Join a team to exchange cards with team members!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237981312209641472
+    m_Localized: 'This request is available for:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238028475220353024
+    m_Localized: Daily Limit {0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238061569860165632
+    m_Localized: Asking for a card!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238326946397675520
+    m_Localized: CARD RECEIVED!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238392037197471744
+    m_Localized: From
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238436267575992320
+    m_Localized: REQUEST CARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238438330066264064
+    m_Localized: '<color=#B5DAFF>Silver Cards</color> can be gifted among team members.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238438440233852928
+    m_Localized: '<color=#FDDC25>Gold Cards</color> can only be collected from events and rewards.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239838413705961472
+    m_Localized: This card can be collected from events, rewards, and team members.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239838802429861888
+    m_Localized: '<color=#FDDC25>Gold cards</color> can''t be sent!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239840300178071552
+    m_Localized: You need a duplicate card to send it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239840360295030784
+    m_Localized: You've already sent 3 cards today.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239841109020237824
+    m_Localized: You've already requested a card today.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267800449324670976
+    m_Localized: WELCOME BACK!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267800545017716736
+    m_Localized: We missed you! Claim your gifts and continue your journey!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 245969547665858560
+    m_Localized: Card sent!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246035593416400896
+    m_Localized: This card can be collected from events and rewards.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247775982527700992
+    m_Localized: Congratulations! You've collected all the cards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247400907857190912
+    m_Localized: Bonus rewards
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401008721813504
+    m_Localized: Accumulate purchases with no time limit to earn amazing rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401059258982400
+    m_Localized: "Grand\nPrize"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401253006467072
+    m_Localized: BONUS REWARDS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248229689585295360
+    m_Localized: BONUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19695394816
+    m_Localized: SURFING RUSH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197617770496
+    m_Localized: Collect more shells than other players in 30 minutes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233189662720
+    m_Localized: MASTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273316569088
+    m_Localized: Win Surfing Rush Master to earn these rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301875585024
+    m_Localized: You have already claimed these rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444700024832
+    m_Localized: Collect Shells in the limited time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 476987777024
+    m_Localized: Compete against other players
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500748509184
+    m_Localized: Earn amazing rewards
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536987295744
+    m_Localized: Join Surfing Rush
+    m_Metadata:
+      m_Items: []
+  - m_Id: 675730677760
+    m_Localized: Rank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395896868864
+    m_Localized: Reward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 775722885120
+    m_Localized: Searching for players...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251465525600706560
+    m_Localized: Win Surfing Rush to earn these rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164245458944
+    m_Localized: GOLDEN PASS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236160
+    m_Localized: The <color=#FFF200>{0}</color> has started! Collect stars to unlock special rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236161
+    m_Localized: The <color=#FFF200>{0}</color> has ended!  New  <color=#FFF200>{1}</color> will start soon!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236162
+    m_Localized: Activate the <color=#FFF200>{0}</color> to unlock special rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236163
+    m_Localized: Special Rewards
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430464
+    m_Localized: Get exclusive bonuses until the event ends!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430465
+    m_Localized: 8 lives instead of 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430466
+    m_Localized: Golden frame and golden name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430467
+    m_Localized: Collect stars!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430468
+    m_Localized: Unlock rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430469
+    m_Localized: Activate the <color=#FDF36D>{0}</color> to unlock special rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430470
+    m_Localized: Congratulations! You have  activated the <color=#FFF34F>{0}</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430471
+    m_Localized: Your profile picture frame and name are golden!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430472
+    m_Localized: The gift is shared with your teammates!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430473
+    m_Localized: The maximum amount of lives  is increased to 8!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430474
+    m_Localized: ACTIVATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430475
+    m_Localized: Unlock special rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430476
+    m_Localized: Got the <color=#FFF34F>{0}</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430477
+    m_Localized: Your gift
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430478
+    m_Localized: You already claimed this reward!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624768
+    m_Localized: Earn more stars to open this stage and unlock this reward!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624769
+    m_Localized: Get {0} to claim this reward!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624770
+    m_Localized: Finish this stage and unlock the {0} to access this reward!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624771
+    m_Localized: Finish LV {0} to unlock {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624772
+    m_Localized: Earn more stars to open this stage!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624773
+    m_Localized: Earn more stars to reach the next stage!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624774
+    m_Localized: Finish this stage and unlock the {0} to open the Treasure Chest!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624775
+    m_Localized: Get the  <color=#FFF34F>{0}</color> and grab all your coins when the event ends!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624776
+    m_Localized: Get the  <color=#FFF34F>{0}</color> to unlock the Treasure Chest at the end of the stages!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624777
+    m_Localized: Save 10 coins in the Treasure Chest for every 10 stars! Claim them when the event ends!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624778
+    m_Localized: Finish stages to save 10 coins in the Treasure Chest for every 10 stars! Collect them when the event ends!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819072
+    m_Localized: FINAL BONUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819073
+    m_Localized: Here are your unclaimed  rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819074
+    m_Localized: '<color=#fff34f>{0}</color> is open! Here is your first reward!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819075
+    m_Localized: Complete levels to collect stars and unlock rewards! Tap to learn how to collect them!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819076
+    m_Localized: Unlock <color=#fff34f>{0}</color> to earn exclusive rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819077
+    m_Localized: TAP TO SKIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819078
+    m_Localized: ACTIVATED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819079
+    m_Localized: ACTIVATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819080
+    m_Localized: Gift for your teammates
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5353076616585216
+    m_Localized: Win levels!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43766314718715904
+    m_Localized: CHRISTMAS PASS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41612858264379392
+    m_Localized: Christmas Pass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43168464116899840
+    m_Localized: Golden Pass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5372156589367296
+    m_Localized: FREE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251109559260667904
+    m_Localized: This pack contains {0} Cards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 253212636654592000
+    m_Localized: Login days
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255097381692891136
+    m_Localized: 'Reward stage: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258714048939417600
+    m_Localized: RABBIT RACE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 261220253826015232
+    m_Localized: Rabbit Race
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348499468288
+    m_Localized: Completed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051200
+    m_Localized: Be the first and win amazing rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051201
+    m_Localized: Finish {0} levels first to win Grand Prize!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051204
+    m_Localized: '{0} Levels'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051205
+    m_Localized: You finished first!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051206
+    m_Localized: Searching for players...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051207
+    m_Localized: STAGE {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051209
+    m_Localized: Race against other players.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051210
+    m_Localized: Complete levels faster than others!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051211
+    m_Localized: Earn amazing rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051212
+    m_Localized: Join the race!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051213
+    m_Localized: UNICORN RACE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9561896378368
+    m_Localized: Grand Prize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051203
+    m_Localized: Try again and take the lead for rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000105134579712
+    m_Localized: Congratulations!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000232930828288
+    m_Localized: Race is over
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000346080567296
+    m_Localized: Be the first to finish next time!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8358106793762816
+    m_Localized: TRY AGAIN!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8358723339673600
+    m_Localized: Finish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27990813114884096
+    m_Localized: Almost there! Keep playing to win big next time!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40226007532167168
+    m_Localized: Unicorn Race
+    m_Metadata:
+      m_Items: []
+  - m_Id: 262986913796841472
+    m_Localized: INFO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271045432789950464
+    m_Localized: TEAM EDIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 262986960378781696
+    m_Localized: TEAM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273924986122526720
+    m_Localized: Top team recommendations!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825505589190656
+    m_Localized: WARNING!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825568310812672
+    m_Localized: won't be able to join again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825591157186560
+    m_Localized: You can't join this team.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277826028287549440
+    m_Localized: KICK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615821602775040
+    m_Localized: Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615873058496512
+    m_Localized: WORLD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615967702966272
+    m_Localized: MASTERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278616096044474368
+    m_Localized: TOP PLAYERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278616189900414976
+    m_Localized: TOP TEAMS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278643930016243712
+    m_Localized: RANKING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278668086418071552
+    m_Localized: Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280381325501784064
+    m_Localized: Raise your team score for that month!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280381518901141504
+    m_Localized: Race to the front and become a legend!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280382392553693184
+    m_Localized: Raise your score for that month!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280723815215915008
+    m_Localized: Capacity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281101773235544064
+    m_Localized: Top
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281101820337577984
+    m_Localized: Bottom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303936521708232704
+    m_Localized: SKATE RACE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303936521725009920
+    m_Localized: Skate Race
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328674388338532352
+    m_Localized: TEAM SURGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328674935795867648
+    m_Localized: Collect boats!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675153786429440
+    m_Localized: Join a team to contribute in Team Surge!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675265375887360
+    m_Localized: Leaving your team will exit the current Team Surge!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675424260317184
+    m_Localized: Beat levels to collect boats as a team to earn amazing rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675526479699968
+    m_Localized: No Contribution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691474817343488
+    m_Localized: TEAM CLASH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691548192497664
+    m_Localized: Team Rank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691671190462464
+    m_Localized: Great job! Congratulations!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691834302750720
+    m_Localized: CLASH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691895833190400
+    m_Localized: MY TEAM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692100393590784
+    m_Localized: 'Personal rewards: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692220749144064
+    m_Localized: Collect water blasters in levels!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692289833525248
+    m_Localized: Clash with your team to win!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692350239891456
+    m_Localized: Collect more for personal rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692455319789568
+    m_Localized: Join a team and clash with your team to earn amazing rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692559271419904
+    m_Localized: Leaving your team will exit the current Team Clash!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692653794254848
+    m_Localized: Collect water blasters and clash with your team to earn amazing rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692775722672128
+    m_Localized: PERSONAL REWARDS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692921290186752
+    m_Localized: Current Rank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328693020170903552
+    m_Localized: Current Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329403534840684544
+    m_Localized: Collect at least one boat to claim your rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329403596081717248
+    m_Localized: Contribute next time to get team rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407227346116608
+    m_Localized: TEAM SURGE REWARDS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407337861832704
+    m_Localized: '{0} Personal Rewards!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407487313272832
+    m_Localized: '{0} Team Rewards!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330435785229590528
+    m_Localized: Personal Rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330443706701176832
+    m_Localized: '{0} Personal Rewards!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331096417918509056
+    m_Localized: Contribute by collecting water blasters from levels to beat others!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331096633254076416
+    m_Localized: Collect more for personal rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331098070130352128
+    m_Localized: Contribute to get rewards next time!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

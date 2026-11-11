@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: Settings_tr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: a746a06ec6d2ac94e96f9393645c795b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 15779792674816
+    m_Localized: Kişiselleştirilmiş Ayar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15779796869120
+    m_Localized: Mahremiyet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15779796869121
+    m_Localized: Terim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15779796869122
+    m_Localized: HAKKINDA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22299657887744
+    m_Localized: DİL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12665741312
+    m_Localized: Hakkında
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141197758464
+    m_Localized: Bize Ulaşın
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141197758465
+    m_Localized: Dil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141197758466
+    m_Localized: Ses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2482099970048
+    m_Localized: AYARLAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141201952768
+    m_Localized: Sürüm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141201952769
+    m_Localized: Titreşim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7692479523446784
+    m_Localized: İlerlemeyi kaydet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7693806831919104
+    m_Localized: İlerlemenizi kaydedin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7693834774372352
+    m_Localized: oturumu Kapat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7693856026910720
+    m_Localized: İlerlemeniz kaydedildi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7702418941796352
+    m_Localized: Bizi takip edin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7702546968731648
+    m_Localized: Hesabı sil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2977110430834688
+    m_Localized: Müzik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8754095488753664
+    m_Localized: VERSİYON GÜNCELLEMESİ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44192551605886976
+    m_Localized: Satın almaları geri yükle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45631217423343616
+    m_Localized: İnceleme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136393433168207872
+    m_Localized: Takma adi ayarla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170409449950797824
+    m_Localized: Satın aldıklarınız geri yüklendi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320776652045934592
+    m_Localized: Renk körü
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

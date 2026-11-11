@@ -1,0 +1,9 @@
+lock_light.png
+size:380,380
+filter:Linear,Linear
+light_text
+bounds:2,260,375,117
+offsets:0,3,375,123
+star
+bounds:2,217,41,41
+offsets:2,2,46,45

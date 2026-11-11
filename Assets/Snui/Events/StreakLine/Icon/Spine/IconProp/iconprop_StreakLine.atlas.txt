@@ -1,0 +1,5 @@
+iconprop_StreakLine.png
+size:71,85
+filter:Linear,Linear
+StreakLine
+bounds:2,2,67,81

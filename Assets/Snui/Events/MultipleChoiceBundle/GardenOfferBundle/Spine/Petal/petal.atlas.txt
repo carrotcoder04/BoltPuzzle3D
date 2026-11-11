@@ -1,0 +1,17 @@
+petal.png
+size:337,100
+filter:Linear,Linear
+h1
+bounds:189,2,96,72
+offsets:0,1,96,73
+rotate:90
+h2
+bounds:263,2,96,72
+offsets:0,1,96,73
+rotate:90
+h3
+bounds:2,4,102,94
+offsets:0,1,103,95
+h4
+bounds:106,10,81,88
+offsets:0,1,81,89

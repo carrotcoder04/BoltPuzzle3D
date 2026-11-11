@@ -1,0 +1,5 @@
+icon_streakline.png
+size:89,120
+filter:Linear,Linear
+Balloon_icon
+bounds:2,2,85,116

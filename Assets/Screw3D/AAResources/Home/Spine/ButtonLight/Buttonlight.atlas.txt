@@ -1,0 +1,11 @@
+Buttonlight.png
+size:600,268
+filter:Linear,Linear
+saoguang_line
+bounds:566,47,29,219
+ui_36
+bounds:2,2,264,459
+rotate:90
+ui_38
+bounds:463,13,253,101
+rotate:90

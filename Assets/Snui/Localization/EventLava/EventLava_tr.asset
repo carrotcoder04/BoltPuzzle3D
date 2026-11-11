@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventLava_tr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 08c21e7866fc7f240a80c30d403d01db, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 1603597504982810692
+  m_TableData:
+  - m_Id: 159505708477308928
+    m_Localized: 'Sonraki zıplama: başlayacak'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27276818049392640
+    m_Localized: Mücadeleyi başarıyla tamamlayın ve {0} seviyeyi kazanın!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29338599487954944
+    m_Localized: Meydan okumayı başaramadınız. Bir dahaki sefere şansınızı deneyin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239245050109952
+    m_Localized: Mücadeleye {0} oyuncuyla başlayın!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239359034515456
+    m_Localized: Başarısızlık olmadan seviyeleri kazan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239395415908352
+    m_Localized: Payınızı kazanın!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008956788989952
+    m_Localized: Seviyeler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27976254979301376
+    m_Localized: Seviyenizde oyuncu aranıyor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008534560989184
+    m_Localized: Oyuncular
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240243852304384
+    m_Localized: Ödülü {0} diğer kazananla paylaşıyorsunuz!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240163988561920
+    m_Localized: Kazandın
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159534441011601408
+    m_Localized: '{0} bitti! Bir dahakine daha şanslı ol!'
+    m_Metadata:
+      m_Items:
+      - rid: 1603597504982810692
+  - m_Id: 26880132651147264
+    m_Localized: Mücadeleyi tamamlamak için {0} seviyeyi kazanın!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155012007616512
+    m_Localized: Mücadelede <color=#C8332D>{0} oyuncu</color> var!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155983760744448
+    m_Localized: Bir sonraki aşamaya geçmek için seviyeleri başarıyla tamamlayın!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159156661325389824
+    m_Localized: '<color=#C8332D>Büyük ödül</color>, <color=#C8332D>kazananlar</color> arasında eşit olarak paylaşılacak!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239984476545024
+    m_Localized: TEBRIKLER!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493591639646208
+    m_Localized: KÜPLER ATLAMA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493656198373376
+    m_Localized: SÜTUNLAR ATLAMA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493696933453824
+    m_Localized: SÜTUNLAR ATLAMA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493735013539840
+    m_Localized: küpler atlama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493762054217728
+    m_Localized: sütunlar atlama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493766349185024
+    m_Localized: sütunlar atlama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790256730112
+    m_Localized: ZIPLAYAN KOŞU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790294478848
+    m_Localized: zıplayan koşu
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 1603597504982810692
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 159534441011601408

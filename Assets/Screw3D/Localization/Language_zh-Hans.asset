@@ -1,0 +1,423 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: Language_zh-Hans
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh-Hans
+  m_SharedData: {fileID: 11400000, guid: 27c9beb39bf46524a810ade5065abc3a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 365780000768
+    m_Localized: 图片上传失败
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1671097737216
+    m_Localized: 美术设计不错
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2006998573056
+    m_Localized: 游戏很有趣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2008537882624
+    m_Localized: 广告太多
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2010119135232
+    m_Localized: 游戏有 bug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2265040543744
+    m_Localized: 请前往“系统设置”启用相册访问权限。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14182546999861248
+    m_Localized: 最多添加2个孔位
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14182607217483776
+    m_Localized: 没有螺丝需要清理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14430059359100928
+    m_Localized: 3D 螺丝大师
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14430184026398720
+    m_Localized: 3D 螺丝大师
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17424358203973632
+    m_Localized: 广告尚未准备好。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17711244432629760
+    m_Localized: 没有足够的金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19859794792800256
+    m_Localized: 这将用于提供个性化广告和优化服务。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20224634396860416
+    m_Localized: "3D 螺丝大师：\n螺丝消消乐游戏"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20224637282541568
+    m_Localized: "3D 螺丝大师：\n螺丝消消乐游戏"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332155161370624
+    m_Localized: 将螺丝与同色盒子配对。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332301794238464
+    m_Localized: 手指划动屏幕以旋转模型。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332320983179264
+    m_Localized: 双指划动可缩放模型。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332328943968256
+    m_Localized: 孔位可暂时容纳无法匹配的螺丝。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332331062091776
+    m_Localized: 快来搜集所有的螺丝吧!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332336523075584
+    m_Localized: 干得漂亮!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332337328381952
+    m_Localized: 重试
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332338196602880
+    m_Localized: 就差一点点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332339001909248
+    m_Localized: 添加1个盒子并继续游戏!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332339710746624
+    m_Localized: 添加1个孔位
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332341468160000
+    m_Localized: 电钻
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332925856342016
+    m_Localized: 锤子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332927840247808
+    m_Localized: 拆除一块物体
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332929249533952
+    m_Localized: 扫帚
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332930449104896
+    m_Localized: 清理孔位
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332931858391040
+    m_Localized: 暂停
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333309966508032
+    m_Localized: 选择并拆除一块物体。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333313808490496
+    m_Localized: 服务条款
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333437041336320
+    m_Localized: 隐私政策
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333440157704192
+    m_Localized: 飞速加载中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21426829767204864
+    m_Localized: 清除孔位并继续游戏!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21428140755640320
+    m_Localized: 第 {0} 关
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899772248064
+    m_Localized: "恭喜你完成了\n<color=#FDDC25>“疯狂螺丝大作战”</color>!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053763
+    m_Localized: 关卡中藏着{0}颗“特殊螺丝”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053762
+    m_Localized: 收集<color=#FDDC25>特殊螺丝</color>即可赢得奖励!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053760
+    m_Localized: 解锁奖励!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859458
+    m_Localized: 收集特殊螺丝!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859457
+    m_Localized: 挑战关卡!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859456
+    m_Localized: 疯狂螺丝大作战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61304828918226944
+    m_Localized: 已完成
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34836419909246976
+    m_Localized: 挑战关卡!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8070819077939200
+    m_Localized: 退出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616564219905
+    m_Localized: 收集螺丝
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616564219907
+    m_Localized: 收集{0}个特殊螺丝!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062784
+    m_Localized: 使用“电钻”可增加一个孔位!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062785
+    m_Localized: 使用“锤子”可拆除一块物体!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062786
+    m_Localized: 使用“扫帚”可清理所有孔位!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54743339331739648
+    m_Localized: 色盲模式
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56917147161452544
+    m_Localized: 主页
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56916809062801408
+    m_Localized: 使用工具加速通关!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65524306266808320
+    m_Localized: 继续游戏？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41015862499467264
+    m_Localized: 第{0}关解锁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947387843141632
+    m_Localized: 奖励
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947389877379072
+    m_Localized: 关卡进度已恢复
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947391869673472
+    m_Localized: 版本更新
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947393778081792
+    m_Localized: 请更新到最新版本以享受更好的体验。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947395959119872
+    m_Localized: 更新
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947762847473664
+    m_Localized: "疯狂螺丝大作战解锁了!\n收集特殊螺丝、赢取丰厚奖励!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729669470281728
+    m_Localized: 新道具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729684733353984
+    m_Localized: 已解锁!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729687115718656
+    m_Localized: 关卡礼物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729689330311168
+    m_Localized: 继续通关，赢取更多奖励!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90278512504594432
+    m_Localized: 复活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89826605159931904
+    m_Localized: 关卡未完成
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89826608586678272
+    m_Localized: "你还有未完成的关卡进度\n是否继续闯关？"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91270772847271936
+    m_Localized: 已移除强制广告!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147063343653314560
+    m_Localized: "- 无强制广告!\n- 无横幅广告!\n<color=#ffde00>- 保留可选择激励广告，以获取额外奖励!</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574626926592
+    m_Localized: 使用{0}个电钻!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120896
+    m_Localized: 使用{0}个锤子!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120897
+    m_Localized: 使用{0}个扫帚!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120899
+    m_Localized: 消除{0}个盒子!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754157372137472
+    m_Localized: 拧下螺丝，同色配对，通关取胜!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754232760557568
+    m_Localized: 道具用完了？点击道具图标，即可用金币购买!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754235302305792
+    m_Localized: 关卡失败了？点击金币按钮即可继续游戏!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754236803866624
+    m_Localized: 金币可用来购买道具或复活关卡哦!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754239249145856
+    m_Localized: 在设置中开启色盲模式。清晰度大大提升!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754240528408576
+    m_Localized: 在设置页面登录账户，同步你的游戏进度!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754241262411776
+    m_Localized: 手拧螺丝，智斗难题!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645270635569152
+    m_Localized: 你的<color=#C31439>积木跳跃赛</color>活动将失败!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645275379326976
+    m_Localized: 你将失去1条<color=#C31439>生命值</color>和<color=#C31439>特殊物品!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645305515401216
+    m_Localized: 你将失去已收集的<color=#C31439>特殊物品!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645315657228288
+    m_Localized: 你将丢失<color=#C31439>热气球之旅</color>进度!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624041025536
+    m_Localized: 继续游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219840
+    m_Localized: 激活后畅玩<color=#FFFF0B>1小时</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219845
+    m_Localized: 游戏升级礼物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219846
+    m_Localized: 感谢更新!这是你的专属礼物!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219847
+    m_Localized: 添加盒子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219848
+    m_Localized: 添加1个盒子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624049414146
+    m_Localized: 挑战关卡!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624049414148
+    m_Localized: 挑战失败!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 161578115962757120
+    m_Localized: 你赢了{0}个关卡并获得了这些奖励!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169587814167470080
+    m_Localized: 疯狂螺丝大作战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169587814171664384
+    m_Localized: 你的<color=#C31439>{0}</color>活动将失败!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204681899265744896
+    m_Localized: 你将失去
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209106736197394432
+    m_Localized: 困难
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

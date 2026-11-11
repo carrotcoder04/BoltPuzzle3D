@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventFlower_uk
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: uk
+  m_SharedData: {fileID: 11400000, guid: c27726ec506177c4094cec49fcd1e7cc, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 168417876528594965
+  m_TableData:
+  - m_Id: 60585833185402880
+    m_Localized: Збирайте квіти, щоб отримати нагороди та змагайтеся на <color=#FFEE2B>Арені Саду</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60246434811731968
+    m_Localized: Вигравайте рівні та уникайте невдач, щоб збільшити ваш множник очок!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61248678940106752
+    m_Localized: Чудова робота! Вітаємо!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61343243856502784
+    m_Localized: Ваш прогрес множника очок буде скинуто!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63869017910140928
+    m_Localized: ВИНАГОРОДИ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60246351366053888
+    m_Localized: АРЕНА САДУ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61233480611127296
+    m_Localized: Перемагайте на рівнях!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61233531257348096
+    m_Localized: Збільшуйте множник очок, не програючи!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61233552585383936
+    m_Localized: Здобувайте чудові винагороди!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63868946472755200
+    m_Localized: ВАШ РАНГ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191802079158722560
+    m_Localized: Ви втратите свій <color=#C31439>прогрес множника!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2142630904324096
+    m_Localized: 'Особисті нагороди: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2811815930093568
+    m_Localized: Завершено!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2149988078444544
+    m_Localized: Наступного разу йдіть за нагородами!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3240164863238144
+    m_Localized: Величезна нагорода!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3258403383140352
+    m_Localized: "Арена Саду\nОсобисті Винагороди"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43375333200617472
+    m_Localized: БУРГЕР-АРЕНА
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43375338904870912
+    m_Localized: Збирайте бургери, щоб розблокувати нагороди та змагатися на <color=#FFEE2B>Бургер-Арені!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43375341207543808
+    m_Localized: "БУРГЕР-АРЕНА\nОСОБИСТІ НАГОРОДИ"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 265605705924337664
+    m_Localized: АРЕНА КОТІВ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 265611107713933312
+    m_Localized: Збирайте бляшанки, щоб відкрити нагороди та змагатися на <color=#{0}>АРЕНА КОТІВ</color>!
+    m_Metadata:
+      m_Items:
+      - rid: 168417876528594965
+  - m_Id: 271744063847260160
+    m_Localized: "АРЕНА КОТІВ\nОСОБИСТІ НАГОРОДИ"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 168417876528594965
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 265611107713933312

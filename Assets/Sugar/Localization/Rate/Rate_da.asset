@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: Rate_da
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: da
+  m_SharedData: {fileID: 11400000, guid: 376336e44518ff54d9519b270e11ca2b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 456884477952
+    m_Localized: Hvordan vil du vurdere os?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456888672256
+    m_Localized: INDSEND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866562
+    m_Localized: BEDØM OS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866563
+    m_Localized: Fortæl os venligst, hvad der er galt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866564
+    m_Localized: Fortæl os venligst, hvad der er galt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060864
+    m_Localized: SORRY AT HØRE DET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060865
+    m_Localized: Håber at få flere råd fra dig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060866
+    m_Localized: Giv venligst din mening
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060867
+    m_Localized: TAK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67727879299072
+    m_Localized: Okay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866560
+    m_Localized: Din vurdering og feedback hjælper os med at forbedre spillet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67390011334656
+    m_Localized: Kunne ikke sendes, prøv igen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67390028111872
+    m_Localized: MISLYKKEDES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322255095586816
+    m_Localized: Niveau Sværhedsgrad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322399882960896
+    m_Localized: Annonceproblemer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322457621749760
+    m_Localized: Spilproblemer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322468799569920
+    m_Localized: Købsproblemer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322648710045696
+    m_Localized: Begivenheder & Belønninger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322700010577920
+    m_Localized: Idéer til Forbedring
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352342747844173824
+    m_Localized: Vælg et emne
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventLava_fr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 08c21e7866fc7f240a80c30d403d01db, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 1603597504982810674
+  m_TableData:
+  - m_Id: 159505708477308928
+    m_Localized: 'Le prochain saut commencera dans :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27276818049392640
+    m_Localized: "Gagnez {0} niveaux sans échouer\npour réussir le défi !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29338599487954944
+    m_Localized: Vous avez échoué au défi. Vous aurez plus de chance la prochaine fois !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239245050109952
+    m_Localized: Commencez le défi avec {0} joueurs !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239359034515456
+    m_Localized: Gagnez les niveaux sans échouer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239395415908352
+    m_Localized: Gagnez votre part de pièces !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008956788989952
+    m_Localized: Niveaux
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27976254979301376
+    m_Localized: Recherchez de joueurs de votre niveau…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008534560989184
+    m_Localized: Joueurs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240243852304384
+    m_Localized: Vous partagez la récompense avec {0} autres gagnants !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240163988561920
+    m_Localized: 'Vous avez gagné :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159534441011601408
+    m_Localized: '{0} est terminé ! Bonne chance la prochaine fois !'
+    m_Metadata:
+      m_Items:
+      - rid: 1603597504982810674
+  - m_Id: 26880132651147264
+    m_Localized: "Gagnez {0} niveaux sans échouer\npour réussir le défi !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155012007616512
+    m_Localized: '<color=#C8332D>{0} joueurs</color> participent au défi !'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155983760744448
+    m_Localized: Gagnez des niveaux sans échouer pour passer à l'étape suivante !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159156661325389824
+    m_Localized: Le <color=#C8332D>grand prix</color> sera partagé équitablement entre les <color=#C8332D>gagnants</color> !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239984476545024
+    m_Localized: FÉLICITATIONS !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493591639646208
+    m_Localized: SAUT DE CUBES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493656198373376
+    m_Localized: SAUT DE COLONNES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493696933453824
+    m_Localized: SAUT DE PILIERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493735013539840
+    m_Localized: saut de cubes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493762054217728
+    m_Localized: saut de colonnes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493766349185024
+    m_Localized: saut de piliers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790256730112
+    m_Localized: RUÉE BONDISSANTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790294478848
+    m_Localized: Ruée bondissante
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 1603597504982810674
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 159534441011601408

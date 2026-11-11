@@ -1,0 +1,5 @@
+Special.png
+size:86,89
+filter:Linear,Linear
+screw_sppt
+bounds:2,2,82,85

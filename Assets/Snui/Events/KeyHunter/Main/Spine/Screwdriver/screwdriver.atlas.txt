@@ -1,0 +1,5 @@
+screwdriver.png
+size:116,333
+filter:Linear,Linear
+lsdao_2
+bounds:2,2,112,329

@@ -1,0 +1,15 @@
+reasure_block_04.png
+size:376,204
+filter:Linear,Linear
+block_07
+bounds:215,99,103,159
+offsets:1,1,105,161
+rotate:90
+block_11
+bounds:2,10,192,211
+offsets:1,1,194,213
+rotate:90
+block_12
+bounds:215,2,95,148
+offsets:1,1,97,150
+rotate:90

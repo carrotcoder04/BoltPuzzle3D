@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: Rate_hu
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: hu
+  m_SharedData: {fileID: 11400000, guid: 376336e44518ff54d9519b270e11ca2b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 456884477952
+    m_Localized: Hogyan értékelné minket?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456888672256
+    m_Localized: KÜLDÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866562
+    m_Localized: ÉRTÉKELJ MINKET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866563
+    m_Localized: Kérem, mondja el, mi a probléma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866564
+    m_Localized: Írjon megjegyzést
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060864
+    m_Localized: SAJNÁLJUK, HOGY EZT HALLJUK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060865
+    m_Localized: Reméljük, több tanácsot kaphatunk tőled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060866
+    m_Localized: Kérem, hagyja el a véleményét
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060867
+    m_Localized: KÖSZÖNJÜK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67727879299072
+    m_Localized: Rendben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67390011334656
+    m_Localized: Nem sikerült elküldeni, kérem, próbálja újra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67390028111872
+    m_Localized: SIKERTELEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866560
+    m_Localized: Az értékelésed és a visszajelzésed segíteni fog nekünk a játék javításában
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322255095586816
+    m_Localized: Szint Nehézség
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322399882960896
+    m_Localized: Hirdetési problémák
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322457621749760
+    m_Localized: Játék Problémák
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322468799569920
+    m_Localized: Vásárlási problémák
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322648710045696
+    m_Localized: Események és Jutalmak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322700010577920
+    m_Localized: Fejlesztési Ötletek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352342747844173824
+    m_Localized: Válassz témát
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

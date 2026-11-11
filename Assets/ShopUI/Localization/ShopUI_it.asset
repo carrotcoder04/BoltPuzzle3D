@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: ShopUI_it
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: it
+  m_SharedData: {fileID: 11400000, guid: ea53d7dabf6e4fe4587fa53b68aaddef, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 1603597482842914829
+  m_TableData:
+  - m_Id: 14446482153472
+    m_Localized: Pacchetto iniziale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1742614440173568
+    m_Localized: MIGLIOR VALORE!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14113282449408
+    m_Localized: ANNULLATO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13346152636416
+    m_Localized: CONTINUA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15200370548736
+    m_Localized: GRATIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16573329825792
+    m_Localized: GIGANTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17052365479936
+    m_Localized: LEGGENDARIO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16223801696256
+    m_Localized: "OFFERTA\nLIMITATA!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17154383536128
+    m_Localized: PACCHETTO MASTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17264207192064
+    m_Localized: PACCHETTO MEGA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17855167848448
+    m_Localized: PIÙ POPOLARE!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15607314505728
+    m_Localized: GIOCA CON GLI ANNUNCI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230547251200
+    m_Localized: Il tuo acquisto è stato annullato.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15410249326592
+    m_Localized: RIMUOVI ANNUNCI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15534962761728
+    m_Localized: Rimuovi gli annunci automatici definitivamente!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15906989137920
+    m_Localized: NEGOZIO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17414367469568
+    m_Localized: ULTRA PACCHETTO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12736836303577088
+    m_Localized: Più Offerte!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54661344438247424
+    m_Localized: Pacchetto giornaliero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54661686546653184
+    m_Localized: Nuova pietra miliare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75395962292396032
+    m_Localized: ACQUISTO RIUSCITO!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153221218880708608
+    m_Localized: Gratis per <color=#fddc25>RINASCERE</color> in questo livello!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178259481198583808
+    m_Localized: SET POTENZIAMENTO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 192394475516977152
+    m_Localized: Gratis per <color={0}>RINASCERE</color> in questo livello!
+    m_Metadata:
+      m_Items:
+      - rid: 1603597482842914829
+  - m_Id: 130456000597581824
+    m_Localized: VALORE
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 1603597482842914829
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 192394475516977152

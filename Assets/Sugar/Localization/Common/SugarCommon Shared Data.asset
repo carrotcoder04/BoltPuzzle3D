@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a537cc18c49c4b6d9d42f48ab13b66c, type: 3}
+  m_Name: SugarCommon Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: SugarCommon
+  m_TableCollectionNameGuidString: f77e0f945e9af468dafbee2976eb6cfe
+  m_Entries:
+  - m_Id: 42028804216971264
+    m_Key: Button-Accept
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59077622859030528
+    m_Key: Button-Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39440986382786560
+    m_Key: Button-OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393523038347264
+    m_Key: ErrorPanel-ClaimedReward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181574557696
+    m_Key: ErrorPanel-Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393750491258880
+    m_Key: ErrorPanel-RewardExpired
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76771483648
+    m_Key: ErrorPanel-Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393766618357760
+    m_Key: ErrorPanel-Upgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56167706460676096
+    m_Key: Network-Error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42028719034851328
+    m_Key: Privacy-Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42028670481588224
+    m_Key: Privacy-Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507733466865664
+    m_Key: Time-Day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507558698606592
+    m_Key: Time-Day-Hour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10518717795393536
+    m_Key: Time-Hour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507640344928256
+    m_Key: Time-Hour-Minute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10518725181562880
+    m_Key: Time-Minute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507688877219840
+    m_Key: Time-Minute-Second
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10518727844945920
+    m_Key: Time-Second
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134481355381661696
+    m_Key: Time-DayAgo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134481355385856001
+    m_Key: Time-HourAgo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135160776681840640
+    m_Key: Time-MinuteAgo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134720342000132096
+    m_Key: Time-JustNowAgo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167343021827809280
+    m_Key: Time-Finished
+    m_Metadata:
+      m_Items: []
+  - m_Id: 257587757573988352
+    m_Key: iOS-ATTDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 272107352485781504
+    m_Key: Default-Display-UserName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296363860058112
+    m_Key: Time-MonthYear-Jan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296396789538816
+    m_Key: Time-MonthYear-Feb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296429568024576
+    m_Key: Time-MonthYear-Mar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296453144207360
+    m_Key: Time-MonthYear-Apr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296482105876480
+    m_Key: Time-MonthYear-May
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296506432839680
+    m_Key: Time-MonthYear-Jun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296527249170432
+    m_Key: Time-MonthYear-Jul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296545100128256
+    m_Key: Time-MonthYear-Aug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296566986006528
+    m_Key: Time-MonthYear-Sep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296586103644160
+    m_Key: Time-MonthYear-Oct
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296604768296960
+    m_Key: Time-MonthYear-Nov
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296629921538048
+    m_Key: Time-MonthYear-Dec
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8747176943899377686
+  references:
+    version: 2
+    RefIds:
+    - rid: 8747176943899377686
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1709537376457

@@ -1,0 +1,583 @@
+[
+ {
+  "Points": 0,
+  "FreeRewards": [
+   {
+    "type": 11,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 1,
+    "count": 8
+   },
+   {
+    "type": 13,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Points": 1,
+  "FreeRewards": [
+   {
+    "type": 13,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 31,
+    "count": 1800
+   }
+  ]
+ },
+ {
+  "Points": 2,
+  "FreeRewards": [
+   {
+    "type": 61,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 62,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Points": 3,
+  "FreeRewards": [
+   {
+    "type": 0,
+    "count": 20
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 12,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Points": 5,
+  "FreeRewards": [
+   {
+    "type": 13,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 11,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Points": 5,
+  "FreeRewards": [
+   {
+    "type": 11,
+    "count": 1
+   },
+   {
+    "type": 31,
+    "count": 900
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 0,
+    "count": 100
+   },
+   {
+    "type": 11,
+    "count": 1
+   },
+   {
+    "type": 13,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Points": 10,
+  "FreeRewards": [
+   {
+    "type": 61,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 62,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Points": 10,
+  "FreeRewards": [
+   {
+    "type": 11,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 31,
+    "count": 1800
+   }
+  ]
+ },
+ {
+  "Points": 10,
+  "FreeRewards": [
+   {
+    "type": 0,
+    "count": 30
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 11,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Points": 10,
+  "FreeRewards": [
+   {
+    "type": 62,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 63,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Points": 15,
+  "FreeRewards": [
+   {
+    "type": 13,
+    "count": 1
+   },
+   {
+    "type": 12,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 0,
+    "count": 120
+   },
+   {
+    "type": 13,
+    "count": 1
+   },
+   {
+    "type": 11,
+    "count": 1
+   },
+   {
+    "type": 12,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Points": 15,
+  "FreeRewards": [
+   {
+    "type": 12,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 13,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Points": 15,
+  "FreeRewards": [
+   {
+    "type": 11,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 31,
+    "count": 3600
+   }
+  ]
+ },
+ {
+  "Points": 15,
+  "FreeRewards": [
+   {
+    "type": 62,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 63,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Points": 15,
+  "FreeRewards": [
+   {
+    "type": 12,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 11,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Points": 20,
+  "FreeRewards": [
+   {
+    "type": 13,
+    "count": 1
+   },
+   {
+    "type": 31,
+    "count": 900
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 0,
+    "count": 150
+   },
+   {
+    "type": 11,
+    "count": 2
+   },
+   {
+    "type": 12,
+    "count": 2
+   },
+   {
+    "type": 13,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Points": 20,
+  "FreeRewards": [
+   {
+    "type": 62,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 63,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Points": 20,
+  "FreeRewards": [
+   {
+    "type": 0,
+    "count": 80
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 13,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Points": 20,
+  "FreeRewards": [
+   {
+    "type": 12,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 0,
+    "count": 150
+   }
+  ]
+ },
+ {
+  "Points": 20,
+  "FreeRewards": [
+   {
+    "type": 63,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 64,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Points": 25,
+  "FreeRewards": [
+   {
+    "type": 11,
+    "count": 1
+   },
+   {
+    "type": 12,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 31,
+    "count": 3600
+   },
+   {
+    "type": 0,
+    "count": 200
+   },
+   {
+    "type": 12,
+    "count": 2
+   },
+   {
+    "type": 13,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Points": 25,
+  "FreeRewards": [
+   {
+    "type": 13,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 12,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Points": 25,
+  "FreeRewards": [
+   {
+    "type": 11,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 13,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Points": 25,
+  "FreeRewards": [
+   {
+    "type": 63,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 64,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Points": 25,
+  "FreeRewards": [
+   {
+    "type": 13,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 12,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Points": 30,
+  "FreeRewards": [
+   {
+    "type": 12,
+    "count": 1
+   },
+   {
+    "type": 13,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 31,
+    "count": 3600
+   },
+   {
+    "type": 0,
+    "count": 300
+   },
+   {
+    "type": 11,
+    "count": 2
+   },
+   {
+    "type": 12,
+    "count": 2
+   },
+   {
+    "type": 13,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Points": 30,
+  "FreeRewards": [
+   {
+    "type": 11,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 12,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Points": 30,
+  "FreeRewards": [
+   {
+    "type": 63,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 64,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Points": 30,
+  "FreeRewards": [
+   {
+    "type": 11,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 13,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Points": 30,
+  "FreeRewards": [
+   {
+    "type": 12,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 11,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Points": 50,
+  "FreeRewards": [
+   {
+    "type": 11,
+    "count": 2
+   },
+   {
+    "type": 12,
+    "count": 2
+   },
+   {
+    "type": 13,
+    "count": 2
+   },
+   {
+    "type": 64,
+    "count": 1
+   }
+  ],
+  "VipRewards": [
+   {
+    "type": 31,
+    "count": 5400
+   },
+   {
+    "type": 0,
+    "count": 600
+   },
+   {
+    "type": 11,
+    "count": 3
+   },
+   {
+    "type": 12,
+    "count": 3
+   },
+   {
+    "type": 13,
+    "count": 3
+   },
+   {
+    "type": 65,
+    "count": 1
+   }
+  ]
+ }
+]

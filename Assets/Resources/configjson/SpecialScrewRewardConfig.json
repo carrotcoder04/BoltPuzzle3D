@@ -1,0 +1,227 @@
+[
+ {
+  "Goal": 3,
+  "Rewards": [
+   {
+    "type": 41,
+    "count": 900
+   }
+  ]
+ },
+ {
+  "Goal": 10,
+  "Rewards": [
+   {
+    "type": 31,
+    "count": 900
+   }
+  ]
+ },
+ {
+  "Goal": 20,
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 20
+   }
+  ]
+ },
+ {
+  "Goal": 8,
+  "Rewards": [
+   {
+    "type": 12,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Goal": 12,
+  "Rewards": [
+   {
+    "type": 11,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Goal": 24,
+  "Rewards": [
+   {
+    "type": 31,
+    "count": 1800
+   }
+  ]
+ },
+ {
+  "Goal": 10,
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 50
+   }
+  ]
+ },
+ {
+  "Goal": 12,
+  "Rewards": [
+   {
+    "type": 13,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Goal": 16,
+  "Rewards": [
+   {
+    "type": 11,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Goal": 28,
+  "Rewards": [
+   {
+    "type": 41,
+    "count": 900
+   }
+  ]
+ },
+ {
+  "Goal": 8,
+  "Rewards": [
+   {
+    "type": 13,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Goal": 16,
+  "Rewards": [
+   {
+    "type": 31,
+    "count": 1800
+   }
+  ]
+ },
+ {
+  "Goal": 30,
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 80
+   }
+  ]
+ },
+ {
+  "Goal": 10,
+  "Rewards": [
+   {
+    "type": 12,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Goal": 12,
+  "Rewards": [
+   {
+    "type": 11,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Goal": 16,
+  "Rewards": [
+   {
+    "type": 13,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Goal": 32,
+  "Rewards": [
+   {
+    "type": 41,
+    "count": 900
+   }
+  ]
+ },
+ {
+  "Goal": 12,
+  "Rewards": [
+   {
+    "type": 12,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Goal": 25,
+  "Rewards": [
+   {
+    "type": 31,
+    "count": 1800
+   }
+  ]
+ },
+ {
+  "Goal": 36,
+  "Rewards": [
+   {
+    "type": 13,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Goal": 14,
+  "Rewards": [
+   {
+    "type": 11,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Goal": 21,
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 100
+   }
+  ]
+ },
+ {
+  "Goal": 70,
+  "Rewards": [
+   {
+    "type": 31,
+    "count": 3600
+   }
+  ]
+ },
+ {
+  "Goal": 24,
+  "Rewards": [
+   {
+    "type": 13,
+    "count": 3
+   }
+  ]
+ },
+ {
+  "Goal": 100,
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 2000
+   }
+  ]
+ }
+]

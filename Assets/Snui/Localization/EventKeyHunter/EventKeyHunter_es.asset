@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventKeyHunter_es
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 87af58f7a2918874db9d4a82217c227f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 626313388032
+    m_Localized: ¡Consigue destornilladores!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626330165248
+    m_Localized: ¡Encuentra llaves!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359552
+    m_Localized: ¡Obtén recompensas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359553
+    m_Localized: Esta es tu última oportunidad para usar destornilladores.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553856
+    m_Localized: ¡No quedan destornilladores!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553857
+    m_Localized: "¡Felicidades!\n¡Completaste CAZADOR DE LLAVES!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553858
+    m_Localized: BUENA SUERTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553859
+    m_Localized: SIGUE ADELANTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553860
+    m_Localized: MÁXIMO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553861
+    m_Localized: Si sales ahora, ¡perderás tus destornilladores!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553862
+    m_Localized: ¡Tienes destornilladores para desbloquear recompensas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748160
+    m_Localized: REVELAR TODO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748161
+    m_Localized: CAZADOR DE LLAVES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748162
+    m_Localized: Completa niveles para obtener más
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748163
+    m_Localized: INTÉNTALO DE NUEVO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3765309530112
+    m_Localized: ¡Completa niveles!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748164
+    m_Localized: Completa niveles para obtener destornilladores. Usa los destornilladores para desbloquear este tablero.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748165
+    m_Localized: ¡Encuentra llaves para obtener las recompensas finales!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

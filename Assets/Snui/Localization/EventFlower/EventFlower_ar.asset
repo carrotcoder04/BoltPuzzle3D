@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventFlower_ar
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ar
+  m_SharedData: {fileID: 11400000, guid: c27726ec506177c4094cec49fcd1e7cc, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 168417876528594963
+  m_TableData:
+  - m_Id: 60585833185402880
+    m_Localized: اجمع الزهور لفتح المكافآت وتنافس في <color=#FFEE2B>حلبة الحديقة</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60246434811731968
+    m_Localized: أنه المستويات دون الفشل لزيادة مضاعف نقاطك!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61248678940106752
+    m_Localized: عمل رائع! تهانينا!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61343243856502784
+    m_Localized: سيتم إعادة تعيين تقدم مضاعف النقاط الخاص بك!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63869017910140928
+    m_Localized: مكافآت
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60246351366053888
+    m_Localized: حلبة الحديقة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61233480611127296
+    m_Localized: أنه المستويات!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61233531257348096
+    m_Localized: واصل الفوز لزيادة مضاعف النقاط!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61233552585383936
+    m_Localized: اكسب مكافآت مذهلة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63868946472755200
+    m_Localized: ترتيبك
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191802079158722560
+    m_Localized: ستفقد تقدمك في <color=#C31439>مضاعف النقاط!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2142630904324096
+    m_Localized: 'المكافآت الشخصية: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2811815930093568
+    m_Localized: اكتمل!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2149988078444544
+    m_Localized: استعد للمكافآت في المرة القادمة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3240164863238144
+    m_Localized: مكافأة ضخمة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3258403383140352
+    m_Localized: "حلبة الحديقة\nمكافآت شخصية"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43375333200617472
+    m_Localized: حلبة البرغر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43375338904870912
+    m_Localized: اجمع البرغر لفتح المكافآت ونافس في <color=#FFEE2B>حلبة البرغر!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43375341207543808
+    m_Localized: "المكافآت الشخصية\nفي حلبة البرغر"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 265605705924337664
+    m_Localized: ساحة القطط
+    m_Metadata:
+      m_Items: []
+  - m_Id: 265611107713933312
+    m_Localized: اجمع العلب لفتح المكافآت والمنافسة في <color=#{0}>ساحة القطط</color>!
+    m_Metadata:
+      m_Items:
+      - rid: 168417876528594963
+  - m_Id: 271744063847260160
+    m_Localized: "ساحة القطط\nمكافآت شخصية"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 168417876528594963
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 265611107713933312

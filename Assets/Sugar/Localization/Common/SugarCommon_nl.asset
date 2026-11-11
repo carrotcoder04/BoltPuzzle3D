@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: SugarCommon_nl
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: nl
+  m_SharedData: {fileID: 11400000, guid: 109437194deb0a74f958e5c87c7a9f9a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 76771483648
+    m_Localized: FOUT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507558698606592
+    m_Localized: '{0}d {1}u'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507640344928256
+    m_Localized: '{0}u {1}m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507688877219840
+    m_Localized: '{0}m {1}s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507733466865664
+    m_Localized: '{0}d'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10518717795393536
+    m_Localized: '{0}u'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10518725181562880
+    m_Localized: '{0}m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10518727844945920
+    m_Localized: '{0}s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39440986382786560
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42028670481588224
+    m_Localized: WELKOM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42028719034851328
+    m_Localized: Door op Accepteren te tikken, bevestigt u dat u onze <a href=%@>Privacybeleid </a> en <a href=%@>Servicevoorwaarden</a> hebt bekeken en geaccepteerd.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42028804216971264
+    m_Localized: ACCEPTEREN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181574557696
+    m_Localized: Er is iets misgegaan, probeer het later opnieuw.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393523038347264
+    m_Localized: Je hebt de beloning al geclaimd.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393750491258880
+    m_Localized: De beloning is verlopen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393766618357760
+    m_Localized: Voer een upgrade uit naar de nieuwste versie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56167706460676096
+    m_Localized: Er ging iets fout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59077622859030528
+    m_Localized: ANNULEREN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134481355381661696
+    m_Localized: '{0}d geleden'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134481355385856001
+    m_Localized: '{0}u geleden'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135160776681840640
+    m_Localized: '{0}m geleden'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134720342000132096
+    m_Localized: Zojuist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167343021827809280
+    m_Localized: VOLTOOID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 272107352485781504
+    m_Localized: Jij
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296363860058112
+    m_Localized: januari {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296396789538816
+    m_Localized: februari {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296429568024576
+    m_Localized: maart {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296453144207360
+    m_Localized: april {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296482105876480
+    m_Localized: mei {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296506432839680
+    m_Localized: juni {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296527249170432
+    m_Localized: juli {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296545100128256
+    m_Localized: augustus {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296566986006528
+    m_Localized: september {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296586103644160
+    m_Localized: oktober {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296604768296960
+    m_Localized: november {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296629921538048
+    m_Localized: december {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 257587757573988352
+    m_Localized: Apparaatinformatie wordt alleen gebruikt voor meer interessante en relevante advertenties. Advertenties helpen ons onze apps gratis te houden
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

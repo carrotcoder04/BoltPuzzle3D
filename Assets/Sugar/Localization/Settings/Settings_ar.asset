@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: Settings_ar
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ar
+  m_SharedData: {fileID: 11400000, guid: a746a06ec6d2ac94e96f9393645c795b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 15779792674816
+    m_Localized: الإعدادات المخصصة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15779796869120
+    m_Localized: سياسة الخصوصية
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15779796869121
+    m_Localized: شروط الخدمة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15779796869122
+    m_Localized: معلومات حولنا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22299657887744
+    m_Localized: اللغة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12665741312
+    m_Localized: معلومات حولنا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141197758464
+    m_Localized: اتصل بنا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141197758465
+    m_Localized: اللغة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2977110430834688
+    m_Localized: الموسيقى
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141197758466
+    m_Localized: الصوت
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2482099970048
+    m_Localized: الإعدادات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141201952768
+    m_Localized: الإصدار
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141201952769
+    m_Localized: الاهتزاز
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7692479523446784
+    m_Localized: حفظ التقدم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7693806831919104
+    m_Localized: احفظ تقدمك
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7693834774372352
+    m_Localized: تسجيل خروج
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7693856026910720
+    m_Localized: تم حفظ تقدمك بنجاح.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7702418941796352
+    m_Localized: تابعنا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7702546968731648
+    m_Localized: حذف الحساب
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8754095488753664
+    m_Localized: تحديثات الإصدار
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44192551605886976
+    m_Localized: استرجاع المشتريات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45631217423343616
+    m_Localized: التقييم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170409449950797824
+    m_Localized: تم استرجاع مشترياتك بنجاح.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136393433168207872
+    m_Localized: ضبط اسم مستعار
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320776652045934592
+    m_Localized: وضع عمى الالوان
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

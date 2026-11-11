@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventMissionCenter_kk
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: kk
+  m_SharedData: {fileID: 11400000, guid: 7fd541ff32453a84fb58a575787300c6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 759331545088
+    m_Localized: '{0} КЕЗЕҢ'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876483923968
+    m_Localized: ТАПСЫРМАЛАР ОРТАЛЫҒЫ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701184
+    m_Localized: Барлық тапсырмалар тазартылды!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701185
+    m_Localized: Міндеттерді орындап <color=#C31439>Отындарды</color> жинаңыз!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701186
+    m_Localized: Келесі кезеңді ашып, тамаша сыйлықтар алу үшін барлық міндеттерді аяқтаңыз!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701187
+    m_Localized: Тапсырмаларды орында!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701188
+    m_Localized: Жанармай жинаңыз!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701189
+    m_Localized: Керемет сыйлықтар алыңыз!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701190
+    m_Localized: Қазіргі кезеңді тазалап, орға қарай жүріңіз!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701191
+    m_Localized: Сандық қазірдің өзінде ашылып қойылған!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701192
+    m_Localized: Міндетті бұрыннан талап еттіңіз!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876504895488
+    m_Localized: Бұл міндетке қол жеткізу үшін барлық алдыңғы кезеңдерді аяқтаңыз!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133379687869046784
+    m_Localized: '{0} тиын жинаңыз!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133379687885824000
+    m_Localized: '{0} тиын жұмсаңыз!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616560025601
+    m_Localized: '{0} деңгейлерін жеңіңіз!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12277718623182848
+    m_Localized: 1 деңгейде жең!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671104
+    m_Localized: 1 Сыйлық Қорапшасын Ашыңыз!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671105
+    m_Localized: Кілт Балада 1 сыйлық жәшігін ашыңыз!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671106
+    m_Localized: '{0} Сыйлық Қорапшаларын Ашыңыз!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671107
+    m_Localized: Кілт Балада {0} сыйлық жәшігін ашыңыз!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671108
+    m_Localized: '{0} Гүлдерді Жинаңыз!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671109
+    m_Localized: Сад аренада {0} гүл жинаңыз!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20293628076220418
+    m_Localized: МИССИЯ ОРТАЛЫҒЫ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20293628076220419
+    m_Localized: Міндеттерді орындап <color=#C31439>Дәрілерді</color> жинаңыз!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20293628076220420
+    m_Localized: Дәрілерді жина!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334096543744
+    m_Localized: 1 сыйлық жәшігін алыңыз!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334125903872
+    m_Localized: '{0} сыйлық жәшіктер алыңыз!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334134292480
+    m_Localized: Шар Саяхатында 1 сыйлық жәшігін алыңыз!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334138486784
+    m_Localized: Шар Саяхатында {0} сыйлық жәшіктер алыңыз!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25343820374728704
+    m_Localized: Алғашқы әрекетте {0} Деңгей жеңіңіз!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27128643292487680
+    m_Localized: ҚҰТТЫҚТАЙМЫЗ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27179891731456000
+    m_Localized: '{0} {1} жең!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27179893568561152
+    m_Localized: '{0} ішінде 1 жарыста жең!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27179895367917568
+    m_Localized: '{1} ішінде {0} жарыста жең!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71334918540484608
+    m_Localized: '{0} бургер жина!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71334921883344896
+    m_Localized: Бургер аренасында {0} бургер жина!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77504036679442432
+    m_Localized: '{0} банка жинаңыз!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77504039380574208
+    m_Localized: Мысықтар аренасында {0} банка жинаңыз!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

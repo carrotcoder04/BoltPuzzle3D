@@ -1,0 +1,423 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: Language_ar
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ar
+  m_SharedData: {fileID: 11400000, guid: 27c9beb39bf46524a810ade5065abc3a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 365780000768
+    m_Localized: فشل التحميل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1671097737216
+    m_Localized: التصميمات جيدة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2006998573056
+    m_Localized: اللعبة ممتعة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2008537882624
+    m_Localized: إعلانات كثيرة جدًا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2010119135232
+    m_Localized: اللعبة تحتوي على أخطاء
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2265040543744
+    m_Localized: اذهب إلى "إعدادات النظام" لتمكين الوصول إلى الألبوم.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14182546999861248
+    m_Localized: أضف ثقبين فقط
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14182607217483776
+    m_Localized: لا توجد براغي للتنظيف
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14430059359100928
+    m_Localized: 3D Bolt Master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14430184026398720
+    m_Localized: 3D Bolt Master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17424358203973632
+    m_Localized: الإعلان غير جاهز.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17711244432629760
+    m_Localized: لا توجد عملات كافية
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19859794792800256
+    m_Localized: سيتم استخدام هذا لتوفير إعلانات مخصصة وتحسين مستوي الخدمة.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20224634396860416
+    m_Localized: "3D Bolt Master: \nلغز البراغي"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20224637282541568
+    m_Localized: "3D Bolt Master: \nلغز البراغي"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332155161370624
+    m_Localized: طابق البراغي مع ألوان الصناديق.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332301794238464
+    m_Localized: اسحب بإصبعك لتدوير الشكل.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332320983179264
+    m_Localized: اسحب بإصبعين لتكبير الشكل.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332328943968256
+    m_Localized: تحمل الثقوب البراغي غير المطابقة مؤقتًا!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332331062091776
+    m_Localized: لنجمع جميع البراغي!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332336523075584
+    m_Localized: أحسنت
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332337328381952
+    m_Localized: إعادة المحاولة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332338196602880
+    m_Localized: لم يتبق الكثير!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332339001909248
+    m_Localized: أضف صندوقًا واحدًا واستمر!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21426829767204864
+    m_Localized: قم بتنظيف الثقوب واستمر!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332339710746624
+    m_Localized: أضف ثقب
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332341468160000
+    m_Localized: مثقاب
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332925856342016
+    m_Localized: مطرقة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332927840247808
+    m_Localized: كسر جزء
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332929249533952
+    m_Localized: مكنسة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332930449104896
+    m_Localized: امسح الثقوب
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332931858391040
+    m_Localized: إيقاف
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333309966508032
+    m_Localized: اضغط على الجزء لتحطيمه.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333313808490496
+    m_Localized: شروط الخدمة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333437041336320
+    m_Localized: سياسة الخصوصية
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333440157704192
+    m_Localized: تحميل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21428140755640320
+    m_Localized: المستوى {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899772248064
+    m_Localized: "تهانينا!\n<color=#FDDC25>\"جنون البراغي\"</color> اكتمل!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053763
+    m_Localized: يوجد {0} "برغي مميز" مخبأ في المستوى.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053762
+    m_Localized: اجمع <color=#FDDC25>البراغي الخاصة</color> للفوز بالجوائز!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053760
+    m_Localized: افتح الجوائز
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859458
+    m_Localized: اجمع البراغي المميزة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859457
+    m_Localized: تخطى المستويات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859456
+    m_Localized: جنون البراغي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61304828918226944
+    m_Localized: تم الانتهاء
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34836419909246976
+    m_Localized: اربح المستويات!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8070819077939200
+    m_Localized: إنهاء
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616564219905
+    m_Localized: اجمع البراغي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616564219907
+    m_Localized: اجمع {0} المميزة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062784
+    m_Localized: استخدم أداة "مثقاب" لإضافة ثقب آخر.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062785
+    m_Localized: استخدم أداة "المطرقة" لكسر الشكل.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062786
+    m_Localized: استخدم أداة "المكنسة" لتنظيف الثقوب.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54743339331739648
+    m_Localized: تميز الألوان
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56917147161452544
+    m_Localized: الرئيسية
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56916809062801408
+    m_Localized: استخدم الأداة للمساعدة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65524306266808320
+    m_Localized: متابعة؟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41015862499467264
+    m_Localized: فتح في LV {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947387843141632
+    m_Localized: مكافأة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947389877379072
+    m_Localized: تم استعادة تقدمك.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947391869673472
+    m_Localized: تحديث الإصدار
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947393778081792
+    m_Localized: يرجى التحديث إلى أحدث إصدار للاستمتاع بتجربة أفضل.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947395959119872
+    m_Localized: تحديث
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947762847473664
+    m_Localized: تم فتح "جنون البراغي"! اجمع براغي مميزة للفوز بالمكافآت!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729669470281728
+    m_Localized: أداة جديدة
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729684733353984
+    m_Localized: مفتوحة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729687115718656
+    m_Localized: هدية المستوى
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729689330311168
+    m_Localized: اربح المزيد من المستويات للحصول على المكافآت!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90278512504594432
+    m_Localized: إحياء
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89826605159931904
+    m_Localized: مستوى غير مكتمل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89826608586678272
+    m_Localized: "لديك تقدم غير مكتمل في المستوى.\nهل ترغب في المتابعة؟"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91270772847271936
+    m_Localized: تمت إزالة إعلاناتك التلقائية بالفعل!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147063343653314560
+    m_Localized: "لا يوجد إعلانات منبثقة!\nلا يوجد إعلانات بانر!\n<color=#ffde00>إعلانات مكافآت اختيارية لمكافآت إضافية!</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574626926592
+    m_Localized: استخدم {0} تدريبات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120896
+    m_Localized: استخدم {0} مطارق
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120897
+    m_Localized: استخدم {0} مكانس
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120899
+    m_Localized: اجمع {0} صناديق أدوات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754157372137472
+    m_Localized: فك المسمار، تطابق، وضع... واربح!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754232760557568
+    m_Localized: نفدت الأغراض؟ انقر على أيقونة الأغراض للشراء بالنقود!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754235302305792
+    m_Localized: فشلت؟ انقر على زر النقود للمتابعة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754236803866624
+    m_Localized: استخدم النقود لشراء الأغراض أو إحياء المرحلة!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754239249145856
+    m_Localized: وضع عمى الألوان موجود في الإعدادات. أوضح بكثير!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754240528408576
+    m_Localized: قم بتسجيل الدخول عبر الإعدادات لمزامنة لعبتك!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754241262411776
+    m_Localized: قم بتثبيت المسمار بإحكام، وفكر بذكاء!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645270635569152
+    m_Localized: ستفشل في <color=#C31439>القفز على المكعبات!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645275379326976
+    m_Localized: ستفقد <color=#C31439>حياتك</color> و<color=#C31439>مجموعاتك الخاصة!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645305515401216
+    m_Localized: سوف تفقد مجموعاتك <color=#C31439>المميزة!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645315657228288
+    m_Localized: ستفقد <color=#C31439>رحلة البالون!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624041025536
+    m_Localized: العب الآن
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219840
+    m_Localized: فعل لمدة <color=#FFFF0B>ساعة واحدة</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219845
+    m_Localized: هدية التحديث
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219846
+    m_Localized: شكراً لك على تحديثك! إليك بعض الهدايا لك!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219847
+    m_Localized: أضف صندوق
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219848
+    m_Localized: أضف 1 صناديق
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624049414146
+    m_Localized: مستوى التحدي!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624049414148
+    m_Localized: فشلت في المستوى!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 161578115962757120
+    m_Localized: لقد فزت بـ {0} مراحل وكسبت هذه الجوائز!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169587814167470080
+    m_Localized: جنون البراغي
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169587814171664384
+    m_Localized: ستفشل في <color=#C31439>{0}!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204681899265744896
+    m_Localized: ستفقد
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209106736197394432
+    m_Localized: صعب
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

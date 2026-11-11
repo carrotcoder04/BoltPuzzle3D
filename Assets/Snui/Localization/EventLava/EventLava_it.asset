@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventLava_it
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: it
+  m_SharedData: {fileID: 11400000, guid: 08c21e7866fc7f240a80c30d403d01db, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 1603597504982810678
+  m_TableData:
+  - m_Id: 159505708477308928
+    m_Localized: 'Il prossimo salto inizierà in:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27276818049392640
+    m_Localized: Vinci {0} livelli senza fallire la sfida!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29338599487954944
+    m_Localized: Hai fallito la sfida. Meglio fortuna la prossima volta!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239245050109952
+    m_Localized: Inizia la sfida con {0} giocatori!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239359034515456
+    m_Localized: Vinci livelli senza fallire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239395415908352
+    m_Localized: Guadagna la tua quota di monete!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008956788989952
+    m_Localized: Livelli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27976254979301376
+    m_Localized: Cerchiamo giocatori al tuo livello
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008534560989184
+    m_Localized: Giocatori
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240243852304384
+    m_Localized: Stai condividendo la ricompensa con {0} altri vincitori!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240163988561920
+    m_Localized: Hai vinto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159534441011601408
+    m_Localized: '{0} è finita! Buona fortuna la prossima volta!'
+    m_Metadata:
+      m_Items:
+      - rid: 1603597504982810678
+  - m_Id: 26880132651147264
+    m_Localized: Vinci {0} livelli per completare la sfida!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155012007616512
+    m_Localized: Ci sono <color=#C8332D>{0} giocatori</color> nella sfida!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155983760744448
+    m_Localized: Vinci i livelli senza fallire per avanzare alla fase successiva!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159156661325389824
+    m_Localized: Il <color=#C8332D>primo premio</color> sarà diviso equamente tra i <color=#C8332D>vincitori!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239984476545024
+    m_Localized: CONGRATULAZIONI!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493591639646208
+    m_Localized: CUBI SALTANTI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493656198373376
+    m_Localized: COLONNE SALTANTI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493696933453824
+    m_Localized: PILLARI SALTANTI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493735013539840
+    m_Localized: cubi saltanti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493762054217728
+    m_Localized: colonne saltanti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493766349185024
+    m_Localized: pillari saltanti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790256730112
+    m_Localized: CORSA RIMBALZANTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790294478848
+    m_Localized: corsa rimbalzante
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 1603597504982810678
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 159534441011601408

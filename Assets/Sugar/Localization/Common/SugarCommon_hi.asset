@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: SugarCommon_hi
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: hi
+  m_SharedData: {fileID: 11400000, guid: 109437194deb0a74f958e5c87c7a9f9a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 76771483648
+    m_Localized: त्रुटि
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507558698606592
+    m_Localized: '{0}दिन {1}घंटे'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507640344928256
+    m_Localized: '{0}घंटे {1}मिनट'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507688877219840
+    m_Localized: '{0}मिनट {1}सेकंड'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507733466865664
+    m_Localized: '{0}दिन'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10518717795393536
+    m_Localized: '{0}घंटे'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10518725181562880
+    m_Localized: '{0}मिनट'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10518727844945920
+    m_Localized: '{0}सेकंड'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39440986382786560
+    m_Localized: ठीक है
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42028670481588224
+    m_Localized: स्वागत है
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42028719034851328
+    m_Localized: स्वीकार टैप करके, आप इसके पुनरालोचना और स्वीकृति देने की पुष्टि कर रहे हैं कि हमारी <a href=%@>गोपनीयता नीति</a> और <a href=%@>सेवा की शर्तें</a> की जाँच की है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42028804216971264
+    m_Localized: स्वीकार
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181574557696
+    m_Localized: कुछ गलत हो गया है, कृपया बाद में पुनः प्रयास करें।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393523038347264
+    m_Localized: आपपहलेहीइनामकादावाकरचुकेहैं.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393750491258880
+    m_Localized: इनामसमाप्तहोगयाहै.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393766618357760
+    m_Localized: कृपयानवीनतमसंस्करणमेंअपग्रेडकरें.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56167706460676096
+    m_Localized: कुछ गलत हो गया
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59077622859030528
+    m_Localized: रद्द करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134481355381661696
+    m_Localized: '{0} दिन पहले'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134481355385856001
+    m_Localized: '{0} घंटे पहले'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135160776681840640
+    m_Localized: '{0} मिनट पहले'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134720342000132096
+    m_Localized: अभी
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167343021827809280
+    m_Localized: समाप्त
+    m_Metadata:
+      m_Items: []
+  - m_Id: 272107352485781504
+    m_Localized: आप
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296363860058112
+    m_Localized: जनवरी {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296396789538816
+    m_Localized: फ़रवरी {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296429568024576
+    m_Localized: मार्च {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296453144207360
+    m_Localized: अप्रैल {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296482105876480
+    m_Localized: मई {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296506432839680
+    m_Localized: जून {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296527249170432
+    m_Localized: जुलाई {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296545100128256
+    m_Localized: अगस्त {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296566986006528
+    m_Localized: सितम्बर {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296586103644160
+    m_Localized: अक्टूबर {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296604768296960
+    m_Localized: नवम्बर {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296629921538048
+    m_Localized: दिसम्बर {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 257587757573988352
+    m_Localized: उपकरण सूचना केवल अधिक दिलचस्प और संबंधित विज्ञापनों के लिए ही उपयोग किया जाएगा। विज्ञापन हमें हमारे ऐप्स को मुफ्त रखने में मदद करते हैं।
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

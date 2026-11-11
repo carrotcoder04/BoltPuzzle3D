@@ -1,0 +1,1667 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: SnuiCommon_he
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: he
+  m_SharedData: {fileID: 11400000, guid: 56d4b1d6a9621d04eb877a1525a91b26, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 233343164604416
+    m_Localized: חיים בחינם
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233280816275456
+    m_Localized: מִלוּי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266123567161344
+    m_Localized: להשתמש
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12288803132661760
+    m_Localized: חינם
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304573871808512
+    m_Localized: חיים חופשיים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1697441651875840
+    m_Localized: החיים שלך מלאים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436200639389696
+    m_Localized: חזה מפולס
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12288946942763008
+    m_Localized: אוסף מיוחד
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436162156650496
+    m_Localized: חזה כוכב
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320630867091456
+    m_Localized: '{0} חיים בחינם'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264074574159872
+    m_Localized: בנק חיים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232529176027136
+    m_Localized: קבל עוד חיים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35481137106116608
+    m_Localized: מלא
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026432
+    m_Localized: זה בחינם רק פעם אחת!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026434
+    m_Localized: נא להגדיר כינוי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026435
+    m_Localized: שם לא חוקי. הקלד עוד אחד
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026436
+    m_Localized: הקלד לפחות 3 תווים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026437
+    m_Localized: הקלד 15 תווים לכל היותר!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026433
+    m_Localized: הקלד את הכינוי שלך...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39808712133566464
+    m_Localized: שנה שם
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40123526764552192
+    m_Localized: ערוך פרופיל
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900277404950528
+    m_Localized: פחות מודעות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900312473526272
+    m_Localized: אפשר מעקב
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900371902619648
+    m_Localized: אפשר מעקב כדי להסיר מודעות לא רלוונטיות וקבל {0} מטבעות בחינם!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900440034893824
+    m_Localized: אנא אפשר מעקב כדי לקבל תגמולים.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900487157899264
+    m_Localized: אל תפספסו!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900528459210752
+    m_Localized: קבל הודעה על אירועים ועדכונים בזמן מוגבל.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41986630234398720
+    m_Localized: לא עכשיו
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41986630246981632
+    m_Localized: כֵּן
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41991704809562112
+    m_Localized: אנא אפשר הודעות כדי לקבל אירועים ועדכונים לזמן מוגבל.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375679755411456
+    m_Localized: להתחבר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375726647730176
+    m_Localized: שמור על התקדמותך בענן בחינם!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252780607135744
+    m_Localized: בחר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252819287007232
+    m_Localized: צור
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50335704901738496
+    m_Localized: לא
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252991467380736
+    m_Localized: שמור
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45199535239061504
+    m_Localized: תצוגה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51007642271735808
+    m_Localized: שלח לך חיים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193240967405568
+    m_Localized: קבל מטבעות חינם
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193180493930496
+    m_Localized: 'הצטרף או צור צוות כדי:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52896768214425600
+    m_Localized: הקיבולת של הצוות מלאה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193207886929920
+    m_Localized: קבל חיים חינם
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52896720361611264
+    m_Localized: הרמה שלך אינה מספיקה כדי להצטרף לקבוצה זו
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48191512465367040
+    m_Localized: הצטרף לצוות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50334557843480576
+    m_Localized: האם אתה בטוח שאתה רוצה להדוף את השחקן הזה?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50332880616808448
+    m_Localized: הוצא מהצוות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634758253076480
+    m_Localized: בטל
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634806575652864
+    m_Localized: האם אתה בטוח שאתה רוצה לעזוב את הקבוצה שלך?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634666892746752
+    m_Localized: עזב
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634620147228672
+    m_Localized: עזב קבוצה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48164027749097472
+    m_Localized: בדוק את החיבור לאינטרנט שלך.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48163983373361152
+    m_Localized: החיבור אבד!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52805192968560640
+    m_Localized: שינוי שם בוצע בהצלחה!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52780918081839104
+    m_Localized: התחבר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52798812643647488
+    m_Localized: תו לא נתמך.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375933552746496
+    m_Localized: התחבר עם APPLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375887180521472
+    m_Localized: התחבר עם פייסבוק
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375955442819072
+    m_Localized: היכנס עם גוגל
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42721386727202816
+    m_Localized: התקדמותך נשמרת.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42721333207883776
+    m_Localized: הצלחה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42730837634965504
+    m_Localized: עדיין להתנתק
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726401105715200
+    m_Localized: המשחק יתחיל מחדש מרמה <color=#EF4C4C>1</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726463454044160
+    m_Localized: 'טיפים: תוכל להיכנס שוב כדי להמשיך את התקדמותך.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726296550105088
+    m_Localized: התנתק
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45200576651190272
+    m_Localized: קיבולת
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45176701162872832
+    m_Localized: צור
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47003035736465408
+    m_Localized: ערוך
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252406294863872
+    m_Localized: רמה נדרשת
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111296
+    m_Localized: הגיעו לרמה {0} כדי להגביר את הגבול של הרמה הנדרשת.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252313470722048
+    m_Localized: סמל צוות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45262366646984704
+    m_Localized: בחר סמל
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252369947025408
+    m_Localized: שם הצוות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252486565453824
+    m_Localized: '*לא ניתן לשנות את לוגו/שם הקבוצה לאחר היצירה'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111297
+    m_Localized: עזרה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45176682426916864
+    m_Localized: הצטרף
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50241104296009728
+    m_Localized: העף מהקבוצה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47002942832631808
+    m_Localized: עזוב
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44926451865083904
+    m_Localized: הקבוצה שלי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45250024622252032
+    m_Localized: הזן שם קבוצה...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45199495682580480
+    m_Localized: חפש
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111298
+    m_Localized: אין תוצאות עבור שם זה.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44926427412291584
+    m_Localized: קבוצות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305600
+    m_Localized: חיים שלכם מלאים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305601
+    m_Localized: כבר עזרת בבקשה הזו.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305602
+    m_Localized: עליך להמתין {0} דקות עד שתוכל לעזור שוב!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305603
+    m_Localized: כבר ביקשת את הבקשה הזו.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46997273542909952
+    m_Localized: 'רמה נדרשת:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46995160800681984
+    m_Localized: 'ניקוד הקבוצה:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46002148947779584
+    m_Localized: מידע על הקבוצה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46996381083099136
+    m_Localized: 'עזרות שבועיות:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072008410750976
+    m_Localized: עזרות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072106691682304
+    m_Localized: מנהיג
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072050559311872
+    m_Localized: רמות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50707987734454272
+    m_Localized: בקש חיים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50728058632527872
+    m_Localized: '{0} הצטרף לקבוצה.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50728091402625024
+    m_Localized: '{0} נזרק החוצה.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50708198070411264
+    m_Localized: בקשה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50736182525419520
+    m_Localized: שואל על חיים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57494596047855616
+    m_Localized: עליך לעזוב את הקבוצה שלך לפני שתצטרף לקבוצה חדשה!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57496004599996416
+    m_Localized: דירוג
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57494080442064896
+    m_Localized: תוצאה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149430573719552
+    m_Localized: קבוצות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149277246742528
+    m_Localized: לוח תוצאות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149395333177344
+    m_Localized: שחקנים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57493952461266944
+    m_Localized: צפה בקבוצה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63674767004131328
+    m_Localized: משוב
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717830468558848
+    m_Localized: אנא בחר או תאר את הבעיות שלך
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717859195346944
+    m_Localized: תאר את הבעיות או ההצעות...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717953256808448
+    m_Localized: שליחה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63719952446644224
+    m_Localized: הכנס את כתובת האימייל שלך כאן
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63740716600254464
+    m_Localized: תודה על המשוב שלך!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63741145136488448
+    m_Localized: נכשל בשליחה, נסה שוב בבקשה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63762870901399552
+    m_Localized: טוען נכשל
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63764307005923328
+    m_Localized: אנא בחר או תאר את הבעיות שלך
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63764348902825984
+    m_Localized: הכנס את כתובת האימייל שלך כאן
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010148310736896
+    m_Localized: האם אתה רוצה למחוק את הנתונים שלך מהמכשיר הזה ומהשרתים שלנו?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010253747150848
+    m_Localized: נתוני המשחק שלך יוסרו מהמכשיר הזה ומהשרתים שלנו באופן מיידי. כל הנתונים וההתקדמות שלך יאבדו ולא ניתן יהיה לשחזר.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010270369177600
+    m_Localized: יש לך מנויים פעילים.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010281240813568
+    m_Localized: כדי להימנע מחיובים נוספים, עבור ל-App Store > חשבון > מנויים ובטל תחילה כל מנוי פעיל.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010291277783040
+    m_Localized: האם אתה בטוח שתמחק את הנתונים שלך? אתה תאבד את ההתקדמות הנוכחית שלך ולא ניתן לשחזר אותה.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010303109914624
+    m_Localized: על ידי הקשה על "כן", תפעיל מחדש את המשחק כמשתמש חדש.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010720036315136
+    m_Localized: הבנתי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95625466474389504
+    m_Localized: מה השם שלך?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95625437298810880
+    m_Localized: הכנס שם
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111216658851291136
+    m_Localized: הרוויח חיים חינם מחברי הצוות שלך.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111930957190127616
+    m_Localized: אין לך חיים חינם.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115602396111953920
+    m_Localized: הודעה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118470840675196928
+    m_Localized: לחצו לעריכת הפרופיל שלכם
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118480965112684544
+    m_Localized: צור את כינוי שלך!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118485440464412672
+    m_Localized: בחר צילום
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125717701572157440
+    m_Localized: המגבלה המרבית של תווים היא {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125725518169366528
+    m_Localized: הפרופיל שלי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125734265910452224
+    m_Localized: 'רמה נוכחית:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125736013802758144
+    m_Localized: סטטיסטיקות כלליוט
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125737398732578816
+    m_Localized: ניצחונות בניסיון הראשון
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125737783090208768
+    m_Localized: עזרה שנעשתה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126423333916893184
+    m_Localized: עזרה שהתקבלה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67417490278309888
+    m_Localized: האם אתה בטוח?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67417490278309889
+    m_Localized: האם אתה באמת רוצה לעזוב את המשחק?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875570810881
+    m_Localized: להישאר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875562422272
+    m_Localized: עזוב רָמָה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875570810880
+    m_Localized: אתה בטוח שברצונך לפרוש?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 149290068038639616
+    m_Localized: המשך
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661760
+    m_Localized: אפשרה מעקב כדי לשפר את חוויית הפרסום.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661761
+    m_Localized: אתה תנותב להגדרות המכשיר שלך.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661762
+    m_Localized: דלוק!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661763
+    m_Localized: אפשר התראות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661764
+    m_Localized: אפשר מעקב
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155136856064
+    m_Localized: אנא הפעל התראות מהגדרות המכשיר שלך.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158623746145378304
+    m_Localized: אינה קבוצה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159757269296209920
+    m_Localized: הקש להמשך
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164882056993562624
+    m_Localized: הקש כדי לתבוע
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167298491044847616
+    m_Localized: התחל
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167388066735972352
+    m_Localized: עסקאות בשבילך
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167388656706772992
+    m_Localized: עסקה של 3 ב-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167390104249163776
+    m_Localized: קנה הכל
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754245507047424
+    m_Localized: סטים של יוצרים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754499891585024
+    m_Localized: דרוש כל הצעה כדי לפתוח פרסים בחינם!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754502554968064
+    m_Localized: אל תשכח לדרוש פרסים בחינם!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172042873425879040
+    m_Localized: חבילת לחם
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172075683758989312
+    m_Localized: בָּחַר אֶחָד
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180366206789738496
+    m_Localized: תביעה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186520677521547265
+    m_Localized: אין אינטרנט
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186520677521547264
+    m_Localized: "פעולה זו דורשת חיבור לאינטרנט.\nנא נסה שוב מאוחר יותר."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186506587038277632
+    m_Localized: "{0}\nפרסים!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219843
+    m_Localized: הנה הפרסים שלא ננקטו שלך!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179369413868249088
+    m_Localized: שחק
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188378725424816128
+    m_Localized: מכירת רקטות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188407241268781056
+    m_Localized: מילוי חיים בחינם!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191590517525438464
+    m_Localized: פרסים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195269482039468032
+    m_Localized: '<sprite=0> תהנה מהתגמולים שלך עם <color=#FFFF0B>Play Points</color>!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195312493884596224
+    m_Localized: חג הלואין שמח
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197048656911654912
+    m_Localized: מזל טוב!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199617985050042368
+    m_Localized: הצעה מיוחדת
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199621120049012736
+    m_Localized: הסר פרסומות קופצות לנצח!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199625686962397184
+    m_Localized: רק פעם אחת
+    m_Metadata:
+      m_Items: []
+  - m_Id: 201820360875696128
+    m_Localized: חינם
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204334129812070400
+    m_Localized: מבצע חג המולד
+    m_Metadata:
+      m_Items: []
+  - m_Id: 208692138415742976
+    m_Localized: '!נסה שוב'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205711112789811200
+    m_Localized: מבצע שישי השחור
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759028850688
+    m_Localized: חבילת כוח
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793728
+    m_Localized: קנה 1 חבילה וקבל 1 בחינם
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793729
+    m_Localized: דרוש את החבילה כדי לפתוח תגמולים חופשיים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793730
+    m_Localized: נטען
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213344241960607744
+    m_Localized: איגוד {0} כוכבים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213385543838326784
+    m_Localized: חבילת אתגרים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213385629515374592
+    m_Localized: פתח את החבילה כדי לתבוע עד <color=#FFE315>{0}</color> מטבעות!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214475252614291456
+    m_Localized: פתח את החבילה כדי לתבוע את הפרסים שלך!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214520926147960832
+    m_Localized: דרוש!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214539340325314560
+    m_Localized: אספו כוכבים במסגרת הזמן כדי לפתוח עד <color=#FFE315>{0}</color> מטבעות!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769054264582144
+    m_Localized: ההזדמנות האחרונה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769183633694720
+    m_Localized: האם אתה בטוח שאתה רוצה לוותר על כל הפרסים שהרווחת?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769539012878336
+    m_Localized: לוותר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214783103136161792
+    m_Localized: עד
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214839998228193280
+    m_Localized: איסוף כוכבים כדי לפתוח פרסים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214867523276890112
+    m_Localized: פתח
+    m_Metadata:
+      m_Items: []
+  - m_Id: 215234507382448128
+    m_Localized: פתח את החבילה ואסוף כוכבים כדי לתבוע את הפרסים שלך!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159497032479793152
+    m_Localized: פרס גדול
+    m_Metadata:
+      m_Items: []
+  - m_Id: 220645188114046976
+    m_Localized: אוסף
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224668775510695936
+    m_Localized: '<color=#fddc25>אוסף חדש</color> מגיע בקרוב!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224920229035106304
+    m_Localized: הגיעו ל<color={0}>רמה {1}</color> כדי לפתוח את האוסף!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224920905328877568
+    m_Localized: אוסף
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224923537313357824
+    m_Localized: '<color={0}>מייצר הורדה…</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228241451726659584
+    m_Localized: הגיעו לרמה {0} כדי לפתוח את האוסף ולראות את הסמלים שלכם!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228241896872337408
+    m_Localized: אבאטאר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242197553602560
+    m_Localized: מסגרת
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242241958699008
+    m_Localized: שם
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242435928481792
+    m_Localized: סמל
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228243239926226944
+    m_Localized: הפעילו את הכרטיס כדי לפתוח את הסגנון הזה לזמן מוגבל!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230438899417079808
+    m_Localized: הסר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230438918601826304
+    m_Localized: צייד
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233681610001604608
+    m_Localized: צא
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009152
+    m_Localized: הושלם!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009153
+    m_Localized: בית
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009154
+    m_Localized: מזל טוב
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390117552128
+    m_Localized: צא
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390121746432
+    m_Localized: שחק שוב
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390130135040
+    m_Localized: רמה {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390130135041
+    m_Localized: טוען
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390134329346
+    m_Localized: דלג
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390142717952
+    m_Localized: תשומת לב!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390163689472
+    m_Localized: הדרגה שלך
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390163689473
+    m_Localized: פרס
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246559818866688
+    m_Localized: צא
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246575794970624
+    m_Localized: שחק שוב
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246590647001088
+    m_Localized: רמה {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246601078235136
+    m_Localized: טוען
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246643658809344
+    m_Localized: דלג
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246711614922752
+    m_Localized: תשומת לב!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246748369608704
+    m_Localized: הדרגה שלך
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246760054939648
+    m_Localized: פרס
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245536492576768
+    m_Localized: מאוחר יותר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246615879933952
+    m_Localized: השהה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235891040235544576
+    m_Localized: 'תגמולים:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246657709727744
+    m_Localized: פתיחה ב-LV {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816862262222848
+    m_Localized: תגמולים לאוהדים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816800794697728
+    m_Localized: הצטרפו לקהילת הפייסבוק הגדלה שלנו ושחקו יחד!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816831106932736
+    m_Localized: הצטרפו עכשיו
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816773359755264
+    m_Localized: הצטרפו ושחקו איתנו!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246673576779776
+    m_Localized: הגרפיקה טובה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246681361408000
+    m_Localized: המשחק מהנה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246694510551040
+    m_Localized: יותר מדי פרסומות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246703058542592
+    m_Localized: יש באגים במשחק
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245482302169088
+    m_Localized: אנא עדכנו לגרסה האחרונה כדי ליהנות מחוויה טובה יותר.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245456964378624
+    m_Localized: עדכון
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237620428677308416
+    m_Localized: שלח כרטיס
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237665078654001152
+    m_Localized: חברי צוות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237687049928302592
+    m_Localized: אתה עומד לשלוח את הכרטיס הזה ל{0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237712387861372928
+    m_Localized: שלח
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237958163799728128
+    m_Localized: הצטרף לצוות כדי להחליף כרטיסים עם חברי הצוות!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237981312209641472
+    m_Localized: 'הבקשה הזו זמינה עבור:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238028475220353024
+    m_Localized: מגבלת יומית {0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238061569860165632
+    m_Localized: מבקש כרטיס!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238326946397675520
+    m_Localized: הכרטיס התקבל!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238392037197471744
+    m_Localized: מ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238436267575992320
+    m_Localized: בקשת כרטיס
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238438330066264064
+    m_Localized: '<color=#B5DAFF>כרטיסי כסף</color> ניתנים לחלוקה בין חברי הצוות.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238438440233852928
+    m_Localized: '<color=#FDDC25>כרטיסי זהב</color> ניתן להשיג רק מאירועים ופרסים.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239838413705961472
+    m_Localized: כרטיס זה ניתן לאיסוף מאירועים, פרסים ומחברי צוות.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239838802429861888
+    m_Localized: '<color=#FDDC25>קלפים זהובים</color> לא ניתן לשלוח!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239840300178071552
+    m_Localized: אתה צריך כרטיס כפול כדי לשלוח אותו.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239840360295030784
+    m_Localized: כבר שלחת 3 כרטיסים היום.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239841109020237824
+    m_Localized: כבר ביקשת כרטיס היום.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267800449324670976
+    m_Localized: ברוך הבא!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267800545017716736
+    m_Localized: התגעגענו אליך! טען את המתנות שלך והמשך במסע שלך!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246035593416400896
+    m_Localized: ניתן להשיג קלף זה מאירועים ופרסים.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 245969547665858560
+    m_Localized: הקלף נשלח!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247400907857190912
+    m_Localized: תגמולי בונוס
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401008721813504
+    m_Localized: צברו רכישות ללא הגבלת זמן וקבלו תגמולים מדהימים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401059258982400
+    m_Localized: "הפרס\nהגדול"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401253006467072
+    m_Localized: תגמולי בונוס
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247775982527700992
+    m_Localized: ברכות! אספת את כל הקלפים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248229689585295360
+    m_Localized: בונוס
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164245458944
+    m_Localized: כרטיס הזהב
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236160
+    m_Localized: '<color=#FFF200>{0}</color> התחיל! אסוף כוכבים כדי לפתוח פרסים מיוחדים!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236161
+    m_Localized: '<color=#FFF200>{0}</color> הסתיים! <color=#FFF200>{1}</color> החדש יתחיל בקרוב!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236162
+    m_Localized: '<color=#FFF200>{0}</color> הפעל כדי לפתוח פרסים מיוחדים!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236163
+    m_Localized: פרסים מיוחדים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430464
+    m_Localized: קבל בונוסים בלעדיים עד סוף האירוע!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430465
+    m_Localized: 8 חיים במקום 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430466
+    m_Localized: מסגרת מוזהבת ושם מוזהב
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430467
+    m_Localized: אוסף כוכבים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430468
+    m_Localized: פתח פרסים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430469
+    m_Localized: '<color=#FDF36D>{0}</color> הפעל כדי לפתוח פרסים מיוחדים!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430470
+    m_Localized: מזל טוב! הפעלת את <color=#FFF34F>{0}</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430471
+    m_Localized: תמונת הפרופיל והשם שלך מוזהבים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430472
+    m_Localized: המתנה משותפת עם חברי הצוות שלך!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430473
+    m_Localized: מספר החיים המקסימלי עלה ל-8!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430474
+    m_Localized: הפעל
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430475
+    m_Localized: פתח פרסים מיוחדים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430476
+    m_Localized: '!<color=#FFF34F>{0}</color> התקבל'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430477
+    m_Localized: המתנה שלך
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430478
+    m_Localized: כבר מימשת את הפרס הזה!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624768
+    m_Localized: אסוף עוד כוכבים כדי לפתוח שלב זה ולקבל את הפרס!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624769
+    m_Localized: '!קבל {0} כדי לדרוש את הפרס'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624770
+    m_Localized: '!סיים את השלב הזה ופתח את {0} כדי לקבל את הפרס'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624771
+    m_Localized: '!השלם דרגה {0} כדי לפתוח את {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624772
+    m_Localized: אסוף עוד כוכבים כדי לפתוח שלב זה!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624773
+    m_Localized: אסוף עוד כוכבים כדי לעבור לשלב הבא!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624774
+    m_Localized: '!סיים את השלב הזה ופתח את {0} כדי לפתוח את תיבת האוצר'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624775
+    m_Localized: '!קבל את <color=#FFF34F>{0}</color> ואסוף את כל המטבעות בסיום האירוע'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624776
+    m_Localized: '!<color=#FFF34F>{0}</color> קבל את כדי לפתוח את תיבת האוצר בסיום השלבים'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624777
+    m_Localized: חסוך 10 מטבעות בארגז האוצר עבור כל 10 כוכבים! תטען אותם כשיסתיים האירוע!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624778
+    m_Localized: סיים שלבים כדי לחסוך 10 מטבעות בארון האוצר עבור כל 10 כוכבים! אסוף אותם כשמסתיים האירוע!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819072
+    m_Localized: בונוס סופי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819073
+    m_Localized: הנה הפרסים שטרם מימשת!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819074
+    m_Localized: '!<color=#fff34f>{0}</color> פתוח — זה הפרס הראשון שלך'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819075
+    m_Localized: השלם שלב כדי לאסוף כוכבים ולפתוח פרסים! הקש כדי ללמוד כיצד לאסוף!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819076
+    m_Localized: '!פתח את <color=#fff34f>{0}</color> כדי להרוויח פרסים בלעדיים'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819077
+    m_Localized: הקש כדי לדלג
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819078
+    m_Localized: הופעל
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819079
+    m_Localized: הפעל
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819080
+    m_Localized: מתנה לחברי הצוות שלך
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5353076616585216
+    m_Localized: נצחו רמות!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5372156589367296
+    m_Localized: חינם
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43766314718715904
+    m_Localized: כָּרְטִיס חַג הַמּוֹלָד
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41612858264379392
+    m_Localized: כרטיס חג המולד
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43168464116899840
+    m_Localized: כרטיס זהב
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19695394816
+    m_Localized: שיגעון הגלישה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197617770496
+    m_Localized: אסוף יותר קליפות משחקים משאר השחקנים בתוך 30 דקות!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233189662720
+    m_Localized: מאסטר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273316569088
+    m_Localized: נצחו במאסטר הגלישה כדי לזכות בפרסים הללו!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301875585024
+    m_Localized: כבר תבעה את הפרסים הללו!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444700024832
+    m_Localized: אספו צדפים בזמן מוגבל
+    m_Metadata:
+      m_Items: []
+  - m_Id: 476987777024
+    m_Localized: השלימו נגד שחקנים אחרים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500748509184
+    m_Localized: זכו בפרסים מדהימים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536987295744
+    m_Localized: הצטרפו לגלישה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 675730677760
+    m_Localized: דירוג
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395896868864
+    m_Localized: פרס
+    m_Metadata:
+      m_Items: []
+  - m_Id: 775722885120
+    m_Localized: מחפש שחקנים...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251465525600706560
+    m_Localized: נצחו בשיגעון הגלישה כדי לזכות בפרסים הללו!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251109559260667904
+    m_Localized: חבילה זו מכילה {0} קלפים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 253212636654592000
+    m_Localized: ימי כניסה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255097381692891136
+    m_Localized: 'שלב הפרסים: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348499468288
+    m_Localized: הושלם
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051200
+    m_Localized: היה הראשון וזכה בפרסים מדהימים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051201
+    m_Localized: סיים {0} רמות ראשונות כדי לזכות בפרס הגדול!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051204
+    m_Localized: '{0} רמות'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051205
+    m_Localized: סיימת במקום הראשון!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051206
+    m_Localized: מחפש שחקנים...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051207
+    m_Localized: שלב {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051210
+    m_Localized: נצח שלבים לפני אחרים כדי להשלים את המשימה.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051211
+    m_Localized: הרווח פרסים מדהימים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051212
+    m_Localized: הצטרף למירוץ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051213
+    m_Localized: מרוץ חד-קרן
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051209
+    m_Localized: התחל את המשימה נגד שחקנים אחרים.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9561896378368
+    m_Localized: פרס גרנד
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051203
+    m_Localized: נסה שוב ולקח את ההובלה לפרסים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8358106793762816
+    m_Localized: '!נסה שוב'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000105134579712
+    m_Localized: מזל טוב!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000232930828288
+    m_Localized: המירוץ הסתיים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000346080567296
+    m_Localized: תהיו הראשונים לסיים בפעם הבאה!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8358723339673600
+    m_Localized: סיום
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27990813114884096
+    m_Localized: '!כמעט הצלחת קח פיקוד, הוביל וזכה בניצחון גדול בפעם הבאה!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40226007532167168
+    m_Localized: מרוץ חד-קרן
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258714048939417600
+    m_Localized: מרוץ הארנבים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 261220253826015232
+    m_Localized: מרוץ הארנבים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 262986913796841472
+    m_Localized: מידע
+    m_Metadata:
+      m_Items: []
+  - m_Id: 262986960378781696
+    m_Localized: צוות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271045432789950464
+    m_Localized: עריכת קבוצה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273924986122526720
+    m_Localized: המלצות לצוותים מובילים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825505589190656
+    m_Localized: אזהרה!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825568310812672
+    m_Localized: לא יוכל להצטרף שוב.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825591157186560
+    m_Localized: אינך יכול להצטרף לצוות זה.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277826028287549440
+    m_Localized: הסר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615821602775040
+    m_Localized: רמה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615873058496512
+    m_Localized: עולם
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615967702966272
+    m_Localized: מורים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278616096044474368
+    m_Localized: שחקנים מובילים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278616189900414976
+    m_Localized: קבוצות עלית
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278643930016243712
+    m_Localized: דירוג
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278668086418071552
+    m_Localized: ציון
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280381325501784064
+    m_Localized: העלה את ציון הצוות שלך על החודש הזה!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280381518901141504
+    m_Localized: רץ קדימה והפוך לאגדה!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280382392553693184
+    m_Localized: העלה את הציון שלך על החודש הזה!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280723815215915008
+    m_Localized: קיבולת
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281101773235544064
+    m_Localized: עליון
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281101820337577984
+    m_Localized: תחתון
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303936521708232704
+    m_Localized: מירוץ סקייטבורד
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303936521725009920
+    m_Localized: מירוץ סקייטבורד
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328674388338532352
+    m_Localized: הסתערות קבוצתית
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328674935795867648
+    m_Localized: אספו התרברבויות!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675153786429440
+    m_Localized: הצטרפו לקבוצה כדי לתרום להסתערות הקבוצתית!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675265375887360
+    m_Localized: עזיבת הקבוצה תוציא אתכם גם מההסתערות הקבוצתית הנוכחית!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675424260317184
+    m_Localized: נצחו שלבים כדי לאסוף סירות כקבוצה ולהרוויח תגמולים מדהימים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675526479699968
+    m_Localized: ללא תרומה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691474817343488
+    m_Localized: עימות קבוצתי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691548192497664
+    m_Localized: דירוג הקבוצה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691671190462464
+    m_Localized: עבודה נהדרת! מזל טוב!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691834302750720
+    m_Localized: עימות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691895833190400
+    m_Localized: הצוות שלי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692100393590784
+    m_Localized: 'תגמולים אישיים: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692220749144064
+    m_Localized: אספו רובי מים בשלבים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692289833525248
+    m_Localized: התחרו עם הקבוצה שלכם כדי לנצח!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692350239891456
+    m_Localized: אספו יותר כדי לקבל תגמולים אישיים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692455319789568
+    m_Localized: הצטרפו לקבוצה והתחרו עם הקבוצה שלכם כדי להרוויח תגמולים מדהימים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692559271419904
+    m_Localized: עזיבת הקבוצה תוציא אתכם גם מהעימות הקבוצתי הנוכחי!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692653794254848
+    m_Localized: אספו רובי מים והתחרו עם הקבוצה שלכם כדי להרוויח תגמולים מדהימים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692775722672128
+    m_Localized: פרסים אישיים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692921290186752
+    m_Localized: דירוג נוכחי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328693020170903552
+    m_Localized: ניקוד נוכחי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329403534840684544
+    m_Localized: אספו לפחות סירה אחת כדי לדרוש את התגמולים שלכם!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329403596081717248
+    m_Localized: תרמו בפעם הבאה כדי לקבל תגמולים קבוצתיים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407227346116608
+    m_Localized: פרסי ההסתערות הקבוצתית
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407337861832704
+    m_Localized: '{0} פרסים אישיים!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407487313272832
+    m_Localized: '{0} פרסים קבוצתיים!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330435785229590528
+    m_Localized: פרסים אישיים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330443706701176832
+    m_Localized: '{0} פרסים אישיים!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331096417918509056
+    m_Localized: אספו רובי מים בשלבים כדי לתרום ולנצח את הקבוצות האחרות!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331096633254076416
+    m_Localized: אספו עוד כדי לקבל פרסים אישיים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331098070130352128
+    m_Localized: תרמו כדי לקבל פרסים בפעם הבאה!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

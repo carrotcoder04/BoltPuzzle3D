@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventKeyHunter_el
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: el
+  m_SharedData: {fileID: 11400000, guid: 87af58f7a2918874db9d4a82217c227f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 626313388032
+    m_Localized: Συλλέξτε κατσαβίδια!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626330165248
+    m_Localized: Βρες κλειδιά!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359552
+    m_Localized: Κέρδισε ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359553
+    m_Localized: Αυτή είναι η τελευταία σου ευκαιρία να χρησιμοποιήσεις κατσαβίδια.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553856
+    m_Localized: Δεν έχεις άλλο κατσαβίδι!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553857
+    m_Localized: "Συγχαρητήρια!\nΟλοκλήρωσες τον ΚΥΝΗΓΟ ΚΛΕΙΔΙΩΝ!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553858
+    m_Localized: ΚΑΛΗ ΕΠΙΤΥΧΙΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553859
+    m_Localized: ΣΥΝΕΧΙΣΕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553860
+    m_Localized: ΜΕΓΙΣΤΟ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553861
+    m_Localized: Αν κάνεις έξοδο τώρα, θα χάσεις τα κατσαβίδια σου!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553862
+    m_Localized: Έχεις κατσαβίδια για να κερδίσεις ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748160
+    m_Localized: ΑΠΟΚΑΛΥΨΤΕ ΟΛΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748161
+    m_Localized: ΚΥΝΗΓΟΣ ΚΛΕΙΔΙΩΝ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748162
+    m_Localized: Ολοκλήρωσε επίπεδα για να αποκτήσεις περισσότερα
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748163
+    m_Localized: ΠΡΟΣΠΑΘΗΣΕ ΞΑΝΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3765309530112
+    m_Localized: Κέρδισε επίπεδα!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748164
+    m_Localized: Κέρδισε επίπεδα για να αποκτήσεις κατσαβίδια. Χρησιμοποίησε το κατσαβίδι για να ξεκλειδώσεις αυτή την καρτέλα.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748165
+    m_Localized: Βρες κλειδιά για να αποκτήσεις τις τελικές ανταμοιβές!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

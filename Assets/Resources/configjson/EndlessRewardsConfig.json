@@ -1,0 +1,852 @@
+[
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 20
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 12,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 30
+   },
+   {
+    "type": 11,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Type": "cash",
+  "Content": "screw3d.endless1.bundle",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 240
+   },
+   {
+    "type": 13,
+    "count": 5
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 12,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 500
+   },
+   {
+    "type": 11,
+    "count": 2
+   },
+   {
+    "type": 12,
+    "count": 2
+   },
+   {
+    "type": 13,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 120
+   },
+   {
+    "type": 13,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 11,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 140
+   }
+  ]
+ },
+ {
+  "Type": "cash",
+  "Content": "screw3d.endless2.bundle",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 640
+   },
+   {
+    "type": 11,
+    "count": 4
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 12,
+    "count": 3
+   },
+   {
+    "type": 13,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 400
+   },
+   {
+    "type": 11,
+    "count": 2
+   },
+   {
+    "type": 12,
+    "count": 1
+   },
+   {
+    "type": 13,
+    "count": 6
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 12,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 760
+   },
+   {
+    "type": 12,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 11,
+    "count": 2
+   },
+   {
+    "type": 13,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Type": "cash",
+  "Content": "screw3d.endless3.bundle",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 800
+   },
+   {
+    "type": 12,
+    "count": 3
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 11,
+    "count": 2
+   },
+   {
+    "type": 13,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 1680
+   },
+   {
+    "type": 11,
+    "count": 1
+   },
+   {
+    "type": 12,
+    "count": 1
+   },
+   {
+    "type": 13,
+    "count": 3
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 480
+   },
+   {
+    "type": 11,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 240
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 13,
+    "count": 3
+   }
+  ]
+ },
+ {
+  "Type": "cash",
+  "Content": "screw3d.endless4.bundle",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 200
+   },
+   {
+    "type": 13,
+    "count": 6
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 3200
+   },
+   {
+    "type": 11,
+    "count": 3
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 2600
+   },
+   {
+    "type": 11,
+    "count": 1
+   },
+   {
+    "type": 12,
+    "count": 4
+   },
+   {
+    "type": 13,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 13,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 11,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 12,
+    "count": 2
+   },
+   {
+    "type": 13,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Type": "cash",
+  "Content": "screw3d.endless5.bundle",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 600
+   },
+   {
+    "type": 11,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 12,
+    "count": 4
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 5400
+   },
+   {
+    "type": 11,
+    "count": 1
+   },
+   {
+    "type": 12,
+    "count": 1
+   },
+   {
+    "type": 13,
+    "count": 6
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 11,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 12,
+    "count": 1
+   },
+   {
+    "type": 13,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 1600
+   },
+   {
+    "type": 13,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Type": "cash",
+  "Content": "screw3d.endless6.bundle",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 8100
+   },
+   {
+    "type": 12,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 11,
+    "count": 6
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 2000
+   },
+   {
+    "type": 11,
+    "count": 3
+   },
+   {
+    "type": 12,
+    "count": 8
+   },
+   {
+    "type": 13,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 13,
+    "count": 7
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 1900
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 11,
+    "count": 1
+   },
+   {
+    "type": 13,
+    "count": 1
+   }
+  ]
+ },
+ {
+  "Type": "cash",
+  "Content": "screw3d.endless7.bundle",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 10000
+   },
+   {
+    "type": 13,
+    "count": 16
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 4600
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 3000
+   },
+   {
+    "type": 11,
+    "count": 12
+   },
+   {
+    "type": 12,
+    "count": 6
+   },
+   {
+    "type": 13,
+    "count": 4
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 12,
+    "count": 14
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 6400
+   },
+   {
+    "type": 11,
+    "count": 2
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 11,
+    "count": 6
+   }
+  ]
+ },
+ {
+  "Type": "cash",
+  "Content": "screw3d.endless8.bundle",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 32000
+   },
+   {
+    "type": 12,
+    "count": 33
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 11,
+    "count": 22
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 18000
+   },
+   {
+    "type": 11,
+    "count": 8
+   },
+   {
+    "type": 12,
+    "count": 8
+   },
+   {
+    "type": 13,
+    "count": 42
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 14000
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 12,
+    "count": 9
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 13,
+    "count": 38
+   }
+  ]
+ },
+ {
+  "Type": "cash",
+  "Content": "screw3d.endless8.bundle",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 50000
+   },
+   {
+    "type": 11,
+    "count": 9
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 12,
+    "count": 25
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 5600
+   },
+   {
+    "type": 11,
+    "count": 9
+   },
+   {
+    "type": 12,
+    "count": 15
+   },
+   {
+    "type": 13,
+    "count": 56
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 12,
+    "count": 20
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 11,
+    "count": 2
+   },
+   {
+    "type": 13,
+    "count": 14
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 12400
+   }
+  ]
+ },
+ {
+  "Type": "cash",
+  "Content": "screw3d.endless8.bundle",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 66000
+   },
+   {
+    "type": 11,
+    "count": 28
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 11,
+    "count": 9
+   },
+   {
+    "type": 12,
+    "count": 25
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 2000
+   },
+   {
+    "type": 11,
+    "count": 3
+   },
+   {
+    "type": 12,
+    "count": 5
+   },
+   {
+    "type": 13,
+    "count": 35
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 0,
+    "count": 2000
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 12,
+    "count": 10
+   }
+  ]
+ },
+ {
+  "Type": "free",
+  "Content": "",
+  "Rewards": [
+   {
+    "type": 13,
+    "count": 35
+   }
+  ]
+ }
+]

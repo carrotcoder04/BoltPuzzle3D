@@ -1,0 +1,1667 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: SnuiCommon_rm
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: rm
+  m_SharedData: {fileID: 11400000, guid: 56d4b1d6a9621d04eb877a1525a91b26, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 233343164604416
+    m_Localized: KOSTENLOS LIVES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233280816275456
+    m_Localized: NACHFÜLLEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266123567161344
+    m_Localized: VERWENDEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12288803132661760
+    m_Localized: KOSTENLOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304573871808512
+    m_Localized: Kostenloses LIVES!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1697441651875840
+    m_Localized: Alle lives sind voll.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436200639389696
+    m_Localized: Level-Truhe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12288946942763008
+    m_Localized: Rimnada speziala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436162156650496
+    m_Localized: Stern-Truhe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320630867091456
+    m_Localized: '{0} KOSTENLOS Lives'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264074574159872
+    m_Localized: LEBENSBANK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232529176027136
+    m_Localized: OBTEGNA PLIR VITAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35481137106116608
+    m_Localized: Voll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026432
+    m_Localized: È liber sulettamain ina giada!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026434
+    m_Localized: Tscherna in pseudonim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026435
+    m_Localized: Num nunvalaivel. Scriva in auter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026436
+    m_Localized: Scriva almain 3 bustabs!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026437
+    m_Localized: Scriva betg dapli che 15 bustabs!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026433
+    m_Localized: Scriva tes pseudonim...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39808712133566464
+    m_Localized: MIDAR NUM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40123526764552192
+    m_Localized: MIDAR PROFIL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900277404950528
+    m_Localized: MENS SA DEFECS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900312473526272
+    m_Localized: Permetta il tracking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900371902619648
+    m_Localized: Permetta il tracking per reducir la publicitad irrelevanta e survegnir {0} munaidas gratuitas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900440034893824
+    m_Localized: Permetta il tracking per survegnir rewards.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900487157899264
+    m_Localized: NA PERTGADIS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900528459210752
+    m_Localized: Lascha infurmar tai davart eveniments limitads en temp ed actualitads.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41986630234398720
+    m_Localized: BUCHA USS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41986630246981632
+    m_Localized: GEIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41991704809562112
+    m_Localized: Permetta notificaziuns per survegnir infurmaziuns davart eveniments limitads en temp ed actualitads.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375679755411456
+    m_Localized: ANUNTIESCHA TI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375726647730176
+    m_Localized: Arcuna tes progress gratuit en il tschiel!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252780607135744
+    m_Localized: TSCHERNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252819287007232
+    m_Localized: CREAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50335704901738496
+    m_Localized: NA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252991467380736
+    m_Localized: SALVAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45199535239061504
+    m_Localized: GUARDAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51007642271735808
+    m_Localized: ha tramess ina vita!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193240967405568
+    m_Localized: Survegnir munaidas gratuitas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193180493930496
+    m_Localized: 'S''juntar ubain crear ina squadra per:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52896768214425600
+    m_Localized: Capacitad da squadra è cumpletta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193207886929920
+    m_Localized: Survegnir vitas gratuitas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52896720361611264
+    m_Localized: Voss nivel n'è betg avunda per s'unir a questa squadra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48191512465367040
+    m_Localized: S'UNIR A INA SQUADRA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50334557843480576
+    m_Localized: Es ti segir che ti vuls allontanar quest giugader?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50332880616808448
+    m_Localized: ALLONTANAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634758253076480
+    m_Localized: ANNULLAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634806575652864
+    m_Localized: Es ti segir che ti vuls bandunar tia squadra?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634666892746752
+    m_Localized: BANDUNAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634620147228672
+    m_Localized: BANDUNAR SQUADRA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48164027749097472
+    m_Localized: Verifitga per plaschair tia colliaziun d'internet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48163983373361152
+    m_Localized: Colliaziun persa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52805192968560640
+    m_Localized: Midada dal num gartegiada!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52780918081839104
+    m_Localized: Collegia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52798812643647488
+    m_Localized: Caracter betg sustegnì.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375933552746496
+    m_Localized: SIGNAR EN CUN APPLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375887180521472
+    m_Localized: SIGNAR EN CUN FACEBOOK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375955442819072
+    m_Localized: SIGNAR EN CUN GOOGLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42721386727202816
+    m_Localized: Tes progress è vegnì salvà.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42721333207883776
+    m_Localized: SUCCESS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42730837634965504
+    m_Localized: ENCURA ANC BETGA EN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726401105715200
+    m_Localized: Il giug vegn a cumenzar da <color=#EF4C4C>livel 1</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726463454044160
+    m_Localized: 'Cussegls: Ti pos signar en da nov per cuntinuar tes progress.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726296550105088
+    m_Localized: SIGNAR OR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45200576651190272
+    m_Localized: Capacitad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45176701162872832
+    m_Localized: CREAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47003035736465408
+    m_Localized: MODIFITGAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252406294863872
+    m_Localized: Livell minim necessari
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111296
+    m_Localized: Cuntanscha livel {0} per auzar la limita dal livel minim necessari.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252313470722048
+    m_Localized: Logo da squadra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45262366646984704
+    m_Localized: TSCHERNER LOGO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252369947025408
+    m_Localized: Num da squadra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252486565453824
+    m_Localized: '*Logo e num da squadra na pon betg vegnir midads suenter crear'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111297
+    m_Localized: AGID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45176682426916864
+    m_Localized: S'UNIR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50241104296009728
+    m_Localized: Allontanar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47002942832631808
+    m_Localized: BANDUNAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44926451865083904
+    m_Localized: MIA SQUADRA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45250024622252032
+    m_Localized: Scriva il num da squadra...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45199495682580480
+    m_Localized: ENCURIR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111298
+    m_Localized: Nagin resultat per quest num.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44926427412291584
+    m_Localized: SQUADRAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305600
+    m_Localized: Tias vitas èn cumplettas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305601
+    m_Localized: Ti has gia gidà questa dumonda.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305602
+    m_Localized: Ti stos spetgar {0} minutas avant che ti pos gidar danovamain!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305603
+    m_Localized: Ti has gia fatg questa dumonda.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46997273542909952
+    m_Localized: 'Livell minim necessari:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46995160800681984
+    m_Localized: 'Score da squadra:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46002148947779584
+    m_Localized: INFO DA SQUADRA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46996381083099136
+    m_Localized: 'Gidas da l''emna:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072008410750976
+    m_Localized: Gidas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072106691682304
+    m_Localized: Schefcumandant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072050559311872
+    m_Localized: Livels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50707987734454272
+    m_Localized: DUMANDAR VITAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50728058632527872
+    m_Localized: '{0} è sa juntà a la squadra.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50728091402625024
+    m_Localized: '{0} è vegnì allontanà.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50708198070411264
+    m_Localized: DUMANDA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50736182525419520
+    m_Localized: nach leben fragen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57494596047855616
+    m_Localized: Stoss stu vegnir bandunà la squadra avant che t’inscriver in’autra!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57496004599996416
+    m_Localized: RANGAZIUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57494080442064896
+    m_Localized: Punctuaziun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149430573719552
+    m_Localized: SQUADRAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149277246742528
+    m_Localized: TABELLA DA RANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149395333177344
+    m_Localized: GIUGADERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57493952461266944
+    m_Localized: Vesair la squadra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63674767004131328
+    m_Localized: FEEDBACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717830468558848
+    m_Localized: Bitte wähle oder beschreibe deine Probleme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717859195346944
+    m_Localized: Beschreibe die Probleme oder Vorschläge...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717953256808448
+    m_Localized: TRASMETTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63719952446644224
+    m_Localized: Gib hier deine E-Mail-Adresse ein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63740716600254464
+    m_Localized: Danke für dein Feedback!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63741145136488448
+    m_Localized: N'ha betg succedì da trasmetter, per plaschair, essayez anc ina giada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63762870901399552
+    m_Localized: LADEN FEHLGESCHLAGEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63764307005923328
+    m_Localized: Bitte wähle oder beschreibe deine Probleme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63764348902825984
+    m_Localized: Gib hier deine E-Mail-Adresse ein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010148310736896
+    m_Localized: Möchtest du deine Daten von diesem Gerät und unseren Servern löschen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010253747150848
+    m_Localized: Ihre Spieldaten werden sofort von diesem Gerät und unseren Servern entfernt. Alle Ihre Daten und Ihr Fortschritt gehen verloren und können nicht wiederhergestellt werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010270369177600
+    m_Localized: Vus avais abonnaments activs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010281240813568
+    m_Localized: Per evitar custs supplementars, giai en App Store > Conto > Abonnaments e annullai l’emprim ils abonnaments activs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010291277783040
+    m_Localized: Bist du sicher, dass du deine Daten löschen willst? Ihr aktueller Fortschritt geht verloren und kann nicht wiederhergestellt werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010303109914624
+    m_Localized: Wenn du auf "Ja" tippst, startest du das Spiel als neuer Benutzer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010720036315136
+    m_Localized: ICH VERSTEHEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95625466474389504
+    m_Localized: Tgi è tes num?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95625437298810880
+    m_Localized: ENTRER NOM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111216658851291136
+    m_Localized: Piglia vivas gratuitas da tes cumparants da la squadra.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111930957190127616
+    m_Localized: Ti n’hai betg vivas gratuitas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115602396111953920
+    m_Localized: NACHRICHT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118470840675196928
+    m_Localized: Tippe, um dein Profil zu bearbeiten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118480965112684544
+    m_Localized: Erstelle deinen Spitznamen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118485440464412672
+    m_Localized: FOTO WÄHLEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125717701572157440
+    m_Localized: Maximale Zeichenanzahl ist {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125725518169366528
+    m_Localized: Mia profil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125734265910452224
+    m_Localized: 'Nivel actual:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125736013802758144
+    m_Localized: Statisticas generalas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125737398732578816
+    m_Localized: Vittoria sin l'emprima tentativa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125737783090208768
+    m_Localized: Agid fatg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126423333916893184
+    m_Localized: Agid retschievì
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67417490278309888
+    m_Localized: BIST DU SICHER?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67417490278309889
+    m_Localized: Möchtest du wirklich aufhören?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875570810881
+    m_Localized: STAI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875562422272
+    m_Localized: USCIR DAL NIVEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875570810880
+    m_Localized: Bist du sicher, dass du aufhören willst?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 149290068038639616
+    m_Localized: WEITER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661760
+    m_Localized: Erlaube Tracking, um ein besseres Anzeigenerlebnis zu erreichen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661761
+    m_Localized: Du wirst zu deinen Geräteeinstellungen weitergeleitet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661762
+    m_Localized: Einschalten!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661763
+    m_Localized: Benachrichtigung zulassen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661764
+    m_Localized: Tracking zulassen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155136856064
+    m_Localized: bitte aktivieren Sie die Benachrichtigungen in Ihren Geräteeinstellungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158623746145378304
+    m_Localized: Ness team
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159757269296209920
+    m_Localized: ANTIPPEN, UM FORTZUFAHREN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164882056993562624
+    m_Localized: TIPPE ZUM EINLÖSEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167298491044847616
+    m_Localized: STARTEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167388066735972352
+    m_Localized: OFFERTAS PER TEI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167388656706772992
+    m_Localized: OFFERTA 3-IN-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167390104249163776
+    m_Localized: CUMPRAR TUT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754245507047424
+    m_Localized: HANDWERKER-KITS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754499891585024
+    m_Localized: Nimm jedes Angebot an, um kostenlose Belohnungen freizuschalten!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754502554968064
+    m_Localized: Vergiss nicht, deine kostenlosen Belohnungen abzuholen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172042873425879040
+    m_Localized: Brotpaket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172075683758989312
+    m_Localized: WÄHLE EINS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180366206789738496
+    m_Localized: ABHOLEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186520677521547265
+    m_Localized: KEIN INTERNET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186520677521547264
+    m_Localized: "Diese Aktion erfordert eine Internetverbindung.\nBitte versuchen Sie es später erneut."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186506587038277632
+    m_Localized: "{0}\nBELOHNUNGEN!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219843
+    m_Localized: Hier sind deine noch nicht abgeholten Belohnungen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179369413868249088
+    m_Localized: SPIELEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188378725424816128
+    m_Localized: RAKETENVERKAUF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188407241268781056
+    m_Localized: Тегін өмірді толтыру!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191590517525438464
+    m_Localized: BELOHNUNGEN!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195269482039468032
+    m_Localized: '<sprite=0> Genieße deine Belohnungen mit <color=#FFFF0B>Play Points</color>!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195312493884596224
+    m_Localized: BUN HALLOWEEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197048656911654912
+    m_Localized: GLÜCKWUNSCH!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199617985050042368
+    m_Localized: Offerta speziala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199621120049012736
+    m_Localized: Eliminà las publicitats emergents per sempre!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199625686962397184
+    m_Localized: Una sola vegada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 201820360875696128
+    m_Localized: KOSTENLOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204334129812070400
+    m_Localized: VENDERDA DA NADAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 208692138415742976
+    m_Localized: EMPROVA DANOV!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205711112789811200
+    m_Localized: Offerda da la Culer nair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759028850688
+    m_Localized: Pachet da Forza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793728
+    m_Localized: Compra 1 pachet e survegn 1 GRATIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793729
+    m_Localized: Retschaiva il pachet per sbloccar premis gratuits!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793730
+    m_Localized: Retschaivì
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213344241960607744
+    m_Localized: '{0} Steilas rimnar!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213385543838326784
+    m_Localized: PAQUET DA DEFIAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213385629515374592
+    m_Localized: Avra il paquet per retirer fin a <color=#FFE315>{0}</color> monedas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214475252614291456
+    m_Localized: Avra il paquet per retirer tes premis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214520926147960832
+    m_Localized: RETRAR!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214539340325314560
+    m_Localized: Ramassa stailas entaifer il temp limità per sbloccar fin a <color=#FFE315>{0}</color> munaidas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769054264582144
+    m_Localized: ULTIMA CHANSA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769183633694720
+    m_Localized: Es ti segir che ti vuls bandunar tut tes premis cuntanschids?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769539012878336
+    m_Localized: BANDUNAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214783103136161792
+    m_Localized: Fin a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214839998228193280
+    m_Localized: Rimna steilas per avrir premis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214867523276890112
+    m_Localized: AVRIR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 215234507382448128
+    m_Localized: Avra il paquet e rimna steilas per retirer tes premis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159497032479793152
+    m_Localized: Gran Premi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 220645188114046976
+    m_Localized: COLLECZIUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224668775510695936
+    m_Localized: '<color=#fddc25>Nova Collecziun</color> a vegn prest!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224920229035106304
+    m_Localized: Raggiung il <color={0}>livell {1}</color> per sbasschar la Collecziun!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224920905328877568
+    m_Localized: Collecziun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224923537313357824
+    m_Localized: '<color={0}>Telechargiar…</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228241451726659584
+    m_Localized: Raggiung il livell {0} per sbasschar la Collecziun e vesair vos medaglias!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228241896872337408
+    m_Localized: CHADRA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242197553602560
+    m_Localized: CORNICI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242241958699008
+    m_Localized: NUM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242435928481792
+    m_Localized: MEDAGLIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228243239926226944
+    m_Localized: Activar il Pass per sbasschar quest stil per in temp limità!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230438899417079808
+    m_Localized: RIMUOVI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230438918601826304
+    m_Localized: INDOSSA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233681610001604608
+    m_Localized: BEENDEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009152
+    m_Localized: Finì!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009153
+    m_Localized: STARTSEITE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009154
+    m_Localized: PARABÉNS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390117552128
+    m_Localized: SAIR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390121746432
+    m_Localized: REPETIR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390130135040
+    m_Localized: NÍVEL {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390130135041
+    m_Localized: CARREGANDO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390134329346
+    m_Localized: PULAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390142717952
+    m_Localized: BOM TRABALHO!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390163689472
+    m_Localized: Sua classificação
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390163689473
+    m_Localized: Recompensa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246559818866688
+    m_Localized: SAIR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246575794970624
+    m_Localized: REPETIR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246590647001088
+    m_Localized: NÍVEL {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246601078235136
+    m_Localized: CARREGANDO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246643658809344
+    m_Localized: PULAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246711614922752
+    m_Localized: BOM TRABALHO!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246748369608704
+    m_Localized: Sua classificação
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246760054939648
+    m_Localized: Recompensa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245536492576768
+    m_Localized: SPÄTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246615879933952
+    m_Localized: PAUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235891040235544576
+    m_Localized: 'Belohnungen:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246657709727744
+    m_Localized: Freigeschaltet ab Level {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816862262222848
+    m_Localized: Fan-Belohnungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816800794697728
+    m_Localized: Tritt unserer wachsenden Facebook-Community bei und spielt zusammen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816831106932736
+    m_Localized: Jetzt beitreten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816773359755264
+    m_Localized: Mach mit & spiel mit uns!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246673576779776
+    m_Localized: Die Grafik ist gut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246681361408000
+    m_Localized: Das Spiel macht Spaß.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246694510551040
+    m_Localized: Zu viel Werbung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246703058542592
+    m_Localized: Das Spiel hat Bugs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245482302169088
+    m_Localized: Bitte aktualisiere auf die neueste Version für ein besseres Spielerlebnis.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245456964378624
+    m_Localized: AKTUALISIEREN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237620428677308416
+    m_Localized: Manda carta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237665078654001152
+    m_Localized: Membros da la squadra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237687049928302592
+    m_Localized: Ti estas per mandar questa carta a {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237712387861372928
+    m_Localized: Manda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237958163799728128
+    m_Localized: Participe in ina squadra per scambiar cartas cun ils membros!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237981312209641472
+    m_Localized: 'Questa retschertga è disponibla per:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238028475220353024
+    m_Localized: Limita diaria {0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238061569860165632
+    m_Localized: Tschertgand ina carta!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238326946397675520
+    m_Localized: Carta recevì!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238392037197471744
+    m_Localized: 'Da:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238436267575992320
+    m_Localized: Tschertga carta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238438330066264064
+    m_Localized: '<color=#B5DAFF>Cartas d’argient pon vegnir regaladas tranter ils membros da la squadra.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238438440233852928
+    m_Localized: '<color=#FDDC25>Cartas d’aur pon vegnir rimnadas mo dallas activitads ed en premis.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239838413705961472
+    m_Localized: Questa carta pon ins rimnar dallas activitads, premis e da la squadra.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239838802429861888
+    m_Localized: '<color=#FDDC25>Cartas d’aur</color> na pon vegnir tramessas!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239840300178071552
+    m_Localized: Ti has basegn d’ina copia da la carta per la mandar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239840360295030784
+    m_Localized: Ti has gia mandà 3 cartas oz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239841109020237824
+    m_Localized: Ti has gia tschertgà ina carta oz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267800449324670976
+    m_Localized: BENVGNÜ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267800545017716736
+    m_Localized: Nus avain tschertgà vus! Piglia vos regals e cuntinuescha l’aventura!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246035593416400896
+    m_Localized: Questa carta po vegnir rimnada d’occurrenzas e recompensas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 245969547665858560
+    m_Localized: Carta tramessa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247400907857190912
+    m_Localized: Premis bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401008721813504
+    m_Localized: Accumulai cumpras senza limitaziuns da temp e survegnai premis fantastics!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401059258982400
+    m_Localized: "Premi\nprincipal"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401253006467072
+    m_Localized: PREMIS BONUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247775982527700992
+    m_Localized: Gratulaziuns! Ti has rimnà tut las chartas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248229689585295360
+    m_Localized: Bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164245458944
+    m_Localized: BILETTA D’AUR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236160
+    m_Localized: '<color=#FFF200>{0}</color> ha cumenzà! Cunteglia steilas per deblocher regals spezials!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236161
+    m_Localized: '<color=#FFF200>{0}</color> è finì! Il nov <color=#FFF200>{1}</color> cumenzherà prest!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236162
+    m_Localized: '<color=#FFF200>{0}</color> activatescha per deblocher reglas spezialas!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236163
+    m_Localized: Premis Spezials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430464
+    m_Localized: Otena buns exclusifs fin ch'il eveniment finescha!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430465
+    m_Localized: 8 vidas invece da 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430466
+    m_Localized: Cunfrain ed num dorà
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430467
+    m_Localized: Culescha stailas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430468
+    m_Localized: Debloccha premis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430469
+    m_Localized: Activa <color=#FDF36D>{0}</color> per deblocher reglas spezialas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430470
+    m_Localized: Gratulaziun! Ti has activà il <color=#FFF34F>{0}</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430471
+    m_Localized: Tes icon dal profil e tes num èn dorà!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430472
+    m_Localized: Il regal è partaglà cun tes commembers da squadra!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430473
+    m_Localized: Il dumber maximal da vidas è augmentà a 8!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430474
+    m_Localized: ACTIVAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430475
+    m_Localized: Debloccha premis spezials!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430476
+    m_Localized: '<color=#FFF34F>{0}</color> cuntanschì!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430477
+    m_Localized: Tes regal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430478
+    m_Localized: Ti has gia retratg quest premi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624768
+    m_Localized: Guadagna dapli stailas per avrir questa fasa e deblocchar quest premi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624769
+    m_Localized: Cuntanscha {0} per retschaiver questa regal!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624770
+    m_Localized: Finischa questa fasa e deblochescha {0} per retschaiver la regal!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624771
+    m_Localized: Finescha il nivel {0} per deblocher {1}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624772
+    m_Localized: Guadagna dapli stailas per avrir questa fasa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624773
+    m_Localized: Guadagna dapli stailas per cuntinuar a la proxima fasa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624774
+    m_Localized: Finischa questa fasa e deblochescha {0} per avrir il Cofret cun Tesaur!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624775
+    m_Localized: Retschaiva il <color=#FFF34F>{0}</color> e ramassa tut las monaidas cura l'event finescha!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624776
+    m_Localized: Cuntanscha <color=#FFF34F>{0}</color> per deblocher il Cofret cun Tesaur a la fin dals stadis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624777
+    m_Localized: Sav 10 Münzen in der Schatzkiste für jede 10 Sterne! Fordere sie an, wenn das Event endet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624778
+    m_Localized: Beende die Stufen, um für jede 10 Sterne 10 Münzen im Schatzkistchen zu sichern! Sammle sie ein, wenn das Event endet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819072
+    m_Localized: FINAL BONUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819073
+    m_Localized: Qua èn tes premis betg retratgs!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819074
+    m_Localized: '<color=#fff34f>{0}</color> è avert, quai è tia emprima regal!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819075
+    m_Localized: Cumplettar in nivel per collectar stailas debloccha premis! Toccar per emprender co collectar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819076
+    m_Localized: Deblochescha <color=#fff34f>{0}</color> per gudagnar reglas exclusivas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819077
+    m_Localized: TOCAR PER SALTAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819078
+    m_Localized: ACTIVÀ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819079
+    m_Localized: ACTIVAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819080
+    m_Localized: Regal per tes commembers da squadra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5353076616585216
+    m_Localized: VENCHEI NIVELS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5372156589367296
+    m_Localized: KOSTENLOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43766314718715904
+    m_Localized: CHRISTMAS PASS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41612858264379392
+    m_Localized: Pass da Nadal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43168464116899840
+    m_Localized: Pass Aurì
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19695394816
+    m_Localized: SFRAIDADA DA SURF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197617770496
+    m_Localized: Kusanya konokono zaidi kuliko wachezaji wengine ndani ya dakika 30!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233189662720
+    m_Localized: MEISTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273316569088
+    m_Localized: Gudagna il Maister da surf per retschaiver quests premis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301875585024
+    m_Localized: Umekwisha kudai hizi zawadi tayari!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444700024832
+    m_Localized: Sammle Muscheln innerhalb des Zeitlimits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 476987777024
+    m_Localized: Tritt gegen andere Spieler an
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500748509184
+    m_Localized: Erhalte fantastische Belohnungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536987295744
+    m_Localized: Nimm am Surf-Rush teil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 675730677760
+    m_Localized: Rang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395896868864
+    m_Localized: Belohnung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 775722885120
+    m_Localized: Suche nach Spielern ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251465525600706560
+    m_Localized: Gudagna la Sfraidada da surf per retschaiver quests premis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251109559260667904
+    m_Localized: Dieses Paket enthält {0} Karten!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 253212636654592000
+    m_Localized: Dis da login
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255097381692891136
+    m_Localized: 'Hatua za zawadi: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348499468288
+    m_Localized: Abgeschlossen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051200
+    m_Localized: Sei der Erste und gewinne erstaunliche Belohnungen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051201
+    m_Localized: Beende zuerst {0} Levels, um den Hauptpreis zu gewinnen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051204
+    m_Localized: '{0} Levels'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051205
+    m_Localized: Du hast als Erster abgeschlossen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051206
+    m_Localized: Spieler suchen...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051207
+    m_Localized: STUFE {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051210
+    m_Localized: Gewinne Levels vor anderen, um die Mission abzuschließen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051211
+    m_Localized: Verdiene erstaunliche Belohnungen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051212
+    m_Localized: Mach mit beim Rennen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051213
+    m_Localized: EINHORN-RENNEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051209
+    m_Localized: Starte die Mission gegen andere Spieler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9561896378368
+    m_Localized: Großer Preis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051203
+    m_Localized: Versuche es erneut und übernehme die Führung für Belohnungen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8358106793762816
+    m_Localized: EMPROVA DANOV!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000105134579712
+    m_Localized: Herzlichen Glückwunsch!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000232930828288
+    m_Localized: Das Rennen ist vorbei.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000346080567296
+    m_Localized: Sei beim nächsten Mal der Erste, der ins Ziel kommt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8358723339673600
+    m_Localized: Ziel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27990813114884096
+    m_Localized: Quasi chaschà! Avanza, prenda la direcziun e gudagna grond la proxima giada!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40226007532167168
+    m_Localized: Einhorn-Rennen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258714048939417600
+    m_Localized: CURSA LEVRETS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 261220253826015232
+    m_Localized: Cursa levrets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 262986913796841472
+    m_Localized: INFO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 262986960378781696
+    m_Localized: EQUIPA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271045432789950464
+    m_Localized: MODIF. SQUADRA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273924986122526720
+    m_Localized: Recumandaziuns per las meglier maschinas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825505589190656
+    m_Localized: AVIS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825568310812672
+    m_Localized: na po betg pli sa colliar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825591157186560
+    m_Localized: Ti na pos betg entrar en l'equipa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277826028287549440
+    m_Localized: SCUSSAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615821602775040
+    m_Localized: Ngazi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615873058496512
+    m_Localized: DUNIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615967702966272
+    m_Localized: MABINGWA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278616096044474368
+    m_Localized: WACHEZAJI BORA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278616189900414976
+    m_Localized: TIMU BORA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278643930016243712
+    m_Localized: RANKI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278668086418071552
+    m_Localized: Alama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280381325501784064
+    m_Localized: Pandisha alama ya timu yako kwa mwezi huo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280381518901141504
+    m_Localized: Kimbia mbele na uwe legenda!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280382392553693184
+    m_Localized: Pandisha alama yako kwa mwezi huo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280723815215915008
+    m_Localized: Uwezo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281101773235544064
+    m_Localized: Juu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281101820337577984
+    m_Localized: Chini
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303936521708232704
+    m_Localized: CURSA DA SKATEBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303936521725009920
+    m_Localized: Cursa da skateboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328674388338532352
+    m_Localized: Assagl da squadra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328674935795867648
+    m_Localized: Kusanya majivuno!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675153786429440
+    m_Localized: Unescha-te a ina squadra per contribuir a l'Assagl da squadra!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675265375887360
+    m_Localized: Sche ti bandunas tia squadra, bandunas era l'Assagl da squadra actual!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675424260317184
+    m_Localized: Pita viwango ili kukusanya boti kama timu kupata zawadi za kushangaza!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675526479699968
+    m_Localized: Hakuna Mchango
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691474817343488
+    m_Localized: Cumbat da squadras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691548192497664
+    m_Localized: Cheo cha Timu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691671190462464
+    m_Localized: Kazi nzuri! Hongera!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691834302750720
+    m_Localized: MGONGANO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691895833190400
+    m_Localized: TIMU YANGU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692100393590784
+    m_Localized: 'Zawadi za binafsi: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692220749144064
+    m_Localized: Kusanya bunduki za maji katika viwango!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692289833525248
+    m_Localized: Shindana na timu yako kushinda!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692350239891456
+    m_Localized: Kusanya zaidi kwa zawadi za binafsi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692455319789568
+    m_Localized: Jiunge na timu na shindana na timu yako kupata zawadi za kushangaza!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692559271419904
+    m_Localized: Sche ti bandunas tia squadra, bandunas era il Cumbat da squadras actual!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692653794254848
+    m_Localized: Kusanya bunduki za maji na shindana na timu yako kupata zawadi za kushangaza!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692775722672128
+    m_Localized: ZAWADI ZA BINAFSI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692921290186752
+    m_Localized: Cheo cha Sasa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328693020170903552
+    m_Localized: Alama ya Sasa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329403534840684544
+    m_Localized: Kusanya angalau boti moja ili kudai zawadi zako!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329403596081717248
+    m_Localized: Changia mara nyingine ili upate zawadi za timu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407227346116608
+    m_Localized: Revisas da l'Assagl da squadra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407337861832704
+    m_Localized: '{0} revisas persunalas!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407487313272832
+    m_Localized: '{0} revisas da squadra!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330435785229590528
+    m_Localized: Revisas persunalas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330443706701176832
+    m_Localized: '{0} revisas persunalas!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331096417918509056
+    m_Localized: rimna pistolas d'aua en ils nivels per contribuir e batter ils auters!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331096633254076416
+    m_Localized: Rimna dapli per survegnir revisas persunalas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331098070130352128
+    m_Localized: Contribuescha per survegnir revisas la proxima giada!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

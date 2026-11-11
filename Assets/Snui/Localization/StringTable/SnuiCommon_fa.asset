@@ -1,0 +1,1667 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: SnuiCommon_fa
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: fa
+  m_SharedData: {fileID: 11400000, guid: 56d4b1d6a9621d04eb877a1525a91b26, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 233343164604416
+    m_Localized: زندگی آزاد
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233280816275456
+    m_Localized: دوباره پر کردن
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266123567161344
+    m_Localized: استفاده کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12288803132661760
+    m_Localized: رایگان
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304573871808512
+    m_Localized: زندگی آزاد!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1697441651875840
+    m_Localized: زندگی شما پر است
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436200639389696
+    m_Localized: سطح سینه
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12288946942763008
+    m_Localized: مجموعه ویژه
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436162156650496
+    m_Localized: سینه ستاره
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320630867091456
+    m_Localized: '{0} زندگی رایگان'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264074574159872
+    m_Localized: بانک زندگی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232529176027136
+    m_Localized: دریافت زندگی بیشتر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35481137106116608
+    m_Localized: پر شده
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026432
+    m_Localized: این فقط برای یک بار رایگان است!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026434
+    m_Localized: لطفا یک نام مستعار تعیین کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026435
+    m_Localized: نام نامعتبر. یکی دیگر را تایپ کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026436
+    m_Localized: حداقل 3 کاراکتر تایپ کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026437
+    m_Localized: حداکثر 15 کاراکتر تایپ کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026433
+    m_Localized: نام مستعار خود را تایپ کنید ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39808712133566464
+    m_Localized: تغییر نام
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40123526764552192
+    m_Localized: ویرایش نمایه
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900277404950528
+    m_Localized: تبلیغات کمتر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900312473526272
+    m_Localized: اجازه ردیابی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900371902619648
+    m_Localized: اجازه ردیابی برای حذف تبلیغات نامربوط و دریافت {0} سکه رایگان!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900440034893824
+    m_Localized: لطفاً برای دریافت پاداش به ردیابی اجازه دهید.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900487157899264
+    m_Localized: از دست نده!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900528459210752
+    m_Localized: درباره رویدادها و به‌روزرسانی‌های با زمان محدود مطلع شوید.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41986630234398720
+    m_Localized: نه در حال حاضر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41986630246981632
+    m_Localized: بله
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41991704809562112
+    m_Localized: لطفاً برای دریافت رویدادها و به‌روزرسانی‌های محدود زمانی، اعلان‌ها را فعال کنید.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375679755411456
+    m_Localized: ورود
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375726647730176
+    m_Localized: مشکلی پیش آمده است، لطفاً بعداً دوباره امتحان کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252780607135744
+    m_Localized: انتخاب کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252819287007232
+    m_Localized: ایجاد کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50335704901738496
+    m_Localized: خیر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252991467380736
+    m_Localized: ذخیره
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45199535239061504
+    m_Localized: منظره
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51007642271735808
+    m_Localized: یک زندگی برایت فرستاد!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193240967405568
+    m_Localized: سکه‌های رایگان بدست آورید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193180493930496
+    m_Localized: 'برای پیوستن یا ایجاد تیم:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52896768214425600
+    m_Localized: ظرفیت تیم پر است
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193207886929920
+    m_Localized: زندگی‌های رایگان بگیرید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52896720361611264
+    m_Localized: سطح شما برای پیوستن به این تیم کافی نیست
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48191512465367040
+    m_Localized: به یک تیم بپیوندید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50334557843480576
+    m_Localized: آیا مطمئنید می‌خواهید این بازیکن را اخراج کنید؟?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50332880616808448
+    m_Localized: اخراج کردن
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634758253076480
+    m_Localized: لغو کردن
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634806575652864
+    m_Localized: آیا مطمئنید می‌خواهید تیم خود را ترک کنید؟?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634666892746752
+    m_Localized: ترک کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634620147228672
+    m_Localized: ترک تیم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48164027749097472
+    m_Localized: لطفاً اتصال اینترنت خود را بررسی کنید.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48163983373361152
+    m_Localized: اتصال قطع شد!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52805192968560640
+    m_Localized: تغییر نام با موفقیت انجام شد!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52780918081839104
+    m_Localized: اتصال
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52798812643647488
+    m_Localized: کاراکتر پشتیبانی نمی شود.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375933552746496
+    m_Localized: ورود با اپل
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375887180521472
+    m_Localized: ورود با فیسبوک
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375955442819072
+    m_Localized: با گوگل وارد شوید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42721386727202816
+    m_Localized: پیشرفت شما ذخیره شده است.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42721333207883776
+    m_Localized: موفقیت
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42730837634965504
+    m_Localized: هنوز خروج می‌شوید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726401105715200
+    m_Localized: بازی از سطح <color=#EF4C4C>۱</color> دوباره شروع می‌شود!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726463454044160
+    m_Localized: 'نکات: برای ادامه پیشرفت خود می‌توانید دوباره وارد شوید.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726296550105088
+    m_Localized: خروج
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45200576651190272
+    m_Localized: ظرفیت
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45176701162872832
+    m_Localized: ایجاد کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47003035736465408
+    m_Localized: ویرایش
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252406294863872
+    m_Localized: سطح مورد نیاز
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111296
+    m_Localized: به سطح {0} برسید تا حد نیاز سطح افزایش یابد.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252313470722048
+    m_Localized: آرم تیم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45262366646984704
+    m_Localized: انتخاب آرم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252369947025408
+    m_Localized: نام تیم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252486565453824
+    m_Localized: '*نمی‌توان نشان یا نام تیم را پس از ایجاد تغییر داد'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111297
+    m_Localized: راهنما
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45176682426916864
+    m_Localized: بپیوند
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50241104296009728
+    m_Localized: اخراج
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47002942832631808
+    m_Localized: ترک کردن
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44926451865083904
+    m_Localized: تیم من
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45250024622252032
+    m_Localized: نام تیم را وارد کنید...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45199495682580480
+    m_Localized: جستجو
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111298
+    m_Localized: برای این نام نتیجه‌ای وجود ندارد.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44926427412291584
+    m_Localized: تیم‌ها
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305600
+    m_Localized: زندگی‌های شما پر است
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305601
+    m_Localized: شما قبلا به این درخواست کمک کرده‌اید.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305602
+    m_Localized: شما باید {0} دقیقه صبر کنید تا دوباره بتوانید کمک کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305603
+    m_Localized: شما قبلا این درخواست را داده‌اید.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46997273542909952
+    m_Localized: 'سطح مورد نیاز:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46995160800681984
+    m_Localized: 'امتیاز تیم:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46002148947779584
+    m_Localized: اطلاعات تیم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46996381083099136
+    m_Localized: 'کمک‌های هفتگی:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072008410750976
+    m_Localized: کمک‌ها
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072106691682304
+    m_Localized: رهبر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072050559311872
+    m_Localized: سطوح
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50707987734454272
+    m_Localized: درخواست زندگی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50728058632527872
+    m_Localized: '{0} به تیم پیوست.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50728091402625024
+    m_Localized: '{0} اخراج شد.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50708198070411264
+    m_Localized: درخواست
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50736182525419520
+    m_Localized: درخواست زنده‌ها!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57494596047855616
+    m_Localized: باید قبل از پیوستن به تیم جدید تیم خود را ترک کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57496004599996416
+    m_Localized: رتبه
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57494080442064896
+    m_Localized: امتیاز
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149430573719552
+    m_Localized: تیم‌ها
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149277246742528
+    m_Localized: جدول امتیازات
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149395333177344
+    m_Localized: بازیکنان
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57493952461266944
+    m_Localized: مشاهده تیم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63674767004131328
+    m_Localized: بازخورد
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717830468558848
+    m_Localized: لطفاً مشکلات خود را انتخاب کنید یا توصیف کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717859195346944
+    m_Localized: مشکلات یا پیشنهادات را توضیح دهید...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717953256808448
+    m_Localized: ارسال
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63719952446644224
+    m_Localized: ایمیل خود را اینجا وارد کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63740716600254464
+    m_Localized: از بازخورد شما ممنونیم!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63741145136488448
+    m_Localized: ارسال ناموفق بود، لطفاً دوباره امتحان کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63762870901399552
+    m_Localized: بارگذاری شکست خورد
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63764307005923328
+    m_Localized: لطفاً مشکلات خود را انتخاب کنید یا توصیف کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63764348902825984
+    m_Localized: ایمیل خود را اینجا وارد کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010148310736896
+    m_Localized: آیا می خواهید داده های خود را از این دستگاه و سرورهای ما حذف کنید؟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010253747150848
+    m_Localized: اطلاعات بازی شما بلافاصله از این دستگاه و سرورهای ما حذف خواهد شد. تمام داده ها و پیشرفت شما از بین می رود و قابل بازیابی نیست.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010270369177600
+    m_Localized: شما اشتراک‌های فعال دارید.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010281240813568
+    m_Localized: برای جلوگیری از هزینه‌های بیشتر، لطفاً به App Store > حساب > اشتراک‌ها بروید و ابتدا اشتراک‌های فعال خود را لغو کنید.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010291277783040
+    m_Localized: آیا مطمئن هستید که داده های خود را حذف می کنید؟ پیشرفت فعلی خود را از دست خواهید داد و قابل بازیابی نیست.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010303109914624
+    m_Localized: با زدن "بله"، بازی را به عنوان یک کاربر جدید راه اندازی مجدد می کنید.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010720036315136
+    m_Localized: متوجه شدم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95625466474389504
+    m_Localized: نام شما چیست؟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95625437298810880
+    m_Localized: نام را وارد کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111216658851291136
+    m_Localized: از اعضای تیم خود زندگی‌های رایگان کسب کنید.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111930957190127616
+    m_Localized: شما هیچ زندگی رایگانی ندارید.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115602396111953920
+    m_Localized: پیام
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118470840675196928
+    m_Localized: برای ویرایش پروفایل خود ضربه بزنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118480965112684544
+    m_Localized: نام مستعار خود را ایجاد کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118485440464412672
+    m_Localized: عکس را انتخاب کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125717701572157440
+    m_Localized: حداکثر تعداد کاراکترها {0} است
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125725518169366528
+    m_Localized: پروفایل من
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125734265910452224
+    m_Localized: 'سطح فعلی:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125736013802758144
+    m_Localized: آمار کلی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125737398732578816
+    m_Localized: پیروزی در تلاش اول
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125737783090208768
+    m_Localized: کمک انجام شده
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126423333916893184
+    m_Localized: کمک دریافتی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67417490278309888
+    m_Localized: آیا مطمئنی؟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67417490278309889
+    m_Localized: آیا واقعاً می‌خواهید بازی را ترک کنید؟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875570810881
+    m_Localized: بمان
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875562422272
+    m_Localized: ترک سطح
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875570810880
+    m_Localized: آیا مطمئن هستید که می خواهید ترک کنید؟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 149290068038639616
+    m_Localized: ادامه
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661760
+    m_Localized: اجازه دهید ردیابی بهبود تجربه تبلیغات بهتر را ارائه دهد.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661761
+    m_Localized: شما به تنظیمات دستگاه خود هدایت می‌شوید.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661762
+    m_Localized: روشن کن!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661763
+    m_Localized: اجازه Notifications را بده
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661764
+    m_Localized: اجازه پیگیری را بده
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155136856064
+    m_Localized: لطفاً اعلان‌ها را از تنظیمات دستگاه خود روشن کنید.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158623746145378304
+    m_Localized: بدون تیم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159757269296209920
+    m_Localized: برای ادامه ضربه بزن
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164882056993562624
+    m_Localized: برای دریافت ضربه بزنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167298491044847616
+    m_Localized: شروع
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167388066735972352
+    m_Localized: تخفیف‌ها برای شما
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167388656706772992
+    m_Localized: پیشنهاد ۳ در ۱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167390104249163776
+    m_Localized: همه را بخر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754245507047424
+    m_Localized: پکیج‌های سازنده
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754499891585024
+    m_Localized: هر پیشنهاد را درخواست کنید تا جوایز رایگان را باز کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754502554968064
+    m_Localized: فراموش نکنید جوایز رایگان را درخواست کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172042873425879040
+    m_Localized: بسته نان
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172075683758989312
+    m_Localized: یک مورد را انتخاب کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180366206789738496
+    m_Localized: رسیدن
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186520677521547265
+    m_Localized: بدون اینترنت
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186520677521547264
+    m_Localized: "این عمل نیاز به اتصال به اینترنت دارد.\nلطفا بعداً دوباره تلاش کنید."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186506587038277632
+    m_Localized: "{0}\nجوایز!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219843
+    m_Localized: اینجا جوایز شما که هنوز دریافت نشده‌اند!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179369413868249088
+    m_Localized: بازی کن
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188378725424816128
+    m_Localized: فروش موشکی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188407241268781056
+    m_Localized: پر کردن زندگی رایگان!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191590517525438464
+    m_Localized: جوایز!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195269482039468032
+    m_Localized: '<sprite=0> از جوایز خود در <color=#FFFF0B>Play Points</color> لذت ببرید!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195312493884596224
+    m_Localized: هالووین مبارک
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197048656911654912
+    m_Localized: تبریک!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199617985050042368
+    m_Localized: پیشنهاد ویژه
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199621120049012736
+    m_Localized: تبلیغات پاپ آپ را برای همیشه حذف کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199625686962397184
+    m_Localized: فقط یک بار
+    m_Metadata:
+      m_Items: []
+  - m_Id: 201820360875696128
+    m_Localized: رایگان
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204334129812070400
+    m_Localized: حراج کریسمس
+    m_Metadata:
+      m_Items: []
+  - m_Id: 208692138415742976
+    m_Localized: '!دوباره امتحان کنید'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205711112789811200
+    m_Localized: حراج جمعه سیاه
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759028850688
+    m_Localized: بسته قدرت
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793728
+    m_Localized: یک بسته بخر و یک بسته رایگان بگیر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793729
+    m_Localized: بسته را دریافت کن تا جوایز رایگان را باز کنی!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793730
+    m_Localized: دریافت شد
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213344241960607744
+    m_Localized: جمع آوری {0} ستاره!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213385543838326784
+    m_Localized: بسته چالش
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213385629515374592
+    m_Localized: بسته را باز کنید تا حداکثر <color=#FFE315>{0}</color> سکه را به دست آورید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214475252614291456
+    m_Localized: بسته را باز کنید تا جوایز خود را دریافت کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214520926147960832
+    m_Localized: ادعا کن!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214539340325314560
+    m_Localized: در مدت زمان محدود ستاره‌ها را جمع‌آوری کنید و تا ۱۰ سکه باز کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769054264582144
+    m_Localized: آخرین شانس
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769183633694720
+    m_Localized: آیا مطمئن هستید که می‌خواهید تمام جوایز به دست آمده خود را رها کنید؟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769539012878336
+    m_Localized: تسلیم شدن
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214783103136161792
+    m_Localized: تا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214839998228193280
+    m_Localized: ستاره‌ها را جمع‌آوری کنید تا جوایز را باز کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214867523276890112
+    m_Localized: باز کردن
+    m_Metadata:
+      m_Items: []
+  - m_Id: 215234507382448128
+    m_Localized: بسته را باز کنید و ستاره‌ها را جمع‌آوری کنید تا جوایز خود را دریافت کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159497032479793152
+    m_Localized: جایزه بزرگ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 220645188114046976
+    m_Localized: مجموعه
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224668775510695936
+    m_Localized: '<color=#fddc25>مجموعه جدید</color> به زودی می آید!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224920229035106304
+    m_Localized: به <color={0}>سطح {1}</color> برسید تا مجموعه را باز کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224920905328877568
+    m_Localized: مجموعه
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224923537313357824
+    m_Localized: '<color={0}>در حال دانلود…</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228241451726659584
+    m_Localized: به سطح {0} برسید تا کلکسیون را باز کرده و مدال‌های خود را ببینید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228241896872337408
+    m_Localized: آواتار
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242197553602560
+    m_Localized: قاب
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242241958699008
+    m_Localized: نام
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242435928481792
+    m_Localized: نشان
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228243239926226944
+    m_Localized: عبور را فعال کنید تا این سبک را به مدت محدودی باز کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230438899417079808
+    m_Localized: برداشتن
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230438918601826304
+    m_Localized: تجهیز
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233681610001604608
+    m_Localized: ترک کن
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009152
+    m_Localized: تکمیل شد!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009153
+    m_Localized: خانه
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009154
+    m_Localized: تبریک
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390117552128
+    m_Localized: خروج
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390121746432
+    m_Localized: دوباره بازی کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390130135040
+    m_Localized: سطح {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390130135041
+    m_Localized: در حال بارگذاری
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390134329346
+    m_Localized: رد کردن
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390142717952
+    m_Localized: به خوبی پخته شده!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390163689472
+    m_Localized: رتبه شما
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390163689473
+    m_Localized: پاداش
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246559818866688
+    m_Localized: خروج
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246575794970624
+    m_Localized: دوباره بازی کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246590647001088
+    m_Localized: سطح {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246601078235136
+    m_Localized: در حال بارگذاری
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246643658809344
+    m_Localized: رد کردن
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246711614922752
+    m_Localized: به خوبی پخته شده!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246748369608704
+    m_Localized: رتبه شما
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246760054939648
+    m_Localized: پاداش
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245536492576768
+    m_Localized: بعداً
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246615879933952
+    m_Localized: مکث
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235891040235544576
+    m_Localized: 'جوایز:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246657709727744
+    m_Localized: باز کردن قفل در LV {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816862262222848
+    m_Localized: جوایز طرفداران
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816800794697728
+    m_Localized: به جامعه رو به رشد فیسبوک ما بپیوندید و با هم بازی کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816831106932736
+    m_Localized: همین حالا عضو شوید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816773359755264
+    m_Localized: به ما بپیوندید و با ما بازی کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246673576779776
+    m_Localized: گرافیک خوب است
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246681361408000
+    m_Localized: بازی سرگرم کننده است
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246694510551040
+    m_Localized: تبلیغات زیادی دارد
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246703058542592
+    m_Localized: بازی دارای اشکالاتی است
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245482302169088
+    m_Localized: لطفاً برای لذت بردن از تجربه بهتر، به آخرین نسخه به‌روزرسانی کنید.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245456964378624
+    m_Localized: به‌روزرسانی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237620428677308416
+    m_Localized: ارسال کارت
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237665078654001152
+    m_Localized: اعضای تیم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237687049928302592
+    m_Localized: شما در حال ارسال این کارت به {0} هستید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237712387861372928
+    m_Localized: ارسال
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237958163799728128
+    m_Localized: به یک تیم بپیوندید تا با اعضای تیم کارت‌ها را مبادله کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237981312209641472
+    m_Localized: 'این درخواست برای در دسترس است:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238028475220353024
+    m_Localized: محدودیت روزانه {0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238061569860165632
+    m_Localized: درخواست کارت!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238326946397675520
+    m_Localized: کارت دریافت شد!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238392037197471744
+    m_Localized: از
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238436267575992320
+    m_Localized: درخواست کارت
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238438330066264064
+    m_Localized: '<color=#B5DAFF>کارت‌های نقره‌ای</color> می‌توانند بین اعضای تیم هدیه داده شوند.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238438440233852928
+    m_Localized: '<color=#FDDC25>کارت‌های طلایی</color> فقط از رویدادها و جوایز قابل جمع‌آوری هستند.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239838413705961472
+    m_Localized: این کارت می‌تواند از رویدادها، جوایز و اعضای تیم جمع‌آوری شود.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239838802429861888
+    m_Localized: '<color=#FDDC25>کارت‌های طلایی</color> قابل ارسال نیستند!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239840300178071552
+    m_Localized: برای ارسال آن به یک کارت تکراری نیاز دارید.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239840360295030784
+    m_Localized: شما امروز ۳ کارت ارسال کرده‌اید.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239841109020237824
+    m_Localized: شما امروز قبلاً یک کارت درخواست کرده‌اید.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267800449324670976
+    m_Localized: خوش آمدید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267800545017716736
+    m_Localized: ما شما را نخوردیم! هدایای خود را بگیرید و سفر خود را ادامه دهید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246035593416400896
+    m_Localized: این کارت را می‌توان از رویدادها و پاداش‌ها دریافت کرد.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 245969547665858560
+    m_Localized: کارت ارسال شد!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247400907857190912
+    m_Localized: پاداش‌های اضافی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401008721813504
+    m_Localized: خریدها را بدون محدودیت زمانی جمع‌آوری کنید و پاداش‌های فوق‌العاده دریافت کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401059258982400
+    m_Localized: "جایزه\nبزرگ"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401253006467072
+    m_Localized: پاداش‌های اضافی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247775982527700992
+    m_Localized: تبریک می‌گوییم! شما همه کارت‌ها را جمع‌آوری کرده‌اید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248229689585295360
+    m_Localized: جایزه
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164245458944
+    m_Localized: گذرنامه طلایی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236160
+    m_Localized: '<color=#FFF200>{0}</color> آغاز شده است! ستاره‌ها را جمع کنید تا جایزه‌های ویژه باز شوند!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236161
+    m_Localized: '<color=#FFF200>{0}</color> به پایان رسید! <color=#FFF200>{1}</color> جدید به زودی آغاز می‌شود!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236162
+    m_Localized: '<color=#FFF200>{0}</color> را فعال کنید تا جایزه‌های ویژه باز شوند!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236163
+    m_Localized: جوایز ویژه
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430464
+    m_Localized: تا پایان رویداد، پاداش‌های انحصاری دریافت کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430465
+    m_Localized: ۸ زندگی به جای ۵ زندگی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430466
+    m_Localized: قاب طلایی و نام طلایی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430467
+    m_Localized: ستاره‌ها را جمع‌آوری کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430468
+    m_Localized: جوایز را باز کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430469
+    m_Localized: '<color=#FDF36D>{0}</color> را فعال کنید تا جایزه‌های ویژه باز شوند!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430470
+    m_Localized: تبریک می‌گوییم! شما <color=#FFF34F>{0}</color> را فعال کرده‌اید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430471
+    m_Localized: قاب تصویر پروفایل و نام شما طلایی است!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430472
+    m_Localized: هدیه با هم‌تیمی‌های شما به اشتراک گذاشته می‌شود!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430473
+    m_Localized: حداکثر تعداد زندگی‌ها به ۸ افزایش یافته است!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430474
+    m_Localized: فعال‌سازی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430475
+    m_Localized: جوایز ویژه را باز کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430476
+    m_Localized: '!<color=#FFF34F>{0}</color> دریافت شد'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430477
+    m_Localized: هدیه شما
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430478
+    m_Localized: شما قبلاً این جایزه را مطالبه کرده‌اید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624768
+    m_Localized: ستاره‌های بیشتری کسب کنید تا این مرحله را باز کنید و این جایزه را آزاد کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624769
+    m_Localized: '!برای دریافت جایزه {0} را کسب کنید'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624770
+    m_Localized: این مرحله را کامل کنید و {0} را باز کنید تا جایزه را دریافت نمایید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624771
+    m_Localized: مرحله {0} را تمام کنید تا {1} باز شود!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624772
+    m_Localized: ستاره‌های بیشتری کسب کنید تا این مرحله را باز کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624773
+    m_Localized: ستاره‌های بیشتری کسب کنید تا به مرحله بعدی برسید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624774
+    m_Localized: این مرحله را کامل کنید و {0} را باز کنید تا صندوق گنج باز شود!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624775
+    m_Localized: '<color=#FFF34F>{0}</color> را بگیرید و تمام سکه‌ها را در پایان رویداد بردارید!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624776
+    m_Localized: '<color=#FFF34F>{0}</color> را بگیرید تا صندوق گنج در پایان مراحل باز شود!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624777
+    m_Localized: برای هر ۱۰ ستاره ۱۰ سکه در صندوقچه گنج ذخیره کنید! آن‌ها را هنگام پایان رویداد ادعا کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624778
+    m_Localized: مراحل را تمام کنید تا برای هر ۱۰ ستاره ۱۰ سکه در صندوقچه گنج ذخیره کنید! آن‌ها را هنگام پایان رویداد جمع‌آوری کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819072
+    m_Localized: پاداش نهایی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819073
+    m_Localized: اینها جوایز شما هستند که ادعا نشده‌اند!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819074
+    m_Localized: '!<color=#fff34f>{0}</color> باز است، این اولین جایزه شماست'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819075
+    m_Localized: "اتمام یک سطح برای جمع‌آوری ستاره‌ها جوایز را باز می‌کند!\nبرای یادگیری نحوه جمع‌آوری آن‌ها ضربه بزنید!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819076
+    m_Localized: '!<color=#fff34f>{0}</color> را باز کنید تا جوایز انحصاری کسب نمایید'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819077
+    m_Localized: برای رد کردن ضربه بزنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819078
+    m_Localized: فعال شده
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819079
+    m_Localized: فعالسازی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819080
+    m_Localized: هدیه‌ای برای هم‌تیمی‌های شما
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5353076616585216
+    m_Localized: برنده‌ی مراحل شوید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5372156589367296
+    m_Localized: رایگان
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43766314718715904
+    m_Localized: پاس کریسماس‌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41612858264379392
+    m_Localized: گذرنامه کریسمس
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43168464116899840
+    m_Localized: گذرنامه طلایی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19695394816
+    m_Localized: یورش موج‌سواری
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197617770496
+    m_Localized: در ۳۰ دقیقه بیشتر از سایر بازیکنان صدف جمع‌آوری کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233189662720
+    m_Localized: استاد
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273316569088
+    m_Localized: برای دریافت جایزه، در مسابقه استاد موج‌سواری پیروز شوید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301875585024
+    m_Localized: شما قبلاً این جوایز را دریافت کرده‌اید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444700024832
+    m_Localized: در زمان محدود پوسته‌ها را جمع‌آوری کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 476987777024
+    m_Localized: در مقابل سایر بازیکنان کامل شوید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500748509184
+    m_Localized: جوایز شگفت‌انگیز کسب کنید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536987295744
+    m_Localized: به موج‌سواری سریع بپیوندید
+    m_Metadata:
+      m_Items: []
+  - m_Id: 675730677760
+    m_Localized: رتبه‌بندی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395896868864
+    m_Localized: جایزه
+    m_Metadata:
+      m_Items: []
+  - m_Id: 775722885120
+    m_Localized: جستجوی بازیکنان...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251465525600706560
+    m_Localized: برای دریافت جایزه، در یورش موج‌سواری پیروز شوید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251109559260667904
+    m_Localized: این بسته شامل {0} کارت است!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 253212636654592000
+    m_Localized: روزهای ورود
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255097381692891136
+    m_Localized: 'مرحله جوایز: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348499468288
+    m_Localized: تکمیل شد
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051200
+    m_Localized: اولین باشید و پاداش‌های شگفت‌انگیزی ببرید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051201
+    m_Localized: ابتدا {0} سطح را تمام کنید تا جایزه بزرگ را ببرید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051204
+    m_Localized: '{0} سطح'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051205
+    m_Localized: شما اول شدید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051206
+    m_Localized: در حال جستجوی بازیکنان...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051207
+    m_Localized: مرحله {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051210
+    m_Localized: قبل از دیگران مراحل را برنده شو تا مأموریت را کامل کنی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051211
+    m_Localized: جوایز شگفت‌انگیزی کسب کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051212
+    m_Localized: به مسابقه بپیوندید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051213
+    m_Localized: مسابقه‌ی اسب تک‌شاخ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051209
+    m_Localized: مأموریت را در مقابل دیگر بازیکنان شروع کن.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9561896378368
+    m_Localized: جایزه بزرگ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051203
+    m_Localized: سعی کن دوباره و برای جوایز پیشی بگیر!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8358106793762816
+    m_Localized: '!دوباره امتحان کنید'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000105134579712
+    m_Localized: تبریک!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000232930828288
+    m_Localized: مسابقه پایان یافت
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000346080567296
+    m_Localized: دفعه بعد اولین باشید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8358723339673600
+    m_Localized: پایان
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27990813114884096
+    m_Localized: '!تقریباً انجام شد پیشروی کن، رهبری رو به عهده بگیر و در دفعه بعد پیروزی بزرگی کسب کن!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40226007532167168
+    m_Localized: مسابقه‌ی اسب تک‌شاخ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258714048939417600
+    m_Localized: مسابقه خرگوش
+    m_Metadata:
+      m_Items: []
+  - m_Id: 261220253826015232
+    m_Localized: مسابقه خرگوش
+    m_Metadata:
+      m_Items: []
+  - m_Id: 262986913796841472
+    m_Localized: توضیح
+    m_Metadata:
+      m_Items: []
+  - m_Id: 262986960378781696
+    m_Localized: تیم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271045432789950464
+    m_Localized: ویرایش تیم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273924986122526720
+    m_Localized: توصیه‌های تیم‌های برتر!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825505589190656
+    m_Localized: هشدار!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825568310812672
+    m_Localized: دیگر نمی‌تواند ملحق شود.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825591157186560
+    m_Localized: نمی‌توانید به این تیم بپیوندید.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277826028287549440
+    m_Localized: اخراج
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615821602775040
+    m_Localized: سطح
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615873058496512
+    m_Localized: جهان
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615967702966272
+    m_Localized: استادان
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278616096044474368
+    m_Localized: بازی‌کنندگان برتر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278616189900414976
+    m_Localized: تیم‌های برتر
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278643930016243712
+    m_Localized: رتبه‌بندی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278668086418071552
+    m_Localized: امتیاز
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280381325501784064
+    m_Localized: امتیاز تیم خود را در آن ماه افزایش دهید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280381518901141504
+    m_Localized: به جلو بروید و یک افسانه شوید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280382392553693184
+    m_Localized: امتیاز خود را در آن ماه افزایش دهید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280723815215915008
+    m_Localized: ظرفیت
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281101773235544064
+    m_Localized: بالا
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281101820337577984
+    m_Localized: پایین
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303936521708232704
+    m_Localized: مسابقه اسکیت‌برد
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303936521725009920
+    m_Localized: مسابقه اسکیت‌برد
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328674388338532352
+    m_Localized: یورش تیمی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328674935795867648
+    m_Localized: افتخارات جمع کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675153786429440
+    m_Localized: برای مشارکت در یورش تیمی به یک تیم بپیوندید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675265375887360
+    m_Localized: با ترک تیم، از یورش تیمی فعلی نیز خارج می‌شوید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675424260317184
+    m_Localized: مراحل را پشت سر بگذارید و به‌صورت تیمی قایق جمع کنید تا پاداش‌های شگفت‌انگیز بگیرید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675526479699968
+    m_Localized: بدون مشارکت
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691474817343488
+    m_Localized: نبرد تیمی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691548192497664
+    m_Localized: رتبه تیم
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691671190462464
+    m_Localized: آفرین! تبریک می‌گوییم!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691834302750720
+    m_Localized: نبرد
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691895833190400
+    m_Localized: تیم من
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692100393590784
+    m_Localized: 'پاداش‌های شخصی: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692220749144064
+    m_Localized: در مراحل، آب‌پاش جمع کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692289833525248
+    m_Localized: با تیم خود رقابت کنید تا برنده شوید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692350239891456
+    m_Localized: بیشتر جمع کنید تا پاداش‌های شخصی بگیرید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692455319789568
+    m_Localized: به یک تیم بپیوندید و با تیم خود رقابت کنید تا پاداش‌های شگفت‌انگیز بگیرید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692559271419904
+    m_Localized: با ترک تیم، از نبرد تیمی فعلی نیز خارج می‌شوید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692653794254848
+    m_Localized: آب‌پاش جمع کنید و با تیم خود رقابت کنید تا پاداش‌های شگفت‌انگیز بگیرید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692775722672128
+    m_Localized: جوایز شخصی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692921290186752
+    m_Localized: رتبه فعلی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328693020170903552
+    m_Localized: امتیاز فعلی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329403534840684544
+    m_Localized: حداقل یک قایق جمع‌آوری کنید تا پاداش‌های خود را دریافت کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329403596081717248
+    m_Localized: دفعه بعد مشارکت کنید تا پاداش‌های تیمی را دریافت کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407227346116608
+    m_Localized: پاداش‌های یورش تیمی
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407337861832704
+    m_Localized: '{0} پاداش شخصی!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407487313272832
+    m_Localized: '{0} پاداش تیمی!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330435785229590528
+    m_Localized: پاداش‌های شخصی!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330443706701176832
+    m_Localized: '{0} پاداش شخصی!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331096417918509056
+    m_Localized: برای مشارکت و شکست دادن رقبا، از مراحل تفنگ آب‌پاش جمع‌آوری کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331096633254076416
+    m_Localized: برای دریافت پاداش‌های شخصی، بیشتر جمع‌آوری کنید!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331098070130352128
+    m_Localized: مشارکت کنید تا دفعه بعد پاداش بگیرید!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

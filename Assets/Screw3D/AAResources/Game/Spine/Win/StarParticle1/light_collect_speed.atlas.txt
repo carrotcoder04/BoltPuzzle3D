@@ -1,0 +1,15 @@
+light_collect_speed.png
+size:552,463
+filter:Linear,Linear
+circle_dot
+bounds:482,304,30,30
+offsets:1,1,32,32
+particle_star
+bounds:482,336,53,53
+offsets:2,2,57,57
+star_light
+bounds:2,2,478,459
+offsets:3,3,484,465
+star_squer
+bounds:482,391,68,70
+offsets:5,5,79,80

@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: SugarCommon_el
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: el
+  m_SharedData: {fileID: 11400000, guid: 109437194deb0a74f958e5c87c7a9f9a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 76771483648
+    m_Localized: ΣΦΑΛΜΑ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507558698606592
+    m_Localized: '{0}η {1}ω'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507640344928256
+    m_Localized: '{0}ω {1}λ'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507688877219840
+    m_Localized: '{0}λ {1}δ'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507733466865664
+    m_Localized: '{0}η'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10518717795393536
+    m_Localized: '{0}ω'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10518725181562880
+    m_Localized: '{0}λ'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10518727844945920
+    m_Localized: '{0}δ'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39440986382786560
+    m_Localized: Εντάξει
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42028670481588224
+    m_Localized: ΚΑΛΩΣ ΗΡΘΑΤΕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42028719034851328
+    m_Localized: Πατώντας το Αποδοχή, επιβεβαιώνετε ότι ελέγξατε και αποδεχτήκατε την <a href=%@>Πολιτική Απορρήτου </a> μας και τους <a href=%@>Όρους Χρήσης</a> μας.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42028804216971264
+    m_Localized: ΑΠΟΔΟΧΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181574557696
+    m_Localized: Κάτι πήγε στραβά, παρακαλώ προσπαθήστε ξανά αργότερα.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393523038347264
+    m_Localized: Έχετε ήδη διεκδικήσει την ανταμοιβή.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393750491258880
+    m_Localized: Η ανταμοιβή έχει λήξει.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393766618357760
+    m_Localized: Κάντε αναβάθμιση στην πιο πρόσφατη έκδοση.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56167706460676096
+    m_Localized: Κάποια σφάλμα
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59077622859030528
+    m_Localized: ΑΚΥΡΩΣΗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134481355381661696
+    m_Localized: '{0}d πριν'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134481355385856001
+    m_Localized: '{0}h πριν'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135160776681840640
+    m_Localized: '{0}m πριν'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134720342000132096
+    m_Localized: Μόλις τώρα
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167343021827809280
+    m_Localized: ΤΕΛΕΙΩΣΕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 272107352485781504
+    m_Localized: Εσύ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296363860058112
+    m_Localized: Ιανουάριος {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296396789538816
+    m_Localized: Φεβρουάριος {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296429568024576
+    m_Localized: Μάρτιος {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296453144207360
+    m_Localized: Απρίλιος {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296482105876480
+    m_Localized: Μάιος {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296506432839680
+    m_Localized: Ιούνιος {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296527249170432
+    m_Localized: Ιούλιος {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296545100128256
+    m_Localized: Αύγουστος {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296566986006528
+    m_Localized: Σεπτέμβριος {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296586103644160
+    m_Localized: Οκτώβριος {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296604768296960
+    m_Localized: Νοέμβριος {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296629921538048
+    m_Localized: ΔεκTimestamp {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 257587757573988352
+    m_Localized: Οι πληροφορίες συσκευής θα χρησιμοποιηθούν μόνο για πιο ενδιαφέρουσες και σχετικές διαφημίσεις. Οι διαφημίσεις μας βοηθούν να κρατήσουμε τις εφαρμογές μας δωρεάν
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,423 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: Language_fil
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: fil
+  m_SharedData: {fileID: 11400000, guid: 27c9beb39bf46524a810ade5065abc3a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 365780000768
+    m_Localized: Tagumpay sa Paglo-load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17711244432629760
+    m_Localized: Walang sapat na barya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332337328381952
+    m_Localized: SUBUKAN MULI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332339001909248
+    m_Localized: Magdagdag ng 1 kahon at magpatuloy!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332339710746624
+    m_Localized: Magdagdag ng butas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332341468160000
+    m_Localized: BOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332925856342016
+    m_Localized: PAMUKUL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332927840247808
+    m_Localized: Basagin ang isang bagay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332929249533952
+    m_Localized: WISK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332930449104896
+    m_Localized: Linisin ang mga butas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332931858391040
+    m_Localized: ITIGIL MUNA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333309966508032
+    m_Localized: I-tap ang isang bagay upang basagin ito.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333440157704192
+    m_Localized: PAGLOLOAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1671097737216
+    m_Localized: Maganda ang grapiko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2006998573056
+    m_Localized: Masaya ang laro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2008537882624
+    m_Localized: Sobrang daming patalastas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2010119135232
+    m_Localized: May mga bug ang laro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2265040543744
+    m_Localized: Pumunta sa "Mga Setting ng System" upang payagan ang pag-access sa album.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14182546999861248
+    m_Localized: Magdagdag lang ng dalawang butas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14182607217483776
+    m_Localized: Walang mga tornilyo na dapat linisin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14430059359100928
+    m_Localized: 3D Bolt Master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14430184026398720
+    m_Localized: 3D Bolt Master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17424358203973632
+    m_Localized: Hindi pa handa ang patalastas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19859794792800256
+    m_Localized: Ito ay gagamitin upang magbigay ng personalized na mga patalastas at pinahusay na paggamit ng serbisyo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20224634396860416
+    m_Localized: "3D Bolt Master: \nScrew Pin Jam"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20224637282541568
+    m_Localized: "3D Bolt Master: \nScrew Pin Jam"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332155161370624
+    m_Localized: I-match ang mga tornilyo sa mga kahon ng parehong kulay.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332301794238464
+    m_Localized: Swipe ng daliri upang i-rotate ang bagay.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332320983179264
+    m_Localized: Swipe ng dalawang daliri upang i-zoom ang bagay.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332328943968256
+    m_Localized: Ang mga butas ay pansamantalang humahawak ng mga hindi magkatugmang tornilyo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332331062091776
+    m_Localized: Kolektahin natin ang lahat ng mga tornilyo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332336523075584
+    m_Localized: MAGALING!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332338196602880
+    m_Localized: HALOS NANDOON NA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21426829767204864
+    m_Localized: Linisin ang mga butas at magpatuloy!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333313808490496
+    m_Localized: Mga Tuntunin ng Serbisyo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333437041336320
+    m_Localized: Patakaran sa Privacy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21428140755640320
+    m_Localized: ANTAS {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899772248064
+    m_Localized: "Onnittelut! \n<color=#FDDC25>\"RUUVIMANIA\"</color> on suoritettu!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053763
+    m_Localized: Tasolla on piilotettu {0} "Erityistä Ruuvia".
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053762
+    m_Localized: Kerää <color=#FDDC25>Erityisiä Ruuveja</color> voittaaksesi palkintoja!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053760
+    m_Localized: Palkintojen avaaminen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859458
+    m_Localized: Kerää erityisiä ruuveja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859457
+    m_Localized: Tasojen selvittäminen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859456
+    m_Localized: RUUVIMANIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61304828918226944
+    m_Localized: Tapos na
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34836419909246976
+    m_Localized: Panalo sa mga antas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8070819077939200
+    m_Localized: TUMIGIL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616564219905
+    m_Localized: Kolektahin ang mga tornilyo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616564219907
+    m_Localized: Kolektahin ang {0} espesyal!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062784
+    m_Localized: Gamitin ang tool na "Bor" upang magdagdag pa ng isang butas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062785
+    m_Localized: Gamitin ang tool na “Pamukul” upang basagin ang isang bagay.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062786
+    m_Localized: Gamitin ang tool na “Wisk” upang linisin ang mga butas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54743339331739648
+    m_Localized: Colorblind mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56917147161452544
+    m_Localized: BAHAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56916809062801408
+    m_Localized: Gamitin ang TOOL para tumulong!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65524306266808320
+    m_Localized: MAGPATULOY?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41015862499467264
+    m_Localized: Pag-unlock ng Antas {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947387843141632
+    m_Localized: BONUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947389877379072
+    m_Localized: Ang iyong pag-unlad ay naibalik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947391869673472
+    m_Localized: UPGRADE NG BERDING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947393778081792
+    m_Localized: Mangyaring i-update sa pinakabagong bersyon upang masiyahan sa mas magandang karanasan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947395959119872
+    m_Localized: UPDATING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947762847473664
+    m_Localized: '"RUUVIMANIA"! Kolektahin ang mga espesyal na tornilyo upang makuha ang mga gantimpala!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729669470281728
+    m_Localized: BAGONG TOOL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729684733353984
+    m_Localized: NABUKSAN NA!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729687115718656
+    m_Localized: LEVEL GIFT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729689330311168
+    m_Localized: Manalo ng higit pang mga antas upang makakuha ng mga gantimpala!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90278512504594432
+    m_Localized: BUHAYIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89826605159931904
+    m_Localized: HINDI TAPOS NA ANTAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89826608586678272
+    m_Localized: "May natitirang progreso sa antas.\nGusto mo bang ipagpatuloy?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91270772847271936
+    m_Localized: Naalis na ang iyong Automated Ads!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147063343653314560
+    m_Localized: "- Walang pop-up na ads!\n- Walang banner ads!\n<color=#ffde00>- Opsyonal na rewarded ads para sa extra na premyo!</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574626926592
+    m_Localized: Gamitin ang {0} na pangbayo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120896
+    m_Localized: Gamitin ang {0} na martilyo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120897
+    m_Localized: Gamitin ang {0} na walis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120899
+    m_Localized: Kolektahin ang {0} nga kahon ng kagamitan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754157372137472
+    m_Localized: Hugasan, itugma, ilagay… at manalo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754232760557568
+    m_Localized: Walang mga props? Tapikin ang icon ng props upang bumili gamit ang barya!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754235302305792
+    m_Localized: Nabigo? Tapikin ang pindutan ng barya upang magpatuloy!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754236803866624
+    m_Localized: Gumamit ng barya upang bumili ng mga props o muling buhayin ang entablado!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754239249145856
+    m_Localized: Nasa Mga Setting ang Color Blind Mode. Mas malinaw!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754240528408576
+    m_Localized: Mag-log in sa pamamagitan ng Mga Setting upang i-sync ang iyong laro!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754241262411776
+    m_Localized: Mahigpit na ikabit, mag-isip ng maayos!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645270635569152
+    m_Localized: Madi-disgrasiya ka sa <color=#C31439>Tumatalon na Cubes!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645275379326976
+    m_Localized: Mawawalan ka ng <color=#C31439>buhay</color> at <color=#C31439>Espesyal na mga koleksyon!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645305515401216
+    m_Localized: Mawawala ang iyong <color=#C31439>Espesyal na koleksyon!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645315657228288
+    m_Localized: Mawawalan ka ng iyong <color=#C31439>Bumpy Na Journey!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624041025536
+    m_Localized: MAGLARO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219840
+    m_Localized: I-activate para sa <color=#FFFF0B>1 oras</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219845
+    m_Localized: UPDATE GIFT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219846
+    m_Localized: Salamat sa iyong update! Narito ang ilang regalo para sa iyo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219847
+    m_Localized: MAGDAGDAG NG KAHON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219848
+    m_Localized: Magdagdag ng 1 na kahon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624049414146
+    m_Localized: HAMON SA ANTAS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624049414148
+    m_Localized: Natagumpay ang Antas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 161578115962757120
+    m_Localized: Nanalo ka sa {0} na mga lebel at nakamit mo ang mga gantimpalang ito!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169587814167470080
+    m_Localized: RUUVIMANIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169587814171664384
+    m_Localized: Madi-disgrasiya ka sa <color=#C31439>Tumatalon na Cubes!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204681899265744896
+    m_Localized: Mawawala sa iyo ang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209106736197394432
+    m_Localized: MAHIRAP
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

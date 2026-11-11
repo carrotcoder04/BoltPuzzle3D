@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: Rate_pt
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: pt
+  m_SharedData: {fileID: 11400000, guid: 376336e44518ff54d9519b270e11ca2b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 456884477952
+    m_Localized: Como você nos avaliaria?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456888672256
+    m_Localized: SUBMETER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866560
+    m_Localized: Sua avaliação e feedback nos ajudarão a melhorar o jogo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866562
+    m_Localized: AVALIE-NOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866563
+    m_Localized: Por favor, nos diga o que está errado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866564
+    m_Localized: Escreva um comentário.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060864
+    m_Localized: LAMENTO OUVIR ISSO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060865
+    m_Localized: Espero receber mais sugestões de você.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060866
+    m_Localized: Por favor, deixe sua opinião.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060867
+    m_Localized: OBRIGADO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67390011334656
+    m_Localized: A submissão falhou. Por favor, tente novamente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67390028111872
+    m_Localized: FALHOU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67727879299072
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322255095586816
+    m_Localized: Nível de Dificuldade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322399882960896
+    m_Localized: Problemas com Anúncios
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322457621749760
+    m_Localized: Problemas do Jogo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322468799569920
+    m_Localized: Problemas com Compras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322648710045696
+    m_Localized: Eventos e Recompensas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322700010577920
+    m_Localized: Ideias para Melhoria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352342747844173824
+    m_Localized: Escolha um tema
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

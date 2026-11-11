@@ -1,0 +1,6 @@
+star_bomb.png
+size:60,59
+filter:Linear,Linear
+particle_star
+bounds:2,2,56,55
+offsets:4,4,63,63

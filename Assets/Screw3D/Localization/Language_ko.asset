@@ -1,0 +1,423 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: Language_ko
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ko
+  m_SharedData: {fileID: 11400000, guid: 27c9beb39bf46524a810ade5065abc3a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 365780000768
+    m_Localized: 이미지 업로드 실패
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1671097737216
+    m_Localized: 그래픽이 좋음
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2006998573056
+    m_Localized: 게임이 재미있음
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2008537882624
+    m_Localized: 광고가 너무 많음
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2010119135232
+    m_Localized: 게임에 버그 있음
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2265040543744
+    m_Localized: '''설정''에서 앨범 접근 권한을 켜주세요.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14182546999861248
+    m_Localized: 구멍 두 개만 추가 가능
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14182607217483776
+    m_Localized: 제거할 나사가 없음
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14430059359100928
+    m_Localized: 3D Bolt Master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14430184026398720
+    m_Localized: 3D Bolt Master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17424358203973632
+    m_Localized: 광고가 준비중입니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17711244432629760
+    m_Localized: 코인이 부족합니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19859794792800256
+    m_Localized: 이는 맞춤형 광고 제공 및 서비스 최적화를 위해 사용됩니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20224634396860416
+    m_Localized: "3D Bolt Master: \n나사 핀 잼"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20224637282541568
+    m_Localized: "3D Bolt Master: \n나사 핀 잼"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332155161370624
+    m_Localized: "같은 색 박스에 나사를\n끼워 보세요!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332301794238464
+    m_Localized: 스와이프로 물체를 돌려 보세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332320983179264
+    m_Localized: 핀치하여 확대/축소하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332328943968256
+    m_Localized: 구멍은 맞지 않는 나사를 잠시 보관할 수 있어요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332331062091776
+    m_Localized: 모든 나사를 모아보세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332336523075584
+    m_Localized: 잘하셨어요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332337328381952
+    m_Localized: 다시 시도
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332338196602880
+    m_Localized: 거의 다 왔어요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332339001909248
+    m_Localized: 박스 1개 추가하고 계속하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332339710746624
+    m_Localized: 구멍 추가
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332341468160000
+    m_Localized: 드릴
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332925856342016
+    m_Localized: 해머
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332927840247808
+    m_Localized: 물체를 깨뜨리세요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332929249533952
+    m_Localized: 빗자루
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332930449104896
+    m_Localized: 구멍 지우기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332931858391040
+    m_Localized: 일시정지
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333309966508032
+    m_Localized: 물체를 탭하여 부수세요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333313808490496
+    m_Localized: 이용약관
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333437041336320
+    m_Localized: 개인정보 처리방침
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333440157704192
+    m_Localized: 로딩 중
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21426829767204864
+    m_Localized: 구멍을 비우고 계속하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21428140755640320
+    m_Localized: 레벨 {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899772248064
+    m_Localized: "축하합니다!\n<color=#FDDC25>나사 매니아</color> 모든 미션 완료!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053763
+    m_Localized: 이 스테이지에는 {0}개의 '특별 나사'가 숨겨져 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053762
+    m_Localized: '<color=#FDDC25>특별한 나사</color>를 모아서 보상을 획득하세요!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053760
+    m_Localized: 보상 획득!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859458
+    m_Localized: 특별한 나사를 모으기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859457
+    m_Localized: 레벨 클리어하기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859456
+    m_Localized: 나사 매니아
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61304828918226944
+    m_Localized: 완료
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34836419909246976
+    m_Localized: 레벨 클리어!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8070819077939200
+    m_Localized: 종료
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616564219905
+    m_Localized: 나사 모으기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616564219907
+    m_Localized: '{0} 스페셜 아이템 수집!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062784
+    m_Localized: '''드릴'' 도구를 사용하여 구멍을 하나 더 추가하세요!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062785
+    m_Localized: '''해머'' 도구를 사용하여 물체를 부수세요!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062786
+    m_Localized: '''빗자루'' 도구를 사용하여 구멍을 깨끗이 하세요!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54743339331739648
+    m_Localized: 색약 모드
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56917147161452544
+    m_Localized: 홈
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56916809062801408
+    m_Localized: 도구로 빠르게 승리!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65524306266808320
+    m_Localized: 계속하기?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41015862499467264
+    m_Localized: 레벨{0}에서 해제
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947387843141632
+    m_Localized: 보너스
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947389877379072
+    m_Localized: 진행 상황이 복원되었습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947391869673472
+    m_Localized: 버전 업데이트
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947393778081792
+    m_Localized: 최신 버전으로 업데이트하고 최고의 경험을 누리세요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947395959119872
+    m_Localized: 업데이트
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947762847473664
+    m_Localized: "나사 매니아가 열렸습니다!\n특별 나사를 모아 보상을 챙기세요!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729669470281728
+    m_Localized: 신규 도구
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729684733353984
+    m_Localized: 잠금 해제!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729687115718656
+    m_Localized: 레벨 선물
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729689330311168
+    m_Localized: 더 많은 레벨을 클리어하고 보상을 받으세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90278512504594432
+    m_Localized: 부활
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89826605159931904
+    m_Localized: 미완료 레벨
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89826608586678272
+    m_Localized: "미완료 레벨이 있습니다.\n계속하시겠습니까?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91270772847271936
+    m_Localized: 팝업 광고가 제거되었습니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147063343653314560
+    m_Localized: "- 팝업 광고 없음!\n- 배너 광고 없음!\n<color=#ffde00>- 보상용 선택 광고 유지!</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574626926592
+    m_Localized: 드릴 {0}개 사용!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120896
+    m_Localized: 망치 {0}개 사용!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120897
+    m_Localized: 빗자루 {0}개 사용!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120899
+    m_Localized: 박스 {0}개 수집!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754157372137472
+    m_Localized: 나사 풀고, 맞추고, 배치하고… 승리!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754232760557568
+    m_Localized: "도구가 부족한가요?\n도구 아이콘을 눌러 코인으로 구매하세요!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754235302305792
+    m_Localized: 실패했나요? 코인 버튼을 눌러 계속하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754236803866624
+    m_Localized: 코인으로 도구를 구매하거나 스테이지를 부활하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754239249145856
+    m_Localized: 색약 모드는 설정에 있어요. 훨씬 더 선명해요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754240528408576
+    m_Localized: 설정에서 로그인하여 게임을 동기화하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754241262411776
+    m_Localized: 나사는 꽉 조이고, 머리는 날카롭게!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645270635569152
+    m_Localized: '<color=#C31439>큐브 점핑</color> 실패합니다!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645275379326976
+    m_Localized: "<color=#C31439>라이프 1개</color>와 <color=#C31439>스페셜 수집품</color>을\n잃게 됩니다!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645305515401216
+    m_Localized: "<color=#C31439>스페셜 아이템</color>을\n잃게 됩니다!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645315657228288
+    m_Localized: '<color=#C31439>벌룬 저니</color> 진행 상황이 사라집니다!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624041025536
+    m_Localized: 계속하기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219840
+    m_Localized: '<color=#FFFF0B>1시간</color> 동안 활성화!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219845
+    m_Localized: 업데이트 선물
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219846
+    m_Localized: 업데이트해 주셔서 감사합니다! 특별 선물을 드립니다!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219847
+    m_Localized: 박스 추가
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219848
+    m_Localized: 박스 1개 추가
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624049414146
+    m_Localized: 챌린지 레벨!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624049414148
+    m_Localized: 레벨 실패!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 161578115962757120
+    m_Localized: '{0}개의 레벨에서 승리하고 다음 보상을 획득했습니다!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169587814167470080
+    m_Localized: 나사 매니아
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169587814171664384
+    m_Localized: '<color=#C31439>큐브 점핑</color> 실패합니다!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204681899265744896
+    m_Localized: 잃게 되는 아이템
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209106736197394432
+    m_Localized: 어려움
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

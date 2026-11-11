@@ -1,0 +1,1667 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: SnuiCommon_hu
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: hu
+  m_SharedData: {fileID: 11400000, guid: 56d4b1d6a9621d04eb877a1525a91b26, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 233343164604416
+    m_Localized: SZABAD ÉLETEK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233280816275456
+    m_Localized: UTÁNTÖLTÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266123567161344
+    m_Localized: HASZNÁLAT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12288803132661760
+    m_Localized: Ingyenes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304573871808512
+    m_Localized: Szabad élet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1697441651875840
+    m_Localized: Az életetek tele van
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436200639389696
+    m_Localized: Szint mellkas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12288946942763008
+    m_Localized: Különleges gyűjtemény
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436162156650496
+    m_Localized: Csillagláda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320630867091456
+    m_Localized: '{0} Szabad életek'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264074574159872
+    m_Localized: ÉLETBANK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232529176027136
+    m_Localized: SZEREZZ TÖBB ÉLETET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35481137106116608
+    m_Localized: Teljes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026432
+    m_Localized: Csak egyszer ingyenes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026434
+    m_Localized: Kérjük, állítson be egy becenevet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026435
+    m_Localized: Érvénytelen név. Írjon be egy másikat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026436
+    m_Localized: Írjon be legalább 3 karaktert!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026437
+    m_Localized: Legfeljebb 15 karaktert írjon be!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39824476811026433
+    m_Localized: Írd be a becenevedet...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39808712133566464
+    m_Localized: NÉV MÓDOSÍTÁSA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40123526764552192
+    m_Localized: PROFIL SZERKESZTÉSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900277404950528
+    m_Localized: KEVESEBB HIRDETÉSEK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900312473526272
+    m_Localized: Nyomon követés engedélyezése
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900371902619648
+    m_Localized: Engedélyezze a követést az irreleváns hirdetések eltávolításához, és {0} ingyenes érmét kap!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900440034893824
+    m_Localized: Kérjük, engedélyezze a nyomon követést a jutalmak megszerzéséhez.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900487157899264
+    m_Localized: Ne maradj le!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40900528459210752
+    m_Localized: Értesítést kaphat a korlátozott idejű eseményekről és frissítésekről.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41986630234398720
+    m_Localized: Most nem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41986630246981632
+    m_Localized: Igen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41991704809562112
+    m_Localized: Kérjük, engedélyezze az értesítéseket, hogy időkorlátozott eseményeket és frissítéseket kaphasson.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375679755411456
+    m_Localized: BEJELENTKEZÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375726647730176
+    m_Localized: Mentsd el az előrehaladásodat ingyen a felhőben!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252780607135744
+    m_Localized: VÁLASSZON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252819287007232
+    m_Localized: HOZZON LÉTRE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50335704901738496
+    m_Localized: NEM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252991467380736
+    m_Localized: MENTÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45199535239061504
+    m_Localized: MEGTEKINTÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51007642271735808
+    m_Localized: küldött neked egy életet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193240967405568
+    m_Localized: Szerezd meg az ingyenes érméket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193180493930496
+    m_Localized: 'Csatlakozz egy csapathoz vagy hozz létre egyet:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52896768214425600
+    m_Localized: A csapat kapacitása betelt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48193207886929920
+    m_Localized: Szerezz ingyenes életeket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52896720361611264
+    m_Localized: A szintje nem elegendő a csapathoz való csatlakozáshoz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48191512465367040
+    m_Localized: CSATLAKOZZ EGY CSAPATHOZ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50334557843480576
+    m_Localized: Biztos benne, hogy ki akarja rúgni ezt a játékost?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50332880616808448
+    m_Localized: KIRÚGÁS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634758253076480
+    m_Localized: MÉGSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634806575652864
+    m_Localized: Biztosan el akarja hagyni a csapatát?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634666892746752
+    m_Localized: TÁVOZÁS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49634620147228672
+    m_Localized: CSAPAT ELHAGYÁSA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48164027749097472
+    m_Localized: Kérjük, ellenőrizze az internetkapcsolatát.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48163983373361152
+    m_Localized: Kapcsolat megszakadt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52805192968560640
+    m_Localized: A név megváltoztatása sikeres!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52780918081839104
+    m_Localized: Kapcsolódás
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52798812643647488
+    m_Localized: Nem támogatott karakter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375933552746496
+    m_Localized: BEJELENTKEZÉS APPLEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375887180521472
+    m_Localized: BEJELENTKEZÉS FACEBOOKKAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42375955442819072
+    m_Localized: GOOGLE-LAL VALÓ BEJELENTKEZÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42721386727202816
+    m_Localized: A haladásod mentve van.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42721333207883776
+    m_Localized: SIKER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42730837634965504
+    m_Localized: TOVÁBBRA IS KIJELJELENTKEZÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726401105715200
+    m_Localized: A játék újraindul a <color=#EF4C4C>1. szint</color>ről!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726463454044160
+    m_Localized: 'Tippek: Visszajelentkezéssel folytathatod a haladásod.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42726296550105088
+    m_Localized: KIJELENTKEZÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45200576651190272
+    m_Localized: Kapacitás
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45176701162872832
+    m_Localized: LÉTREHOZÁS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47003035736465408
+    m_Localized: SZERKESZTÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252406294863872
+    m_Localized: Szükséges Szint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111296
+    m_Localized: Érje el a {0} szintet a szükséges szintkorlát növeléséhez.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252313470722048
+    m_Localized: Csapatembléma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45262366646984704
+    m_Localized: VÁLASZD KI A LOGÓT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252369947025408
+    m_Localized: Csapatnév
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45252486565453824
+    m_Localized: '*A csapat logója/neve a létrehozás után nem módosítható'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111297
+    m_Localized: SEGÍTSÉG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45176682426916864
+    m_Localized: CSATLAKOZÁS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50241104296009728
+    m_Localized: Kirúgás
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47002942832631808
+    m_Localized: KILÉPÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44926451865083904
+    m_Localized: AZ ÉN CSAPATOM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45250024622252032
+    m_Localized: Írd be a csapat nevét...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45199495682580480
+    m_Localized: KERESÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664781111298
+    m_Localized: Ehhez a névhez nincsenek találatok.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44926427412291584
+    m_Localized: CSAPATOK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305600
+    m_Localized: Az életed tele van
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305601
+    m_Localized: Már segítettél ebben a kérésben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305602
+    m_Localized: Várnod kell {0} percet, mielőtt újra segíthetnél!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52914664785305603
+    m_Localized: Már feltetted ezt a kérést.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46997273542909952
+    m_Localized: 'Szükséges szint:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46995160800681984
+    m_Localized: 'Csapatpontszám:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46002148947779584
+    m_Localized: CSAPAT INFÓ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46996381083099136
+    m_Localized: 'Heti segítségek:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072008410750976
+    m_Localized: Segítségek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072106691682304
+    m_Localized: Vezető
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47072050559311872
+    m_Localized: Szintek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50707987734454272
+    m_Localized: ÉLETEK KÉRÉSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50728058632527872
+    m_Localized: '{0} csatlakozott a csapathoz.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50728091402625024
+    m_Localized: '{0} ki lett rúgva.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50708198070411264
+    m_Localized: KÉRELEM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50736182525419520
+    m_Localized: életekért érdeklődik!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57494596047855616
+    m_Localized: El kell hagynod a csapatodat, mielőtt egy újhoz csatlakoznál!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57496004599996416
+    m_Localized: RANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57494080442064896
+    m_Localized: Pontszám
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149430573719552
+    m_Localized: CSAPATOK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149277246742528
+    m_Localized: RANGLISTA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56149395333177344
+    m_Localized: JáTéKOSOK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57493952461266944
+    m_Localized: Csapat megtekintése
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63674767004131328
+    m_Localized: VISSZAJELZÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717830468558848
+    m_Localized: Kérjük, válassza ki vagy írja le a problémáit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717859195346944
+    m_Localized: Ismertesse a problémákat vagy javaslatokat...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63717953256808448
+    m_Localized: KÜLDÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63719952446644224
+    m_Localized: Írd be az email címedet ide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63740716600254464
+    m_Localized: Köszönjük a visszajelzésedet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63741145136488448
+    m_Localized: Nem sikerült elküldeni, kérem, próbálja újra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63762870901399552
+    m_Localized: BETÖLTÉS SIKERTELEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63764307005923328
+    m_Localized: Kérjük, válassza ki vagy írja le a problémáit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63764348902825984
+    m_Localized: Írd be az email címedet ide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010148310736896
+    m_Localized: Törli az adatait erről az eszközről és a szervereinkről?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010253747150848
+    m_Localized: Játékadatait azonnal eltávolítjuk erről az eszközről és szervereinkről. Minden adata és előrehaladása elvész, és nem lehet visszaállítani.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010270369177600
+    m_Localized: Önnek aktív előfizetései vannak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010281240813568
+    m_Localized: A további költségek elkerülése érdekében kérjük, lépjen a App Store > Fiók > Előfizetések menüpontra, és először mondja le az aktív előfizetéseit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010291277783040
+    m_Localized: Biztosan törli az adatait? Elveszíti jelenlegi fejlődését, és azt nem lehet visszaállítani.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010303109914624
+    m_Localized: Az „Igen” gombra koppintva újraindítja a játékot új felhasználóként.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78010720036315136
+    m_Localized: ÉRTEM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95625466474389504
+    m_Localized: Mi a neved?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95625437298810880
+    m_Localized: ÍRD BE A NEVED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111216658851291136
+    m_Localized: Szerezz ingyenes életeket a csapattársaidtól.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111930957190127616
+    m_Localized: Nincs ingyenes életed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115602396111953920
+    m_Localized: ÜZENET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118470840675196928
+    m_Localized: Érintse meg a profil szerkesztéséhez
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118480965112684544
+    m_Localized: Hozza létre a becenevét!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118485440464412672
+    m_Localized: VÁLASSZON FOTÓT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125717701572157440
+    m_Localized: A maximális karakterkorlát {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125725518169366528
+    m_Localized: A PROFILOM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125734265910452224
+    m_Localized: 'Jelenlegi szint:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125736013802758144
+    m_Localized: ÁLTALÁNOS STATISZTIKÁK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125737398732578816
+    m_Localized: Első próbálkozás nyer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125737783090208768
+    m_Localized: Segítség nyújtva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126423333916893184
+    m_Localized: Segítség kapva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67417490278309888
+    m_Localized: BIZTOS VAGY?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67417490278309889
+    m_Localized: Tényleg abbahagyni akarod a játékot?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875570810881
+    m_Localized: MARADJ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875562422272
+    m_Localized: SZINT LEÁLLÍTÁSA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45257875570810880
+    m_Localized: Biztosan ki szeretne lépni?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 149290068038639616
+    m_Localized: FOLYTAT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661760
+    m_Localized: Engedélyezd a követést a jobb hirdetési élmény érdekében
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661761
+    m_Localized: A készülékbeállításaidhoz leszel irányítva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661762
+    m_Localized: Kapcsolj be!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661763
+    m_Localized: Engedélyezd az értesítést
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155132661764
+    m_Localized: Engedélyezd a nyomkövetést
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156517155136856064
+    m_Localized: Kérlek, kapcsold be a értesítéseket a készülékbeállításaidban
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158623746145378304
+    m_Localized: Nincs csapat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159757269296209920
+    m_Localized: ÉRINTSD MEG A FOLYTATÁSHOZ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164882056993562624
+    m_Localized: KOPPINTS AZ IGÉNYLÉSHEZ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167298491044847616
+    m_Localized: KEZDÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167388066735972352
+    m_Localized: AKCIÓK NEKED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167388656706772992
+    m_Localized: 3 AZ 1-BEN AKCIÓ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167390104249163776
+    m_Localized: VÁSÁROLD MEG ÖSSZESEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754245507047424
+    m_Localized: KÉZMŰVES KÉSZLETEK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754499891585024
+    m_Localized: Igényeljen minden ajánlatot az ingyenes jutalmak feloldásához!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754502554968064
+    m_Localized: Ne felejtsd el igényelni a ingyenes jutalmakat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172042873425879040
+    m_Localized: Kenyér csomag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172075683758989312
+    m_Localized: VÁLASSZ EGYET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180366206789738496
+    m_Localized: IGÉNY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186520677521547265
+    m_Localized: NINCS INTERNET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186520677521547264
+    m_Localized: "Ez a művelet internetkapcsolatot igényel.\nkérjük, próbáld újra később."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186506587038277632
+    m_Localized: "{0}\nJUTALOM!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219843
+    m_Localized: Itt vannak a megszerzett jutalmaid!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179369413868249088
+    m_Localized: JÁTSSZ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188378725424816128
+    m_Localized: ŰR ELADÁS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188407241268781056
+    m_Localized: Ingyenes életfeltöltés!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191590517525438464
+    m_Localized: JUTALOM!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195269482039468032
+    m_Localized: '<sprite=0> Élvezd a <color=#FFFF0B>Play Points</color> jutalmaidat!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195312493884596224
+    m_Localized: BOLDOG HALLOWEEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197048656911654912
+    m_Localized: ' GRATULÁLUNK!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199617985050042368
+    m_Localized: KÜLÖNLEGES AJÁNLAT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199621120049012736
+    m_Localized: Távolítsa el a felugró hirdetéseket örökre!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199625686962397184
+    m_Localized: CSAK EGYSZER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 201820360875696128
+    m_Localized: INGYENES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204334129812070400
+    m_Localized: KARÁCSONYI AKCIÓ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 208692138415742976
+    m_Localized: PRÓBÁLD ÚJRA!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205711112789811200
+    m_Localized: Fekete Péntek Akció
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759028850688
+    m_Localized: ENERGIA CSOMAG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793728
+    m_Localized: Vásárolj 1 csomagot és kapsz 1 ingyen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793729
+    m_Localized: Igényeld a csomagot, hogy ingyenes jutalmakat szerezz!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212716759070793730
+    m_Localized: Átvéve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213344241960607744
+    m_Localized: Gyűjts {0} Csillagot!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213385543838326784
+    m_Localized: KIHÍVÁS CSOMAG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213385629515374592
+    m_Localized: Nyisd ki a csomagot, hogy maximum <color=#FFE315>{0}</color> érmet igényelj!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214475252614291456
+    m_Localized: Nyisd ki a csomagot, hogy igénybe vedd a jutalmaidat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214520926147960832
+    m_Localized: IGÉNYELJ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214539340325314560
+    m_Localized: Gyűjts csillagokat az időkorláton belül, hogy akár <color=#FFE315>{0}</color> érmét is feloldj!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769054264582144
+    m_Localized: UTOLSÓ LEHETŐSÉG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769183633694720
+    m_Localized: Biztosan fel akarod adni az összes megkeresett jutalmadat?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214769539012878336
+    m_Localized: LEMONDÁS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214783103136161792
+    m_Localized: Maximum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214839998228193280
+    m_Localized: Gyűjtsd a csillagokat, hogy unlockolj jutalmakat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214867523276890112
+    m_Localized: MEGNYITÁS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 215234507382448128
+    m_Localized: Nyisd ki a csomagot és gyűjtsd a csillagokat, hogy megigényeld a jutalmaidat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159497032479793152
+    m_Localized: Fődíj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 220645188114046976
+    m_Localized: GYŰJTEMÉNY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224668775510695936
+    m_Localized: '<color=#fddc25>Új kollekció</color> érkezik hamarosan!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224920229035106304
+    m_Localized: Érd el a <color={0}>{1} szintet</color> a kollekció feloldásához!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224920905328877568
+    m_Localized: Gyűjtemény
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224923537313357824
+    m_Localized: '<color={0}>Letöltés...</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228241451726659584
+    m_Localized: Érd el a(z) {0}. szintet a Gyűjtemény feloldásához és a jelvényeid megtekintéséhez!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228241896872337408
+    m_Localized: AVATAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242197553602560
+    m_Localized: KERET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242241958699008
+    m_Localized: NÉV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228242435928481792
+    m_Localized: JELVÉNY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228243239926226944
+    m_Localized: Aktiváld a belépőt, hogy korlátozott ideig feloldhasd ezt a stílust!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230438899417079808
+    m_Localized: LEVESZ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230438918601826304
+    m_Localized: FELSZEREL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233681610001604608
+    m_Localized: KILÉPÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009152
+    m_Localized: Kész!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009153
+    m_Localized: OTTHON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235817653417009154
+    m_Localized: GRATULÁLOK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390117552128
+    m_Localized: KILÉPÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390121746432
+    m_Localized: ÚJRAJÁTSZÁS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390130135040
+    m_Localized: SZINT {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390130135041
+    m_Localized: BETÖLTÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390134329346
+    m_Localized: UGRÁS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390142717952
+    m_Localized: JÓL ELKÉSZÍTVE!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390163689472
+    m_Localized: A rangod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237239390163689473
+    m_Localized: Jutalom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246559818866688
+    m_Localized: KILÉPÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246575794970624
+    m_Localized: ÚJRAJÁTSZÁS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246590647001088
+    m_Localized: SZINT {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246601078235136
+    m_Localized: BETÖLTÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246643658809344
+    m_Localized: UGRÁS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246711614922752
+    m_Localized: JÓL ELKÉSZÍTVE!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246748369608704
+    m_Localized: A rangod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246760054939648
+    m_Localized: Jutalom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245536492576768
+    m_Localized: KÉSŐBB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246615879933952
+    m_Localized: SZÜNET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235891040235544576
+    m_Localized: 'Jutalmak:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246657709727744
+    m_Localized: Olvasd fel az LV {0} ponton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816862262222848
+    m_Localized: RAJONGÓI JUTALMAK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816800794697728
+    m_Localized: Csatlakozz növekvő Facebook közösségünkhöz, és játsszatok együtt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816831106932736
+    m_Localized: CSATLAKOZZ MOST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235816773359755264
+    m_Localized: Csatlakozz és játssz velünk!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246673576779776
+    m_Localized: A grafika jó
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246681361408000
+    m_Localized: A játék szórakoztató
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246694510551040
+    m_Localized: Túl sok hirdetés
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237246703058542592
+    m_Localized: A játékban hibák vannak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245482302169088
+    m_Localized: Kérjük, frissíts a legújabb verzióra a jobb élmény érdekében.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237245456964378624
+    m_Localized: FRISSÍTÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237620428677308416
+    m_Localized: KÜLDJ KÁRTYA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237665078654001152
+    m_Localized: CSAPATTAGOK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237687049928302592
+    m_Localized: Éppen ezt a kártyát készülöd küldeni {0} számára!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237712387861372928
+    m_Localized: KÜLDÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237958163799728128
+    m_Localized: Csatlakozz egy csapathoz, hogy kártyákat cserélj csapattagokkal!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237981312209641472
+    m_Localized: 'Ez a kérés elérhető:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238028475220353024
+    m_Localized: Napi limit {0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238061569860165632
+    m_Localized: kártyát kér!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238326946397675520
+    m_Localized: KÁRTYA MEGÉRKEZETT!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238392037197471744
+    m_Localized: Től
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238436267575992320
+    m_Localized: KÉRLEK KÁRTYÁT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238438330066264064
+    m_Localized: '<color=#B5DAFF>Ezüst Kártyák</color> ajándékozhatók csapattagok között.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238438440233852928
+    m_Localized: '<color=#FDDC25>Arany Kártyák</color> csak eseményekből és jutalmakból gyűjthetők.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239838413705961472
+    m_Localized: Ez a kártya eseményekből, jutalmakból és csapattagoktól gyűjthető.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239838802429861888
+    m_Localized: '<color=#FDDC25>Arany kártyák</color> nem küldhetők!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239840300178071552
+    m_Localized: Küldéshez szükséged van egy másolat kártyára.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239840360295030784
+    m_Localized: Már 3 kártyát küldtél ma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239841109020237824
+    m_Localized: Már kértél egy kártyát ma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267800449324670976
+    m_Localized: ÜDV úJRA!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267800545017716736
+    m_Localized: Hiányoztál! Igényeld az ajándékaidat és folytasd az utadat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246035593416400896
+    m_Localized: Ez a kártya eseményekből és jutalmakból szerezhető meg.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 245969547665858560
+    m_Localized: Kártya elküldve!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247400907857190912
+    m_Localized: Bónusz jutalmak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401008721813504
+    m_Localized: Gyűjts vásárlásokat időkorlát nélkül, és szerezz fantasztikus jutalmakat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401059258982400
+    m_Localized: "Fő-\ndíj"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247401253006467072
+    m_Localized: BÓNUSZ JUTALMAK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247775982527700992
+    m_Localized: Gratulálunk! Összegyűjtötted az összes kártyát!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248229689585295360
+    m_Localized: Bónusz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164245458944
+    m_Localized: ARANY ÁTJÁRÓ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236160
+    m_Localized: '<color=#FFF200>{0}</color> elindult! Gyűjts csillagokat, hogy feloldj különleges jutalmakat!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236161
+    m_Localized: '<color=#FFF200>{0}</color> véget ért! Hamarosan indul az új <color=#FFF200>{1}</color>!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236162
+    m_Localized: '<color=#FFF200>{0}</color> aktiváld, hogy különleges jutalmakat kapj!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164262236163
+    m_Localized: Különleges jutalmak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430464
+    m_Localized: Szerezz exkluzív bónuszokat az esemény végéig!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430465
+    m_Localized: 8 élet 5 helyett
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430466
+    m_Localized: Arany keret és arany név
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430467
+    m_Localized: Gyűjts csillagokat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430468
+    m_Localized: Hozzáférés a jutalmakhoz!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430469
+    m_Localized: '<color=#FDF36D>{0}</color> aktiválásáért kapj különleges jutalmakat!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430470
+    m_Localized: Gratulálunk! Aktiváltad a(z) <color=#FFF34F>{0}</color>-t!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430471
+    m_Localized: A profilképkereted és a neved arany színű!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430472
+    m_Localized: Az ajándék megosztva van a csapattársaiddal!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430473
+    m_Localized: A maximális élet szám 8-ra nőtt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430474
+    m_Localized: AKTIVÁLD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430475
+    m_Localized: Hozzáférés a különleges jutalmakhoz!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430476
+    m_Localized: '<color=#FFF34F>{0}</color> megszerezted!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430477
+    m_Localized: A te ajándékod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164266430478
+    m_Localized: Ezt a jutalmat már igényelted!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624768
+    m_Localized: Szerezz még több csillagot az építmény megnyitásához és a jutalomhoz!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624769
+    m_Localized: Szerezd meg {0}-t a jutalom felvételéhez!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624770
+    m_Localized: Fejezd be ezt a szakaszt és nyisd ki {0}-t a jutalom megszerzéséhez!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624771
+    m_Localized: Fejezd be a(z) {0} szintet a(z) {1} feloldásához!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624772
+    m_Localized: Szerezz még több csillagot a szint megnyitásához!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624773
+    m_Localized: Szerezz még több csillagot a következő szint eléréséhez!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624774
+    m_Localized: Fejezd be ezt a szakaszt és oldd fel {0}-t a Kincsesláda kinyitásához!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624775
+    m_Localized: Szerezd meg a(z) <color=#FFF34F>{0}</color>-t, és gyűjtsd össze az érméket az esemény végén!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624776
+    m_Localized: Szerezd meg a(z) <color=#FFF34F>{0}</color>-t a Kincsesláda kinyitásához a pályák végén!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624777
+    m_Localized: Ments el 10 érmét a Kincsesládába minden 10 csillag után! Vedd őket igénybe, amikor az esemény véget ér!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164270624778
+    m_Localized: Fejezd be a szakaszokat, hogy 10 érmét spórolj meg a Kincsesláda számára minden 10 csillag után! Gyűjtsd őket, amikor véget ér az esemény!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819072
+    m_Localized: VÉG BÓNUSZ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819073
+    m_Localized: Itt vannak az igényelhető jutalmaid!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819074
+    m_Localized: A(z) <color=#fff34f>{0}</color> nyitva van, ez az első jutalmad!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819075
+    m_Localized: "Egy szint teljesítése a csillagok gyűjtéséhez jutalmakat nyit meg! \nÉrints rá, hogy megtudd, hogyan gyűjtheted őket!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819076
+    m_Localized: Oldd fel a(z) <color=#fff34f>{0}</color>-t, és szerezzen exkluzív jutalmakat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819077
+    m_Localized: ÉRINTSD MEG A KIPRÓBÁLÁS HEZ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819078
+    m_Localized: AKTIVÁLVA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819079
+    m_Localized: AKTIVÁLÁS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1164274819080
+    m_Localized: Ajándék a csapattársaidnak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5353076616585216
+    m_Localized: Győzz le szinteket!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5372156589367296
+    m_Localized: INGYENES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43766314718715904
+    m_Localized: KARÁCSONYI BÉRLET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41612858264379392
+    m_Localized: Karácsonyi Bérlet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43168464116899840
+    m_Localized: Arany Bérlet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19695394816
+    m_Localized: SZÖRFROHAM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197617770496
+    m_Localized: Gyűjts össze több kagylót, mint a többi játékos 30 perc alatt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233189662720
+    m_Localized: MESTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273316569088
+    m_Localized: Nyerd meg a Szörfroham Mestert ezekért a jutalmakért!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301875585024
+    m_Localized: Már igényelted ezeket a jutalmakat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444700024832
+    m_Localized: Gyűjts kagylókat a korlátozott idő alatt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 476987777024
+    m_Localized: Teljesítsd más játékosok ellen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500748509184
+    m_Localized: Szerezz lenyűgöző jutalmakat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536987295744
+    m_Localized: Csatlakozz a Szörf Rushhoz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 675730677760
+    m_Localized: Rang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395896868864
+    m_Localized: Jutalom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 775722885120
+    m_Localized: Játékosokat keresünk...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251465525600706560
+    m_Localized: Nyerd meg a Szörfrohamot ezekért a jutalmakért!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251109559260667904
+    m_Localized: Ez a csomag {0} kártyát tartalmaz!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 253212636654592000
+    m_Localized: Bejelentkezési napok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255097381692891136
+    m_Localized: 'Jutalmak szakasz: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348499468288
+    m_Localized: Befejezve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051200
+    m_Localized: Légy az első és nyerj csodálatos jutalmakat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051201
+    m_Localized: Először fejezd be a {0} szintet, hogy megnyerd a Fődíjat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051204
+    m_Localized: '{0} Szint'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051205
+    m_Localized: Elsőként végeztél!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051206
+    m_Localized: Játékosokat keresek...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051207
+    m_Localized: SZÍN PAD {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051210
+    m_Localized: Nyerd meg a szinteket mások előtt, hogy teljesítsd a küldetést.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051211
+    m_Localized: Szerezz lenyűgöző jutalmakat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051212
+    m_Localized: Csatlakozz a versenyhez!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051213
+    m_Localized: UNIKORNIS VERSENY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051209
+    m_Localized: Kezdd el a küldetést más játékosok ellen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9561896378368
+    m_Localized: Fődíj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348512051203
+    m_Localized: Próbáld meg újra és legyél az élen a jutalmakért!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8358106793762816
+    m_Localized: PRÓBÁLD ÚJRA!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000105134579712
+    m_Localized: Gratulálunk!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000232930828288
+    m_Localized: A verseny véget ért
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7000346080567296
+    m_Localized: Légy az első, aki legközelebb végez!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8358723339673600
+    m_Localized: Befejezés
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27990813114884096
+    m_Localized: Majdnem sikerült! Lépj előre, vezérelj, és hozd el a nagy győzelmet legközelebb!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40226007532167168
+    m_Localized: Unikornis Verseny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258714048939417600
+    m_Localized: NYÚLFUTAM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 261220253826015232
+    m_Localized: Nyúlfutam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 262986913796841472
+    m_Localized: INFÓ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 262986960378781696
+    m_Localized: TAG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271045432789950464
+    m_Localized: CSAPATSZERK.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273924986122526720
+    m_Localized: A legjobb csapat-ajánlások!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825505589190656
+    m_Localized: FIGYELEM!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825568310812672
+    m_Localized: nem tud újból csatlakozni.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277825591157186560
+    m_Localized: Nem csatlakozhatsz a csapathoz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277826028287549440
+    m_Localized: KIDOBÁS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615821602775040
+    m_Localized: Szint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615873058496512
+    m_Localized: VILÁG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278615967702966272
+    m_Localized: MESTEREK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278616096044474368
+    m_Localized: LEGJOBB JÁTÉKOSOK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278616189900414976
+    m_Localized: LEGJOBB CSAPATOK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278643930016243712
+    m_Localized: BAJNOKSÁG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278668086418071552
+    m_Localized: Pontszám
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280381325501784064
+    m_Localized: Emeld meg a csapatpontjaidat az adott hónapra!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280381518901141504
+    m_Localized: Fussatok a célhoz, és váljatok legendává!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280382392553693184
+    m_Localized: Emeld meg a pontjaidat az adott hónapra!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280723815215915008
+    m_Localized: Kapacitás
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281101773235544064
+    m_Localized: Legjobb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281101820337577984
+    m_Localized: Alsó
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303936521708232704
+    m_Localized: GÖRDESZKAVERSENY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303936521725009920
+    m_Localized: Gördeszkaverseny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328674388338532352
+    m_Localized: Csapatroham
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328674935795867648
+    m_Localized: Gyűjts dicsekvést!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675153786429440
+    m_Localized: Csatlakozz egy csapathoz, és segíts a Csapatrohamban!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675265375887360
+    m_Localized: Ha kilépsz a csapatodból, az aktuális Csapatrohamból is kilépsz!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675424260317184
+    m_Localized: Győzd le a szinteket, és gyűjtsetek együtt csónakokat csapatként, hogy fantasztikus jutalmakat szerezzetek!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328675526479699968
+    m_Localized: Nincs hozzájárulás
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691474817343488
+    m_Localized: Csapatpárbaj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691548192497664
+    m_Localized: Csapatranglista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691671190462464
+    m_Localized: Nagyszerű munka! Gratulálunk!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691834302750720
+    m_Localized: ÖSSZECSAPÁS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328691895833190400
+    m_Localized: AZ ÉN CSAPATOM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692100393590784
+    m_Localized: 'Személyes jutalmak: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692220749144064
+    m_Localized: Gyűjts vízipisztolyokat a szinteken!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692289833525248
+    m_Localized: Csapj össze a csapatoddal a győzelemért!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692350239891456
+    m_Localized: Gyűjts többet a személyes jutalmakért!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692455319789568
+    m_Localized: Csatlakozz egy csapathoz, és csapjatok össze, hogy fantasztikus jutalmakat szerezzetek!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692559271419904
+    m_Localized: Ha kilépsz a csapatodból, az aktuális Csapatpárbajból is kilépsz!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692653794254848
+    m_Localized: Gyűjts vízipisztolyokat, és csapj össze a csapatoddal, hogy fantasztikus jutalmakat szerezz!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692775722672128
+    m_Localized: SZEMÉLYES JUTALMAK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328692921290186752
+    m_Localized: Jelenlegi helyezés
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328693020170903552
+    m_Localized: Jelenlegi pontszám
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329403534840684544
+    m_Localized: Gyűjts össze legalább egy csónakot, hogy megszerezd a jutalmaidat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329403596081717248
+    m_Localized: Járulj hozzá legközelebb, hogy csapatjutalmakat kapj!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407227346116608
+    m_Localized: Csapatroham-jutalmak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407337861832704
+    m_Localized: '{0} személyes jutalom!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330407487313272832
+    m_Localized: '{0} csapatjutalom!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330435785229590528
+    m_Localized: Személyes jutalmak!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330443706701176832
+    m_Localized: '{0} személyes jutalom!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331096417918509056
+    m_Localized: Gyűjts vízipisztolyokat a pályákon, segíts a csapatodnak, és győzd le a többieket!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331096633254076416
+    m_Localized: Gyűjts többet a személyes jutalmakért!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331098070130352128
+    m_Localized: Járulj hozzá, hogy legközelebb jutalmakat kapj!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

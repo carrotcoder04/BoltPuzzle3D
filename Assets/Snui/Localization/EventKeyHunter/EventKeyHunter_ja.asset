@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventKeyHunter_ja
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 87af58f7a2918874db9d4a82217c227f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 626313388032
+    m_Localized: ドライバーを集めよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626330165248
+    m_Localized: 鍵を見つけよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359552
+    m_Localized: 報酬をゲットしよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359553
+    m_Localized: ドライバー利用のラストチャンス！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553856
+    m_Localized: 残りのドライバーはありません！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553857
+    m_Localized: "おめでとう！\n「キー・ハンター」をクリア！"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553858
+    m_Localized: 頑張ってね
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553859
+    m_Localized: 次へ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553860
+    m_Localized: フル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553861
+    m_Localized: 今やめるとドライバーを失います！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553862
+    m_Localized: 残りのドライバーを報酬に変えよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748160
+    m_Localized: すべてを外す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748161
+    m_Localized: キー・ハンター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748162
+    m_Localized: クリアしてもっとゲット！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748163
+    m_Localized: もう一度挑戦
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3765309530112
+    m_Localized: ステージクリア！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748164
+    m_Localized: ステージをクリアしてドライバーを集めよう。ドライバーでブロックを解放。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748165
+    m_Localized: カギを見つけて最終報酬をゲット！
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

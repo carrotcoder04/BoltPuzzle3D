@@ -1,0 +1,423 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: Language_th
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: th
+  m_SharedData: {fileID: 11400000, guid: 27c9beb39bf46524a810ade5065abc3a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 365780000768
+    m_Localized: โหลดข้อมูลล้มเหลว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17711244432629760
+    m_Localized: ไม่มีเหรียญพอ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332337328381952
+    m_Localized: ลองใหม่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332339001909248
+    m_Localized: เพิ่ม 1 กล่องและดำเนินการต่อ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332339710746624
+    m_Localized: เพิ่มหลุม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332341468160000
+    m_Localized: สว่าน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332925856342016
+    m_Localized: ค้อน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332927840247808
+    m_Localized: ทำลายวัตถุ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332929249533952
+    m_Localized: ไม้กวาด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332930449104896
+    m_Localized: ล้างหลุม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332931858391040
+    m_Localized: หยุดชั่วคราว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333309966508032
+    m_Localized: แตะวัตถุเพื่อทำลายมัน.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333440157704192
+    m_Localized: กำลังโหลด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1671097737216
+    m_Localized: กราฟิกดี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2006998573056
+    m_Localized: เกมสนุก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2008537882624
+    m_Localized: โฆษณามากเกินไป
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2010119135232
+    m_Localized: เกมมีบั๊ก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2265040543744
+    m_Localized: ไปที่ "การตั้งค่าระบบ" เพื่อเปิดใช้งานการเข้าถึงอัลบั้ม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14182546999861248
+    m_Localized: เพิ่มรูแค่สองรู
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14182607217483776
+    m_Localized: ไม่มีสกรูให้ล้าง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14430059359100928
+    m_Localized: 3D Bolt Master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14430184026398720
+    m_Localized: 3D Bolt Master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17424358203973632
+    m_Localized: โฆษณายังไม่พร้อม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19859794792800256
+    m_Localized: สิ่งนี้จะใช้เพื่อให้โฆษณาที่ปรับให้เหมาะสมและบริการที่เหมาะสม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20224634396860416
+    m_Localized: "3D Bolt Master: \nสกรูพินติด"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20224637282541568
+    m_Localized: "3D Bolt Master: \nสกรูพินติด"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332155161370624
+    m_Localized: จับคู่สกรูกับกล่องสีเดียวกัน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332301794238464
+    m_Localized: ปัดนิ้วเพื่อหมุนวัตถุ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332320983179264
+    m_Localized: ปัดสองนิ้วเพื่อซูมวัตถุ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332328943968256
+    m_Localized: รูเก็บสกรูที่ไม่ตรงกันไว้ชั่วคราว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332331062091776
+    m_Localized: เรามาเก็บสกรูทั้งหมดกันเถอะ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332336523075584
+    m_Localized: ทำได้ดีมาก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332338196602880
+    m_Localized: เกือบจะถึงแล้ว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21426829767204864
+    m_Localized: ล้างรูแล้วดำเนินการต่อ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333313808490496
+    m_Localized: ข้อตกลงการให้บริการ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333437041336320
+    m_Localized: นโยบายความเป็นส่วนตัว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21428140755640320
+    m_Localized: ระดับ {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899772248064
+    m_Localized: "ยินดีด้วย!\n<color=#FDDC25>\"สกรูมาเนีย\"</color> เสร็จสมบูรณ์แล้ว!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053763
+    m_Localized: มี "สกรูพิเศษ" {0} ตัวที่ซ่อนอยู่ในระดับนี้。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053762
+    m_Localized: เก็บ <color=#FDDC25>สกรูพิเศษ</color> เพื่อรับรางวัล!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053760
+    m_Localized: ปลดล็อกรางวัล!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859458
+    m_Localized: เก็บสกรูพิเศษ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859457
+    m_Localized: เล่นด่าน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859456
+    m_Localized: สกรูมาเนีย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61304828918226944
+    m_Localized: เสร็จสิ้น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34836419909246976
+    m_Localized: ชนะเลเวล!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8070819077939200
+    m_Localized: ออก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616564219905
+    m_Localized: เก็บสกรู
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616564219907
+    m_Localized: เก็บสกรูพิเศษ {0} ตัว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062784
+    m_Localized: ใช้เครื่องมือ “สว่าน” เพื่อเพิ่มรูอีกหนึ่งรู.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062785
+    m_Localized: ใช้เครื่องมือ “ค้อน” เพื่อทุบวัตถุให้แตก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062786
+    m_Localized: ใช้เครื่องมือ “ไม้กวาด” เพื่อทำความสะอาดรู
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54743339331739648
+    m_Localized: ตาบอดสี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56917147161452544
+    m_Localized: บ้าน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56916809062801408
+    m_Localized: ใช้เครื่องมือเพื่อช่วย!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65524306266808320
+    m_Localized: ดำเนินการต่อ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41015862499467264
+    m_Localized: เลเวลปลดล็อค {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947387843141632
+    m_Localized: โบนัส
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947389877379072
+    m_Localized: ความคืบหน้าของคุณได้รับการคืนค่าแล้ว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947391869673472
+    m_Localized: การอัปเดตเวอร์ชัน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947393778081792
+    m_Localized: กรุณาอัปเดตเป็นเวอร์ชันล่าสุดเพื่อเพลิดเพลินกับประสบการณ์ที่ดีขึ้น。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947395959119872
+    m_Localized: อัปเดต
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947762847473664
+    m_Localized: '"สกรูมาเนีย" ถูกปลดล็อกแล้ว! เก็บน๊อตพิเศษเพื่อรับรางวัล!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729669470281728
+    m_Localized: เครื่องมือใหม่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729684733353984
+    m_Localized: ปลดล็อคแล้ว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729687115718656
+    m_Localized: ของขวัญระดับ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729689330311168
+    m_Localized: ชนะระดับมากขึ้นเพื่อรับรางวัล!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90278512504594432
+    m_Localized: ฟื้นคืนชีพ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89826605159931904
+    m_Localized: ระดับที่ยังไม่เสร็จ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89826608586678272
+    m_Localized: "คุณมีความก้าวหน้าระดับที่ยังไม่เสร็จ.\nคุณต้องการดำเนินการต่อหรือไม่?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91270772847271936
+    m_Localized: โฆษณาอัตโนมัติของคุณถูกลบออกแล้ว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147063343653314560
+    m_Localized: "- ไม่มีโฆษณาป๊อปอัป!\n- ไม่มีโฆษณาแบนเนอร์!\n<color=#ffde00>- โฆษณาแบบรับรางวัลเสริม (เลือกได้) เพื่อของรางวัลพิเศษ!</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574626926592
+    m_Localized: ใช้ {0} สว่าน!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120896
+    m_Localized: ใช้ {0} ค้อน!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120897
+    m_Localized: ใช้ {0} ไม้กวาด!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120899
+    m_Localized: รวบรวมกล่องเครื่องมือ {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754157372137472
+    m_Localized: ถอดสกรู จับคู่ วาง... และชนะ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754232760557568
+    m_Localized: ไม่มีอุปกรณ์? แตะไอคอนอุปกรณ์เพื่ซื้อด้วยเหรียญ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754235302305792
+    m_Localized: ล้มเหลว? แตะปุ่มเหรียญเพื่อดำเนินการต่อ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754236803866624
+    m_Localized: ใช้เหรียญเพื่อซื้ออุปกรณ์หรือฟื้นคืนเวที!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754239249145856
+    m_Localized: โหมดคนตาบอดสีอยู่ในการตั้งค่า ชัดเจนกว่ามาก!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754240528408576
+    m_Localized: เข้าสู่ระบบผ่านการตั้งค่าเพื่ซิงค์เกมของคุณ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754241262411776
+    m_Localized: ขันให้แน่น คิดให้เฉียบ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645270635569152
+    m_Localized: คุณจะล้มเหลวใน <color=#C31439>ลูกบาศก์กระโดด!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645275379326976
+    m_Localized: คุณจะสูญเสีย <color=#C31439>ชีวิตของคุณ</color> และ <color=#C31439>การสะสมพิเศษ!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645305515401216
+    m_Localized: คุณจะสูญเสีย <color=#C31439>การสะสมพิเศษ!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645315657228288
+    m_Localized: คุณจะเสีย <color=#C31439>การเดินทางของลูกโป่ง!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624041025536
+    m_Localized: เล่นต่อ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219840
+    m_Localized: เปิดใช้งานเป็นเวลา <color=#FFFF0B>1 ชั่วโมง</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219845
+    m_Localized: ของขวัญอัปเดต
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219846
+    m_Localized: ขอบคุณสำหรับการอัปเดต! นี่คือของขวัญสำหรับคุณ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219847
+    m_Localized: เพิ่มกล่อง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219848
+    m_Localized: เพิ่ม 1 กล่อง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624049414146
+    m_Localized: ระดับความท้าทาย!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624049414148
+    m_Localized: เลเวลล้มเหลว!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 161578115962757120
+    m_Localized: คุณชนะ {0} ด่านและได้รับรางวัลเหล่านี้!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169587814167470080
+    m_Localized: สกรูมาเนีย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169587814171664384
+    m_Localized: คุณจะล้มเหลวใน <color=#C31439>{0}!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204681899265744896
+    m_Localized: คุณจะสูญเสีย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209106736197394432
+    m_Localized: ยาก
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

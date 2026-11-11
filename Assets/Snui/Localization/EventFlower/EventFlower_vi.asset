@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventFlower_vi
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: vi
+  m_SharedData: {fileID: 11400000, guid: c27726ec506177c4094cec49fcd1e7cc, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 168417876528594964
+  m_TableData:
+  - m_Id: 60585833185402880
+    m_Localized: Thu thập hoa để mở khóa phần thưởng và thi đấu tại <color=#FFEE2B>Đấu Trường Vườn</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60246434811731968
+    m_Localized: Vượt qua các cấp độ mà không bị thất bại để tăng điểm nhân!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61248678940106752
+    m_Localized: Làm tốt lắm! Chúc mừng!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61343243856502784
+    m_Localized: Tiến độ điểm nhân đôi của bạn sẽ bị đặt lại!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63869017910140928
+    m_Localized: PHẦN THƯỞNG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60246351366053888
+    m_Localized: ĐẤU TRƯỜNG VƯỜN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61233480611127296
+    m_Localized: Vượt qua các cấp độ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61233531257348096
+    m_Localized: Tăng điểm nhân đôi mà không thua cuộc!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61233552585383936
+    m_Localized: Kiếm phần thưởng tuyệt vời!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63868946472755200
+    m_Localized: XẾP HẠNG CỦA BẠN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191802079158722560
+    m_Localized: Bạn sẽ mất tiến độ <color=#C31439>multiplie!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2142630904324096
+    m_Localized: 'Phần thưởng cá nhân: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2811815930093568
+    m_Localized: Hoàn thành!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2149988078444544
+    m_Localized: Hãy hướng tới phần thưởng lần tới!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3240164863238144
+    m_Localized: Phần thưởng siêu to!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3258403383140352
+    m_Localized: "Đấu Trường Vườн\nPhần Thưởng Cá Nhân"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43375333200617472
+    m_Localized: ĐẤU TRƯỜNG BURGER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43375338904870912
+    m_Localized: Thu thập Burger để mở khóa phần thưởng và tranh tài tại <color=#FFEE2B>Đấu trường Burger!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43375341207543808
+    m_Localized: "ĐẤU TRƯỜNG BURGER\nPHẦN THƯỞNG CÁ NHÂN"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 265605705924337664
+    m_Localized: ĐẤU TRƯỜNG MÈO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 265611107713933312
+    m_Localized: Thu thập lon để mở khóa phần thưởng và tranh tài trong <color=#{0}>ĐẤU TRƯỜNG MÈO</color>!
+    m_Metadata:
+      m_Items:
+      - rid: 168417876528594964
+  - m_Id: 271744063847260160
+    m_Localized: "ĐẤU TRƯỜNG MÈO\nPHẦN THƯỞNG CÁ NHÂN"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 168417876528594964
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 265611107713933312

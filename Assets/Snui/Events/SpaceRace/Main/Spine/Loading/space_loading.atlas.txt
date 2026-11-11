@@ -1,0 +1,8 @@
+space_loading.png
+size:512,256
+filter:Linear,Linear
+123
+bounds:2,2,182,229
+hunt
+bounds:186,22,179,209
+offsets:1,1,181,210

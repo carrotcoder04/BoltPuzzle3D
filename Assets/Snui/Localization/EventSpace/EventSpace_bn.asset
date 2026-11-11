@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventSpace_bn
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: bn
+  m_SharedData: {fileID: 11400000, guid: 55c2385c307f3234c81cef7f035cacfc, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 12850290688
+    m_Localized: স্পেস রেস
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362658975965184
+    m_Localized: রেসে যোগ দিন!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705781535072256
+    m_Localized: সীমিত সময়ে তারা সংগ্রহ করুন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705880910716928
+    m_Localized: অন্যদের আগে তারা উপার্জন করুন মিশন সম্পূর্ণ করতে
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705922719539200
+    m_Localized: অলৌকিক পুরস্কার উপার্জন করুন!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1817044948344832
+    m_Localized: পর্যায় {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1820701395771392
+    m_Localized: প্রথম হন এবং অলৌকিক পুরস্কার জিতুন!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3365873879343104
+    m_Localized: প্লেয়ারদের খুঁজছি...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5486405265383424
+    m_Localized: পুনরায় চেষ্টা করুন!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5486452900093952
+    m_Localized: পরবর্তী বার প্রথম হন!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5490799222448128
+    m_Localized: অভিনন্দন!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5490866880765952
+    m_Localized: আপনি প্রথম স্থান অর্জন করেছেন!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38765328639975424
+    m_Localized: স্পেস রেস
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

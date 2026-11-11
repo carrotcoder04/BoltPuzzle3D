@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventKeyHunter_hi
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: hi
+  m_SharedData: {fileID: 11400000, guid: 87af58f7a2918874db9d4a82217c227f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 626313388032
+    m_Localized: स्क्रू ड्राइवर इकट्ठा करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626330165248
+    m_Localized: चाबियाँ खोजें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359552
+    m_Localized: इनाम अर्जित करें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359553
+    m_Localized: यह स्क्रू ड्रिवर्स का उपयोग करने का आपका आखिरी मौका है।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553856
+    m_Localized: कोई स्क्रू ड्राइवर बाकी नहीं!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553857
+    m_Localized: "बधाई हो!\nआपने की हंटर पूरा किया!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553858
+    m_Localized: शुभकामनाएँ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553859
+    m_Localized: जारी रखें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553860
+    m_Localized: अधिकतम
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553861
+    m_Localized: अगर आप अब बाहर निकलते हैं, तो आप अपने स्क्रू ड्राइवर खो देंगे!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553862
+    m_Localized: आपको इनाम अर्जित करने के लिए स्क्रू ड्राइवर्स हैं!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748160
+    m_Localized: सभी प्रकट करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748161
+    m_Localized: की शिकार
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748162
+    m_Localized: अधिक प्राप्त करने के लिए स्तर पूर्ण करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748163
+    m_Localized: फिर से प्रयास करें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3765309530112
+    m_Localized: स्तर जीतें!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748164
+    m_Localized: स्तरों को जीतने के लिए पेचकश प्राप्त करें। इस टैब को अनलॉक करने के लिए पेचकश का उपयोग करें।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748165
+    m_Localized: आखिरी पुरस्कार प्राप्त करने के लिए चाबियाँ खोजें!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

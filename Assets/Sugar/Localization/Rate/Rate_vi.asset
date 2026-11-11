@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: Rate_vi
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: vi
+  m_SharedData: {fileID: 11400000, guid: 376336e44518ff54d9519b270e11ca2b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 456884477952
+    m_Localized: Bạn đánh giá chúng tôi như thế nào?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456888672256
+    m_Localized: NỘP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866562
+    m_Localized: ĐÁNH GIÁ CHÚNG TÔI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866563
+    m_Localized: Vui lòng cho chúng tôi biết điều gì không đúng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866564
+    m_Localized: Xin vui lòng cho chúng tôi biết những gì sai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060864
+    m_Localized: XIN LỖI KHI NGHE ĐIỀU ĐÓ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060865
+    m_Localized: Mong nhận được nhiều lời khuyên từ các bạn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060866
+    m_Localized: Hãy để lại ý kiến ​​của bạn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456897060867
+    m_Localized: CẢM ƠN BẠN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67727879299072
+    m_Localized: ĐƯỢC RỒI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456892866560
+    m_Localized: Đánh giá và phản hồi của bạn sẽ giúp chúng tôi cải thiện trò chơi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67390011334656
+    m_Localized: Gửi không thành công, vui lòng thử lại.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67390028111872
+    m_Localized: THẤT BẠI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322255095586816
+    m_Localized: Mức Độ Khó
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322399882960896
+    m_Localized: Vấn đề Quảng cáo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322457621749760
+    m_Localized: Vấn Đề Trò Chơi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322468799569920
+    m_Localized: Vấn đề Mua hàng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322648710045696
+    m_Localized: Sự kiện & Phần thưởng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352322700010577920
+    m_Localized: Ý Tưởng Cải Thiện
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352342747844173824
+    m_Localized: Chọn chủ đề
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventKeyHunter_he
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: he
+  m_SharedData: {fileID: 11400000, guid: 87af58f7a2918874db9d4a82217c227f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 626313388032
+    m_Localized: אוספים מברגים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626330165248
+    m_Localized: מצא מפתחות!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359552
+    m_Localized: הרוויחו פרסים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359553
+    m_Localized: זו ההזדמנות האחרונה שלך להשתמש במברגים.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553856
+    m_Localized: אין מברגים נוספים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553857
+    m_Localized: "מזל טוב!\nהשלמתם את צייד המפתחות!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553858
+    m_Localized: בהצלחה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553859
+    m_Localized: המשך
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553860
+    m_Localized: מקסימום
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553861
+    m_Localized: אם תצאו עכשיו, תאבדו את המברגים שלכם!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553862
+    m_Localized: יש לכם מברגים כדי להרוויח פרסים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748160
+    m_Localized: חשוף הכל
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748161
+    m_Localized: צייד מפתחות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748162
+    m_Localized: שלימו רמות כדי לקבל יותר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748163
+    m_Localized: נסה שוב
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3765309530112
+    m_Localized: נצח שלבים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748164
+    m_Localized: נצח רמות כדי לקבל מפתחות! השתמש במפתח כדי לפתוח את הלשונית הזו.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748165
+    m_Localized: מצא מפתחות כדי לקבל את הפרסים הסופיים!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

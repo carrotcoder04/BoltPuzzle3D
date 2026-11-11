@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 5
+  m_Name: StreakLineAssetsCache
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224730242686860875
+RectTransform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eed942ed52c94d4b242d2c4728f0c0c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ProgressNodeGreenSprite: {fileID: 21300000, guid: f5c942388e6aa804090f83ac1964db96, type: 2}
+  ProgressNodeBlueSprite: {fileID: 21300000, guid: 05dc74160df203f40a9b8057b118075f, type: 2}
+  ProgressLineGreenSprite: {fileID: 21300000, guid: d4b9f1e0c7ebbbc42991b998ddf6fb5e, type: 2}
+  ProgressLineBlueSprite: {fileID: 21300000, guid: 335fd476dba6c6b47bd9783b830efc61, type: 2}
+  ChestEmptyLSprite: {fileID: 21300000, guid: 989e5cbe36c887848b492122c50662bc, type: 2}
+  ChestEmptyMSprite: {fileID: 21300000, guid: 0010e1800fe124f418645f2d160a780f, type: 2}
+  ChestEmptySSprite: {fileID: 21300000, guid: 0be87f16f9596e748864972ce246bc33, type: 2}
+  ChestRewardLSprite: {fileID: 21300000, guid: dacce3738f806b6418098025cdf22448, type: 2}
+  ChestRewardMSprite: {fileID: 21300000, guid: f94a33746dccf324eb31d2f7b36acc44, type: 2}
+  ChestRewardSSprite: {fileID: 21300000, guid: 1f4d1021ae5bfb84f9f02285d56d7dd3, type: 2}
+  PlatformCommonSprite: {fileID: 21300000, guid: d727c6b595fb555498eccf95ec6462eb, type: 2}
+  PlatformAdvancedSprite: {fileID: 21300000, guid: df35df54d4890c746b495e6ffafb715a, type: 2}
+  InfoRewardSpritRef:
+    m_AssetGUID: 2034d441a0da54d74bbbb8ac43f32e1d
+    m_SubObjectName:
+    m_SubObjectType:

@@ -1,0 +1,5 @@
+done.png
+size:308,296
+filter:Linear,Linear
+img_done_star_big
+bounds:2,2,302,291

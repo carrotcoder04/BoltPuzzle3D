@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: Settings_no
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: no
+  m_SharedData: {fileID: 11400000, guid: a746a06ec6d2ac94e96f9393645c795b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 15779792674816
+    m_Localized: Personlig innstilling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15779796869120
+    m_Localized: Personvern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15779796869121
+    m_Localized: Begrep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15779796869122
+    m_Localized: OM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22299657887744
+    m_Localized: SPRÅK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12665741312
+    m_Localized: Om
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141197758464
+    m_Localized: Kontakt oss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141197758465
+    m_Localized: Språk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141197758466
+    m_Localized: Lyd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2482099970048
+    m_Localized: INNSTILLINGER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141201952768
+    m_Localized: Versjon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141201952769
+    m_Localized: Vibrere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7692479523446784
+    m_Localized: Lagre fremdriften
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7693806831919104
+    m_Localized: Lagre fremgangen din
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7693834774372352
+    m_Localized: Logg ut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7693856026910720
+    m_Localized: Fremgangen din er lagret.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7702418941796352
+    m_Localized: Følg oss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7702546968731648
+    m_Localized: Slett konto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2977110430834688
+    m_Localized: Musikk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8754095488753664
+    m_Localized: VERSJONOPPDATERING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44192551605886976
+    m_Localized: Gjenopprett kjøp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45631217423343616
+    m_Localized: Anmeldelse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136393433168207872
+    m_Localized: Sett nickname
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170409449950797824
+    m_Localized: Kjøpene dine gjenopprettes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320776652045934592
+    m_Localized: Fargeblind
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

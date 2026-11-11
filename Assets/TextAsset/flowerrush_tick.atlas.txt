@@ -1,0 +1,9 @@
+flowerrush_tick.png
+size:140,84
+filter:Linear,Linear
+icon_clmd_green 拷贝
+bounds:2,2,93,79
+offsets:1,1,95,81
+star1
+bounds:97,40,41,41
+offsets:2,2,46,45

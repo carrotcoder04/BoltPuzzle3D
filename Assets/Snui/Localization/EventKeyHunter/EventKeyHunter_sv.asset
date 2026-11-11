@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventKeyHunter_sv
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: sv
+  m_SharedData: {fileID: 11400000, guid: 87af58f7a2918874db9d4a82217c227f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 626313388032
+    m_Localized: Samla skruvmejslar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626330165248
+    m_Localized: Hitta nycklar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359552
+    m_Localized: Tjäna belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626334359553
+    m_Localized: Detta är din sista chans att använda skruvmejslar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553856
+    m_Localized: Inga skruvmejslar kvar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553857
+    m_Localized: "Grattis!\nDu har slutfört NYCKELJAKTARE!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553858
+    m_Localized: LYCKA TILL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553859
+    m_Localized: FORTSäTT Gå
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553860
+    m_Localized: MAX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553861
+    m_Localized: Om du lämnar nu kommer du att förlora dina skruvmejslar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626338553862
+    m_Localized: Du har skruvmejslar för att tjäna belöningar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748160
+    m_Localized: AVSLÖJA ALLA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748161
+    m_Localized: NYCKELJAKTARE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748162
+    m_Localized: Genomför nivåer för att få fler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748163
+    m_Localized: FÖRSÖK IGEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3765309530112
+    m_Localized: Vinn nivåer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748164
+    m_Localized: Vinn nivåer för att få skruvmejslar. Använd skruvmejseln för att låsa upp denna flik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626342748165
+    m_Localized: Hitta nycklar för att få de slutgiltiga belöningarna!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

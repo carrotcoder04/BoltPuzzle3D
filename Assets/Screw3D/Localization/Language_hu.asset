@@ -1,0 +1,423 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: Language_hu
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: hu
+  m_SharedData: {fileID: 11400000, guid: 27c9beb39bf46524a810ade5065abc3a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 365780000768
+    m_Localized: BETÖLTÉS SIKERTELEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17711244432629760
+    m_Localized: Nincs elég érme.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332337328381952
+    m_Localized: ÚJRA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332339001909248
+    m_Localized: Adj hozzá 1 dobozt és folytasd!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332339710746624
+    m_Localized: Adj hozzá egy lyukat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332341468160000
+    m_Localized: FÚRÓ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332925856342016
+    m_Localized: KALAPÁCS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332927840247808
+    m_Localized: Törj egy tárgyat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332929249533952
+    m_Localized: SEPRŰ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332930449104896
+    m_Localized: Tisztítsd meg a lyukakat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332931858391040
+    m_Localized: SZÜNET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333309966508032
+    m_Localized: Koppints egy tárgyra, hogy szétzúzd.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333440157704192
+    m_Localized: BETÖLTÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1671097737216
+    m_Localized: A grafika jó
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2006998573056
+    m_Localized: A játék szórakoztató
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2008537882624
+    m_Localized: Túl sok hirdetés
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2010119135232
+    m_Localized: A játéknak hibái vannak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2265040543744
+    m_Localized: Menj a "Rendszerbeállítások"hoz az albumhoz való hozzáférés engedélyezéséhez.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14182546999861248
+    m_Localized: Csak két lyukat adj hozzá
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14182607217483776
+    m_Localized: Nincsenek tisztítandó csavarok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14430059359100928
+    m_Localized: 3D Váltó Mester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14430184026398720
+    m_Localized: 3D Váltó Mester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17424358203973632
+    m_Localized: A hirdetés még nem kész.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19859794792800256
+    m_Localized: Ez a személyre szabott hirdetések és optimalizált szolgáltatás használat biztosítására lesz használva.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20224634396860416
+    m_Localized: "3D Váltó Mester: \nCsavar Zár"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20224637282541568
+    m_Localized: "3D Váltó Mester: \nCsavar Zár"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332155161370624
+    m_Localized: Illeszd össze a csavarokat az ugyanazzal a színű dobozokkal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332301794238464
+    m_Localized: Ujjjal húzd el az objektumot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332320983179264
+    m_Localized: Két ujjal húzd el az objektumot a nagyításhoz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332328943968256
+    m_Localized: A lyukak ideiglenesen tartják a nem illeszkedő csavarokat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332331062091776
+    m_Localized: Gyűjtsük össze az összes csavart!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332336523075584
+    m_Localized: JÓL VAN!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332338196602880
+    m_Localized: MAJDNEM OTT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21426829767204864
+    m_Localized: Tisztítsd meg a lyukakat és folytasd!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333313808490496
+    m_Localized: Szolgáltatási feltételek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333437041336320
+    m_Localized: Adatvédelmi politika
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21428140755640320
+    m_Localized: SZINT {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899772248064
+    m_Localized: Gratulálunk!“CSAVARMÁNIA” befejezve!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053763
+    m_Localized: A szintben {0} “Különleges csavar” van elrejtve.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053762
+    m_Localized: Gyűjts Különleges csavarokat, hogy megnyerd a jutalmakat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053760
+    m_Localized: Nyiss ki jutalmakat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859458
+    m_Localized: "Gyűjts\nkülönleges csavarokat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859457
+    m_Localized: Teljesíts szinteket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859456
+    m_Localized: CSAVARMÁNIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61304828918226944
+    m_Localized: BEFEJEZVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34836419909246976
+    m_Localized: Nyerd meg a szinteket!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8070819077939200
+    m_Localized: KILÉPÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616564219905
+    m_Localized: Gyűjts csavarokat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616564219907
+    m_Localized: Gyűjts {0} speciálisakat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062784
+    m_Localized: Használja a „Fúró” eszközt egy újabb lyuk hozzáadásához.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062785
+    m_Localized: Használja a „Kalapács” eszközt egy tárgy széttörésére.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062786
+    m_Localized: Használja a „Seprű” eszközt a lyukak megtisztítására.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54743339331739648
+    m_Localized: SZÍNVAK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56917147161452544
+    m_Localized: OTTHON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56916809062801408
+    m_Localized: Használj ESZKÖZT a segítséghez!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65524306266808320
+    m_Localized: FOLYTATJA?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41015862499467264
+    m_Localized: Feloldás a LV {0} szinten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947387843141632
+    m_Localized: JUTALOM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947389877379072
+    m_Localized: A fejlődésed helyreállt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947391869673472
+    m_Localized: VERZIÓ FRISSÍTÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947393778081792
+    m_Localized: Kérjük, frissítse a legújabb verzióra a jobb élmény érdekében.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947395959119872
+    m_Localized: FRISSÍTÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947762847473664
+    m_Localized: '"CSAVAR MÁNIÁS" megnyitva! Gyűjts speciális csavarokat, hogy megnyerhesd a jutalmakat!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729669470281728
+    m_Localized: ÚJ SZERSZÁM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729684733353984
+    m_Localized: FELOLDVA!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729687115718656
+    m_Localized: SZINTŰ AJÁNDÉK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729689330311168
+    m_Localized: Nyerj több szintet a jutalmakért!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90278512504594432
+    m_Localized: REVIVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89826605159931904
+    m_Localized: BEFEJEZETLEN SZINT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89826608586678272
+    m_Localized: "Befejezetlen szintprogresziód van.\nSzeretnéd folytatni?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91270772847271936
+    m_Localized: Az automatikus hirdetések már eltávolítva!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147063343653314560
+    m_Localized: "- Nincs felugró hirdetés!\n- Nincs bannerhirdetés!\n<color=#ffde00>- Opcionális jutalmazott hirdetések extra jutalmakért!</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574626926592
+    m_Localized: Használj {0} fúrót!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120896
+    m_Localized: Használj {0} kalapácsot!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120897
+    m_Localized: Használj {0} seprűt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120899
+    m_Localized: Gyűjtsd össze a {0} szerszámdobozokat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754157372137472
+    m_Localized: Csavarja le, párosítson, helyezzen… és nyerjen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754232760557568
+    m_Localized: Elfogytak a kellékek? Koppintson a kellék ikonra, hogy érmékért vásároljon!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754235302305792
+    m_Localized: Sikerült? Koppintson az érme gombra a folytatáshoz!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754236803866624
+    m_Localized: Használja az érméket kellékek vásárlására vagy színpad újjáélesztésére!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754239249145856
+    m_Localized: Színvak mód a Beállításokban. Sokkal tisztább!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754240528408576
+    m_Localized: Jelentkezzen be a Beállításokban, hogy szinkronizálja a játékát!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754241262411776
+    m_Localized: Csavarja meg szorosan, gondolkodjon élesen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645270635569152
+    m_Localized: Sikertelen leszel a <color=#C31439>Kockák Ugrálnak!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645275379326976
+    m_Localized: El fogod veszíteni az <color=#C31439>életedet</color> és <color=#C31439>Különleges gyűjteményeket!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645305515401216
+    m_Localized: El fogod veszíteni a <color=#C31439>Különleges gyűjteményeidet!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645315657228288
+    m_Localized: Veszítesz a <color=#C31439>Légivásárut Kaland!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624041025536
+    m_Localized: JÁTSSZ TOVÁBB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219840
+    m_Localized: Aktiváld <color=#FFFF0B>1 órára</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219845
+    m_Localized: FRISSÍTÉS AJÁNDÉK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219846
+    m_Localized: Köszönjük a frissítést! Itt van néhány ajándék neked!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219847
+    m_Localized: DOBOZ HOZZÁADÁSA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219848
+    m_Localized: Adj hozzá 1 dobozt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624049414146
+    m_Localized: KIHÍVÁS SZINT!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624049414148
+    m_Localized: A szint sikertelen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 161578115962757120
+    m_Localized: Nyertél {0} szintet és ezeket a jutalmakat szerezted meg!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169587814167470080
+    m_Localized: CSAVARMÁNIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169587814171664384
+    m_Localized: Sikertelen leszel a <color=#C31439>Kockák Ugrálnak!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204681899265744896
+    m_Localized: El fogod veszíteni
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209106736197394432
+    m_Localized: NEHÉZ
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

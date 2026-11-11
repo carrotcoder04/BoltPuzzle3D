@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: ShopUI_hi
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: hi
+  m_SharedData: {fileID: 11400000, guid: ea53d7dabf6e4fe4587fa53b68aaddef, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 1603597482842914840
+  m_TableData:
+  - m_Id: 14446482153472
+    m_Localized: शुरुआती बंडल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1742614440173568
+    m_Localized: सर्वोत्तम मूल्य!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14113282449408
+    m_Localized: रद्द
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13346152636416
+    m_Localized: जारी रखें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15200370548736
+    m_Localized: मुफ्त
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16573329825792
+    m_Localized: विशाल बंडल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17052365479936
+    m_Localized: पौराणिक बंडल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16223801696256
+    m_Localized: सीमित पेशकश!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17154383536128
+    m_Localized: मास्टर बंडल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17264207192064
+    m_Localized: मेगा बंडल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17855167848448
+    m_Localized: सबसे लोकप्रिय!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15607314505728
+    m_Localized: विज्ञापनों के साथ खेलें
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230547251200
+    m_Localized: तुम्हारी खरीददारी रद्द कर दी गई है।.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15410249326592
+    m_Localized: विज्ञापन हटाएं
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15534962761728
+    m_Localized: स्थायी विज्ञापन हटाएं!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15906989137920
+    m_Localized: शॉप
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17414367469568
+    m_Localized: अल्ट्रा बंडल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12736836303577088
+    m_Localized: और ऑफर्स!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54661344438247424
+    m_Localized: दैनिक बंडल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54661686546653184
+    m_Localized: नया मील का पत्थर
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75395962292396032
+    m_Localized: खरीदारी सफल!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153221218880708608
+    m_Localized: इस स्तर पर मुफ्त में <color=#fddc25>पुनर्जीवित</color> हों!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178259481198583808
+    m_Localized: बूस्टर बंडल
+    m_Metadata:
+      m_Items: []
+  - m_Id: 192394475516977152
+    m_Localized: इस स्तर पर मुफ्त में <color={0}>पुनर्जीवित</color> हों!
+    m_Metadata:
+      m_Items:
+      - rid: 1603597482842914840
+  - m_Id: 130456000597581824
+    m_Localized: मूल्य
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 1603597482842914840
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 192394475516977152

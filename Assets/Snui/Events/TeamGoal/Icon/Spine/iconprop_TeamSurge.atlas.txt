@@ -1,0 +1,5 @@
+iconprop_TeamSurge.png
+size:107,84
+filter:Linear,Linear
+iconprop_TeamSurge
+bounds:2,2,103,80

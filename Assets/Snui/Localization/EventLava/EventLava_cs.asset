@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventLava_cs
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: cs
+  m_SharedData: {fileID: 11400000, guid: 08c21e7866fc7f240a80c30d403d01db, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 1603597504982810667
+  m_TableData:
+  - m_Id: 159505708477308928
+    m_Localized: 'Další skok začne za:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27276818049392640
+    m_Localized: Vyhrajte {0} úrovní bez nutnosti dokončit výzvu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29338599487954944
+    m_Localized: Výzva nebyla splněna. Příště více štěstí!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239245050109952
+    m_Localized: Začněte výzvu s {0} hráči!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239359034515456
+    m_Localized: Vyhraj úrovně bez prohry.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239395415908352
+    m_Localized: Získej svůj podíl mincí!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008956788989952
+    m_Localized: Úrovně
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27976254979301376
+    m_Localized: Hledáme hráče na vaší úrovni
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008534560989184
+    m_Localized: Hráči
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240243852304384
+    m_Localized: Dělíš se o odměnu s dalšími {0} výherci!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28240163988561920
+    m_Localized: Vyhráváš
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159534441011601408
+    m_Localized: '{0} skončila! Příště více štěstí!'
+    m_Metadata:
+      m_Items:
+      - rid: 1603597504982810667
+  - m_Id: 26880132651147264
+    m_Localized: Vyhrajte {0} úrovní pro dokončení výzvy!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155012007616512
+    m_Localized: V výzvě je <color=#C8332D>{0} hráčů</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159155983760744448
+    m_Localized: Vyhrajte úrovně bez nutnosti dokončit výzvu, abyste postoupili do dalších kroků!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159156661325389824
+    m_Localized: '<color=#C8332D>Hlavní cena</color> bude rozdělena rovným dílem mezi <color=#C8332D>vítěze!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28239984476545024
+    m_Localized: GRATULUJEME!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493591639646208
+    m_Localized: SKÁKACÍ KUBY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493656198373376
+    m_Localized: SKÁKACÍ SLOUPOVÉ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493696933453824
+    m_Localized: SKÁKACÍ PILÍŘE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493735013539840
+    m_Localized: skákačí kuby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493762054217728
+    m_Localized: skákačí sloupové
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43493766349185024
+    m_Localized: skákačí pilíře
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790256730112
+    m_Localized: SKÁKACÍ SPĚCH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141778790294478848
+    m_Localized: Skákací spěch
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 1603597504982810667
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 159534441011601408

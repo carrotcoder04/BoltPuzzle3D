@@ -1,0 +1,423 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: Language_bn
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: bn
+  m_SharedData: {fileID: 11400000, guid: 27c9beb39bf46524a810ade5065abc3a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 365780000768
+    m_Localized: লোড ব্যর্থ হয়েছে
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17711244432629760
+    m_Localized: পর্যাপ্ত মুদ্রা নেই
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332337328381952
+    m_Localized: আবার চেষ্টা করুন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332339001909248
+    m_Localized: 1টি বাক্স যোগ করুন এবং চালিয়ে যান!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332339710746624
+    m_Localized: একটি গর্ত যোগ করুন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332341468160000
+    m_Localized: ড্রিল
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332925856342016
+    m_Localized: হাতুড়ি
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332927840247808
+    m_Localized: একটি বস্তু ভাঙুন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332929249533952
+    m_Localized: ঝাড়ু
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332930449104896
+    m_Localized: গর্ত পরিষ্কার করুন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332931858391040
+    m_Localized: বিরতি
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333309966508032
+    m_Localized: একটি বস্তুতে ট্যাপ করুন পিষতে.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333440157704192
+    m_Localized: লোড হচ্ছে
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1671097737216
+    m_Localized: গ্রাফিক ভাল
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2006998573056
+    m_Localized: গেম মজার
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2008537882624
+    m_Localized: বেশি বিজ্ঞাপন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2010119135232
+    m_Localized: গেমে ব্যাগ আছে
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2265040543744
+    m_Localized: অ্যালবামে প্রবেশাধিকার সক্রিয় করতে "সিস্টেম সেটিংস" এ যান।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14182546999861248
+    m_Localized: শুধু দুটি গর্ত যোগ করুন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14182607217483776
+    m_Localized: ক্লিয়ার করার জন্য কোন স্ক্রু নেই
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14430059359100928
+    m_Localized: 3D বোল্ট মাস্টার
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14430184026398720
+    m_Localized: 3D বোল্ট মাস্টার
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17424358203973632
+    m_Localized: বিজ্ঞাপন প্রস্তুত নয়।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19859794792800256
+    m_Localized: এটি ব্যক্তিগতকৃত বিজ্ঞাপন এবং অপ্টিমাইজড সেবা ব্যবহারের জন্য ব্যবহার করা হবে।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20224634396860416
+    m_Localized: "3D বোল্ট মাস্টার: \nস্ক্রু জ্যাম"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20224637282541568
+    m_Localized: "3D বোল্ট মাস্টার: \nস্ক্রু জ্যাম"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332155161370624
+    m_Localized: একই রঙের বক্সের সাথে স্ক্রুগুলি ম্যাচ করুন।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332301794238464
+    m_Localized: বস্তুকে ঘোরাতে আঙ্গুলের সুইপ করুন।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332320983179264
+    m_Localized: বস্তুকে জুম করতে দুই আঙ্গুলের সুইপ করুন।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332328943968256
+    m_Localized: গর্তগুলি অসঙ্গত স্ক্রুগুলিকে অস্থায়ীভাবে ধরে রাখবে!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332331062091776
+    m_Localized: চলুন আমরা সকল স্ক্রু সংগ্রহ করি!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332336523075584
+    m_Localized: অসাধারণ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21332338196602880
+    m_Localized: প্রায় পৌঁছে গেছি
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21426829767204864
+    m_Localized: গর্ত পরিষ্কার করুন এবং চালিয়ে যান!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333313808490496
+    m_Localized: সেবার শর্তাবলী
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21333437041336320
+    m_Localized: গোপনীয়তা নীতি
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21428140755640320
+    m_Localized: লেভেল {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899772248064
+    m_Localized: "অভিনন্দন!\n<color=#FDDC25>\"স্ক্রু ম্যানিয়া\"</color> সম্পন্ন হয়েছে!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053763
+    m_Localized: লেভেলে {0}টি "বিশেষ স্ক্রু" লুকানো রয়েছে।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053762
+    m_Localized: পুরস্কার জিততে <color=#FDDC25>বিশেষ স্ক্রু</color> সংগ্রহ করুন!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899768053760
+    m_Localized: পুরস্কার আনলক করুন!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859458
+    m_Localized: বিশেষ স্ক্রু সংগ্রহ করুন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859457
+    m_Localized: স্তর পরাস্ত করুন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30111899763859456
+    m_Localized: স্ক্রু ম্যানিয়া
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61304828918226944
+    m_Localized: শেষ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34836419909246976
+    m_Localized: স্তর জেতো!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8070819077939200
+    m_Localized: ছেড়ে দিন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616564219905
+    m_Localized: স্ক্রু সংগ্রহ করুন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616564219907
+    m_Localized: বিশেষগুলো {0} সংগ্রহ করুন!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062784
+    m_Localized: “ড্রিল” টুল ব্যবহার করে আরও একটি গর্ত তৈরি করুন.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062785
+    m_Localized: '"হাতুড়ি" টুল ব্যবহার করে একটি বস্তু ভাঙুন।'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49949479955062786
+    m_Localized: '"ঝাড়ু" টুল ব্যবহার করে গর্ত পরিষ্কার করুন।'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54743339331739648
+    m_Localized: বর্ণান্ধ মোড
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56917147161452544
+    m_Localized: বাড়ি
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56916809062801408
+    m_Localized: সহায়তার জন্য উপকরণ ব্যবহার করুন!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65524306266808320
+    m_Localized: চালিয়ে যাবেন?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41015862499467264
+    m_Localized: মুক্ত করুন LV {0} এ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947387843141632
+    m_Localized: বোনাস
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947389877379072
+    m_Localized: আপনার অগ্রগতি পুনরুদ্ধার করা হয়েছে।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947391869673472
+    m_Localized: সংস্করণ আপডেট
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947393778081792
+    m_Localized: অনুগ্রহ করে একটি ভালো অভিজ্ঞতার জন্য সর্বশেষ সংস্করণে আপডেট করুন।
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947395959119872
+    m_Localized: আপডেট
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82947762847473664
+    m_Localized: '"স্ক্রু ম্যানিয়া" আনলক করা হয়েছে! পুরস্কার জিততে বিশেষ স্ক্রু সংগ্রহ করুন!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729669470281728
+    m_Localized: নতুন সরঞ্জাম
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729684733353984
+    m_Localized: আনলক করা হয়েছে!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729687115718656
+    m_Localized: স্তর উপহার
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83729689330311168
+    m_Localized: পুরস্কার পেতে আরও স্তর জিতুন!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90278512504594432
+    m_Localized: পুনরুজ্জীবিত করুন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89826605159931904
+    m_Localized: অর্ধনির্মিত স্তর
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89826608586678272
+    m_Localized: "আপনার অসম্পূর্ণ স্তরের অগ্রগতি রয়েছে।\nআপনি কি চালিয়ে যেতে চান?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91270772847271936
+    m_Localized: আপনার স্বয়ংক্রিয় বিজ্ঞাপন ইতিমধ্যে মুছে ফেলা হয়েছে!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147063343653314560
+    m_Localized: "- কোনো পপ-আপ বিজ্ঞাপন নেই!\n- কোনো ব্যানার বিজ্ঞাপন নেই!\n<color=#ffde00>- অতিরিক্ত পুরস্কারের জন্য ঐচ্ছিক পুরস্কৃত বিজ্ঞাপন!</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574626926592
+    m_Localized: '{0} ড্রিল ব্যবহার করুন'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120896
+    m_Localized: '{0} হ্যামার ব্যবহার করুন'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120897
+    m_Localized: '{0} ঝাঁটা ব্যবহার করুন'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101117574631120899
+    m_Localized: '{0} টুলবক্স সংগ্রহ করুন'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754157372137472
+    m_Localized: স্ক্রু খুলুন, মিলান, স্থাপন করুন… এবং জিতুন!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754232760557568
+    m_Localized: প্রপস শেষ? কয়েন দিয়ে কেনার জন্য প্রপ আইকনে ট্যাপ করুন!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754235302305792
+    m_Localized: ব্যর্থ? চালিয়ে যেতে কয়েন বোতামে ট্যাপ করুন!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754236803866624
+    m_Localized: প্রপস কিনতে বা স্টেজ পুনরুজ্জীবিত করতে কয়েন ব্যবহার করুন!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754239249145856
+    m_Localized: কালার ব্লাইন্ড মোড সেটিংসে আছে। অনেক স্পষ্ট!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754240528408576
+    m_Localized: আপনার গেম সিঙ্ক করতে সেটিংসের মাধ্যমে লগ ইন করুন!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105754241262411776
+    m_Localized: প্রতিনিধি শক্ত করে ঢোকান, তীক্ষ্ণ চিন্তা করুন!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645270635569152
+    m_Localized: আপনি <color=#C31439>ঘনক লাফাচ্ছে!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645275379326976
+    m_Localized: তুমি তোমার <color=#C31439>জীবন</color> এবং <color=#C31439>বিশেষ সংগ্রহ!</color> হারাবে!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645305515401216
+    m_Localized: আপনার <color=#C31439>বিশেষ সংগ্রহ</color> হারিয়ে যাবে!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115645315657228288
+    m_Localized: আপনি আপনার <color=#C31439>বেলুনের যাত্রা!</color> হারাবেন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624041025536
+    m_Localized: খেলুন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219840
+    m_Localized: '<color=#FFFF0B>1 ঘণ্টা</color> সক্রিয় করুন!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219845
+    m_Localized: আপডেট উপহার
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219846
+    m_Localized: আপনার আপডেটের জন্য ধন্যবাদ! এখানে আপনার জন্য কিছু উপহার আছে!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219847
+    m_Localized: বক্স যোগ করুন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624045219848
+    m_Localized: 1 বক্স যোগ করুন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624049414146
+    m_Localized: চ্যালেঞ্জ স্তর!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122776624049414148
+    m_Localized: স্তর ব্যর্থ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 161578115962757120
+    m_Localized: আপনি {0} টি স্তর জিতেছেন এবং এই পুরষ্কার অর্জন করেছেন!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169587814167470080
+    m_Localized: স্ক্রু ম্যানিয়া
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169587814171664384
+    m_Localized: আপনি <color=#C31439>{0}!</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204681899265744896
+    m_Localized: আপনি হারাবেন
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209106736197394432
+    m_Localized: কঠিন
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

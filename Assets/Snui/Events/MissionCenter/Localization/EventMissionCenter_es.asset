@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventMissionCenter_es
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 7fd541ff32453a84fb58a575787300c6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 759331545088
+    m_Localized: ETAPA {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876483923968
+    m_Localized: CENTRO DE TAREAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701184
+    m_Localized: ¡Todas las tareas han sido completadas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701185
+    m_Localized: ¡Completa tareas para conseguir <color=#C31439>Combustibles</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701186
+    m_Localized: ¡Completa todas las tareas para desbloquear la siguiente etapa y obtener fantásticas recompensas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701187
+    m_Localized: ¡Consigue Combustible!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701188
+    m_Localized: ¡Gana maravillosas recompensas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701189
+    m_Localized: ¡Gana maravillosas recompensas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701190
+    m_Localized: ¡Despeja la etapa actual para avanzar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701191
+    m_Localized: ¡El cofre ya está abierto!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876500701192
+    m_Localized: ¡Tarea ya reclamada!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785876504895488
+    m_Localized: ¡Completa todas las etapas anteriores para acceder a esta tarea!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133379687869046784
+    m_Localized: ¡Gana {0} monedas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133379687885824000
+    m_Localized: ¡Gasta {0} monedas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42760616560025601
+    m_Localized: ¡Completa {0} niveles!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12277718623182848
+    m_Localized: ¡Completa 1 nivel!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671104
+    m_Localized: ¡Abre 1 caja de regalo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671105
+    m_Localized: ¡Abre 1 caja de regalo en Cazador de Llaves!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671106
+    m_Localized: ¡Abre {0} cajas de regalo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671107
+    m_Localized: ¡Abre {0} cajas de regalo en Cazador de Llaves!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671108
+    m_Localized: ¡Consigue {0} Flores!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16548679354671109
+    m_Localized: ¡Consigue {0} Flores en Garden Arena!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20293628076220418
+    m_Localized: CENTRO DE MISIONES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20293628076220419
+    m_Localized: ¡Completa tareas para conseguir <color=#C31439>Pociones</color>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20293628076220420
+    m_Localized: ¡Consigue Pociones!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334096543744
+    m_Localized: ¡Consigue 1 Caja Regalo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334125903872
+    m_Localized: ¡Consigue {0} Cajas Regalo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334134292480
+    m_Localized: ¡Consigue 1 caja de regalo en Viaje en Globo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21699334138486784
+    m_Localized: ¡Consigue {0} cajas de regalo en Viaje en Globo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25343820374728704
+    m_Localized: ¡Completa {0} Niveles al Primer Intento!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27128643292487680
+    m_Localized: ¡FELICIDADES!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27179891731456000
+    m_Localized: ¡Gana {0} {1}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27179893568561152
+    m_Localized: ¡Gana 1 carrera en {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27179895367917568
+    m_Localized: ¡Gana {0} carreras en {1}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71334918540484608
+    m_Localized: ¡Recoge {0} hamburguesas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71334921883344896
+    m_Localized: ¡Recoge {0} en Arena de hamburguesas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77504036679442432
+    m_Localized: ¡Recoge {0} latas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77504039380574208
+    m_Localized: ¡Recoge {0} latas en la Arena Gatuna!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

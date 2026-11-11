@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: EventSpace_ru
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ru
+  m_SharedData: {fileID: 11400000, guid: 55c2385c307f3234c81cef7f035cacfc, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 12850290688
+    m_Localized: КОСМИЧЕСКАЯ ГОНКА
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362658975965184
+    m_Localized: Присоединяйтесь к гонке!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705781535072256
+    m_Localized: Собирайте звёзды до истечения времени!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705880910716928
+    m_Localized: Соберите больше всех звёзд, чтобы победить!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705922719539200
+    m_Localized: Получите потрясающие награды!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1817044948344832
+    m_Localized: ЭТАП {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1820701395771392
+    m_Localized: Займите 1-е место, чтобы получить потрясающие награды!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3365873879343104
+    m_Localized: Поиск игроков...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5486405265383424
+    m_Localized: Попробуйте еще раз!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5486452900093952
+    m_Localized: В следующий раз точно повезёт!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5490799222448128
+    m_Localized: Поздравляем!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5490866880765952
+    m_Localized: Вы финишировали первым!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38765328639975424
+    m_Localized: КОСМИЧЕСКАЯ ГОНКА
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

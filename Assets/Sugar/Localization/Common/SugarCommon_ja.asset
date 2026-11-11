@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac8e9c81dd1c685a0bf64c67249e0c, type: 3}
+  m_Name: SugarCommon_ja
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 109437194deb0a74f958e5c87c7a9f9a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 76771483648
+    m_Localized: エラー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507558698606592
+    m_Localized: '{0}日{1}時間'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507640344928256
+    m_Localized: '{0}時間{1}分'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507688877219840
+    m_Localized: '{0}分{1}秒'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507733466865664
+    m_Localized: '{0}日'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10518717795393536
+    m_Localized: '{0}時間'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10518725181562880
+    m_Localized: '{0}分'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10518727844945920
+    m_Localized: '{0}秒'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39440986382786560
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42028670481588224
+    m_Localized: ようこそ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42028719034851328
+    m_Localized: 「許可」をタップすると、<a href=%@>プライバシーポリシー </a> および <a href=%@>利用規約</a>に同意したとみなされます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42028804216971264
+    m_Localized: 許可
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181574557696
+    m_Localized: 何かエラーが発生しました。改めてお試しください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393523038347264
+    m_Localized: 報酬は受け取り済みです
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393750491258880
+    m_Localized: この報酬は期限切れです
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393766618357760
+    m_Localized: 最新バージョンに更新してください
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56167706460676096
+    m_Localized: エラーが発生しました
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59077622859030528
+    m_Localized: キャンセル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134481355381661696
+    m_Localized: '{0}日前'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134481355385856001
+    m_Localized: '{0}時前'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135160776681840640
+    m_Localized: '{0}分前'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134720342000132096
+    m_Localized: たった今
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167343021827809280
+    m_Localized: 完了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 272107352485781504
+    m_Localized: あなた
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296363860058112
+    m_Localized: '{0}年1月'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296396789538816
+    m_Localized: '{0}年2月'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296429568024576
+    m_Localized: '{0}年3月'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296453144207360
+    m_Localized: '{0}年4月'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296482105876480
+    m_Localized: '{0}年5月'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296506432839680
+    m_Localized: '{0}年6月'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296527249170432
+    m_Localized: '{0}年7月'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296545100128256
+    m_Localized: '{0}年8月'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296566986006528
+    m_Localized: '{0}年9月'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296586103644160
+    m_Localized: '{0}年10月'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296604768296960
+    m_Localized: '{0}年11月'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279296629921538048
+    m_Localized: '{0}年12月'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 257587757573988352
+    m_Localized: デバイス情報は、より興味深く、関連性のある広告にのみ使用されます。広告はアプリを無料で提供するために役立ちます。
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
