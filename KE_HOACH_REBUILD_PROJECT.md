@@ -1,7 +1,7 @@
 # KẾ HOẠCH DỌN DẸP, TỔ CHỨC LẠI & LÀM LẠI PROJECT: BOLT PUZZLE 3D (FULL FEATURE & PLAYABLE-READY)
 
 > **Thông tin Project hiện tại**
-> - **Đường dẫn:** `/Users/mac/Downloads/3D+Bolt+Master®_+Screw+Master®_1.4.9_APKPure/AssetRipper_export_20261111_091149/BoltPuzzle3D`
+> - **Đường dẫn:** `/Users/mac/Downloads/BoltPuzzle3D`
 > - **Phiên bản Unity:** `6000.2.10f1` (Unity 6)
 > - **Nguồn gốc:** Export từ APK IL2CPP bằng AssetRipper (tổng dung lượng `Assets/` ~ **402 MB**).
 > - **Tình trạng kỹ thuật:**
