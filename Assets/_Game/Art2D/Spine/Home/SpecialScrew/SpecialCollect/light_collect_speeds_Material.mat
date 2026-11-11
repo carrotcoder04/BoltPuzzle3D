@@ -25,67 +25,68 @@ Material:
     AlphaDepth: true
     IGNOREPROJECTOR: true
   disabledShaderPasses: []
-  m_LockedProperties:
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _AlphaTex:
+    - _AlphaTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-      _MainTex:
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: fa45d2f4b8cd71a46940612f2a51ea4a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: {}
+    m_Ints: []
     m_Floats:
-      PixelSnap: 0
-      _BlendAmount: 0
-      _Brightness: 1
-      _BumpScale: 1
-      _CanvasGroupCompatible: 0
-      _ColorMask: 15
-      _Cull: 0
-      _CustomRenderQueue: 0
-      _Cutoff: 0.1
-      _DstBlend: 10
-      _EmissionPower: 2
-      _EnableExternalAlpha: 0
-      _GlossMapScale: 1
-      _Glossiness: 0.5
-      _Hue: 0
-      _LightAffectsAdditive: 0
-      _Metallic: 0
-      _OutlineMipLevel: 0
-      _OutlineOpaqueAlpha: 1
-      _OutlineReferenceTexWidth: 1024
-      _OutlineSmoothness: 1
-      _OutlineWidth: 3
-      _RenderQueue: 0
-      _RimPower: 2
-      _Saturation: 1
-      _ShadowAlphaCutoff: 0.1
-      _SrcBlend: 1
-      _Stencil: 0
-      _StencilComp: 8
-      _StencilOp: 0
-      _StencilReadMask: 255
-      _StencilRef: 1
-      _StencilWriteMask: 255
-      _StraightAlphaInput: 1
-      _ThresholdEnd: 0.25
-      _TintBlack: 0
-      _Use8Neighbourhood: 1
-      _UseUIAlphaClip: 0
-      _ZWrite: 0
+    - PixelSnap: 0
+    - _BlendAmount: 0
+    - _Brightness: 1
+    - _BumpScale: 1
+    - _CanvasGroupCompatible: 0
+    - _ColorMask: 15
+    - _Cull: 0
+    - _CustomRenderQueue: 0
+    - _Cutoff: 0.1
+    - _DstBlend: 10
+    - _EmissionPower: 2
+    - _EnableExternalAlpha: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _Hue: 0
+    - _LightAffectsAdditive: 0
+    - _Metallic: 0
+    - _OutlineMipLevel: 0
+    - _OutlineOpaqueAlpha: 1
+    - _OutlineReferenceTexWidth: 1024
+    - _OutlineSmoothness: 1
+    - _OutlineWidth: 3
+    - _RenderQueue: 0
+    - _RimPower: 2
+    - _Saturation: 1
+    - _ShadowAlphaCutoff: 0.1
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilRef: 1
+    - _StencilWriteMask: 255
+    - _StraightAlphaInput: 1
+    - _ThresholdEnd: 0.25
+    - _TintBlack: 0
+    - _Use8Neighbourhood: 1
+    - _UseUIAlphaClip: 0
+    - _ZWrite: 0
     m_Colors:
-      _Black: {r: 0, g: 0, b: 0, a: 0}
-      _Color: {r: 1, g: 1, b: 1, a: 1}
-      _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
-      _FixedNormal: {r: 0, g: 0, b: 1, a: 1}
-      _Flip: {r: 1, g: 1, b: 1, a: 1}
-      _OutlineColor: {r: 1, g: 1, b: 0, a: 1}
-      _OverlayColor: {r: 0, g: 0, b: 0, a: 0}
-      _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-      _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Black: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _FixedNormal: {r: 0, g: 0, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 1, g: 1, b: 0, a: 1}
+    - _OverlayColor: {r: 0, g: 0, b: 0, a: 0}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

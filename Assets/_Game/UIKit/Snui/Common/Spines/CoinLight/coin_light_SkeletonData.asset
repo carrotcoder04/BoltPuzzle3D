@@ -11,7 +11,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
   m_Name: coin_light_SkeletonData
-  m_EditorClassIdentifier:
+  m_EditorClassIdentifier: 
   atlasAssets:
   - {fileID: 11400000, guid: c04ae0ea6bc3aa047830866b8c9ddb52, type: 2}
   scale: 0.01
