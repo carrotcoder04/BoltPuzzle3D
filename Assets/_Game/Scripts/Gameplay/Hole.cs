@@ -1,0 +1,62 @@
+using DG.Tweening;
+using UnityEngine;
+
+/// <summary>Lỗ chờ tạm trên khay HoleRoot (Hole1..Hole7). Mỗi lỗ chứa tối đa 1 ốc.</summary>
+public class Hole : MonoBehaviour
+{
+	public Screw Screw { get; private set; }
+	public bool Reserved { get; private set; }
+	public bool IsFree => Screw == null && !Reserved;
+	public Transform Pos { get; private set; }
+
+	GameObject _failNotice;
+
+	bool _inited;
+
+	void Awake() => Init();
+
+	/// <summary>Khởi tạo (gọi được cả khi GameObject đang tắt, ví dụ Hole6/7).</summary>
+	public void Init()
+	{
+		if (_inited) return;
+		_inited = true;
+		Pos = transform.Find("Pos") ?? transform;
+		var f = transform.Find("FailNotice");
+		_failNotice = f != null ? f.gameObject : null;
+		ShowFailNotice(false);
+	}
+
+	public void Reserve() => Reserved = true;
+
+	public void Place(Screw s)
+	{
+		Reserved = false;
+		Screw = s;
+		if (AudioManager.Instance != null) AudioManager.Instance.PlaySfx(Sfx.ScrewInPlace);
+		Pos.DOKill(true);
+		Pos.DOPunchScale(Vector3.one * 0.15f, 0.2f);
+	}
+
+	/// <summary>Lấy ốc ra khỏi lỗ (để bay vào hộp hoặc vào kho dự trữ).</summary>
+	public Screw Take()
+	{
+		var s = Screw;
+		Screw = null;
+		return s;
+	}
+
+	public void ShowFailNotice(bool show)
+	{
+		if (_failNotice != null) _failNotice.SetActive(show);
+	}
+
+	public bool IsActive => gameObject.activeSelf;
+
+	public void Unlock()
+	{
+		Init();
+		gameObject.SetActive(true);
+		transform.localScale = Vector3.zero;
+		transform.DOScale(1f, 0.3f).SetEase(Ease.OutBack);
+	}
+}

@@ -3,7 +3,7 @@ using UnityEngine;
 
 public enum BoosterType
 {
-	AddHole = 0,
+	Drill = 0,
 	Hammer = 1,
 	Broom = 2,
 	AddBox = 3
