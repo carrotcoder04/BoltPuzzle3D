@@ -166,7 +166,7 @@ AnimationClip:
     attribute: m_fontColor.r
     path: Count
     classID: 114
-    script: {fileID: 11500000, guid: 3f96b1d166d19b209697e35b35d65c76, type: 3}
+    script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
     flags: 16
   - serializedVersion: 2
     curve:
@@ -187,7 +187,7 @@ AnimationClip:
     attribute: m_fontColor.g
     path: Count
     classID: 114
-    script: {fileID: 11500000, guid: 3f96b1d166d19b209697e35b35d65c76, type: 3}
+    script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
     flags: 16
   - serializedVersion: 2
     curve:
@@ -208,7 +208,7 @@ AnimationClip:
     attribute: m_fontColor.b
     path: Count
     classID: 114
-    script: {fileID: 11500000, guid: 3f96b1d166d19b209697e35b35d65c76, type: 3}
+    script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
     flags: 16
   - serializedVersion: 2
     curve:
@@ -229,7 +229,7 @@ AnimationClip:
     attribute: m_fontColor.a
     path: Count
     classID: 114
-    script: {fileID: 11500000, guid: 3f96b1d166d19b209697e35b35d65c76, type: 3}
+    script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
     flags: 16
   m_PPtrCurves: []
   m_SampleRate: 60

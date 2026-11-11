@@ -17393,7 +17393,7 @@ AnimationClip:
     attribute: m_Color.r
     path:
     classID: 114
-    script: {fileID: 11500000, guid: 3cf5a44414476512e00c3e7a2569a919, type: 3}
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
     flags: 16
   - serializedVersion: 2
     curve:
@@ -17423,7 +17423,7 @@ AnimationClip:
     attribute: m_Color.g
     path:
     classID: 114
-    script: {fileID: 11500000, guid: 3cf5a44414476512e00c3e7a2569a919, type: 3}
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
     flags: 16
   - serializedVersion: 2
     curve:
@@ -17453,7 +17453,7 @@ AnimationClip:
     attribute: m_Color.b
     path:
     classID: 114
-    script: {fileID: 11500000, guid: 3cf5a44414476512e00c3e7a2569a919, type: 3}
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
     flags: 16
   - serializedVersion: 2
     curve:
@@ -17564,7 +17564,7 @@ AnimationClip:
     attribute: m_Color.a
     path:
     classID: 114
-    script: {fileID: 11500000, guid: 3cf5a44414476512e00c3e7a2569a919, type: 3}
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
     flags: 16
   m_PPtrCurves: []
   m_SampleRate: 60
