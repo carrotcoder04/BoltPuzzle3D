@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using Snui;
@@ -533,48 +534,89 @@ public class GameController : MonoBehaviour
 	}
 
 	/// <summary>Chổi: dọn toàn bộ ốc trong lỗ chờ vào kho ẩn (sẽ tự bay vào hộp cùng màu sau).</summary>
-	const float BroomSweepDelay = 0.45f;
-	const float BroomSweepStep = 0.14f;
+	/// <summary>Thời gian tối đa chờ chổi quét qua; ốc nào chổi chưa chạm tới thì văng theo nhịp sau đó.</summary>
+	const float BroomMaxWait = 2.0f;
 
 	public bool UseBroom()
 	{
-		bool any = false;
-		int n = 0;
-		var cam = Camera.main;
-		var right = cam != null ? cam.transform.right : Vector3.right;
-		var up = cam != null ? cam.transform.up : Vector3.up;
+		var list = new List<Screw>();
 		foreach (var h in _holes)
-		{
-			if (h.Screw == null) continue;
-			var s = h.Take();
-			any = true;
-			// Quét lần lượt từ trái sang phải theo nhịp chổi: ốc bật lên, xoay rồi văng sang phải và thu nhỏ.
-			float delay = BroomSweepDelay + n * BroomSweepStep;
-			n++;
-			var t = s.transform;
-			t.DOKill();
-			var p0 = t.position;
-			var sc = t.localScale;
-			var seq = DOTween.Sequence();
-			seq.AppendInterval(delay);
-			seq.AppendCallback(() => FxManager.ScrewPop(t.position, s.DisplayColor));
-			seq.Append(t.DOMove(p0 + up * 0.8f, 0.18f).SetEase(Ease.OutQuad));
-			seq.Join(t.DOScale(sc * 1.2f, 0.18f).SetEase(Ease.OutQuad));
-			seq.Append(t.DOMove(p0 + up * 1.6f + right * 9f, 0.45f).SetEase(Ease.InQuad));
-			seq.Join(t.DOLocalRotate(new Vector3(0f, 0f, -540f), 0.45f, RotateMode.LocalAxisAdd).SetEase(Ease.InQuad));
-			seq.Join(t.DOScale(sc * 0.3f, 0.45f).SetEase(Ease.InQuad));
-			seq.SetLink(s.gameObject);
-			seq.OnComplete(() => { t.localScale = sc; ToReserve(s); });
-		}
+			if (h.Screw != null) list.Add(h.Take());
+		bool any = list.Count > 0;
 		if (any)
 		{
 			OnUsingBroom = true;
 			if (GameCanvas != null) GameCanvas.PlayBroom();
-			float total = BroomSweepDelay + n * BroomSweepStep + 0.7f;
-			DOVirtual.DelayedCall(total, () => OnUsingBroom = false).SetLink(gameObject);
+			StartCoroutine(BroomSweep(list));
 		}
 		UpdateHoleNotice();
 		return any;
+	}
+
+	/// <summary>
+	/// Đồng bộ với Spine cây chổi: mỗi khung hình lấy vị trí đầu chổi trên màn hình,
+	/// ốc nào bị đầu chổi lướt qua (theo trục ngang) thì văng đi theo hướng chổi đang quét.
+	/// </summary>
+	IEnumerator BroomSweep(List<Screw> list)
+	{
+		// sắp trái → phải để phần dự phòng cũng quét theo thứ tự
+		var cam = _mainCam != null ? _mainCam : Camera.main;
+		if (cam != null) list.Sort((a, b) => cam.WorldToScreenPoint(a.transform.position).x.CompareTo(cam.WorldToScreenPoint(b.transform.position).x));
+		var pending = new List<Screw>(list);
+		float t = 0f;
+		bool hasPrev = false;
+		Vector2 prev = Vector2.zero;
+		float hitRange = Screen.width * 0.035f;
+		while (pending.Count > 0 && t < BroomMaxWait && cam != null)
+		{
+			if (GameCanvas != null && GameCanvas.TryGetBroomScreenPos(out var bp))
+			{
+				float dir = hasPrev ? Mathf.Sign(bp.x - prev.x) : 1f;
+				bool moving = hasPrev && Mathf.Abs(bp.x - prev.x) > 0.5f;
+				for (int i = pending.Count - 1; i >= 0; i--)
+				{
+					var s = pending[i];
+					if (s == null) { pending.RemoveAt(i); continue; }
+					float sx = cam.WorldToScreenPoint(s.transform.position).x;
+					bool crossed = hasPrev && (prev.x - sx) * (bp.x - sx) <= 0f;
+					if (moving && (crossed || Mathf.Abs(bp.x - sx) < hitRange))
+					{
+						SweepScrew(s, dir, 0f);
+						pending.RemoveAt(i);
+					}
+				}
+				prev = bp;
+				hasPrev = true;
+			}
+			t += Time.deltaTime;
+			yield return null;
+		}
+		for (int i = 0; i < pending.Count; i++)
+			if (pending[i] != null) SweepScrew(pending[i], 1f, i * 0.1f);
+		yield return new WaitForSeconds(0.7f);
+		OnUsingBroom = false;
+	}
+
+	void SweepScrew(Screw s, float dir, float delay)
+	{
+		var cam = _mainCam != null ? _mainCam : Camera.main;
+		var right = (cam != null ? cam.transform.right : Vector3.right) * (dir >= 0f ? 1f : -1f);
+		var up = cam != null ? cam.transform.up : Vector3.up;
+		var t = s.transform;
+		t.DOKill();
+		var p0 = t.position;
+		var sc = t.localScale;
+		var seq = DOTween.Sequence();
+		if (delay > 0f) seq.AppendInterval(delay);
+		seq.AppendCallback(() => FxManager.ScrewPop(t.position, s.DisplayColor));
+		// bị chổi hất: bật lên + xoay, rồi văng ra theo hướng quét và nhỏ dần
+		seq.Append(t.DOMove(p0 + up * 0.7f + right * 0.6f, 0.12f).SetEase(Ease.OutQuad));
+		seq.Join(t.DOScale(sc * 1.2f, 0.12f).SetEase(Ease.OutQuad));
+		seq.Append(t.DOMove(p0 + up * 1.8f + right * 9f, 0.4f).SetEase(Ease.InQuad));
+		seq.Join(t.DOLocalRotate(new Vector3(0f, 0f, -540f * (dir >= 0f ? 1f : -1f)), 0.4f, RotateMode.LocalAxisAdd).SetEase(Ease.InQuad));
+		seq.Join(t.DOScale(sc * 0.3f, 0.4f).SetEase(Ease.InQuad));
+		seq.SetLink(s.gameObject);
+		seq.OnComplete(() => { t.localScale = sc; ToReserve(s); });
 	}
 
 	/// <summary>Mở thêm ô hộp (AdBoxBtn1 = ô 3, AdBoxBtn2 = ô 4).</summary>

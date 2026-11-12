@@ -113,6 +113,34 @@ public class UICanvas : MonoBehaviour
 		else if (m == ToolMode.Hammer) _tip.text = "Tap a plate to smash it";
 	}
 
+	Spine.Bone _broomBone;
+
+	/// <summary>Vị trí đầu chổi (xương gắn ảnh cây chổi) trên màn hình, dùng để đồng bộ ốc bị quét.</summary>
+	public bool TryGetBroomScreenPos(out Vector2 screen)
+	{
+		screen = Vector2.zero;
+		if (_broomSpine == null || !_broomSpine.activeInHierarchy) return false;
+		var sg = _broomSpine.GetComponentInChildren<Spine.Unity.SkeletonGraphic>();
+		if (sg == null || sg.Skeleton == null) return false;
+		if (_broomBone == null || _broomBone.Skeleton != sg.Skeleton)
+		{
+			_broomBone = null;
+			// ảnh cây chổi trong atlas là "clean_3_2"; nếu không thấy thì lấy xương "clean"
+			foreach (var slot in sg.Skeleton.Slots)
+			{
+				var att = slot.Attachment;
+				if (att != null && att.Name != null && att.Name.StartsWith("clean_3")) { _broomBone = slot.Bone; break; }
+			}
+			if (_broomBone == null) _broomBone = sg.Skeleton.FindBone("clean");
+			if (_broomBone == null) return false;
+		}
+		var world = Spine.Unity.SkeletonExtensions.GetWorldPosition(_broomBone, sg.transform, sg.MeshScale);
+		var canvas = sg.canvas;
+		Camera uiCam = canvas != null && canvas.renderMode != RenderMode.ScreenSpaceOverlay ? canvas.worldCamera : null;
+		screen = RectTransformUtility.WorldToScreenPoint(uiCam, world);
+		return true;
+	}
+
 	public void PlayBroom()
 	{
 		if (_broomSpine == null) return;
