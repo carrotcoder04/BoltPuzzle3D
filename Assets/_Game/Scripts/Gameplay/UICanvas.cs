@@ -93,6 +93,8 @@ public class UICanvas : MonoBehaviour
 
 	[Tooltip("Icon coin hiện cạnh giá trên nút thêm khay")]
 	public Sprite CoinSprite;
+	[Tooltip("Nền viên thuốc (9-slice) cho nhãn giá")]
+	public Sprite PriceTagSprite;
 
 	static int BoxSlotPrice => GameConfig.Instance != null ? GameConfig.Instance.BoxSlotPrice : 200;
 
@@ -106,13 +108,19 @@ public class UICanvas : MonoBehaviour
 		var tag = btn.transform.Find("PriceTag");
 		if (tag == null)
 		{
-			var go = new GameObject("PriceTag", typeof(RectTransform), typeof(HorizontalLayoutGroup), typeof(ContentSizeFitter));
+			var go = new GameObject("PriceTag", typeof(RectTransform), typeof(Image), typeof(HorizontalLayoutGroup), typeof(ContentSizeFitter));
 			var rt = go.GetComponent<RectTransform>();
 			rt.SetParent(btn.transform, false);
+			// nằm vắt ngang mép dưới nút như một nhãn giá
 			rt.anchorMin = rt.anchorMax = new Vector2(0.5f, 0f);
 			rt.pivot = new Vector2(0.5f, 0.5f);
-			rt.anchoredPosition = new Vector2(0f, 30f);
+			rt.anchoredPosition = new Vector2(0f, 8f);
+			var bg = go.GetComponent<Image>();
+			bg.raycastTarget = false;
+			if (PriceTagSprite != null) { bg.sprite = PriceTagSprite; bg.type = Image.Type.Sliced; }
+			else bg.color = new Color(0.17f, 0.23f, 0.43f, 0.9f);
 			var hlg = go.GetComponent<HorizontalLayoutGroup>();
+			hlg.padding = new RectOffset(6, 16, 5, 5);
 			hlg.spacing = 4f;
 			hlg.childAlignment = TextAnchor.MiddleCenter;
 			hlg.childControlWidth = hlg.childControlHeight = true;
@@ -128,18 +136,18 @@ public class UICanvas : MonoBehaviour
 				var im = ic.GetComponent<Image>();
 				im.sprite = coin; im.preserveAspect = true; im.raycastTarget = false;
 				var le = ic.GetComponent<LayoutElement>();
-				le.preferredWidth = le.preferredHeight = 38f;
+				le.preferredWidth = le.preferredHeight = 44f;
 			}
 			var num = Instantiate(txt, rt, false);
 			num.name = "Price";
 			num.gameObject.SetActive(true);
 			num.enableAutoSizing = false;
-			num.fontSize = 32f;
+			num.fontSize = 34f;
 			num.alignment = TextAlignmentOptions.Midline;
 			num.enableWordWrapping = false;
 			num.color = Color.white;
-			num.outlineWidth = 0.28f;
-			num.outlineColor = new Color32(40, 70, 20, 255);
+			num.outlineWidth = 0.2f;
+			num.outlineColor = new Color32(20, 28, 60, 255);
 			num.raycastTarget = false;
 			foreach (Transform c in num.transform) Destroy(c.gameObject);
 			// bỏ các script phụ (Snui_Text...) có thể ghi đè chữ, chỉ giữ TMP
