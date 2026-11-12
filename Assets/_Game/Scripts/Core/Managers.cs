@@ -45,7 +45,7 @@ public class Managers : MonoBehaviour
 		IsReady = true;
 	}
 
-	T Get<T>() where T : Component => GetComponent<T>() ?? gameObject.AddComponent<T>();
+	T Get<T>() where T : Component => gameObject.GetOrAdd<T>();
 
 	void Update()
 	{

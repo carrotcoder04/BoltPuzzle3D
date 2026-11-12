@@ -37,7 +37,7 @@ namespace Sugar.UI
 			foreach (Transform t in _scroll.content)
 			{
 				if (!t.gameObject.activeSelf) continue;
-				var c = t.GetComponent<PageViewCell>() ?? t.gameObject.AddComponent<PageViewCell>();
+				var c = t.GetOrAdd<PageViewCell>();
 				_pages.Add(c);
 			}
 			_lastWidth = -1f;
@@ -67,7 +67,7 @@ namespace Sugar.UI
 			{
 				var prt = (RectTransform)p.transform;
 				prt.sizeDelta = new Vector2(w, h);
-				var le = p.GetComponent<LayoutElement>() ?? p.gameObject.AddComponent<LayoutElement>();
+				var le = p.GetOrAdd<LayoutElement>();
 				le.minWidth = le.preferredWidth = w;
 				le.minHeight = le.preferredHeight = h;
 			}

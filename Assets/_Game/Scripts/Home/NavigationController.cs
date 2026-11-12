@@ -21,7 +21,7 @@ public class NavigationController : MonoBehaviour
 	void Awake()
 	{
 		Instance = this;
-		_bar = GetComponent<NavigationBar>() ?? gameObject.AddComponent<NavigationBar>();
+		_bar = gameObject.GetOrAdd<NavigationBar>();
 		if (_pageView == null) _pageView = FindAnyObjectByType<PageView>(FindObjectsInactive.Include);
 	}
 

@@ -47,7 +47,7 @@ public class TutorialLevel1 : MonoBehaviour
 		prt.anchorMin = prt.anchorMax = new Vector2(0.5f, 0f);
 		prt.anchoredPosition = new Vector2(0f, 330f);
 		foreach (var g in _panel.GetComponentsInChildren<Graphic>(true)) g.raycastTarget = false;
-		var cg = _panel.GetComponent<CanvasGroup>() ?? _panel.AddComponent<CanvasGroup>();
+		var cg = _panel.GetOrAdd<CanvasGroup>();
 		cg.blocksRaycasts = false;
 		cg.interactable = false;
 

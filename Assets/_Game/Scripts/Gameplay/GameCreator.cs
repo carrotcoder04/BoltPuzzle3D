@@ -37,7 +37,7 @@ public class GameCreator : MonoBehaviour
 
 		var go = Instantiate(prefab, root, false);
 		go.name = prefab.name;
-		Puzzle = go.GetComponent<PuzzlePrefab>() ?? go.AddComponent<PuzzlePrefab>();
+		Puzzle = go.GetOrAdd<PuzzlePrefab>();
 		SetLayerRecursive(go, 0);
 		CenterOnRoot(go.transform, root);
 

@@ -46,7 +46,7 @@ namespace Snui
 		Vector2 _basePos;
 		bool _started;
 
-		protected CanvasGroup Group => _group != null ? _group : (_group = GetComponent<CanvasGroup>() ?? gameObject.AddComponent<CanvasGroup>());
+		protected CanvasGroup Group => _group != null ? _group : (_group = gameObject.GetOrAdd<CanvasGroup>());
 
 		protected virtual void Awake()
 		{

@@ -139,7 +139,7 @@ public class GameController : MonoBehaviour
 		if (BoxRoot == null) BoxRoot = FindRoot("BoxRoot");
 		if (HoleRoot == null) HoleRoot = FindRoot("HoleRoot");
 		if (BoardRoot == null) BoardRoot = GameRoot;
-		if (GameCreator == null) GameCreator = GetComponent<GameCreator>() ?? gameObject.AddComponent<GameCreator>();
+		if (GameCreator == null) GameCreator = gameObject.GetOrAdd<GameCreator>();
 		if (GameCanvas == null) GameCanvas = FindAnyObjectByType<UICanvas>(FindObjectsInactive.Include);
 
 		foreach (var c in Camera.allCameras)
@@ -152,7 +152,7 @@ public class GameController : MonoBehaviour
 
 		if (GameRoot != null)
 		{
-			_rotate = GameRoot.GetComponent<RotateHelper>() ?? GameRoot.gameObject.AddComponent<RotateHelper>();
+			_rotate = GameRoot.GetOrAdd<RotateHelper>();
 			if (GameRoot.GetComponent<ZoomGesture>() == null) GameRoot.gameObject.AddComponent<ZoomGesture>();
 			if (GameRoot.GetComponent<TwoFingerRotateGesture>() == null) GameRoot.gameObject.AddComponent<TwoFingerRotateGesture>();
 			var rb = GameRoot.GetComponent<Rigidbody>();
@@ -167,7 +167,7 @@ public class GameController : MonoBehaviour
 			{
 				var t = HoleRoot.Find("Hole" + i);
 				if (t == null) continue;
-				var h = t.GetComponent<Hole>() ?? t.gameObject.AddComponent<Hole>();
+				var h = t.GetOrAdd<Hole>();
 				h.Init();
 				_holes.Add(h);
 				HoleParents.Add(t);

@@ -20,6 +20,18 @@ public static class UIUtil
 		return null;
 	}
 
+	/// <summary>
+	/// Lấy component, chưa có thì thêm. Không dùng "GetComponent() ?? AddComponent()" vì trong Editor
+	/// GetComponent trả về đối tượng null giả (không phải null C#) nên "??" không chạy → MissingComponentException.
+	/// </summary>
+	public static T GetOrAdd<T>(this GameObject go) where T : Component
+	{
+		var c = go.GetComponent<T>();
+		return c != null ? c : go.AddComponent<T>();
+	}
+
+	public static T GetOrAdd<T>(this Component comp) where T : Component => comp.gameObject.GetOrAdd<T>();
+
 	public static T FindComp<T>(this Transform root, string name) where T : Component
 	{
 		var t = FindDeep(root, name);

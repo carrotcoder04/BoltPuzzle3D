@@ -150,7 +150,7 @@ namespace Snui
 		void SetAlpha(float a)
 		{
 			if (Mathf.Approximately(a, 1f) && _canvasGroup == null) return;
-			if (_canvasGroup == null) _canvasGroup = GetComponent<CanvasGroup>() ?? gameObject.AddComponent<CanvasGroup>();
+			if (_canvasGroup == null) _canvasGroup = gameObject.GetOrAdd<CanvasGroup>();
 			_canvasGroup.alpha = a;
 		}
 

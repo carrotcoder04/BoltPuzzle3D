@@ -70,7 +70,7 @@ namespace ShopUI
 				if (p.Kind == IapProductKind.NonConsumable && iap != null && iap.IsOwned(id)) continue;
 				if (id == IapCatalog.RemoveAds && ud != null && ud.IsRemoveAds) continue;
 				var go = Instantiate(prefab, _content, false);
-				var item = go.GetComponent<ShopBundleItem>() ?? go.AddComponent<ShopBundleItem>();
+				var item = go.GetOrAdd<ShopBundleItem>();
 				item.Index = index++;
 				item.Setup(p, Placement);
 				FixHeight(go);
@@ -80,7 +80,7 @@ namespace ShopUI
 			{
 				if (cfg.ShopCoinItem == null) break;
 				var go = Instantiate(cfg.ShopCoinItem, _content, false);
-				var item = go.GetComponent<ShopCoinItem>() ?? go.AddComponent<ShopCoinItem>();
+				var item = go.GetOrAdd<ShopCoinItem>();
 				item.Index = index++;
 				item.Setup(p, Placement);
 				FixHeight(go);
@@ -99,7 +99,7 @@ namespace ShopUI
 
 		void EnsureLayout()
 		{
-			var v = _content.GetComponent<VerticalLayoutGroup>() ?? _content.gameObject.AddComponent<VerticalLayoutGroup>();
+			var v = _content.GetOrAdd<VerticalLayoutGroup>();
 			v.spacing = Spacing;
 			var pad = Padding ?? new RectOffset();
 			// tab Shop ở Home: chừa chỗ cho thanh điều hướng để gói cuối không bị che
@@ -111,14 +111,14 @@ namespace ShopUI
 			v.childControlHeight = true;
 			v.childForceExpandWidth = false;
 			v.childForceExpandHeight = false;
-			var f = _content.GetComponent<ContentSizeFitter>() ?? _content.gameObject.AddComponent<ContentSizeFitter>();
+			var f = _content.GetOrAdd<ContentSizeFitter>();
 			f.verticalFit = ContentSizeFitter.FitMode.PreferredSize;
 		}
 
 		static void FixHeight(GameObject go)
 		{
 			var rt = go.transform as RectTransform;
-			var le = go.GetComponent<LayoutElement>() ?? go.AddComponent<LayoutElement>();
+			var le = go.GetOrAdd<LayoutElement>();
 			if (rt != null) le.preferredHeight = rt.rect.height;
 		}
 	}
