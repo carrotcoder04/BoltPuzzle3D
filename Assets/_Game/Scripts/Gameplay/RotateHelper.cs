@@ -17,6 +17,8 @@ public class RotateHelper : MonoBehaviour
 	public float AutoRotateSpeed = 1f;
 	public float DeadZone = 10f;
 	public float AxisAdsorbAngle = 10f;
+	/// <summary>Độ "bám" khi kéo: càng lớn càng sát ngón tay, càng nhỏ càng mượt (lọc rung từ input).</summary>
+	public float FollowSharpness = 22f;
 
 	/// <summary>Chạm (tap) tại toạ độ màn hình.</summary>
 	public event Action<Vector2> OnTap;
@@ -27,16 +29,19 @@ public class RotateHelper : MonoBehaviour
 	Vector2 _startPos;
 	Vector2 _lastPos;
 	Vector2 _velocity; // độ/giây quanh (trục dọc, trục ngang)
+	Vector2 _pending;  // góc đã kéo nhưng chưa áp dụng (làm mượt)
+	float _lastMoveTime;
 	int _fingerId = -1;
 
 	float DegPerPixel => 180f / Mathf.Max(1f, Screen.width) * (RotationSpeed / 3f) * 2f;
 
 	void Update()
 	{
+		float dt = Mathf.Min(Time.unscaledDeltaTime, 0.05f);
 		if (!Enable || DialogManager.Count > 0)
 		{
 			_down = _dragging = false;
-			_velocity = Vector2.zero;
+			_velocity = _pending = Vector2.zero;
 			return;
 		}
 
@@ -45,7 +50,7 @@ public class RotateHelper : MonoBehaviour
 			// Hai ngón: nhường cho Zoom/TwoFingerRotate, huỷ tap
 			_down = false;
 			_dragging = false;
-			_velocity = Vector2.zero;
+			_velocity = _pending = Vector2.zero;
 			return;
 		}
 
@@ -59,18 +64,31 @@ public class RotateHelper : MonoBehaviour
 			_dragging = false;
 			_startPos = _lastPos = pos;
 			_velocity = Vector2.zero;
+			_pending = Vector2.zero;
 			_overUI = IsOverUI();
 		}
 		else if (held && _down && !_overUI)
 		{
-			if (!_dragging && (pos - _startPos).magnitude > DeadZone) _dragging = true;
+			if (!_dragging && (pos - _startPos).magnitude > DeadZone * Mathf.Max(1f, Screen.dpi / 160f) * 0.6f)
+			{
+				_dragging = true;
+				_lastPos = pos; // không giật một phát bằng cả vùng chết
+			}
 			if (_dragging)
 			{
-				var delta = pos - _lastPos;
-				float dt = Mathf.Max(Time.unscaledDeltaTime, 0.0001f);
-				var deg = delta * DegPerPixel;
-				ApplyRotation(deg);
-				_velocity = Vector2.Lerp(_velocity, deg / dt, 0.5f);
+				var deg = (pos - _lastPos) * DegPerPixel;
+				_pending += deg;
+				if (deg.sqrMagnitude > 0f)
+				{
+					// vận tốc lọc theo thời gian để quán tính khi thả tay ổn định
+					var inst = deg / Mathf.Max(dt, 0.001f);
+					_velocity = Vector2.Lerp(_velocity, inst, 1f - Mathf.Exp(-18f * dt));
+					_lastMoveTime = Time.unscaledTime;
+				}
+				else if (Time.unscaledTime - _lastMoveTime > 0.08f)
+				{
+					_velocity = Vector2.Lerp(_velocity, Vector2.zero, 1f - Mathf.Exp(-20f * dt));
+				}
 			}
 			_lastPos = pos;
 		}
@@ -81,13 +99,24 @@ public class RotateHelper : MonoBehaviour
 #if UNITY_EDITOR
 			else if (_overUI) Debug.Log("[Tap] blocked by UI: " + _uiHitName);
 #endif
+			// ngón đứng yên trước khi nhấc thì không văng
+			if (Time.unscaledTime - _lastMoveTime > 0.1f) _velocity = Vector2.zero;
 			_dragging = false;
 		}
-		else if (!_down && _velocity.sqrMagnitude > 0f)
+
+		// Áp dụng phần góc còn chờ theo hàm mũ: bám ngón tay nhưng lọc rung khung hình.
+		if (_pending.sqrMagnitude > 1e-6f)
 		{
-			// Quán tính
-			ApplyRotation(_velocity * Time.unscaledDeltaTime);
-			_velocity = Vector2.Lerp(_velocity, Vector2.zero, 1f - Mathf.Exp(-Damping * 0.5f * Time.unscaledDeltaTime));
+			var step = _pending * (1f - Mathf.Exp(-FollowSharpness * dt));
+			_pending -= step;
+			ApplyRotation(step);
+		}
+
+		// Quán tính sau khi thả tay
+		if (!_down && _velocity.sqrMagnitude > 0f)
+		{
+			ApplyRotation(_velocity * dt);
+			_velocity *= Mathf.Exp(-Damping * 0.45f * dt);
 			if (_velocity.magnitude < MinSpeed * 10f) _velocity = Vector2.zero;
 		}
 	}

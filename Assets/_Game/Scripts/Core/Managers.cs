@@ -27,6 +27,9 @@ public class Managers : MonoBehaviour
 		Instance = this;
 		DontDestroyOnLoad(gameObject);
 		Application.targetFrameRate = 60;
+		QualitySettings.vSyncCount = 0;
+		// cấp sẵn bộ nhớ cho tween để không bị khựng khi nhiều ốc/hộp chạy hiệu ứng cùng lúc
+		DG.Tweening.DOTween.Init(false, true, DG.Tweening.LogBehaviour.ErrorsOnly).SetCapacity(400, 100);
 		Input.multiTouchEnabled = true;
 		InitAll();
 	}

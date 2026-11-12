@@ -32,9 +32,11 @@ public class ZoomGesture : MonoBehaviour
 			float wheel = Input.mouseScrollDelta.y;
 			if (Mathf.Abs(wheel) > 0.01f) delta = wheel * ZoomSpeed * 60f;
 		}
-		if (Mathf.Abs(delta) < 1e-5f) return;
-		_zoom = Mathf.Clamp(_zoom + delta, ZoomMin, ZoomMax);
-		transform.localScale = _baseScale * _zoom;
+		if (Mathf.Abs(delta) > 1e-5f) _zoom = Mathf.Clamp(_zoom + delta, ZoomMin, ZoomMax);
+		// tiến dần tới mức zoom đích để không giật theo từng bước con lăn / từng khung chạm
+		var target = _baseScale * _zoom;
+		if ((transform.localScale - target).sqrMagnitude > 1e-8f)
+			transform.localScale = Vector3.Lerp(transform.localScale, target, 1f - Mathf.Exp(-18f * Time.unscaledDeltaTime));
 	}
 
 	public void ResetZoom()
