@@ -571,16 +571,25 @@ public class GameController : MonoBehaviour
 		{
 			if (GameCanvas != null && GameCanvas.TryGetBroomScreenPos(out var bp))
 			{
-				float dir = hasPrev ? Mathf.Sign(bp.x - prev.x) : 1f;
-				bool moving = hasPrev && Mathf.Abs(bp.x - prev.x) > 0.5f;
+				float step = hasPrev ? bp.x - prev.x : 0f;
+				float dir = step != 0f ? Mathf.Sign(step) : 1f;
+				// Spine có thể nhảy từ tư thế mặc định sang tư thế đầu ở vài khung đầu: bỏ qua các bước nhảy lớn
+				bool jump = Mathf.Abs(step) > Screen.width * 0.08f;
+				bool moving = hasPrev && !jump && Mathf.Abs(step) > 0.5f && t > 0.05f;
+#if UNITY_EDITOR
+				Debug.Log("[Broom] t=" + t.ToString("F2") + " x=" + bp.x.ToString("F0") + " y=" + bp.y.ToString("F0") + " step=" + step.ToString("F0") + (jump ? " JUMP" : ""));
+#endif
 				for (int i = pending.Count - 1; i >= 0; i--)
 				{
 					var s = pending[i];
 					if (s == null) { pending.RemoveAt(i); continue; }
 					float sx = cam.WorldToScreenPoint(s.transform.position).x;
-					bool crossed = hasPrev && (prev.x - sx) * (bp.x - sx) <= 0f;
+					bool crossed = (prev.x - sx) * (bp.x - sx) <= 0f;
 					if (moving && (crossed || Mathf.Abs(bp.x - sx) < hitRange))
 					{
+#if UNITY_EDITOR
+						Debug.Log("[Broom] hit " + s.name + " sx=" + sx.ToString("F0") + " at t=" + t.ToString("F2"));
+#endif
 						SweepScrew(s, dir, 0f);
 						pending.RemoveAt(i);
 					}
