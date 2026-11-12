@@ -109,8 +109,8 @@ public class UICanvas : MonoBehaviour
 	{
 		if (_tip == null) return;
 		_tip.gameObject.SetActive(m != ToolMode.None);
-		if (m == ToolMode.Drill) _tip.text = "Chạm vào một con ốc bất kỳ để khoan";
-		else if (m == ToolMode.Hammer) _tip.text = "Chạm vào một tấm để đập vỡ";
+		if (m == ToolMode.Drill) _tip.text = "Tap any screw to drill it out";
+		else if (m == ToolMode.Hammer) _tip.text = "Tap a plate to smash it";
 	}
 
 	public void PlayBroom()
