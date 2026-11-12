@@ -76,7 +76,8 @@ public class BoxScript : MonoBehaviour
 		_screws.Add(s);
 		if (AudioManager.Instance != null) AudioManager.Instance.PlaySfx(Sfx.ScrewInPlace);
 		transform.DOKill(true);
-		transform.DOPunchScale(Vector3.one * 0.08f, 0.18f, 6, 0.6f);
+		transform.DOPunchScale(Vector3.one * 0.14f, 0.22f, 6, 0.6f);
+		transform.DOPunchRotation(new Vector3(0f, 0f, Filled % 2 == 0 ? 6f : -6f), 0.25f, 6, 0.6f);
 		if (Filled >= MaxScrewCount) Close();
 	}
 
@@ -88,13 +89,23 @@ public class BoxScript : MonoBehaviour
 		{
 			_lidRoot.gameObject.SetActive(true);
 			var target = _lidRoot.localPosition;
-			_lidRoot.localPosition = target + Vector3.up * 1.5f;
+			_lidRoot.localPosition = target + Vector3.up * 2f;
+			var baseScale = transform.localScale;
 			var seq = DOTween.Sequence();
-			seq.Append(_lidRoot.DOLocalMove(target, 0.2f).SetEase(Ease.InQuad));
-			seq.AppendCallback(() => { if (AudioManager.Instance != null) AudioManager.Instance.PlaySfx(Sfx.Match); });
-			seq.Append(transform.DOPunchScale(Vector3.one * 0.12f, 0.2f));
-			seq.AppendInterval(0.1f);
-			seq.Append(transform.DOMoveY(transform.position.y + 6f, 0.35f).SetEase(Ease.InBack));
+			seq.AppendInterval(0.12f);
+			// nắp rơi xuống, nảy nhẹ
+			seq.Append(_lidRoot.DOLocalMove(target, 0.22f).SetEase(Ease.OutBounce));
+			seq.AppendCallback(() => { if (AudioManager.Instance != null) AudioManager.Instance.PlaySfx(Sfx.Match); if (VibrationManager.Instance != null) VibrationManager.Instance.Medium(); });
+			// dẹt xuống rồi bật lên
+			seq.Append(transform.DOScale(new Vector3(baseScale.x * 1.2f, baseScale.y * 0.82f, baseScale.z), 0.08f).SetEase(Ease.OutQuad));
+			seq.Append(transform.DOScale(new Vector3(baseScale.x * 0.9f, baseScale.y * 1.15f, baseScale.z), 0.1f).SetEase(Ease.OutQuad));
+			seq.Append(transform.DOScale(baseScale, 0.1f).SetEase(Ease.OutBack));
+			seq.AppendInterval(0.12f);
+			// bay vút lên, xoay nhẹ, thu nhỏ
+			seq.Append(transform.DOMoveY(transform.position.y + 8f, 0.4f).SetEase(Ease.InBack));
+			seq.Join(transform.DORotate(new Vector3(0f, 0f, 20f), 0.4f).SetEase(Ease.InQuad));
+			seq.Join(transform.DOScale(baseScale * 0.7f, 0.4f).SetEase(Ease.InQuad));
+			seq.SetLink(gameObject);
 			seq.OnComplete(Finish);
 		}
 		else Finish();

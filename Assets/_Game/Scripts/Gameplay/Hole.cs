@@ -36,7 +36,7 @@ public class Hole : MonoBehaviour
 		Screw = s;
 		if (AudioManager.Instance != null) AudioManager.Instance.PlaySfx(Sfx.ScrewInPlace);
 		Pos.DOKill(true);
-		Pos.DOPunchScale(Vector3.one * 0.15f, 0.2f);
+		Pos.DOPunchScale(Vector3.one * 0.25f, 0.25f, 6, 0.6f);
 	}
 
 	/// <summary>Lấy ốc ra khỏi lỗ (để bay vào hộp hoặc vào kho dự trữ).</summary>

@@ -38,11 +38,15 @@ public class Screw : MonoBehaviour
 		Renderer.SetPropertyBlock(_mpb);
 	}
 
-	/// <summary>Rung lắc khi ốc bị chặn.</summary>
+	/// <summary>Rung lắc khi ốc bị chặn: nhích ra theo trục rồi bật lại, kèm lắc xoay để người chơi thấy rõ là bị kẹt.</summary>
 	public void ShakeBlocked()
 	{
 		transform.DOKill(true);
-		transform.DOPunchPosition(ExtractDir * 0.15f, 0.25f, 10, 0.5f);
+		var seq = DOTween.Sequence();
+		seq.Append(transform.DOPunchPosition(ExtractDir * 0.28f, 0.32f, 8, 0.6f));
+		seq.Join(transform.DOPunchRotation(new Vector3(25f, 0f, 0f), 0.32f, 10, 0.5f));
+		seq.Join(transform.DOPunchScale(Vector3.one * 0.12f, 0.2f, 6, 0.5f));
+		seq.SetLink(gameObject);
 		if (AudioManager.Instance != null) AudioManager.Instance.PlaySfx(Sfx.ScrewUnmoveable);
 		if (VibrationManager.Instance != null) VibrationManager.Instance.Medium();
 	}
@@ -60,9 +64,18 @@ public class Screw : MonoBehaviour
 		if (AudioManager.Instance != null) AudioManager.Instance.PlaySfx(Sfx.Screw);
 		if (VibrationManager.Instance != null) VibrationManager.Instance.Light();
 		transform.DOKill();
+		var p0 = transform.position;
+		var baseScale = transform.localScale;
 		var seq = DOTween.Sequence();
-		seq.Join(transform.DOMove(transform.position + dir * PullDistance, 0.18f).SetEase(Ease.OutQuad));
-		seq.Join(transform.DOLocalRotate(new Vector3(720f, 0f, 0f), 0.18f, RotateMode.LocalAxisAdd));
+		// 1. nảy nhẹ khi chạm
+		seq.Append(transform.DOScale(baseScale * 1.18f, 0.06f).SetEase(Ease.OutQuad));
+		// 2. xoáy ra: 2 vòng quanh trục ốc, trượt ra theo hướng rút
+		seq.Append(transform.DOMove(p0 + dir * PullDistance * 1.4f, 0.26f).SetEase(Ease.OutCubic));
+		seq.Join(transform.DOLocalRotate(new Vector3(720f, 0f, 0f), 0.26f, RotateMode.LocalAxisAdd).SetEase(Ease.OutCubic));
+		seq.Join(transform.DOScale(baseScale, 0.2f).SetEase(Ease.OutBack));
+		// 3. khựng lại một nhịp trước khi bay
+		seq.AppendInterval(0.04f);
+		seq.SetLink(gameObject);
 		seq.OnComplete(() => onPulled?.Invoke());
 	}
 
@@ -96,20 +109,31 @@ public class Screw : MonoBehaviour
 		var startScale = transform.lossyScale.x;
 		if (headWorldSize <= 0f && GameController.Instance != null) headWorldSize = GameController.Instance.ScrewHeadWorldSize;
 		float endScale = headWorldSize > 0f ? headWorldSize / HeadDiameter : startScale;
+		var above = end + toCam * 0.9f;
 		var seq = DOTween.Sequence();
+		// 1. bay theo đường cong tới phía trên lỗ, co dần về kích thước đích
 		seq.Append(DOVirtual.Float(0f, 1f, duration, t =>
 		{
 			float u = 1f - t;
-			transform.position = u * u * start + 2f * u * t * mid + t * t * end;
-			SetWorldScale(Mathf.Lerp(startScale, endScale, t));
-		}).SetEase(Ease.InOutQuad));
-		seq.Join(transform.DORotateQuaternion(targetRot, duration));
+			transform.position = u * u * start + 2f * u * t * mid + t * t * above;
+			SetWorldScale(Mathf.Lerp(startScale, endScale * 1.25f, t));
+		}).SetEase(Ease.InOutSine));
+		seq.Join(transform.DORotateQuaternion(targetRot, duration * 0.8f).SetEase(Ease.OutQuad));
+		// 2. vặn vào lỗ: 1 vòng quanh trục ốc, hạ xuống và thu về đúng cỡ
+		seq.Append(transform.DOMove(end, 0.14f).SetEase(Ease.InQuad));
+		seq.Join(transform.DORotateQuaternion(targetRot * Quaternion.Euler(-180f, 0f, 0f), 0.07f).SetEase(Ease.Linear));
+		seq.Append(transform.DORotateQuaternion(targetRot, 0.07f).SetEase(Ease.Linear));
+		seq.Join(DOVirtual.Float(endScale * 1.25f, endScale, 0.07f, v => SetWorldScale(v)));
+		seq.SetLink(gameObject);
 		seq.OnComplete(() =>
 		{
 			transform.SetParent(parent, true);
 			transform.position = end;
 			transform.rotation = targetRot;
 			SetWorldScale(endScale);
+			// 3. nảy khi cắm xong
+			transform.DOPunchScale(transform.localScale * 0.22f, 0.22f, 6, 0.6f).SetLink(gameObject);
+			if (VibrationManager.Instance != null) VibrationManager.Instance.Light();
 			onArrive?.Invoke();
 		});
 	}

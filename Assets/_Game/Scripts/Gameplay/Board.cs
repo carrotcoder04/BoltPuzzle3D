@@ -61,7 +61,7 @@ public class Board : MonoBehaviour
 	void Wobble()
 	{
 		transform.DOKill();
-		transform.DOPunchRotation(new Vector3(0f, 0f, 6f), 0.4f, 6, 0.6f);
+		transform.DOPunchRotation(new Vector3(4f, 0f, 10f), 0.5f, 7, 0.5f);
 	}
 
 	/// <summary>Cho tấm rơi: tắt collider để không cản tia kiểm tra / không vướng tấm khác.</summary>
@@ -78,11 +78,18 @@ public class Board : MonoBehaviour
 		{
 			_rb.isKinematic = false;
 			_rb.useGravity = true;
-			_rb.linearVelocity = new Vector3(Random.Range(-1.5f, 1.5f), Random.Range(0.5f, 2f), Random.Range(-1f, 1f));
-			_rb.angularVelocity = Random.insideUnitSphere * 4f;
+			// bật lên và văng ra khỏi khối mô hình rồi mới rơi, để thấy rõ tấm vừa được tháo
+			var center = gc != null && gc.GameRoot != null ? gc.GameRoot.position : Vector3.zero;
+			var rend = GetComponent<Renderer>();
+			var outDir = (rend != null ? rend.bounds.center : transform.position) - center;
+			outDir.z = Mathf.Min(outDir.z, 0f) - 0.5f;
+			outDir = outDir.sqrMagnitude > 1e-4f ? outDir.normalized : Vector3.back;
+			_rb.linearVelocity = outDir * 4f + Vector3.up * Random.Range(4f, 6f);
+			_rb.angularVelocity = Random.insideUnitSphere * 6f;
 		}
 		if (AudioManager.Instance != null) AudioManager.Instance.PlaySfx(Sfx.BoardOpen);
-		Destroy(gameObject, 3f);
+		transform.DOScale(transform.localScale * 0.6f, 0.6f).SetDelay(1.2f).SetEase(Ease.InQuad).SetLink(gameObject);
+		Destroy(gameObject, 2.5f);
 		if (gc != null) gc.OnBoardFallen(this);
 	}
 
