@@ -576,15 +576,22 @@ public class GameController : MonoBehaviour
 		DOVirtual.DelayedCall(0.05f, () => { _checkPending = false; CheckFail(); }).SetLink(gameObject);
 	}
 
+	void RequestCheckLater(float delay)
+	{
+		DOVirtual.DelayedCall(delay, RequestCheck).SetLink(gameObject);
+	}
+
 	void CheckFail()
 	{
 		if (IsGameOver || IsGameFail || MovingScrewCount > 0) return;
 		if (FreeHoleCount() > 0) return;
 		foreach (var h in _holes)
 			if (h.Reserved || (h.Screw != null && FindBoxFor(h.Screw.ScrewColor) != null)) return;
-		Physics.SyncTransforms();
-		foreach (var s in _boardScrews)
-			if (s != null && !s.IsRemoved && FindBoxFor(s.ScrewColor) != null && !GameCreator.IsBlocked(s)) return;
+		// Hộp đang đóng nắp sẽ được thay bằng hộp mới, có thể hút ốc trong lỗ ra: chờ hộp mới xuất hiện rồi xét lại.
+		foreach (var b in _slots)
+			if (b != null && b.IsClosing) { RequestCheckLater(0.3f); return; }
+		// Luật thua: mọi lỗ chờ đã đầy và không ốc nào trong lỗ vào được hộp hiện có => thua ngay,
+		// không phụ thuộc vào việc trên mô hình còn ốc cùng màu hộp hay không (giống thể loại Screw Jam).
 		Fail();
 	}
 
