@@ -145,6 +145,13 @@ public class UICanvas : MonoBehaviour
 		return RectTransformUtility.WorldToScreenPoint(UiCam(sg), world);
 	}
 
+	/// <summary>Toạ độ gốc trong file Spine (đơn vị chưa nhân scale của SkeletonDataAsset) → màn hình.</summary>
+	Vector2 RawToScreen(Spine.Unity.SkeletonGraphic sg, float x, float y)
+	{
+		float ds = sg.skeletonDataAsset != null && sg.skeletonDataAsset.scale > 0f ? sg.skeletonDataAsset.scale : 0.01f;
+		return SpineToScreen(sg, x * ds, y * ds);
+	}
+
 	/// <summary>Vị trí đầu chổi (xương "clean") trên màn hình.</summary>
 	public bool TryGetBroomScreenPos(out Vector2 screen)
 	{
@@ -176,7 +183,6 @@ public class UICanvas : MonoBehaviour
 		if (sg != null)
 		{
 			sg.timeScale = BroomTimeScale;
-			if (_broomRt != null && sg.MeshScale > 0f) AlignBroom(sg, holeMin, holeMax, holeCount);
 			if (sg.AnimationState != null && !string.IsNullOrEmpty(sg.startingAnimation))
 			{
 				sg.AnimationState.ClearListenerNotifications();
@@ -184,9 +190,11 @@ public class UICanvas : MonoBehaviour
 				if (entry != null && entry.Animation != null) duration = entry.Animation.Duration;
 				entry.Event += (te, ev) => { if (ev.Data.Name == "hit") BroomSweeping = true; };
 				entry.Complete += te => { BroomDone = true; };
-				sg.Update(0f);
-				sg.LateUpdate();
 			}
+			// dựng lại mesh ngay để MeshScale đã được tính (lần đầu bật nó còn là 1) và không bị khung hình trống
+			sg.Update(0f);
+			sg.LateUpdate();
+			if (_broomRt != null && sg.MeshScale > 0f) AlignBroom(sg, holeMin, holeMax, holeCount);
 		}
 		float real = duration / Mathf.Max(0.1f, BroomTimeScale);
 		_broomHide?.Kill();
@@ -203,7 +211,7 @@ public class UICanvas : MonoBehaviour
 		if (parent == null) return;
 		var cam = UiCam(sg);
 		// 1. co giãn đều để khung khay của animation phủ đúng hàng lỗ (thêm nửa khoảng cách lỗ mỗi bên)
-		float frameW = Mathf.Abs(SpineToScreen(sg, FrameMaxX, FrameY).x - SpineToScreen(sg, FrameMinX, FrameY).x);
+		float frameW = Mathf.Abs(RawToScreen(sg, FrameMaxX, FrameY).x - RawToScreen(sg, FrameMinX, FrameY).x);
 		float span = Mathf.Abs(holeMax.x - holeMin.x);
 		float spacing = holeCount > 1 ? span / (holeCount - 1) : Screen.width * 0.12f;
 		float targetW = span + spacing;
@@ -213,7 +221,7 @@ public class UICanvas : MonoBehaviour
 			_broomRt.localScale = _broomBaseScale * k;
 		}
 		// 2. dời để tâm khung khay trùng tâm hàng lỗ
-		var frameMid = SpineToScreen(sg, (FrameMinX + FrameMaxX) * 0.5f, FrameY);
+		var frameMid = RawToScreen(sg, (FrameMinX + FrameMaxX) * 0.5f, FrameY);
 		var holeMid = (holeMin + holeMax) * 0.5f;
 		if (RectTransformUtility.ScreenPointToLocalPointInRectangle(parent, frameMid, cam, out var a) &&
 			RectTransformUtility.ScreenPointToLocalPointInRectangle(parent, holeMid, cam, out var b))
@@ -221,7 +229,7 @@ public class UICanvas : MonoBehaviour
 #if UNITY_EDITOR
 		Debug.Log("[Broom] align holes=" + holeMin.ToString("F0") + ".." + holeMax.ToString("F0") + " n=" + holeCount +
 			" frameW=" + frameW.ToString("F0") + " target=" + targetW.ToString("F0") + " scale=" + _broomRt.localScale.x.ToString("F2") +
-			" pos=" + _broomRt.anchoredPosition.ToString("F0") + " meshScale=" + sg.MeshScale.ToString("F3") + " frameNow=" + SpineToScreen(sg, FrameMinX, FrameY).ToString("F0") + ".." + SpineToScreen(sg, FrameMaxX, FrameY).ToString("F0"));
+			" pos=" + _broomRt.anchoredPosition.ToString("F0") + " meshScale=" + sg.MeshScale.ToString("F3") + " frameNow=" + RawToScreen(sg, FrameMinX, FrameY).ToString("F0") + ".." + RawToScreen(sg, FrameMaxX, FrameY).ToString("F0"));
 #endif
 	}
 }
