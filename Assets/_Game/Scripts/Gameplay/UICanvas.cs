@@ -277,6 +277,16 @@ public class UICanvas : MonoBehaviour
 	public bool PlayToolHit(string tool, Vector2 screen, System.Action onHit)
 	{
 		var root = transform.FindDeep("ToolsSpine");
+		// GameScene có UiCanvas riêng không chứa ToolsSpine: tạo từ prefab gốc (GameConfig.ToolsSpine)
+		if (root == null && GameConfig.Instance != null && GameConfig.Instance.ToolsSpine != null)
+		{
+			var go = Instantiate(GameConfig.Instance.ToolsSpine, transform, false);
+			go.name = "ToolsSpine";
+			var r = go.transform as RectTransform;
+			if (r != null) { r.anchorMin = Vector2.zero; r.anchorMax = Vector2.one; r.offsetMin = r.offsetMax = Vector2.zero; }
+			go.transform.SetAsLastSibling();
+			root = go.transform;
+		}
 		var t = root != null ? root.Find(tool) : null;
 		var sg = t != null ? t.GetComponentInChildren<Spine.Unity.SkeletonGraphic>(true) : null;
 		if (sg == null) { Debug.LogWarning("[Tool] spine not found: " + tool); return false; }

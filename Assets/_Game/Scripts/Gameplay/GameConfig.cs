@@ -42,6 +42,8 @@ public class GameConfig : ScriptableObject
 	public GameObject StageRewardDialog;
 	[Tooltip("Popup mua công cụ / thêm khay bằng coin (BuyToolDialog)")]
 	public GameObject BuyItemDialog;
+	[Tooltip("Node ToolsSpine (spine Khoan/Búa) trong UiCanvas.prefab, dùng khi UiCanvas của scene không có")]
+	public GameObject ToolsSpine;
 	public int ChestEveryLevels = 5;
 	public int ChestCoins = 100;
 
