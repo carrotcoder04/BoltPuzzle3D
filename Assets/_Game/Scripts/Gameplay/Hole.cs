@@ -58,7 +58,17 @@ public class Hole : MonoBehaviour
 	{
 		Init();
 		gameObject.SetActive(true);
+		transform.DOKill();
 		transform.localScale = Vector3.zero;
-		transform.DOScale(_baseScale, 0.3f).SetEase(Ease.OutBack);
+		// lỗ mới bật ra to hơn rồi thu về, xoay một vòng, kèm hiệu ứng mở khoá
+		var seq = DOTween.Sequence();
+		seq.Append(transform.DOScale(_baseScale * 1.35f, 0.25f).SetEase(Ease.OutBack));
+		seq.Join(transform.DOLocalRotate(new Vector3(0f, 0f, 360f), 0.45f, RotateMode.LocalAxisAdd).SetEase(Ease.OutCubic));
+		seq.Append(transform.DOScale(_baseScale, 0.2f).SetEase(Ease.InOutSine));
+		seq.Append(transform.DOPunchScale(_baseScale * 0.12f, 0.25f, 6, 0.6f));
+		seq.SetLink(gameObject);
+		DOVirtual.DelayedCall(0.05f, () => { if (this != null) FxManager.Unlock(Pos != null ? Pos.position : transform.position, 0.8f); }).SetLink(gameObject);
+		if (AudioManager.Instance != null) AudioManager.Instance.PlaySfx(Sfx.Revive);
+		if (VibrationManager.Instance != null) VibrationManager.Instance.Medium();
 	}
 }

@@ -42,6 +42,17 @@ public static class FxManager
 		Emit(Kind.Confetti, pos, 26, c, 4f, 8f, 0.18f, 0.32f, 0.9f, 1.3f, true);
 	}
 
+	/// <summary>Mở khoá lỗ / ô hộp mới: quầng sáng vàng, hai vòng sóng nối tiếp và tia lấp lánh bung ra.</summary>
+	public static void Unlock(Vector3 pos, float size = 1f)
+	{
+		pos += ToCam * 1.2f;
+		var gold = new Color(1f, 0.85f, 0.35f);
+		Emit(Kind.Soft, pos, 1, gold, 0f, 0f, 2.6f * size, 3.0f * size, 0.45f, 0.5f);
+		Emit(Kind.Ring, pos, 1, gold, 0f, 0f, 2.2f * size, 2.2f * size, 0.35f, 0.35f);
+		Emit(Kind.Ring, pos, 1, Color.white, 0f, 0f, 3.4f * size, 3.4f * size, 0.55f, 0.55f);
+		Emit(Kind.Sparkle, pos, 14, Color.Lerp(gold, Color.white, 0.4f), 2.5f * size, 5f * size, 0.25f, 0.5f, 0.4f, 0.7f);
+	}
+
 	/// <summary>Tấm rơi khỏi mô hình: làn khói xám nhẹ.</summary>
 	public static void BoardFall(Vector3 pos)
 	{

@@ -648,7 +648,9 @@ public class GameController : MonoBehaviour
 		if (UnlockedBoxSlots >= MaxBoxSlots) return false;
 		int slot = UnlockedBoxSlots++;
 		AnalyticsManager.BoosterUse(BoosterType.AddBox);
-		SpawnBox(slot);
+		FxManager.Unlock(SlotWorldPos(slot), 1.2f);
+		if (Managers.Vibration != null) Managers.Vibration.Medium();
+		SpawnBox(slot, 0.15f);
 		return true;
 	}
 

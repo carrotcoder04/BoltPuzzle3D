@@ -86,21 +86,53 @@ public class UICanvas : MonoBehaviour
 			_adBoxBtns[i].gameObject.SetActive(!unlocked);
 			_adBoxBtns[i].interactable = next;
 			var txt = _adBoxBtns[i].GetComponentInChildren<TMP_Text>(true);
-			var inv = Managers.Inventory;
-			if (txt != null && inv != null)
-				txt.text = inv.GetBooster(BoosterType.AddBox) > 0 ? "Free" : (GameConfig.Instance != null ? GameConfig.Instance.BoxSlotPrice.ToString() : "");
+			if (txt != null) txt.text = BoxSlotPrice.ToString();
+			EnsureCoinIcon(_adBoxBtns[i], txt);
 		}
 	}
 
-	/// <summary>Mở ô hộp 3/4: dùng booster AddBox nếu có, nếu không trừ coin.</summary>
+	[Tooltip("Icon coin hiện cạnh giá trên nút thêm khay")]
+	public Sprite CoinSprite;
+
+	static int BoxSlotPrice => GameConfig.Instance != null ? GameConfig.Instance.BoxSlotPrice : 200;
+
+	/// <summary>Gắn icon coin (lấy từ một Image coin có sẵn trong UI) cạnh giá trên nút thêm khay.</summary>
+	void EnsureCoinIcon(Button btn, TMP_Text txt)
+	{
+		if (btn == null || txt == null || btn.transform.Find("CoinIcon") != null) return;
+		Sprite coin = CoinSprite;
+		if (coin == null)
+		foreach (var img in GetComponentsInChildren<Image>(true))
+			if (img.sprite != null && img.sprite.name.ToLowerInvariant().Contains("coin")) { coin = img.sprite; break; }
+		if (coin == null) return;
+		var go = new GameObject("CoinIcon", typeof(RectTransform), typeof(Image));
+		var rt = go.GetComponent<RectTransform>();
+		rt.SetParent(txt.transform.parent, false);
+		var trt = txt.rectTransform;
+		float h = Mathf.Max(24f, txt.fontSize * 1.1f);
+		rt.anchorMin = rt.anchorMax = trt.anchorMin == trt.anchorMax ? trt.anchorMin : new Vector2(0.5f, 0.5f);
+		rt.sizeDelta = new Vector2(h, h);
+		var im = go.GetComponent<Image>();
+		im.sprite = coin;
+		im.preserveAspect = true;
+		im.raycastTarget = false;
+		// đặt icon bên trái số, dời số sang phải nửa icon để cả cụm nằm giữa nút
+		float textW = Mathf.Max(txt.preferredWidth, 30f);
+		var orig = trt.anchoredPosition;
+		float shift = h * 0.5f;
+		trt.anchoredPosition = orig + new Vector2(shift, 0f);
+		rt.anchoredPosition = orig + new Vector2(shift - textW * 0.5f - h * 0.5f - 4f, 0f);
+	}
+
+	/// <summary>Mở ô hộp 3/4: luôn trừ coin.</summary>
 	void OnAdBox(int index)
 	{
 		if (_gc == null || _gc.InputLocked || _gc.UnlockedBoxSlots != 2 + index) return;
-		var inv = Managers.Inventory;
+		// Thêm khay luôn phải trả coin (không dùng lượt miễn phí)
 		var ud = Managers.UserData;
-		int price = GameConfig.Instance != null ? GameConfig.Instance.BoxSlotPrice : 200;
-		bool paid = (inv != null && inv.TryUseBooster(BoosterType.AddBox)) || (ud != null && ud.TrySpendCoins(price, "box_slot"));
+		bool paid = ud != null && ud.TrySpendCoins(BoxSlotPrice, "box_slot");
 		if (!paid) { UIUtil.Deny(_adBoxBtns[index]); return; }
+		if (Managers.Audio != null) Managers.Audio.PlaySfx(Sfx.BigCoinGet);
 		_gc.UnlockBoxSlot();
 		RefreshAdBox();
 	}
