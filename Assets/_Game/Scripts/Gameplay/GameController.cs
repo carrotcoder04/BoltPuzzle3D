@@ -259,14 +259,15 @@ public class GameController : MonoBehaviour
 	/// <summary>
 	/// Tìm ốc dưới điểm chạm. Collider tấm là convex hull nên thường trùm lên đầu ốc của chính nó,
 	/// vì vậy bỏ qua tấm chứa ốc; chỉ coi là bị che khi có tấm KHÁC nằm trước ốc.
+	/// Collider của ốc trong prefab gốc là trigger, nên phải quét cả trigger.
 	/// </summary>
 	Screw PickScrew(Ray ray, float radius, out Board firstBoard)
 	{
 		firstBoard = null;
 		int mask = ~(1 << TopLayer);
 		var hits = radius > 0f
-			? Physics.SphereCastAll(ray, radius, 200f, mask, QueryTriggerInteraction.Ignore)
-			: Physics.RaycastAll(ray, 200f, mask, QueryTriggerInteraction.Ignore);
+			? Physics.SphereCastAll(ray, radius, 200f, mask, QueryTriggerInteraction.Collide)
+			: Physics.RaycastAll(ray, 200f, mask, QueryTriggerInteraction.Collide);
 		_hitBuf.Clear();
 		_hitBuf.AddRange(hits);
 		_hitBuf.Sort((a, b) => a.distance.CompareTo(b.distance));
@@ -279,6 +280,7 @@ public class GameController : MonoBehaviour
 				if (firstBoard == null || s.Board == firstBoard) return s;
 				return null;
 			}
+			if (h.collider.isTrigger) continue;
 			var b = h.collider.GetComponentInParent<Board>();
 			if (b == null || b.IsFallen) continue;
 			if (firstBoard == null) firstBoard = b;
