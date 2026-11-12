@@ -88,14 +88,20 @@ public class BoxScript : MonoBehaviour
 		if (_lidRoot != null)
 		{
 			_lidRoot.gameObject.SetActive(true);
-			var target = _lidRoot.localPosition;
+			// Ốc được vẽ bằng TopCamera (lớp Top) nên luôn nằm trên sprite hộp; cho nắp lên cùng lớp và nhích về phía camera để che ốc.
+			Screw.SetLayerRecursive(_lidRoot.gameObject, GameController.TopLayer);
+			var cam = Camera.main;
+			var toCam = cam != null ? -cam.transform.forward : Vector3.back;
+			var target = _lidRoot.parent != null
+				? _lidRoot.localPosition + _lidRoot.parent.InverseTransformVector(toCam * 1.2f)
+				: _lidRoot.localPosition + toCam * 1.2f;
 			_lidRoot.localPosition = target + Vector3.up * 2f;
 			var baseScale = transform.localScale;
 			var seq = DOTween.Sequence();
 			seq.AppendInterval(0.12f);
 			// nắp rơi xuống, nảy nhẹ
 			seq.Append(_lidRoot.DOLocalMove(target, 0.22f).SetEase(Ease.OutBounce));
-			seq.AppendCallback(() => { if (AudioManager.Instance != null) AudioManager.Instance.PlaySfx(Sfx.Match); if (VibrationManager.Instance != null) VibrationManager.Instance.Medium(); });
+			seq.AppendCallback(() => { HideScrews(); if (AudioManager.Instance != null) AudioManager.Instance.PlaySfx(Sfx.Match); if (VibrationManager.Instance != null) VibrationManager.Instance.Medium(); });
 			// dẹt xuống rồi bật lên
 			seq.Append(transform.DOScale(new Vector3(baseScale.x * 1.2f, baseScale.y * 0.82f, baseScale.z), 0.08f).SetEase(Ease.OutQuad));
 			seq.Append(transform.DOScale(new Vector3(baseScale.x * 0.9f, baseScale.y * 1.15f, baseScale.z), 0.1f).SetEase(Ease.OutQuad));
@@ -109,6 +115,11 @@ public class BoxScript : MonoBehaviour
 			seq.OnComplete(Finish);
 		}
 		else Finish();
+	}
+
+	void HideScrews()
+	{
+		foreach (var sc in _screws) if (sc != null) sc.gameObject.SetActive(false);
 	}
 
 	void Finish()
