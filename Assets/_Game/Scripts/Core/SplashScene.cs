@@ -28,6 +28,18 @@ public class SplashScene : MonoBehaviour
 	};
 
 	TMP_Text _tips;
+	RectTransform _mask;
+	float _maskFull;
+
+	void SetProgress(float p)
+	{
+		if (_mask == null) return;
+		var sd = _mask.sizeDelta;
+		sd.x = _maskFull * Mathf.Clamp01(p);
+		_mask.sizeDelta = sd;
+		// ẩn hẳn khi quá ngắn để góc bo của sprite không bị méo
+		if (_bar != null) _bar.enabled = sd.x > 8f;
+	}
 	RectTransform _pattern;
 	const string TermsUrl = "https://example.com/terms";
 	const string PrivacyUrl = "https://example.com/privacy";
@@ -46,17 +58,20 @@ public class SplashScene : MonoBehaviour
 		if (icAndroid != null) icAndroid.gameObject.SetActive(!ios);
 		if (icIos != null) icIos.gameObject.SetActive(ios);
 
+		// Thanh loading gốc: Mask (neo trái, rộng 0) nở dần theo tiến trình, Bar kéo giãn theo Mask.
+		var mask = transform.Find("Progress/Mask") as RectTransform;
+		var progressRt = transform.Find("Progress") as RectTransform;
+		if (mask != null && progressRt != null)
+		{
+			_mask = mask;
+			_maskFull = Mathf.Max(10f, progressRt.rect.width - 2f * mask.anchoredPosition.x);
+			SetProgress(0f);
+		}
 		var bar = transform.Find("Progress/Mask/Bar");
 		if (bar != null)
 		{
 			_bar = bar.GetComponent<Image>();
-			if (_bar != null)
-			{
-				_bar.type = Image.Type.Filled;
-				_bar.fillMethod = Image.FillMethod.Horizontal;
-				_bar.fillOrigin = 0;
-				_bar.fillAmount = 0f;
-			}
+			if (_bar != null) { _bar.type = Image.Type.Sliced; _bar.fillAmount = 1f; }
 		}
 
 		var tips = transform.Find("Tips");
@@ -139,7 +154,7 @@ public class SplashScene : MonoBehaviour
 			float time = Mathf.Clamp01(elapsed / MinDuration);
 			float target = Mathf.Min(load, StagedProgress(time));
 			shown = Mathf.MoveTowards(shown, target, Time.unscaledDeltaTime * 1.5f);
-			if (_bar != null) _bar.fillAmount = shown;
+			SetProgress(shown);
 			if (_tips != null)
 			{
 				int dots = (int)(elapsed * 3f) % 4;
@@ -149,7 +164,7 @@ public class SplashScene : MonoBehaviour
 			if (load >= 1f && time >= 1f && shown >= 0.999f) break;
 			yield return null;
 		}
-		if (_bar != null) _bar.transform.parent.parent.DOPunchScale(Vector3.one * 0.06f, 0.25f, 6, 0.6f).SetLink(gameObject);
+		if (_mask != null) _mask.parent.DOPunchScale(Vector3.one * 0.06f, 0.25f, 6, 0.6f).SetLink(gameObject);
 		yield return new WaitForSecondsRealtime(0.3f);
 		op.allowSceneActivation = true;
 	}
