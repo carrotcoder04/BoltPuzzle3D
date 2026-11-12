@@ -20,7 +20,8 @@ public class WinDialogContent : DialogContent
 		transform.SetActive("BtnRv", ads);
 		// các node trang trí bị tắt sẵn trong prefab: bật lại cho bảng thắng đầy đặn
 		transform.SetActive("ArtTitle", true);
-		transform.SetActive("RewardNode/Coin/Ribbon", true);
+		// Ribbon "∞ 1h" chỉ dành cho thưởng có thời hạn; thưởng thắng màn là coin thường nên luôn tắt
+		transform.SetActive("RewardNode/Coin/Ribbon", false);
 		transform.BindButton("BtnTapTo", () => Claim(1));
 		transform.BindButton("BtnClaim", () => Claim(1));
 		if (ads) transform.BindButton("BtnRv", () => AdsService.ShowRewarded("win_x2", ok => Claim(ok ? 2 : 1)));
