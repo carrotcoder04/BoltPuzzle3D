@@ -336,6 +336,20 @@ public class GameController : MonoBehaviour
 		Debug.Log("[Tap] " + (s != null ? (s.Board != null ? s.Board.name : "-") + "/" + s.name + " color=" + s.ScrewColor : "") + " " + msg);
 	}
 
+	/// <summary>Báo cho người chơi biết ốc không đi được vì hết lỗ chờ và không có hộp cùng màu: các lỗ nhấp nháy đỏ, nảy lên.</summary>
+	void FlashFullHoles()
+	{
+		foreach (var h in _holes)
+		{
+			if (!h.IsActive) continue;
+			var hh = h;
+			hh.ShowFailNotice(true);
+			hh.transform.DOKill(true);
+			hh.transform.DOPunchScale(Vector3.one * 0.15f, 0.3f, 6, 0.6f).SetLink(hh.gameObject);
+			DOVirtual.DelayedCall(0.6f, () => { if (hh != null && !IsGameFail) hh.ShowFailNotice(false); }).SetLink(hh.gameObject);
+		}
+	}
+
 	void HandleTap(Vector2 screenPos)
 	{
 		if (InputLocked || _mainCam == null)
@@ -373,7 +387,7 @@ public class GameController : MonoBehaviour
 			screw.ShakeBlocked();
 			return;
 		}
-		if (!TryRoute(screw, false)) { LogTap(screw, "no box/hole free"); screw.ShakeBlocked(); return; }
+		if (!TryRoute(screw, false)) { LogTap(screw, "no box/hole free"); screw.ShakeBlocked(); FlashFullHoles(); return; }
 		if (PlayableConfig.IsPlayable && PlayableConfig.MaxScrewTaps > 0 && ++_taps >= PlayableConfig.MaxScrewTaps)
 			DOVirtual.DelayedCall(0.8f, () => { if (!IsGameOver) { IsGameOver = true; PlayableEndcard.Show("Great job!"); } }).SetLink(gameObject);
 	}
