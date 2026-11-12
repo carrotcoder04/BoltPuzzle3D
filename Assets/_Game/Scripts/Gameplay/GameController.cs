@@ -469,6 +469,7 @@ public class GameController : MonoBehaviour
 		if (Mode == ToolMode.Hammer)
 		{
 			if (board == null || board.IsFallen) return;
+			LogTap(null, "hammer on " + board.name);
 			var b = board;
 			bool played = GameCanvas != null && GameCanvas.PlayToolHit("Hammer", _mainCam.WorldToScreenPoint(BoardCenter(b)), () =>
 			{
@@ -483,6 +484,7 @@ public class GameController : MonoBehaviour
 		if (screw == null || screw.IsRemoved) return;
 		if (Mode == ToolMode.Drill)
 		{
+			LogTap(screw, "drill");
 			var target = screw;
 			bool played = GameCanvas != null && GameCanvas.PlayToolHit("Drill", _mainCam.WorldToScreenPoint(target.transform.position), () =>
 			{

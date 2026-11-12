@@ -279,7 +279,7 @@ public class UICanvas : MonoBehaviour
 		var root = transform.FindDeep("ToolsSpine");
 		var t = root != null ? root.Find(tool) : null;
 		var sg = t != null ? t.GetComponentInChildren<Spine.Unity.SkeletonGraphic>(true) : null;
-		if (sg == null) return false;
+		if (sg == null) { Debug.LogWarning("[Tool] spine not found: " + tool); return false; }
 		root.gameObject.SetActive(true);
 		foreach (Transform c in root) if (c != t) c.gameObject.SetActive(false);
 		t.gameObject.SetActive(true);
@@ -314,6 +314,11 @@ public class UICanvas : MonoBehaviour
 				RectTransformUtility.ScreenPointToLocalPointInRectangle(parent, screen, cam, out var b))
 				rt.anchoredPosition += b - a;
 		}
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
+		Debug.Log("[Tool] " + tool + " target=" + screen.ToString("F0") + " origin=" + RawToScreen(sg, 0f, 0f).ToString("F0") +
+			" pos=" + (rt != null ? rt.anchoredPosition.ToString("F0") : "-") + " meshScale=" + sg.MeshScale.ToString("F2") +
+			" active=" + sg.gameObject.activeInHierarchy + " scale=" + sg.transform.lossyScale.x.ToString("F4") + " hit=" + hitTime + " dur=" + duration);
+#endif
 		float ts = Mathf.Max(0.1f, sg.timeScale);
 		DOVirtual.DelayedCall(hitTime / ts + 0.1f, () => hit()).SetLink(t.gameObject);
 		DOVirtual.DelayedCall(duration / ts + 0.05f, () => { if (t != null) t.gameObject.SetActive(false); }).SetLink(gameObject);
