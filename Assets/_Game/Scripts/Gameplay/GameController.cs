@@ -621,6 +621,12 @@ public class GameController : MonoBehaviour
 	}
 
 	/// <summary>Hồi sinh: mở lỗ Hole6/7 nếu còn, nếu không thì dùng hiệu ứng chổi.</summary>
+	/// <summary>Hồi sinh sẽ mở thêm lỗ (còn lỗ khoá) hay dọn sạch lỗ chờ.</summary>
+	public bool ReviveAddsHole
+	{
+		get { foreach (var h in _holes) if (!h.IsActive) return true; return false; }
+	}
+
 	public void Revive(string method = "coin")
 	{
 		ReviveCount++;
