@@ -533,20 +533,45 @@ public class GameController : MonoBehaviour
 	}
 
 	/// <summary>Chổi: dọn toàn bộ ốc trong lỗ chờ vào kho ẩn (sẽ tự bay vào hộp cùng màu sau).</summary>
+	const float BroomSweepDelay = 0.45f;
+	const float BroomSweepStep = 0.14f;
+
 	public bool UseBroom()
 	{
 		bool any = false;
+		int n = 0;
+		var cam = Camera.main;
+		var right = cam != null ? cam.transform.right : Vector3.right;
+		var up = cam != null ? cam.transform.up : Vector3.up;
 		foreach (var h in _holes)
 		{
 			if (h.Screw == null) continue;
-			ToReserve(h.Take());
+			var s = h.Take();
 			any = true;
+			// Quét lần lượt từ trái sang phải theo nhịp chổi: ốc bật lên, xoay rồi văng sang phải và thu nhỏ.
+			float delay = BroomSweepDelay + n * BroomSweepStep;
+			n++;
+			var t = s.transform;
+			t.DOKill();
+			var p0 = t.position;
+			var sc = t.localScale;
+			var seq = DOTween.Sequence();
+			seq.AppendInterval(delay);
+			seq.AppendCallback(() => FxManager.ScrewPop(t.position, s.DisplayColor));
+			seq.Append(t.DOMove(p0 + up * 0.8f, 0.18f).SetEase(Ease.OutQuad));
+			seq.Join(t.DOScale(sc * 1.2f, 0.18f).SetEase(Ease.OutQuad));
+			seq.Append(t.DOMove(p0 + up * 1.6f + right * 9f, 0.45f).SetEase(Ease.InQuad));
+			seq.Join(t.DOLocalRotate(new Vector3(0f, 0f, -540f), 0.45f, RotateMode.LocalAxisAdd).SetEase(Ease.InQuad));
+			seq.Join(t.DOScale(sc * 0.3f, 0.45f).SetEase(Ease.InQuad));
+			seq.SetLink(s.gameObject);
+			seq.OnComplete(() => { t.localScale = sc; ToReserve(s); });
 		}
 		if (any)
 		{
 			OnUsingBroom = true;
 			if (GameCanvas != null) GameCanvas.PlayBroom();
-			DOVirtual.DelayedCall(0.5f, () => OnUsingBroom = false).SetLink(gameObject);
+			float total = BroomSweepDelay + n * BroomSweepStep + 0.7f;
+			DOVirtual.DelayedCall(total, () => OnUsingBroom = false).SetLink(gameObject);
 		}
 		UpdateHoleNotice();
 		return any;

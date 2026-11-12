@@ -117,6 +117,14 @@ public class UICanvas : MonoBehaviour
 	{
 		if (_broomSpine == null) return;
 		_broomSpine.SetActive(true);
-		DOVirtual.DelayedCall(1.2f, () => { if (_broomSpine != null) _broomSpine.SetActive(false); }).SetLink(gameObject);
+		// chạy chậm lại cho người chơi kịp thấy chổi quét qua, và luôn phát lại từ đầu
+		var sg = _broomSpine.GetComponentInChildren<Spine.Unity.SkeletonGraphic>(true);
+		if (sg != null)
+		{
+			sg.timeScale = 0.7f;
+			if (sg.AnimationState != null && !string.IsNullOrEmpty(sg.startingAnimation))
+				sg.AnimationState.SetAnimation(0, sg.startingAnimation, false);
+		}
+		DOVirtual.DelayedCall(2.2f, () => { if (_broomSpine != null) _broomSpine.SetActive(false); }).SetLink(gameObject);
 	}
 }
