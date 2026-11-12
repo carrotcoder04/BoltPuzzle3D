@@ -12,7 +12,6 @@ public class UserData
 	public bool SoundOn = true;
 	public bool MusicOn = true;
 	public bool VibrationOn = true;
-	public bool ColorBlindMode;
 	public bool IsRemoveAds;
 	public int LevelAttempt;           // số lần thử của level hiện tại
 	public long FirstLaunchUtc;
@@ -115,7 +114,6 @@ public class UserDataManager : MonoBehaviour
 	public bool SoundOn { get => Data.SoundOn; set { Data.SoundOn = value; SettingsChanged(); } }
 	public bool MusicOn { get => Data.MusicOn; set { Data.MusicOn = value; SettingsChanged(); } }
 	public bool VibrationOn { get => Data.VibrationOn; set { Data.VibrationOn = value; SettingsChanged(); } }
-	public bool ColorBlindMode { get => Data.ColorBlindMode; set { Data.ColorBlindMode = value; SettingsChanged(); } }
 
 	public bool IsRemoveAds
 	{

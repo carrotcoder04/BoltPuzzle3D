@@ -42,7 +42,7 @@ public class HomePlayButton : MonoBehaviour
 		if (on && _countdown != null)
 		{
 			var t = inv.UnlimitedHeartRemaining;
-			_countdown.text = $"{(int)t.TotalHours}:{t.Minutes:00}:{t.Seconds:00}";
+			_countdown.text = UIUtil.ShortDuration(t);
 		}
 	}
 

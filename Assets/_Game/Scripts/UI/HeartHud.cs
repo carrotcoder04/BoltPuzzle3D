@@ -58,7 +58,7 @@ public class HeartHud : MonoBehaviour
 		{
 			_time.gameObject.SetActive(!full);
 			var t = unlimited ? inv.UnlimitedHeartRemaining : inv.NextHeartRemaining;
-			_time.text = t.TotalHours >= 1 ? $"{(int)t.TotalHours}:{t.Minutes:00}:{t.Seconds:00}" : $"{t.Minutes:00}:{t.Seconds:00}";
+			_time.text = UIUtil.ShortDuration(t);
 		}
 	}
 }

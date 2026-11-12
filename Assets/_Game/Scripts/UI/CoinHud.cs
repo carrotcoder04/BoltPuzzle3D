@@ -20,7 +20,7 @@ public class CoinHud : MonoBehaviour
 		if (ud == null) return;
 		ud.OnCoinsChanged += OnCoins;
 		_shown = ud.Coins;
-		UIUtil.SetText(_text, _shown.ToString());
+		UIUtil.SetText(_text, UIUtil.ShortNumber(_shown));
 	}
 
 	void OnDisable()
@@ -32,7 +32,7 @@ public class CoinHud : MonoBehaviour
 	void OnCoins(int v)
 	{
 		_tw?.Kill();
-		_tw = DOVirtual.Int(_shown, v, 0.5f, x => { _shown = x; UIUtil.SetText(_text, x.ToString()); }).SetUpdate(true);
+		_tw = DOVirtual.Int(_shown, v, 0.5f, x => { _shown = x; UIUtil.SetText(_text, UIUtil.ShortNumber(x)); }).SetUpdate(true);
 		transform.DOKill(true);
 		transform.DOPunchScale(Vector3.one * 0.1f, 0.25f).SetUpdate(true);
 	}

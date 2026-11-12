@@ -16,7 +16,7 @@ public class SettingsDialog : MonoBehaviour
 		SetLabel(content, "MusicBtn", "Music");
 		SetLabel(content, "SoundBtn", "Sound");
 		SetLabel(content, "VibrationBtn", "Vibration");
-		SetLabel(content, "BlindModeBtn", "Color Blind Mode");
+		content.SetActive("BlindModeBtn", false);
 		SetLabel(content, "RestoreBtn", "Restore Purchases");
 
 		var ud = UserDataManager.Instance;
@@ -25,7 +25,6 @@ public class SettingsDialog : MonoBehaviour
 			Toggle(content, "MusicBtn", () => ud.MusicOn, v => ud.MusicOn = v);
 			Toggle(content, "SoundBtn", () => ud.SoundOn, v => ud.SoundOn = v);
 			Toggle(content, "VibrationBtn", () => ud.VibrationOn, v => ud.VibrationOn = v);
-			Toggle(content, "BlindModeBtn", () => ud.ColorBlindMode, v => ud.ColorBlindMode = v);
 		}
 		content.BindButton("RestoreBtn", () => { if (IapManager.Instance != null) IapManager.Instance.Restore(); });
 

@@ -18,7 +18,7 @@ public class PauseDialogContent : DialogContent
 		Toggle("MusicBtn", () => Managers.UserData.MusicOn, v => Managers.UserData.MusicOn = v);
 		Toggle("SoundBtn", () => Managers.UserData.SoundOn, v => Managers.UserData.SoundOn = v);
 		Toggle("VibrateBtn", () => Managers.UserData.VibrationOn, v => Managers.UserData.VibrationOn = v);
-		Toggle("ColorBlindnessSwitchBtn", () => Managers.UserData.ColorBlindMode, v => Managers.UserData.ColorBlindMode = v);
+		transform.SetActive("ColorBlindnessSwitchBtn", false);
 		transform.SetActive("SettingBtn", false);
 	}
 
