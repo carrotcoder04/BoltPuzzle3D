@@ -18,12 +18,24 @@ public static class UrpCameraStack
 
 	static void OnSceneLoaded(Scene scene, LoadSceneMode mode) { Setup(); }
 
+	static bool IsUi(Camera c) => c.name.Contains("UI") || ((c.cullingMask & (1 << 5)) != 0 && (c.cullingMask & ~(1 << 5)) == 0);
+
 	public static void Setup()
 	{
 		var cams = new List<Camera>(Object.FindObjectsByType<Camera>(FindObjectsInactive.Exclude, FindObjectsSortMode.None));
 		cams.RemoveAll(c => c == null || c.targetTexture != null);
 		if (cams.Count < 2) return;
+		// Base = camera depth thấp nhất; overlay theo depth, nhưng camera vẽ UI (layer 5) luôn ở cuối
+		// để dialog che được ốc đang ở lớp Top (TopCamera depth cao hơn UICamera trong scene gốc).
 		cams.Sort((a, b) => a.depth.CompareTo(b.depth));
+		var baseCam = cams[0];
+		cams.RemoveAt(0);
+		cams.Sort((a, b) =>
+		{
+			int ua = IsUi(a) ? 1 : 0, ub = IsUi(b) ? 1 : 0;
+			return ua != ub ? ua.CompareTo(ub) : a.depth.CompareTo(b.depth);
+		});
+		cams.Insert(0, baseCam);
 		var baseData = cams[0].GetUniversalAdditionalCameraData();
 		if (baseData == null) return;
 		baseData.renderType = CameraRenderType.Base;

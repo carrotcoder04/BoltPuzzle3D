@@ -81,8 +81,6 @@ public class GameCreator : MonoBehaviour
 	/// </summary>
 	static void UseExactBoardColliders(GameObject puzzle)
 	{
-		// mặt lưới một phía (kính, tấm mỏng) vẫn phải chặn tia từ phía sau
-		Physics.queriesHitBackfaces = true;
 		foreach (var b in puzzle.GetComponentsInChildren<Board>(false))
 		{
 			var rb = b.GetComponent<Rigidbody>();
@@ -113,8 +111,11 @@ public class GameCreator : MonoBehaviour
 	}
 
 	/// <summary>Ốc có bị tấm khác (chưa rơi) chặn theo hướng rút không.</summary>
-	public static bool IsBlocked(Screw s, HashSet<Board> ignore = null)
+	public static bool IsBlocked(Screw s, HashSet<Board> ignore = null) => IsBlocked(s, ignore, out _);
+
+	public static bool IsBlocked(Screw s, HashSet<Board> ignore, out Board blocker)
 	{
+		blocker = null;
 		var dir = s.ExtractDir;
 		var hits = Physics.RaycastAll(s.transform.position, dir, RayLength, ~0, QueryTriggerInteraction.Ignore);
 		foreach (var h in hits)
@@ -122,6 +123,7 @@ public class GameCreator : MonoBehaviour
 			var b = h.collider.GetComponentInParent<Board>();
 			if (b == null || b == s.Board || b.IsFallen) continue;
 			if (ignore != null && ignore.Contains(b)) continue;
+			blocker = b;
 			return true;
 		}
 		return false;

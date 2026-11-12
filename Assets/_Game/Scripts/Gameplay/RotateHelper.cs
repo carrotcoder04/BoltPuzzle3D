@@ -78,6 +78,9 @@ public class RotateHelper : MonoBehaviour
 		{
 			_down = false;
 			if (!_overUI && !_dragging) OnTap?.Invoke(pos);
+#if UNITY_EDITOR
+			else if (_overUI) Debug.Log("[Tap] blocked by UI: " + _uiHitName);
+#endif
 			_dragging = false;
 		}
 		else if (!_down && _velocity.sqrMagnitude > 0f)
@@ -123,6 +126,7 @@ public class RotateHelper : MonoBehaviour
 
 	static readonly System.Collections.Generic.List<RaycastResult> _uiHits = new System.Collections.Generic.List<RaycastResult>();
 	static PointerEventData _ped;
+	string _uiHitName;
 
 	/// <summary>Chỉ coi là "trên UI" khi phần tử UI trên cùng tại điểm chạm nhận được click (nút, dialog...).</summary>
 	bool IsOverUI()
@@ -136,6 +140,7 @@ public class RotateHelper : MonoBehaviour
 		foreach (var r in _uiHits)
 		{
 			if (r.gameObject == null) continue;
+			_uiHitName = r.gameObject.name;
 			if (r.module is UnityEngine.UI.GraphicRaycaster)
 				return ExecuteEvents.GetEventHandler<IPointerClickHandler>(r.gameObject) != null
 					|| ExecuteEvents.GetEventHandler<IPointerDownHandler>(r.gameObject) != null;

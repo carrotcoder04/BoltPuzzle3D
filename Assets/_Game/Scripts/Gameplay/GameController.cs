@@ -330,9 +330,19 @@ public class GameController : MonoBehaviour
 		return null;
 	}
 
+	[System.Diagnostics.Conditional("UNITY_EDITOR")]
+	static void LogTap(Screw s, string msg)
+	{
+		Debug.Log("[Tap] " + (s != null ? (s.Board != null ? s.Board.name : "-") + "/" + s.name + " color=" + s.ScrewColor : "") + " " + msg);
+	}
+
 	void HandleTap(Vector2 screenPos)
 	{
-		if (InputLocked || _mainCam == null) return;
+		if (InputLocked || _mainCam == null)
+		{
+			LogTap(null, "input locked: over=" + IsGameOver + " fail=" + IsGameFail + " dialogs=" + DialogManager.Count);
+			return;
+		}
 		Physics.SyncTransforms();
 		var ray = _mainCam.ScreenPointToRay(screenPos);
 		Board board;
@@ -344,7 +354,7 @@ public class GameController : MonoBehaviour
 			if (board == null) board = b2;
 		}
 		if (screw != null) board = screw.Board;
-		if (screw == null && board == null) return;
+		if (screw == null && board == null) { LogTap(null, "nothing hit"); return; }
 
 		if (Mode == ToolMode.Hammer)
 		{
@@ -357,8 +367,13 @@ public class GameController : MonoBehaviour
 			if (TryRoute(screw, true)) CompleteTool(BoosterType.Drill, Sfx.ToolDrill);
 			return;
 		}
-		if (GameCreator.IsBlocked(screw)) { screw.ShakeBlocked(); return; }
-		if (!TryRoute(screw, false)) { screw.ShakeBlocked(); return; }
+		if (GameCreator.IsBlocked(screw, null, out var blocker))
+		{
+			LogTap(screw, "blocked by " + (blocker != null ? blocker.name : "?"));
+			screw.ShakeBlocked();
+			return;
+		}
+		if (!TryRoute(screw, false)) { LogTap(screw, "no box/hole free"); screw.ShakeBlocked(); return; }
 		if (PlayableConfig.IsPlayable && PlayableConfig.MaxScrewTaps > 0 && ++_taps >= PlayableConfig.MaxScrewTaps)
 			DOVirtual.DelayedCall(0.8f, () => { if (!IsGameOver) { IsGameOver = true; PlayableEndcard.Show("Great job!"); } }).SetLink(gameObject);
 	}
