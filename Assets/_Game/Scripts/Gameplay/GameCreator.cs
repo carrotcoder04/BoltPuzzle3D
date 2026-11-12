@@ -44,6 +44,7 @@ public class GameCreator : MonoBehaviour
 			Boards.Add(b);
 		}
 
+		UseExactBoardColliders(go);
 		TrimToMultipleOfThree();
 		foreach (var b in Boards) Screws.AddRange(b.Screws);
 
@@ -71,6 +72,24 @@ public class GameCreator : MonoBehaviour
 		var b = rs[0].bounds;
 		for (int i = 1; i < rs.Length; i++) b.Encapsulate(rs[i].bounds);
 		puzzle.position += root.position - b.center;
+	}
+
+	/// <summary>
+	/// Prefab gốc để MeshCollider của tấm ở dạng convex (bao lồi), nên một tấm hình lồng/khung
+	/// chặn cả khoảng trống bên trong: ốc nhìn thì thoáng nhưng tia kiểm tra vẫn trúng.
+	/// Tấm luôn kinematic khi còn ốc nên dùng được collider lưới chính xác (non-convex).
+	/// </summary>
+	static void UseExactBoardColliders(GameObject puzzle)
+	{
+		// mặt lưới một phía (kính, tấm mỏng) vẫn phải chặn tia từ phía sau
+		Physics.queriesHitBackfaces = true;
+		foreach (var b in puzzle.GetComponentsInChildren<Board>(false))
+		{
+			var rb = b.GetComponent<Rigidbody>();
+			if (rb != null && !rb.isKinematic) continue;
+			foreach (var mc in b.GetComponents<MeshCollider>())
+				if (mc.sharedMesh != null) mc.convex = false;
+		}
 	}
 
 	void TrimToMultipleOfThree()
