@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 114372920208702427}
   - component: {fileID: 114025901758691103}
   - component: {fileID: 225985305603660343}
-  - component: {fileID: 114705390221481576}
   m_Layer: 5
   m_Name: DeleteAccountDialogContent2
   m_TagString: Untagged
@@ -309,36 +308,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &114705390221481576
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5befb694820db4559321161f1ddbb15c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  PlayOnStart: 1
-  EnterAnim: 1
-  ExitAnim: 1
-  OnShow:
-    m_PersistentCalls:
-      m_Calls: []
-  OnShowAfterHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnDismiss:
-    m_PersistentCalls:
-      m_Calls: []
-  _bg: {fileID: 0}
-  _title: {fileID: 0}
-  _closeBtn: {fileID: 0}
 --- !u!224 &224977153420339851
 RectTransform:
   serializedVersion: 2

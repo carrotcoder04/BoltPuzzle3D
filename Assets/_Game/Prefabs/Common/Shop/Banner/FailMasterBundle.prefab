@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 224711914853252429}
   - component: {fileID: 222918264173551851}
   - component: {fileID: 114587397909062814}
-  - component: {fileID: 114875609422105747}
   m_Layer: 5
   m_Name: FailMasterBundle
   m_TagString: Untagged
@@ -537,7 +536,6 @@ GameObject:
   - component: {fileID: 224386943702330414}
   - component: {fileID: 222066778049879928}
   - component: {fileID: 114824317463469755}
-  - component: {fileID: 114561126880652180}
   - component: {fileID: 114275549183895104}
   m_Layer: 5
   m_Name: Snui_Price
@@ -628,20 +626,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &114875609422105747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 420f44dacbc36d01bd9bebdf5862448f, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  PayBtn: {fileID: 114190181876552715}
-  PriceText: {fileID: 114561126880652180}
 --- !u!224 &224371939378208658
 RectTransform:
   serializedVersion: 2
@@ -9956,18 +9940,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &114561126880652180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1642988549198181}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9ca1a8b658627b854eef6a8958ad426, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!114 &114275549183895104
 MonoBehaviour:
   m_ObjectHideFlags: 0

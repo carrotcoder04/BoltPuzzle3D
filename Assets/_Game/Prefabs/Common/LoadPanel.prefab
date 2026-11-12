@@ -11,10 +11,8 @@ GameObject:
   - component: {fileID: 224099118695303065}
   - component: {fileID: 222243736805655561}
   - component: {fileID: 114061268324235159}
-  - component: {fileID: 114587765826080250}
   - component: {fileID: 225709867586078768}
   - component: {fileID: 114044625135789424}
-  - component: {fileID: 114589667821646929}
   m_Layer: 5
   m_Name: LoadPanel
   m_TagString: Untagged
@@ -167,22 +165,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &114587765826080250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02a916a544168644cb8b62db544ea7fd, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  DefaultEnterAnimTypes: 01000000
-  DefaultExitAnimTypes: 01000000
-  AnimationDuration: 0.2
-  IsAutoSetSafeArea: 0
 --- !u!225 &225709867586078768
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -208,18 +190,6 @@ MonoBehaviour:
   m_Name:
   m_EditorClassIdentifier:
   m_ShowMaskGraphic: 1
---- !u!114 &114589667821646929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cf0cee937c8e96eacf5ca73b31d60b7, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!224 &224372920208702427
 RectTransform:
   serializedVersion: 2

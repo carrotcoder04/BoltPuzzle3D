@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 224705390221481576}
   - component: {fileID: 222977153420339851}
   - component: {fileID: 225336590748365959}
-  - component: {fileID: 114256069497284392}
   m_Layer: 5
   m_Name: ScrewTimeEndDialogContent
   m_TagString: Untagged
@@ -86,7 +85,6 @@ GameObject:
   - component: {fileID: 114711914853252429}
   - component: {fileID: 114875609422105747}
   - component: {fileID: 114371939378208658}
-  - component: {fileID: 114694121525821480}
   m_Layer: 0
   m_Name: Title
   m_TagString: Untagged
@@ -347,36 +345,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &114256069497284392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed7b1f3ce07104997b2b6a55217f9d91, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  PlayOnStart: 1
-  EnterAnim: 1
-  ExitAnim: 1
-  OnShow:
-    m_PersistentCalls:
-      m_Calls: []
-  OnShowAfterHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnDismiss:
-    m_PersistentCalls:
-      m_Calls: []
-  _bg: {fileID: 0}
-  _title: {fileID: 0}
-  _closeBtn: {fileID: 0}
 --- !u!224 &224161607090078389
 RectTransform:
   serializedVersion: 2
@@ -736,21 +704,6 @@ MonoBehaviour:
   GlowInner: 0.05
   GlowOuter: 0.05
   GlowPower: 0.75
---- !u!114 &114694121525821480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1703437598541787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43854ec4cd1b032e41a58f15d7c8c713, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  outlineColor: {r: 0.0033374808, g: 0.06432406, b: 0.23584908, a: 1}
-  OutlineWidth: 0
-  FaceDilate: 0
 --- !u!224 &224320256170494724
 RectTransform:
   serializedVersion: 2

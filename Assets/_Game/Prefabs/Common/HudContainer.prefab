@@ -32,7 +32,6 @@ GameObject:
   - component: {fileID: 114302127217294661}
   - component: {fileID: 114969106005120503}
   - component: {fileID: 114642988549198181}
-  - component: {fileID: 114946936116752871}
   m_Layer: 5
   m_Name: HeartHud
   m_TagString: Untagged
@@ -573,19 +572,6 @@ MonoBehaviour:
   AutoUpdateEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &114946936116752871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730242686860875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 182ec8f5e63b7747cd4b6ad1dbb02bfa, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  FreeHeartGo: {fileID: 1061268324235159}
 --- !u!224 &224711914853252429
 RectTransform:
   serializedVersion: 2

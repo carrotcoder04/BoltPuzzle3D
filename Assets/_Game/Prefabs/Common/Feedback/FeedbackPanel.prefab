@@ -11,10 +11,6 @@ GameObject:
   - component: {fileID: 224472185465350827}
   - component: {fileID: 222518489005915545}
   - component: {fileID: 114220653531496868}
-  - component: {fileID: 114841364053301648}
-  - component: {fileID: 114967328832014496}
-  - component: {fileID: 114291844617409189}
-  - component: {fileID: 114344419225485095}
   m_Layer: 5
   m_Name: FeedbackPanel
   m_TagString: Untagged
@@ -911,77 +907,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &114841364053301648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02a916a544168644cb8b62db544ea7fd, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  DefaultEnterAnimTypes:
-  DefaultExitAnimTypes:
-  AnimationDuration: 0.2
-  IsAutoSetSafeArea: 1
---- !u!114 &114967328832014496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00cb33ffab7007800af51407baa90bef, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
---- !u!114 &114291844617409189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf9ccb421300cf2af8e566433ae1631b, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
---- !u!114 &114344419225485095
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2bd47b5999b26841d058ec55431443f, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  MirrorNodeList:
-  - {fileID: 224693329660128220}
-  - {fileID: 224552309709192268}
-  - {fileID: 224085275382694935}
-  - {fileID: 224492842699383957}
-  - {fileID: 224240571728440943}
-  - {fileID: 224132862189046193}
-  - {fileID: 224592460329389196}
-  - {fileID: 224358105479016104}
-  - {fileID: 224092105871539913}
-  - {fileID: 224294885792020211}
-  - {fileID: 224024252914577434}
-  - {fileID: 224012617856089587}
-  - {fileID: 224784622213810434}
-  - {fileID: 224066338149260220}
-  - {fileID: 224197515695889172}
-  - {fileID: 224416529295595857}
-  RotateNodeList: []
-  ScaleNodeList: []
 --- !u!224 &224919942235722503
 RectTransform:
   serializedVersion: 2

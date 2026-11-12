@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 224724804207875695}
   - component: {fileID: 222618682377417806}
-  - component: {fileID: 114703437598541787}
   - component: {fileID: 225884547391421755}
   m_Layer: 5
   m_Name: TutorialArrow
@@ -66,19 +65,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709254077376921}
   m_CullTransparentMesh: 1
---- !u!114 &114703437598541787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 468d45adc0f99b253f2d1eb3e3adf680, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  _canvas: {fileID: 0}
 --- !u!225 &225884547391421755
 CanvasGroup:
   m_ObjectHideFlags: 0

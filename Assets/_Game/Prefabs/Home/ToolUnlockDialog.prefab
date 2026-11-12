@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 222977153420339851}
   - component: {fileID: 225336590748365959}
   - component: {fileID: 114256069497284392}
-  - component: {fileID: 114161607090078389}
   m_Layer: 5
   m_Name: ToolUnlockDialog
   m_TagString: Untagged
@@ -240,7 +239,6 @@ GameObject:
   - component: {fileID: 114043919389829319}
   - component: {fileID: 225743393880019028}
   - component: {fileID: 114094320201520353}
-  - component: {fileID: 114026196548002408}
   m_Layer: 5
   m_Name: Btn
   m_TagString: Untagged
@@ -359,19 +357,6 @@ MonoBehaviour:
   ExitAnim: 1
   FadeInOutDuration: 0.03
   CloseOnContentResult: 1
---- !u!114 &114161607090078389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 939a52190a6ae5d8127badc2c8e722dd, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  CollectSound: {fileID: 8300000, guid: 5e7106746abb3014089590a6548384c3, type: 3}
 --- !u!224 &224002669891404536
 RectTransform:
   serializedVersion: 2
@@ -8528,19 +8513,6 @@ MonoBehaviour:
   ClickScale: 1
   ClickAlpha: 0.3
   DisableAlpha: 1
---- !u!114 &114026196548002408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589667821646929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b70e17742f8e876cd50667a33145a79, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  MaxScale: 1.2
 --- !u!224 &224572839542275309
 RectTransform:
   serializedVersion: 2

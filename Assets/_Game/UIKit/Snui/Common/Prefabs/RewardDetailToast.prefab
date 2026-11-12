@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 224703437598541787}
   - component: {fileID: 222884547391421755}
   - component: {fileID: 225099118695303065}
-  - component: {fileID: 114243736805655561}
   m_Layer: 5
   m_Name: RewardDetailToast
   m_TagString: Untagged
@@ -114,22 +113,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &114243736805655561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dff003be8b99a52ed228a5aae3092369, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  LightBg: {fileID: 21300000, guid: 4e0aea9aaa241b84fb9005b7d5082ed6, type: 2}
-  LightArrow: {fileID: 21300000, guid: ae76bf82366a65e4d9225c6eda4d9d3b, type: 2}
-  DarkBg: {fileID: 21300000, guid: 881f9db8ea9b54d46bd55c40dc586256, type: 2}
-  DarkArrow: {fileID: 21300000, guid: e21107bd27174c143910f576723d0227, type: 2}
 --- !u!224 &224061268324235159
 RectTransform:
   serializedVersion: 2

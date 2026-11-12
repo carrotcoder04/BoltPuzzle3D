@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 225875609422105747}
   - component: {fileID: 114371939378208658}
   - component: {fileID: 114694121525821480}
-  - component: {fileID: 114320256170494724}
   m_Layer: 5
   m_Name: BuyToolDialog
   m_TagString: Untagged
@@ -49,7 +48,6 @@ GameObject:
   - component: {fileID: 224217368724061974}
   - component: {fileID: 222089843903986396}
   - component: {fileID: 225672306508523268}
-  - component: {fileID: 114808113985169905}
   m_Layer: 5
   m_Name: BuyToolDialogContent
   m_TagString: Untagged
@@ -676,18 +674,6 @@ MonoBehaviour:
   ExitAnim: 1
   FadeInOutDuration: 0.03
   CloseOnContentResult: 1
---- !u!114 &114320256170494724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5ea9ac07295d1a263c7fc09a14625f3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!224 &224017697238300914
 RectTransform:
   serializedVersion: 2
@@ -770,36 +756,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &114808113985169905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1724804207875695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fcf711529b925a1bec6a9440b394a8e, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  PlayOnStart: 1
-  EnterAnim: 1
-  ExitAnim: 1
-  OnShow:
-    m_PersistentCalls:
-      m_Calls: []
-  OnShowAfterHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnDismiss:
-    m_PersistentCalls:
-      m_Calls: []
-  _bg: {fileID: 0}
-  _title: {fileID: 0}
-  _closeBtn: {fileID: 0}
 --- !u!224 &224060945828524476
 RectTransform:
   serializedVersion: 2

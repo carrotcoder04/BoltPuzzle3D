@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 222587765826080250}
   - component: {fileID: 114709867586078768}
   - component: {fileID: 225044625135789424}
-  - component: {fileID: 114589667821646929}
-  - component: {fileID: 114372920208702427}
   m_Layer: 5
   m_Name: PicturePermissionDeniedPanel
   m_TagString: Untagged
@@ -224,34 +222,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &114589667821646929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02a916a544168644cb8b62db544ea7fd, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  DefaultEnterAnimTypes: 02000000
-  DefaultExitAnimTypes: 01000000
-  AnimationDuration: 0.2
-  IsAutoSetSafeArea: 1
---- !u!114 &114372920208702427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88e4ef31219b1866ef4bdd3a53f6002e, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!224 &224025901758691103
 RectTransform:
   serializedVersion: 2

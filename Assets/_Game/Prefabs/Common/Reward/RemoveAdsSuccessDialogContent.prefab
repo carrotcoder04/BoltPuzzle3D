@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 224709867586078768}
   - component: {fileID: 222044625135789424}
   - component: {fileID: 225589667821646929}
-  - component: {fileID: 114372920208702427}
   m_Layer: 5
   m_Name: RemoveAdsSuccessDialogContent
   m_TagString: Untagged
@@ -32,7 +31,6 @@ GameObject:
   - component: {fileID: 114705390221481576}
   - component: {fileID: 114977153420339851}
   - component: {fileID: 225161607090078389}
-  - component: {fileID: 114002669891404536}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -164,8 +162,6 @@ GameObject:
   - component: {fileID: 225518489005915545}
   - component: {fileID: 114220653531496868}
   - component: {fileID: 114841364053301648}
-  - component: {fileID: 114967328832014496}
-  - component: {fileID: 114291844617409189}
   m_Layer: 5
   m_Name: ClaimBtn
   m_TagString: Untagged
@@ -237,37 +233,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &114372920208702427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50791a3d4e400e549c99c3bafd77f625, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  PlayOnStart: 1
-  EnterAnim: 1
-  ExitAnim: 1
-  OnShow:
-    m_PersistentCalls:
-      m_Calls: []
-  OnShowAfterHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnDismiss:
-    m_PersistentCalls:
-      m_Calls: []
-  _bg: {fileID: 0}
-  _title: {fileID: 0}
-  _closeBtn: {fileID: 0}
-  RewardSound: {fileID: 8300000, guid: 8b3cea8fb40a52341ae231e737549b42, type: 3}
 --- !u!224 &224025901758691103
 RectTransform:
   serializedVersion: 2
@@ -412,19 +377,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &114002669891404536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730242686860875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a5e69ce219f6a9d1523b19ed5969f90, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  IsPlayOnStart: 0
 --- !u!224 &224470112387431263
 RectTransform:
   serializedVersion: 2
@@ -8084,33 +8036,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &114967328832014496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1061268324235159}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3aef2fd3d475123db2081845496cc784, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  EnableClickAudio: 1
---- !u!114 &114291844617409189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1061268324235159}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f91abd5789ceb2bc62f404ea1f12770, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  PlayOnStart: 0
-  Duration: 0.16
 --- !u!224 &224344419225485095
 RectTransform:
   serializedVersion: 2

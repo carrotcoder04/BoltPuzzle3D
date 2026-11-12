@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 225256069497284392}
   - component: {fileID: 114161607090078389}
   - component: {fileID: 114002669891404536}
-  - component: {fileID: 114470112387431263}
   m_Layer: 5
   m_Name: AttGuideDialog
   m_TagString: Untagged
@@ -50,7 +49,6 @@ GameObject:
   - component: {fileID: 222634108722742392}
   - component: {fileID: 225302127217294661}
   - component: {fileID: 114969106005120503}
-  - component: {fileID: 114642988549198181}
   m_Layer: 5
   m_Name: AttGuideDialogContent
   m_TagString: Untagged
@@ -408,18 +406,6 @@ MonoBehaviour:
   ExitAnim: 1
   FadeInOutDuration: 0.03
   CloseOnContentResult: 1
---- !u!114 &114470112387431263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edd125181f61cd3c77fae3fafd161fb, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!224 &224313026266067498
 RectTransform:
   serializedVersion: 2
@@ -526,22 +512,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &114642988549198181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1724804207875695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2bd47b5999b26841d058ec55431443f, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  MirrorNodeList:
-  - {fileID: 224477046003934300}
-  RotateNodeList: []
-  ScaleNodeList: []
 --- !u!224 &224946936116752871
 RectTransform:
   serializedVersion: 2

@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 222589667821646929}
   - component: {fileID: 114372920208702427}
   - component: {fileID: 114025901758691103}
-  - component: {fileID: 114985305603660343}
-  - component: {fileID: 114705390221481576}
   - component: {fileID: 111977153420339851}
   - component: {fileID: 223336590748365959}
   - component: {fileID: 114256069497284392}
@@ -274,34 +272,6 @@ MonoBehaviour:
   m_Name:
   m_EditorClassIdentifier:
   m_ShowMaskGraphic: 0
---- !u!114 &114985305603660343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaf8119564be3b95d909a9efdd82fdbe, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
---- !u!114 &114705390221481576
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02a916a544168644cb8b62db544ea7fd, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  DefaultEnterAnimTypes:
-  DefaultExitAnimTypes:
-  AnimationDuration: 0.2
-  IsAutoSetSafeArea: 0
 --- !u!111 &111977153420339851
 Animation:
   serializedVersion: 3

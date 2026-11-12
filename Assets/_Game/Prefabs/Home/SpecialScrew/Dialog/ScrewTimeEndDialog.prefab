@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 225161607090078389}
   - component: {fileID: 114002669891404536}
   - component: {fileID: 114470112387431263}
-  - component: {fileID: 114313026266067498}
   m_Layer: 5
   m_Name: ScrewTimeEndDialog
   m_TagString: Untagged
@@ -49,7 +48,6 @@ GameObject:
   - component: {fileID: 224634108722742392}
   - component: {fileID: 222302127217294661}
   - component: {fileID: 225969106005120503}
-  - component: {fileID: 114642988549198181}
   m_Layer: 5
   m_Name: ScrewTimeEndDialogContent
   m_TagString: Untagged
@@ -124,7 +122,6 @@ GameObject:
   - component: {fileID: 114089843903986396}
   - component: {fileID: 114060945828524476}
   - component: {fileID: 114900271049623953}
-  - component: {fileID: 114472185465350827}
   m_Layer: 0
   m_Name: Title
   m_TagString: Untagged
@@ -426,18 +423,6 @@ MonoBehaviour:
   ExitAnim: 1
   FadeInOutDuration: 0.03
   CloseOnContentResult: 1
---- !u!114 &114313026266067498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca2865badc108ab104873159733f222c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!224 &224621510681728303
 RectTransform:
   serializedVersion: 2
@@ -517,36 +502,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &114642988549198181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1724804207875695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed7b1f3ce07104997b2b6a55217f9d91, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  PlayOnStart: 1
-  EnterAnim: 1
-  ExitAnim: 1
-  OnShow:
-    m_PersistentCalls:
-      m_Calls: []
-  OnShowAfterHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnDismiss:
-    m_PersistentCalls:
-      m_Calls: []
-  _bg: {fileID: 0}
-  _title: {fileID: 0}
-  _closeBtn: {fileID: 0}
 --- !u!224 &224946936116752871
 RectTransform:
   serializedVersion: 2
@@ -906,21 +861,6 @@ MonoBehaviour:
   GlowInner: 0.05
   GlowOuter: 0.05
   GlowPower: 0.75
---- !u!114 &114472185465350827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1099118695303065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43854ec4cd1b032e41a58f15d7c8c713, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  outlineColor: {r: 0.0033374808, g: 0.06432406, b: 0.23584908, a: 1}
-  OutlineWidth: 0
-  FaceDilate: 0
 --- !u!224 &224518489005915545
 RectTransform:
   serializedVersion: 2

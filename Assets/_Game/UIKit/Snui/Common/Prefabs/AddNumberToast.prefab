@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 224724804207875695}
   - component: {fileID: 222618682377417806}
   - component: {fileID: 225703437598541787}
-  - component: {fileID: 114884547391421755}
   - component: {fileID: 114099118695303065}
   - component: {fileID: 114243736805655561}
   - component: {fileID: 114061268324235159}
@@ -82,18 +81,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &114884547391421755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a8834f5e493f58f7e87f09ad92433f1, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!114 &114099118695303065
 MonoBehaviour:
   m_ObjectHideFlags: 0

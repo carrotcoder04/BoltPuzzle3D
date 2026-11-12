@@ -13,8 +13,6 @@ GameObject:
   - component: {fileID: 114587765826080250}
   - component: {fileID: 114709867586078768}
   - component: {fileID: 225044625135789424}
-  - component: {fileID: 114589667821646929}
-  - component: {fileID: 114372920208702427}
   m_Layer: 5
   m_Name: SettingButtonToggle
   m_TagString: Untagged
@@ -251,41 +249,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &114589667821646929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2c704755e2c8d309491ead33f7acb4b, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  _type: 1
-  _clickAlpha: 0.3
---- !u!114 &114372920208702427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2bd47b5999b26841d058ec55431443f, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  MirrorNodeList:
-  - {fileID: 224642988549198181}
-  - {fileID: 224918264173551851}
-  - {fileID: 224025901758691103}
-  - {fileID: 224977153420339851}
-  RotateNodeList:
-  - {fileID: 224642988549198181}
-  - {fileID: 224918264173551851}
-  ScaleNodeList: []
 --- !u!224 &224025901758691103
 RectTransform:
   serializedVersion: 2

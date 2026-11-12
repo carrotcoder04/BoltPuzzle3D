@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 114002669891404536}
   - component: {fileID: 114470112387431263}
   - component: {fileID: 111313026266067498}
-  - component: {fileID: 114621510681728303}
   m_Layer: 5
   m_Name: ScrewTimeTutorial
   m_TagString: Untagged
@@ -69,9 +68,7 @@ GameObject:
   - component: {fileID: 224587397909062814}
   - component: {fileID: 222875609422105747}
   - component: {fileID: 114371939378208658}
-  - component: {fileID: 114694121525821480}
   - component: {fileID: 225320256170494724}
-  - component: {fileID: 114017697238300914}
   m_Layer: 5
   m_Name: RibbonImg
   m_TagString: Untagged
@@ -91,8 +88,6 @@ GameObject:
   - component: {fileID: 222217368724061974}
   - component: {fileID: 114089843903986396}
   - component: {fileID: 114672306508523268}
-  - component: {fileID: 114900271049623953}
-  - component: {fileID: 114472185465350827}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -291,7 +286,6 @@ GameObject:
   - component: {fileID: 222370222726513266}
   - component: {fileID: 114574304967836189}
   - component: {fileID: 114009931292380359}
-  - component: {fileID: 114829625606037309}
   m_Layer: 5
   m_Name: TapToContinue
   m_TagString: Untagged
@@ -312,7 +306,6 @@ GameObject:
   - component: {fileID: 225571878917323452}
   - component: {fileID: 114534704304255049}
   - component: {fileID: 114651560128206891}
-  - component: {fileID: 114964469411310401}
   m_Layer: 5
   m_Name: ContinueButton
   m_TagString: Untagged
@@ -444,36 +437,6 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!114 &114621510681728303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a3b6c31b4188489a6674b7bf62e8869, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  PlayOnStart: 1
-  EnterAnim: 1
-  ExitAnim: 1
-  OnShow:
-    m_PersistentCalls:
-      m_Calls: []
-  OnShowAfterHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnDismiss:
-    m_PersistentCalls:
-      m_Calls: []
-  _bg: {fileID: 0}
-  _title: {fileID: 0}
-  _closeBtn: {fileID: 0}
 --- !u!224 &224632457200066912
 RectTransform:
   serializedVersion: 2
@@ -705,18 +668,6 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
---- !u!114 &114694121525821480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1618682377417806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae178b1a039872b50a07f6b1dc54bd3f, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!225 &225320256170494724
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -729,20 +680,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &114017697238300914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1618682377417806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f91abd5789ceb2bc62f404ea1f12770, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  PlayOnStart: 0
-  Duration: 0.16
 --- !u!224 &224733206282342372
 RectTransform:
   serializedVersion: 2
@@ -875,39 +812,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &114900271049623953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1703437598541787}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9552588b58ada5db58839a055f68b17, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_HorizontalFit: 2
-  m_VerticalFit: 2
-  _maxWidth: 0
-  _minWidth: 0
-  _maxHeight: 0
-  _minHeight: 0
---- !u!114 &114472185465350827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1703437598541787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43854ec4cd1b032e41a58f15d7c8c713, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  outlineColor: {r: 0.5294118, g: 0.1254902, b: 0.003921569, a: 1}
-  OutlineWidth: 0
-  FaceDilate: 0
 --- !u!224 &224518489005915545
 RectTransform:
   serializedVersion: 2
@@ -1753,19 +1657,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &114829625606037309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985305603660343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b70e17742f8e876cd50667a33145a79, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  MaxScale: 1.2
 --- !u!224 &224574190619683098
 RectTransform:
   serializedVersion: 2
@@ -1881,19 +1772,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &114964469411310401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1705390221481576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3aef2fd3d475123db2081845496cc784, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  EnableClickAudio: 1
 --- !u!224 &224208575754630950
 RectTransform:
   serializedVersion: 2

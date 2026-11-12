@@ -122,7 +122,6 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   m_Component:
   - component: {fileID: 224571718729274231}
-  - component: {fileID: 114581786255902400}
   - component: {fileID: 225477046003934300}
   - component: {fileID: 114045458335737618}
   m_Layer: 5
@@ -371,7 +370,6 @@ GameObject:
   - component: {fileID: 222641631609468814}
   - component: {fileID: 114533803739292891}
   - component: {fileID: 114601984538237284}
-  - component: {fileID: 114690175861776792}
   m_Layer: 5
   m_Name: Time
   m_TagString: Untagged
@@ -429,7 +427,6 @@ GameObject:
   - component: {fileID: 114450391854282655}
   - component: {fileID: 222386943702330414}
   - component: {fileID: 114066778049879928}
-  - component: {fileID: 114824317463469755}
   - component: {fileID: 225561126880652180}
   m_Layer: 0
   m_Name: InfoIcon
@@ -467,8 +464,6 @@ GameObject:
   - component: {fileID: 224091882994760266}
   - component: {fileID: 222232094423628703}
   - component: {fileID: 114592460329389196}
-  - component: {fileID: 114771092198208730}
-  - component: {fileID: 114570723408815475}
   - component: {fileID: 225011164340880974}
   m_Layer: 5
   m_Name: Timer
@@ -1288,21 +1283,6 @@ RectTransform:
   m_AnchoredPosition: {x: 275, y: 0}
   m_SizeDelta: {x: 256, y: 256}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &114581786255902400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1099118695303065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b01c7f72954c88957df8f00be4b3e5c3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  RewardItem:
-    Count: 0
-  CollectSound: {fileID: 8300000, guid: 5e7106746abb3014089590a6548384c3, type: 3}
 --- !u!225 &225477046003934300
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -9518,24 +9498,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &114690175861776792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1256069497284392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9552588b58ada5db58839a055f68b17, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_HorizontalFit: 2
-  m_VerticalFit: 0
-  _maxWidth: 90
-  _minWidth: 60
-  _maxHeight: 0
-  _minHeight: 0
 --- !u!224 &224969505138979683
 RectTransform:
   serializedVersion: 2
@@ -9856,18 +9818,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &114824317463469755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470112387431263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d42f11e1b767b7666910c4df57e3b46, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!225 &225561126880652180
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -9998,39 +9948,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &114771092198208730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1621510681728303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17723861a27ed3cc5ab391bea201cce9, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  OnTimerStart:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTimerStoped:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTimerTick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &114570723408815475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1621510681728303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf433342243ec4fe6d94a04381caf81b, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!225 &225011164340880974
 CanvasGroup:
   m_ObjectHideFlags: 0

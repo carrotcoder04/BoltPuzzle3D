@@ -106,7 +106,6 @@ GameObject:
   - component: {fileID: 224919942235722503}
   - component: {fileID: 222107629493147155}
   - component: {fileID: 114833703512093738}
-  - component: {fileID: 114632746491512912}
   - component: {fileID: 114719342369648492}
   m_Layer: 5
   m_Name: Snui_Price
@@ -1171,18 +1170,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &114632746491512912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1884547391421755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9ca1a8b658627b854eef6a8958ad426, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!114 &114719342369648492
 MonoBehaviour:
   m_ObjectHideFlags: 0

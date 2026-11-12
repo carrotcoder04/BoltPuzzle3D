@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 225161607090078389}
   - component: {fileID: 114002669891404536}
   - component: {fileID: 114470112387431263}
-  - component: {fileID: 114313026266067498}
   m_Layer: 5
   m_Name: QuitGameDialog
   m_TagString: Untagged
@@ -49,7 +48,6 @@ GameObject:
   - component: {fileID: 224634108722742392}
   - component: {fileID: 222302127217294661}
   - component: {fileID: 225969106005120503}
-  - component: {fileID: 114642988549198181}
   m_Layer: 5
   m_Name: QuitGameDialogContent
   m_TagString: Untagged
@@ -426,18 +424,6 @@ MonoBehaviour:
   ExitAnim: 1
   FadeInOutDuration: 0.03
   CloseOnContentResult: 1
---- !u!114 &114313026266067498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac8d64d058544c6a249b68aadc400f64, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!224 &224621510681728303
 RectTransform:
   serializedVersion: 2
@@ -518,36 +504,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &114642988549198181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1724804207875695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe69eccc074b29b2951e8cd2039e947e, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  PlayOnStart: 1
-  EnterAnim: 1
-  ExitAnim: 1
-  OnShow:
-    m_PersistentCalls:
-      m_Calls: []
-  OnShowAfterHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnDismiss:
-    m_PersistentCalls:
-      m_Calls: []
-  _bg: {fileID: 0}
-  _title: {fileID: 0}
-  _closeBtn: {fileID: 0}
 --- !u!224 &224946936116752871
 RectTransform:
   serializedVersion: 2

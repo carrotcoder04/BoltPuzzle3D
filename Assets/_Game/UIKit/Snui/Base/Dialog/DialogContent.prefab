@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 222061268324235159}
   - component: {fileID: 225587765826080250}
   - component: {fileID: 114709867586078768}
-  - component: {fileID: 114044625135789424}
   m_Layer: 5
   m_Name: DialogContent
   m_TagString: Untagged
@@ -105,7 +104,6 @@ GameObject:
   - component: {fileID: 222634108722742392}
   - component: {fileID: 114302127217294661}
   - component: {fileID: 114969106005120503}
-  - component: {fileID: 114642988549198181}
   - component: {fileID: 225946936116752871}
   m_Layer: 0
   m_Name: CloseButton
@@ -205,22 +203,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &114044625135789424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2bd47b5999b26841d058ec55431443f, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  MirrorNodeList:
-  - {fileID: 224621510681728303}
-  RotateNodeList: []
-  ScaleNodeList: []
 --- !u!224 &224589667821646929
 RectTransform:
   serializedVersion: 2
@@ -586,18 +568,6 @@ MonoBehaviour:
   ClickScale: 1
   ClickAlpha: 0.3
   DisableAlpha: 1
---- !u!114 &114642988549198181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1884547391421755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e9403d1d8d123ff6fdbad73538a989d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!225 &225946936116752871
 CanvasGroup:
   m_ObjectHideFlags: 0

@@ -13,8 +13,6 @@ GameObject:
   - component: {fileID: 225371939378208658}
   - component: {fileID: 114694121525821480}
   - component: {fileID: 114320256170494724}
-  - component: {fileID: 114017697238300914}
-  - component: {fileID: 114733206282342372}
   m_Layer: 5
   m_Name: AboutDialog
   m_TagString: Untagged
@@ -294,8 +292,6 @@ GameObject:
   - component: {fileID: 114699617135816954}
   - component: {fileID: 114264357844037074}
   - component: {fileID: 225499726237547504}
-  - component: {fileID: 114658330495870062}
-  - component: {fileID: 114703931505913403}
   m_Layer: 5
   m_Name: TermButton
   m_TagString: Untagged
@@ -389,8 +385,6 @@ GameObject:
   - component: {fileID: 114785330607447594}
   - component: {fileID: 114007513189690300}
   - component: {fileID: 225690175861776792}
-  - component: {fileID: 114969505138979683}
-  - component: {fileID: 114190181876552715}
   m_Layer: 5
   m_Name: PrivacyButton
   m_TagString: Untagged
@@ -484,8 +478,6 @@ GameObject:
   - component: {fileID: 114091882994760266}
   - component: {fileID: 114232094423628703}
   - component: {fileID: 225592460329389196}
-  - component: {fileID: 114771092198208730}
-  - component: {fileID: 114570723408815475}
   m_Layer: 5
   m_Name: PersonalizedButton
   m_TagString: Untagged
@@ -711,43 +703,6 @@ MonoBehaviour:
   ExitAnim: 1
   FadeInOutDuration: 0.03
   CloseOnContentResult: 1
---- !u!114 &114017697238300914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2bd47b5999b26841d058ec55431443f, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  MirrorNodeList:
-  - {fileID: 224271925019662038}
-  RotateNodeList: []
-  ScaleNodeList:
-  - {fileID: 224271925019662038}
---- !u!114 &114733206282342372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 614d109c5c2d4f68e4439e71ba1f7cc4, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  _backBtn: {fileID: 114911997548769506}
-  _scrollView: {fileID: 114060945828524476}
-  _icon: {fileID: 114719342369648492}
-  _name: {fileID: 114693329660128220}
-  _version: {fileID: 114477046003934300}
-  _copyright: {fileID: 114743393880019028}
-  _updateVersionBtn: {fileID: 114574304967836189}
-  _personalBtn: {fileID: 114771092198208730}
 --- !u!224 &224217368724061974
 RectTransform:
   serializedVersion: 2
@@ -2083,39 +2038,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &114658330495870062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985305603660343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2c704755e2c8d309491ead33f7acb4b, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  _type: 10
-  _clickAlpha: 0.3
---- !u!114 &114703931505913403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985305603660343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2bd47b5999b26841d058ec55431443f, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  MirrorNodeList:
-  - {fileID: 224121005239445321}
-  - {fileID: 224085275382694935}
-  - {fileID: 224855482821919830}
-  RotateNodeList:
-  - {fileID: 224855482821919830}
-  ScaleNodeList: []
 --- !u!224 &224121005239445321
 RectTransform:
   serializedVersion: 2
@@ -2540,39 +2462,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &114969505138979683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161607090078389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2c704755e2c8d309491ead33f7acb4b, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  _type: 11
-  _clickAlpha: 0.3
---- !u!114 &114190181876552715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161607090078389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2bd47b5999b26841d058ec55431443f, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  MirrorNodeList:
-  - {fileID: 224240571728440943}
-  - {fileID: 224408345039935966}
-  - {fileID: 224450391854282655}
-  RotateNodeList:
-  - {fileID: 224450391854282655}
-  ScaleNodeList: []
 --- !u!224 &224240571728440943
 RectTransform:
   serializedVersion: 2
@@ -2997,39 +2886,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &114771092198208730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1632457200066912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2c704755e2c8d309491ead33f7acb4b, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  _type: 12
-  _clickAlpha: 0.3
---- !u!114 &114570723408815475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1632457200066912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2bd47b5999b26841d058ec55431443f, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  MirrorNodeList:
-  - {fileID: 224011164340880974}
-  - {fileID: 224695600491528212}
-  - {fileID: 224038333544927157}
-  RotateNodeList:
-  - {fileID: 224038333544927157}
-  ScaleNodeList: []
 --- !u!224 &224011164340880974
 RectTransform:
   serializedVersion: 2

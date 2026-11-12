@@ -9,7 +9,6 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   m_Component:
   - component: {fileID: 224099118695303065}
-  - component: {fileID: 114243736805655561}
   - component: {fileID: 225061268324235159}
   - component: {fileID: 222587765826080250}
   m_Layer: 5
@@ -133,20 +132,6 @@ RectTransform:
   m_AnchoredPosition: {x: 10, y: -54}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 1}
---- !u!114 &114243736805655561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb75770865a8f5a8585fdc974064b167, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  FlyAudioClip: {fileID: 8300000, guid: 2a852f80709330d43b49e1bdb67bc41d, type: 3}
-  ClaimAudioClip: {fileID: 8300000, guid: f8b76b30101cae745b596ca38546c46a, type: 3}
 --- !u!225 &225061268324235159
 CanvasGroup:
   m_ObjectHideFlags: 0

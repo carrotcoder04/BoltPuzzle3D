@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 224099118695303065}
   - component: {fileID: 222243736805655561}
   - component: {fileID: 225061268324235159}
-  - component: {fileID: 114587765826080250}
   - component: {fileID: 114709867586078768}
   m_Layer: 5
   m_Name: Snui_CoinHud
@@ -156,19 +155,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &114587765826080250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8ed31b5554275533c106f81b2b35f40, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  InventoryKey:
 --- !u!114 &114709867586078768
 MonoBehaviour:
   m_ObjectHideFlags: 0

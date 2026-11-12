@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 222372920208702427}
   - component: {fileID: 225025901758691103}
   - component: {fileID: 114985305603660343}
-  - component: {fileID: 114705390221481576}
-  - component: {fileID: 114977153420339851}
   m_Layer: 5
   m_Name: PurchaseFailDialogContent
   m_TagString: Untagged
@@ -144,7 +142,6 @@ GameObject:
   - component: {fileID: 222672306508523268}
   - component: {fileID: 114808113985169905}
   - component: {fileID: 114060945828524476}
-  - component: {fileID: 114900271049623953}
   - component: {fileID: 225472185465350827}
   m_Layer: 0
   m_Name: CloseButton
@@ -302,52 +299,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &114705390221481576
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2bd47b5999b26841d058ec55431443f, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  MirrorNodeList:
-  - {fileID: 224217368724061974}
-  RotateNodeList: []
-  ScaleNodeList: []
---- !u!114 &114977153420339851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09386409e8cd8747e070a1c096726a04, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  PlayOnStart: 1
-  EnterAnim: 1
-  ExitAnim: 1
-  OnShow:
-    m_PersistentCalls:
-      m_Calls: []
-  OnShowAfterHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnDismiss:
-    m_PersistentCalls:
-      m_Calls: []
-  _bg: {fileID: 0}
-  _title: {fileID: 0}
-  _closeBtn: {fileID: 0}
 --- !u!224 &224336590748365959
 RectTransform:
   serializedVersion: 2
@@ -918,18 +869,6 @@ MonoBehaviour:
   ClickScale: 1
   ClickAlpha: 0.3
   DisableAlpha: 1
---- !u!114 &114900271049623953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1243736805655561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e9403d1d8d123ff6fdbad73538a989d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!225 &225472185465350827
 CanvasGroup:
   m_ObjectHideFlags: 0

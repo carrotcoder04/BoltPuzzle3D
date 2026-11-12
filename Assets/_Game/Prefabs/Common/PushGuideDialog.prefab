@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 225470112387431263}
   - component: {fileID: 114313026266067498}
   - component: {fileID: 114621510681728303}
-  - component: {fileID: 114632457200066912}
   m_Layer: 5
   m_Name: PushGuideDialog
   m_TagString: Untagged
@@ -50,7 +49,6 @@ GameObject:
   - component: {fileID: 222642988549198181}
   - component: {fileID: 225946936116752871}
   - component: {fileID: 114711914853252429}
-  - component: {fileID: 114918264173551851}
   m_Layer: 5
   m_Name: DialogContent
   m_TagString: Untagged
@@ -461,18 +459,6 @@ MonoBehaviour:
   ExitAnim: 1
   FadeInOutDuration: 0.03
   CloseOnContentResult: 1
---- !u!114 &114632457200066912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5be7bc2165e2b831a1f3f879ef531583, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!224 &224634108722742392
 RectTransform:
   serializedVersion: 2
@@ -579,22 +565,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &114918264173551851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1724804207875695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2bd47b5999b26841d058ec55431443f, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  MirrorNodeList:
-  - {fileID: 224149520701623706}
-  RotateNodeList: []
-  ScaleNodeList: []
 --- !u!224 &224587397909062814
 RectTransform:
   serializedVersion: 2

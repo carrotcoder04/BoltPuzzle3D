@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 222025901758691103}
   - component: {fileID: 225985305603660343}
   - component: {fileID: 114705390221481576}
-  - component: {fileID: 114977153420339851}
   m_Layer: 5
   m_Name: RewardDialog
   m_TagString: Untagged
@@ -82,7 +81,6 @@ GameObject:
   m_Component:
   - component: {fileID: 224632457200066912}
   - component: {fileID: 225634108722742392}
-  - component: {fileID: 114302127217294661}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -330,25 +328,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &114977153420339851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddc7cfdc1ca07c1b51e477dddcc7a0c9, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  RewardCellPrefab: {fileID: 1709254077376921, guid: 3fca360418039984c9f005ad7ad32006, type: 2}
-  SpecialSparksPrefab: {fileID: 1709254077376921, guid: f66cf379dc28e5b4382a3aee7b349f6f, type: 2}
-  RewardSound: {fileID: 8300000, guid: 8b3cea8fb40a52341ae231e737549b42, type: 3}
-  ChestSound: {fileID: 8300000, guid: 1403b9fe7016753449da1de71b343f15, type: 3}
-  FireworksClip: {fileID: 8300000, guid: edd1528d8b946f542b2fe93c5938dae1, type: 3}
-  RewardsPopAfterCardsClip: {fileID: 8300000, guid: 28f2b1aa6a8702f45883f849fa45ce65, type: 3}
-  Fireworks: {fileID: 1709254077376921, guid: b934b6acff6f7734fbbaf147494f432c, type: 2}
 --- !u!224 &224336590748365959
 RectTransform:
   serializedVersion: 2
@@ -512,18 +491,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &114302127217294661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1703437598541787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83286e8a2e02ba0cccad786c8b29c7ea, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!224 &224969106005120503
 RectTransform:
   serializedVersion: 2

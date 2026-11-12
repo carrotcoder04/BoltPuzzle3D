@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 222336590748365959}
   - component: {fileID: 225256069497284392}
   - component: {fileID: 114161607090078389}
-  - component: {fileID: 114002669891404536}
-  - component: {fileID: 114470112387431263}
   m_Layer: 5
   m_Name: HeartbankDialogContent
   m_TagString: Untagged
@@ -142,7 +140,6 @@ GameObject:
   m_Component:
   - component: {fileID: 224472185465350827}
   - component: {fileID: 114518489005915545}
-  - component: {fileID: 114220653531496868}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -253,7 +250,6 @@ GameObject:
   - component: {fileID: 222722951815217645}
   - component: {fileID: 114924050743934937}
   - component: {fileID: 114215879266689626}
-  - component: {fileID: 114743393880019028}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -392,57 +388,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &114002669891404536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2bd47b5999b26841d058ec55431443f, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  MirrorNodeList:
-  - {fileID: 224370222726513266}
-  RotateNodeList: []
-  ScaleNodeList: []
---- !u!114 &114470112387431263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc1ea7c3f0fff49e40b96e17420cac0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  PlayOnStart: 1
-  EnterAnim: 1
-  ExitAnim: 1
-  OnShow:
-    m_PersistentCalls:
-      m_Calls: []
-  OnShowAfterHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnDismiss:
-    m_PersistentCalls:
-      m_Calls: []
-  _bg: {fileID: 0}
-  _title: {fileID: 0}
-  _closeBtn: {fileID: 0}
-  _scrollRect: {fileID: 114089843903986396}
-  _subheading: {fileID: 114371939378208658}
-  _requestLivesTf: {fileID: 224344419225485095}
-  _requestLivesBtn: {fileID: 114397768327470545}
-  _freeLifePrototype: {fileID: 114709867586078768, guid: 5bbe053b45ab7984b8e6f50998b544dc, type: 2}
 --- !u!224 &224313026266067498
 RectTransform:
   serializedVersion: 2
@@ -962,24 +907,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &114220653531496868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1243736805655561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9552588b58ada5db58839a055f68b17, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_HorizontalFit: 0
-  m_VerticalFit: 2
-  _maxWidth: 0
-  _minWidth: 0
-  _maxHeight: 0
-  _minHeight: 0
 --- !u!224 &224841364053301648
 RectTransform:
   serializedVersion: 2
@@ -1502,21 +1429,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &114743393880019028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1372920208702427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43854ec4cd1b032e41a58f15d7c8c713, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  outlineColor: {r: 0.02745098, g: 0.11764706, b: 0.007843138, a: 1}
-  OutlineWidth: 0
-  FaceDilate: 0
 --- !u!224 &224094320201520353
 RectTransform:
   serializedVersion: 2

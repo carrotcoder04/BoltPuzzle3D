@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 224875609422105747}
   - component: {fileID: 225371939378208658}
   - component: {fileID: 82694121525821480}
-  - component: {fileID: 114320256170494724}
   m_Layer: 5
   m_Name: Roller
   m_TagString: Untagged
@@ -66,7 +65,6 @@ GameObject:
   m_Component:
   - component: {fileID: 224900271049623953}
   - component: {fileID: 222472185465350827}
-  - component: {fileID: 114518489005915545}
   m_Layer: 5
   m_Name: RollerCell
   m_TagString: Untagged
@@ -139,7 +137,6 @@ GameObject:
   m_Component:
   - component: {fileID: 224693329660128220}
   - component: {fileID: 222801075752484240}
-  - component: {fileID: 114000955326284023}
   m_Layer: 5
   m_Name: RollerCell
   m_TagString: Untagged
@@ -212,7 +209,6 @@ GameObject:
   m_Component:
   - component: {fileID: 224026196548002408}
   - component: {fileID: 222572839542275309}
-  - component: {fileID: 114279359913592680}
   m_Layer: 5
   m_Name: RollerCell
   m_TagString: Untagged
@@ -285,7 +281,6 @@ GameObject:
   m_Component:
   - component: {fileID: 224552309709192268}
   - component: {fileID: 222571878917323452}
-  - component: {fileID: 114534704304255049}
   m_Layer: 5
   m_Name: RollerCell
   m_TagString: Untagged
@@ -358,7 +353,6 @@ GameObject:
   m_Component:
   - component: {fileID: 224806657225351454}
   - component: {fileID: 222704330047573733}
-  - component: {fileID: 114085275382694935}
   m_Layer: 5
   m_Name: RollerCell
   m_TagString: Untagged
@@ -431,7 +425,6 @@ GameObject:
   m_Component:
   - component: {fileID: 224601984538237284}
   - component: {fileID: 222785330607447594}
-  - component: {fileID: 114007513189690300}
   m_Layer: 5
   m_Name: RollerCell
   m_TagString: Untagged
@@ -504,7 +497,6 @@ GameObject:
   m_Component:
   - component: {fileID: 224450391854282655}
   - component: {fileID: 222386943702330414}
-  - component: {fileID: 114066778049879928}
   m_Layer: 5
   m_Name: RollerCell
   m_TagString: Untagged
@@ -751,54 +743,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &114320256170494724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 685b606eb32abf039d6cb21bc4a6b71e, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  _duration: 1.3
-  _moveCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0.501247
-      value: 0.50124705
-      inSlope: 2.669784
-      outSlope: 2.669784
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.08939567
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0.021495156
-      outSlope: 0.021495156
-      weightedMode: 0
-      inWeight: 0.6599793
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _slotWheel: {fileID: 0}
-  _multiples: 0300000005000000070000000a000000070000000500000003000000
-  OnRollerChanged:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!224 &224017697238300914
 RectTransform:
   serializedVersion: 2
@@ -966,21 +910,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618682377417806}
   m_CullTransparentMesh: 1
---- !u!114 &114518489005915545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1618682377417806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 136abd15d20be6abe1b7e779cdb86fc0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  _bg: {fileID: 114967328832014496}
-  _bigBg: {fileID: 114919942235722503}
-  _text: {fileID: 114719342369648492}
 --- !u!224 &224220653531496868
 RectTransform:
   serializedVersion: 2
@@ -1260,21 +1189,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1243736805655561}
   m_CullTransparentMesh: 1
---- !u!114 &114000955326284023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1243736805655561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 136abd15d20be6abe1b7e779cdb86fc0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  _bg: {fileID: 114581786255902400}
-  _bigBg: {fileID: 114722951815217645}
-  _text: {fileID: 114043919389829319}
 --- !u!224 &224397768327470545
 RectTransform:
   serializedVersion: 2
@@ -1554,21 +1468,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044625135789424}
   m_CullTransparentMesh: 1
---- !u!114 &114279359913592680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1044625135789424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 136abd15d20be6abe1b7e779cdb86fc0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  _bg: {fileID: 114292246286975720}
-  _bigBg: {fileID: 114370222726513266}
-  _text: {fileID: 114799762105739359}
 --- !u!224 &224384403120170545
 RectTransform:
   serializedVersion: 2
@@ -1848,21 +1747,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985305603660343}
   m_CullTransparentMesh: 1
---- !u!114 &114534704304255049
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985305603660343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 136abd15d20be6abe1b7e779cdb86fc0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  _bg: {fileID: 114208575754630950}
-  _bigBg: {fileID: 114976365255789935}
-  _text: {fileID: 114658330495870062}
 --- !u!224 &224651560128206891
 RectTransform:
   serializedVersion: 2
@@ -2142,21 +2026,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256069497284392}
   m_CullTransparentMesh: 1
---- !u!114 &114085275382694935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1256069497284392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 136abd15d20be6abe1b7e779cdb86fc0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  _bg: {fileID: 114354824845356902}
-  _bigBg: {fileID: 114855482821919830}
-  _text: {fileID: 114167524263268962}
 --- !u!224 &224231814100211528
 RectTransform:
   serializedVersion: 2
@@ -2436,21 +2305,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1313026266067498}
   m_CullTransparentMesh: 1
---- !u!114 &114007513189690300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1313026266067498}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 136abd15d20be6abe1b7e779cdb86fc0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  _bg: {fileID: 114190181876552715}
-  _bigBg: {fileID: 114998874197659892}
-  _text: {fileID: 114633296557590524}
 --- !u!224 &224690175861776792
 RectTransform:
   serializedVersion: 2
@@ -2730,21 +2584,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302127217294661}
   m_CullTransparentMesh: 1
---- !u!114 &114066778049879928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1302127217294661}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 136abd15d20be6abe1b7e779cdb86fc0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  _bg: {fileID: 114275549183895104}
-  _bigBg: {fileID: 114091882994760266}
-  _text: {fileID: 114570723408815475}
 --- !u!224 &224824317463469755
 RectTransform:
   serializedVersion: 2

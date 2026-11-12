@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 225808113985169905}
   - component: {fileID: 114060945828524476}
   - component: {fileID: 114900271049623953}
-  - component: {fileID: 114472185465350827}
   m_Layer: 5
   m_Name: QuitConfirmDialog
   m_TagString: Untagged
@@ -49,7 +48,6 @@ GameObject:
   - component: {fileID: 224841364053301648}
   - component: {fileID: 222967328832014496}
   - component: {fileID: 225291844617409189}
-  - component: {fileID: 114344419225485095}
   m_Layer: 5
   m_Name: QuitConfirmDialogContent
   m_TagString: Untagged
@@ -317,7 +315,6 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   m_Component:
   - component: {fileID: 224264357844037074}
-  - component: {fileID: 114499726237547504}
   m_Layer: 5
   m_Name: LoseHeartContainer
   m_TagString: Untagged
@@ -838,18 +835,6 @@ MonoBehaviour:
   ExitAnim: 1
   FadeInOutDuration: 0.03
   CloseOnContentResult: 1
---- !u!114 &114472185465350827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b5aa96e7316433d5a1082a5c0c9d812, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!224 &224518489005915545
 RectTransform:
   serializedVersion: 2
@@ -930,36 +915,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &114344419225485095
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1724804207875695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8bf4b50893b7c5ea1f5be2df0c85dc7, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  PlayOnStart: 1
-  EnterAnim: 1
-  ExitAnim: 1
-  OnShow:
-    m_PersistentCalls:
-      m_Calls: []
-  OnShowAfterHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnDismiss:
-    m_PersistentCalls:
-      m_Calls: []
-  _bg: {fileID: 0}
-  _title: {fileID: 0}
-  _closeBtn: {fileID: 0}
 --- !u!224 &224919942235722503
 RectTransform:
   serializedVersion: 2
@@ -1974,18 +1929,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &114499726237547504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1977153420339851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b01c96c5608148678b4c57464e51be0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!224 &224658330495870062
 RectTransform:
   serializedVersion: 2

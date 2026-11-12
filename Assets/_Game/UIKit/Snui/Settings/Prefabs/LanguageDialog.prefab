@@ -13,8 +13,6 @@ GameObject:
   - component: {fileID: 225709867586078768}
   - component: {fileID: 114044625135789424}
   - component: {fileID: 114589667821646929}
-  - component: {fileID: 114372920208702427}
-  - component: {fileID: 114025901758691103}
   m_Layer: 5
   m_Name: LanguageDialog
   m_TagString: Untagged
@@ -239,38 +237,6 @@ MonoBehaviour:
   ExitAnim: 1
   FadeInOutDuration: 0.03
   CloseOnContentResult: 1
---- !u!114 &114372920208702427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2bd47b5999b26841d058ec55431443f, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  MirrorNodeList:
-  - {fileID: 224694121525821480}
-  RotateNodeList: []
-  ScaleNodeList:
-  - {fileID: 224694121525821480}
---- !u!114 &114025901758691103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6837821de08b0d85e4dc8be09eb36a8d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  _languageCellPrefab: {fileID: 1709254077376921, guid: 8073f47ec445dcf48977f93a5051c0b0, type: 2}
-  _backBtn: {fileID: 114217368724061974}
-  _scrollView: {fileID: 114256069497284392}
 --- !u!224 &224985305603660343
 RectTransform:
   serializedVersion: 2

@@ -50,7 +50,6 @@ GameObject:
   - component: {fileID: 222552309709192268}
   - component: {fileID: 225571878917323452}
   - component: {fileID: 114534704304255049}
-  - component: {fileID: 114651560128206891}
   - component: {fileID: 114964469411310401}
   m_Layer: 5
   m_Name: FailDialogContent
@@ -738,7 +737,6 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   m_Component:
   - component: {fileID: 224450889307774998}
-  - component: {fileID: 114007271993718322}
   m_Layer: 5
   m_Name: LoseHeartContainer
   m_TagString: Untagged
@@ -1705,22 +1703,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &114651560128206891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1724804207875695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2bd47b5999b26841d058ec55431443f, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  MirrorNodeList:
-  - {fileID: 224543584136297381}
-  RotateNodeList: []
-  ScaleNodeList: []
 --- !u!114 &114964469411310401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13445,18 +13427,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 400, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &114007271993718322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1217368724061974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b01c96c5608148678b4c57464e51be0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!224 &224133854062310043
 RectTransform:
   serializedVersion: 2

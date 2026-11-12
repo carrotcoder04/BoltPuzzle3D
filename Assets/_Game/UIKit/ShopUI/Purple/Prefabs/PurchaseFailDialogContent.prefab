@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 222044625135789424}
   - component: {fileID: 225589667821646929}
   - component: {fileID: 114372920208702427}
-  - component: {fileID: 114025901758691103}
-  - component: {fileID: 114985305603660343}
   m_Layer: 5
   m_Name: PurchaseFailDialogContent
   m_TagString: Untagged
@@ -266,52 +264,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &114025901758691103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2bd47b5999b26841d058ec55431443f, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  MirrorNodeList:
-  - {fileID: 224017697238300914}
-  RotateNodeList: []
-  ScaleNodeList: []
---- !u!114 &114985305603660343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09386409e8cd8747e070a1c096726a04, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  PlayOnStart: 1
-  EnterAnim: 1
-  ExitAnim: 1
-  OnShow:
-    m_PersistentCalls:
-      m_Calls: []
-  OnShowAfterHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnHide:
-    m_PersistentCalls:
-      m_Calls: []
-  OnDismiss:
-    m_PersistentCalls:
-      m_Calls: []
-  _bg: {fileID: 114372920208702427}
-  _title: {fileID: 114587397909062814}
-  _closeBtn: {fileID: 114672306508523268}
 --- !u!224 &224705390221481576
 RectTransform:
   serializedVersion: 2

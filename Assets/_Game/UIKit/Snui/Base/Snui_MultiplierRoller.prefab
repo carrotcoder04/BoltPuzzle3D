@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 224703437598541787}
   - component: {fileID: 225884547391421755}
-  - component: {fileID: 114099118695303065}
   - component: {fileID: 82243736805655561}
   m_Layer: 5
   m_Name: Snui_MultiplierRoller
@@ -112,54 +111,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &114099118695303065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22325e744a352431698773b2a2039a61, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  Duration: 1.3
-  Ease: 10
-  SlotWheel: {fileID: 0}
-  OnRollerChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  selectedCell: {fileID: 0}
-  CellDataList:
-  - Multiple: 2
-    FontSize: 40
-    Width: 70
-    Color: {r: 0.92156863, g: 0.24705882, b: 0.4745098, a: 1}
-  - Multiple: 5
-    FontSize: 40
-    Width: 76
-    Color: {r: 0.9843137, g: 0.54509807, b: 0, a: 1}
-  - Multiple: 10
-    FontSize: 40
-    Width: 90
-    Color: {r: 0.99215686, g: 0.84313726, b: 0.20784314, a: 1}
-  - Multiple: 15
-    FontSize: 40
-    Width: 100
-    Color: {r: 0.20784314, g: 0.67058825, b: 0.03529412, a: 1}
-  - Multiple: 10
-    FontSize: 40
-    Width: 90
-    Color: {r: 0.99215686, g: 0.84313726, b: 0.20784314, a: 1}
-  - Multiple: 5
-    FontSize: 40
-    Width: 76
-    Color: {r: 0.9843137, g: 0.54509807, b: 0, a: 1}
-  - Multiple: 2
-    FontSize: 40
-    Width: 70
-    Color: {r: 0.92156863, g: 0.24705882, b: 0.4745098, a: 1}
 --- !u!82 &82243736805655561
 AudioSource:
   serializedVersion: 4

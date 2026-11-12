@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 224703437598541787}
   - component: {fileID: 222884547391421755}
-  - component: {fileID: 114099118695303065}
   m_Layer: 5
   m_Name: RollerCell
   m_TagString: Untagged
@@ -104,21 +103,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709254077376921}
   m_CullTransparentMesh: 1
---- !u!114 &114099118695303065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709254077376921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 136abd15d20be6abe1b7e779cdb86fc0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  _bg: {fileID: 114587765826080250}
-  _bigBg: {fileID: 114589667821646929}
-  _text: {fileID: 114705390221481576}
 --- !u!224 &224243736805655561
 RectTransform:
   serializedVersion: 2
