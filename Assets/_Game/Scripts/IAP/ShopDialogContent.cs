@@ -65,10 +65,11 @@ namespace ShopUI
 			foreach (var id in new[] { IapCatalog.Starter, IapCatalog.RemoveAds, IapCatalog.Vip, IapCatalog.Super })
 			{
 				var p = IapCatalog.Get(id);
-				if (p == null || cfg.ShopBundleItem == null) continue;
+				var prefab = BundlePrefab(cfg, id);
+				if (p == null || prefab == null) continue;
 				if (p.Kind == IapProductKind.NonConsumable && iap != null && iap.IsOwned(id)) continue;
 				if (id == IapCatalog.RemoveAds && ud != null && ud.IsRemoveAds) continue;
-				var go = Instantiate(cfg.ShopBundleItem, _content, false);
+				var go = Instantiate(prefab, _content, false);
 				var item = go.GetComponent<ShopBundleItem>() ?? go.AddComponent<ShopBundleItem>();
 				item.Index = index++;
 				item.Setup(p, Placement);
@@ -86,11 +87,25 @@ namespace ShopUI
 			}
 		}
 
+		static GameObject BundlePrefab(GameConfig cfg, string id)
+		{
+			GameObject p = null;
+			if (id == IapCatalog.Starter) p = cfg.StarterBundleItem;
+			else if (id == IapCatalog.Vip) p = cfg.VipBundleItem;
+			else if (id == IapCatalog.Super) p = cfg.SuperBundleItem;
+			else if (id == IapCatalog.RemoveAds) p = cfg.RemoveAdsItem;
+			return p != null ? p : cfg.ShopBundleItem;
+		}
+
 		void EnsureLayout()
 		{
 			var v = _content.GetComponent<VerticalLayoutGroup>() ?? _content.gameObject.AddComponent<VerticalLayoutGroup>();
 			v.spacing = Spacing;
-			v.padding = Padding ?? new RectOffset();
+			var pad = Padding ?? new RectOffset();
+			// tab Shop ở Home: chừa chỗ cho thanh điều hướng để gói cuối không bị che
+			var cfg = GameConfig.Instance;
+			if (IsPageMode && cfg != null) pad = new RectOffset(pad.left, pad.right, pad.top, Mathf.Max(pad.bottom, Mathf.RoundToInt(cfg.ShopPageBottomPadding)));
+			v.padding = pad;
 			v.childAlignment = TextAnchor.UpperCenter;
 			v.childControlWidth = false;
 			v.childControlHeight = true;

@@ -43,8 +43,8 @@ namespace Snui
 			{
 				var size = _cursor.sizeDelta;
 				// tab có thể rất rộng trên màn hình ngang/iPad: giữ con trỏ đúng cỡ thiết kế
-				size.x = crt.rect.width * Mathf.Max(1f, CursorExpand) / 1.6f;
-				if (_cursorBaseWidth > 0f) size.x = Mathf.Min(size.x, _cursorBaseWidth);
+				// con trỏ phủ gần hết ô tab đang chọn (chừa 6px mỗi bên) để thanh điều hướng gọn gàng
+				size.x = Mathf.Max(_cursorBaseWidth, crt.rect.width - 12f);
 				_cursor.sizeDelta = size;
 			}
 			_cursor.DOKill();

@@ -101,5 +101,10 @@ MonoBehaviour:
   ShopContent: {fileID: 1709254077376921, guid: a4f1ee7249120414bac02e994f60f170, type: 3}
   ShopCoinItem: {fileID: 1709254077376921, guid: 107bdc9917ff4ff47b329938906048a1, type: 3}
   ShopBundleItem: {fileID: 1709254077376921, guid: 6cccc85395418be4e98c2b565b500b1d, type: 3}
+  StarterBundleItem: {fileID: 1709254077376921, guid: 47a28d6ca2a0e4245bc0ea9926035694, type: 3}
+  VipBundleItem: {fileID: 1709254077376921, guid: 0d0414b590ade634f8585dc4e17ec065, type: 3}
+  SuperBundleItem: {fileID: 1709254077376921, guid: 577fa6e6bdcda3346a3a3fad4d427115, type: 3}
+  RemoveAdsItem: {fileID: 1709254077376921, guid: 6751981f914eef44ba0c4ef047bf093d, type: 3}
+  ShopPageBottomPadding: 220
   SettingsDialog: {fileID: 1709254077376921, guid: 4ed73c799d5491e4092aea54b633fc62, type: 3}
   StageRewardDialog: {fileID: 1709254077376921, guid: 081b810ab0438e7488c0d9820bc7e310, type: 3}

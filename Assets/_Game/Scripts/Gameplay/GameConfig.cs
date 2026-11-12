@@ -25,6 +25,13 @@ public class GameConfig : ScriptableObject
 	public GameObject ShopContent;
 	public GameObject ShopCoinItem;
 	public GameObject ShopBundleItem;
+	[Tooltip("Prefab riêng cho từng gói (có ảnh coin, công cụ, tim); để trống thì dùng ShopBundleItem")]
+	public GameObject StarterBundleItem;
+	public GameObject VipBundleItem;
+	public GameObject SuperBundleItem;
+	public GameObject RemoveAdsItem;
+	[Tooltip("Khoảng trống dưới danh sách Shop ở tab Home để không bị thanh điều hướng che")]
+	public float ShopPageBottomPadding = 220f;
 	public GameObject SettingsDialog;
 	public GameObject StageRewardDialog;
 	public int ChestEveryLevels = 5;
