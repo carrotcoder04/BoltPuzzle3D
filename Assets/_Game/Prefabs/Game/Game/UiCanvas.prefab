@@ -2504,7 +2504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3f5f5811d80d741fbc1f02514464b2c, type: 3}
   m_Name:
   m_EditorClassIdentifier:
-  CoinSprite: {fileID: 21300000, guid: 9ed43d0504788574abd9f67395b2ba88, type: 3}
+  CoinSprite: {fileID: 21300000, guid: e9815d54020e26c45839a8e5d60376b6, type: 2}
   PriceTagSprite: {fileID: 21300000, guid: f5f13fdfaa894b24bd3069fa2c431d0f, type: 3}
 --- !u!224 &224066778049879928
 RectTransform:
