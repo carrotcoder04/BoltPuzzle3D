@@ -162,6 +162,8 @@ public class GameController : MonoBehaviour
 		for (int i = 0; i < UnlockedBoxSlots; i++) SpawnBox(i, i * 0.08f);
 
 		if (GameCanvas != null) GameCanvas.Bind(this);
+		Canvas.ForceUpdateCanvases();
+		LayoutHoles(false);
 		OnProgressChanged?.Invoke();
 		if (Managers.Audio != null) Managers.Audio.PlaySfx(Sfx.Whoosh);
 		_startTime = Time.time;
@@ -182,6 +184,45 @@ public class GameController : MonoBehaviour
 		float depth = BoxRoot != null ? Mathf.Abs(BoxRoot.position.z - _mainCam.transform.position.z) : 15f;
 		if (depth < 1f) depth = 15f;
 		return _mainCam.ScreenToWorldPoint(new Vector3(sp.x, sp.y, depth));
+	}
+
+	/// <summary>Đường kính đầu ốc (world) khi nằm trong lỗ hộp / lỗ chờ.</summary>
+	public float ScrewHeadWorldSize = 0.62f;
+
+	/// <summary>Chuyển một RectTransform UI sang toạ độ world của MainCamera ở độ sâu của BoxRoot.</summary>
+	Vector3 UiToWorld(RectTransform rt)
+	{
+		var canvas = rt.GetComponentInParent<Canvas>();
+		var cam = canvas != null && canvas.renderMode != RenderMode.ScreenSpaceOverlay ? (canvas.worldCamera != null ? canvas.worldCamera : _uiCam) : null;
+		Vector2 sp = RectTransformUtility.WorldToScreenPoint(cam, rt.position);
+		float depth = BoxRoot != null ? Mathf.Abs(BoxRoot.position.z - _mainCam.transform.position.z) : 15f;
+		if (depth < 1f) depth = 15f;
+		return _mainCam.ScreenToWorldPoint(new Vector3(sp.x, sp.y, depth));
+	}
+
+	/// <summary>
+	/// Xếp các lỗ chờ đang mở thành một hàng dưới dãy hộp (vị trí HoleContainer trên UI),
+	/// khoảng cách theo bề rộng dãy hộp. Prefab gốc để mọi lỗ ở cùng một điểm.
+	/// </summary>
+	void LayoutHoles(bool animate)
+	{
+		if (HoleRoot == null || _mainCam == null) return;
+		var hc = GameCanvas != null ? GameCanvas.transform.FindDeep("HoleContainer") as RectTransform : null;
+		if (hc != null) HoleRoot.position = UiToWorld(hc);
+		float width = 7.2f;
+		if (GameCanvas != null && GameCanvas.GetBoxPos(0) != null && GameCanvas.GetBoxPos(3) != null)
+			width = Mathf.Abs(SlotWorldPos(3).x - SlotWorldPos(0).x) * 1.15f;
+		float step = width / 6f;
+		var active = new List<Hole>();
+		foreach (var h in _holes) if (h.IsActive) active.Add(h);
+		for (int i = 0; i < active.Count; i++)
+		{
+			var lp = new Vector3((i - (active.Count - 1) * 0.5f) * step, 0f, 0f);
+			var t = active[i].transform;
+			if (animate) t.DOLocalMove(lp, 0.25f).SetEase(Ease.OutQuad);
+			else t.localPosition = lp;
+		}
+		if (_oneLeft != null) _oneLeft.transform.localPosition = new Vector3(0f, -step * 0.9f, 0f);
 	}
 
 	void SpawnBox(int slot, float delay = 0f)
@@ -534,7 +575,7 @@ public class GameController : MonoBehaviour
 		foreach (var h in _holes) h.ShowFailNotice(false);
 		Hole locked = null;
 		foreach (var h in _holes) if (!h.IsActive) { locked = h; break; }
-		if (locked != null) locked.Unlock();
+		if (locked != null) { locked.Unlock(); LayoutHoles(true); }
 		else UseBroom();
 		if (Managers.Audio != null) Managers.Audio.PlaySfx(Sfx.Revive);
 		UpdateHoleNotice();

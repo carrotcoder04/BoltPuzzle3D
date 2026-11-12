@@ -67,29 +67,58 @@ public class Screw : MonoBehaviour
 	}
 
 	/// <summary>Bay tới vị trí đích (world) trên lớp Top rồi gắn vào parent.</summary>
-	public void FlyTo(Transform parent, float duration, Action onArrive)
+	/// <summary>Đường kính đầu ốc (đơn vị local của ốc), lấy từ BoxCollider gốc.</summary>
+	public float HeadDiameter
+	{
+		get
+		{
+			var bc = (_col != null ? _col : GetComponent<Collider>()) as BoxCollider;
+			return bc != null ? Mathf.Max(0.05f, Mathf.Max(bc.size.y, bc.size.z)) : 0.71f;
+		}
+	}
+
+	/// <summary>
+	/// Bay tới vị trí đích (world) trên lớp Top rồi gắn vào parent.
+	/// Khi tới nơi: đầu ốc quay về phía camera (cắm thẳng vào lỗ) và co giãn để đầu ốc rộng headWorldSize.
+	/// </summary>
+	public void FlyTo(Transform parent, float duration, Action onArrive, float headWorldSize = 0f)
 	{
 		SetLayerRecursive(gameObject, GameController.TopLayer);
 		transform.DOKill();
+		var cam = Camera.main;
 		var start = transform.position;
-		var end = parent.position;
-		var mid = (start + end) * 0.5f + Vector3.up * 2f;
-		var targetRot = parent.rotation * Quaternion.Euler(0f, 0f, 90f);
-		var startScale = transform.lossyScale;
+		Vector3 toCam = cam != null ? -cam.transform.forward : Vector3.back;
+		Vector3 camUp = cam != null ? cam.transform.up : Vector3.up;
+		var end = parent.position + toCam * 0.3f;
+		var mid = (start + end) * 0.5f + camUp * 2f + toCam * 2f;
+		// local +X (hướng đầu ốc) quay về phía camera
+		var targetRot = Quaternion.LookRotation(toCam, camUp) * Quaternion.Euler(0f, -90f, 0f);
+		var startScale = transform.lossyScale.x;
+		if (headWorldSize <= 0f && GameController.Instance != null) headWorldSize = GameController.Instance.ScrewHeadWorldSize;
+		float endScale = headWorldSize > 0f ? headWorldSize / HeadDiameter : startScale;
 		var seq = DOTween.Sequence();
 		seq.Append(DOVirtual.Float(0f, 1f, duration, t =>
 		{
 			float u = 1f - t;
 			transform.position = u * u * start + 2f * u * t * mid + t * t * end;
+			SetWorldScale(Mathf.Lerp(startScale, endScale, t));
 		}).SetEase(Ease.InOutQuad));
 		seq.Join(transform.DORotateQuaternion(targetRot, duration));
 		seq.OnComplete(() =>
 		{
 			transform.SetParent(parent, true);
-			transform.localPosition = Vector3.zero;
+			transform.position = end;
 			transform.rotation = targetRot;
+			SetWorldScale(endScale);
 			onArrive?.Invoke();
 		});
+	}
+
+	void SetWorldScale(float world)
+	{
+		var p = transform.parent;
+		float ps = p != null ? Mathf.Max(1e-4f, p.lossyScale.x) : 1f;
+		transform.localScale = Vector3.one * (world / ps);
 	}
 
 	public static void SetLayerRecursive(GameObject go, int layer)

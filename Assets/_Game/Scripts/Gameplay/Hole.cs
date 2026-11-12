@@ -12,6 +12,7 @@ public class Hole : MonoBehaviour
 	GameObject _failNotice;
 
 	bool _inited;
+	Vector3 _baseScale = Vector3.one;
 
 	void Awake() => Init();
 
@@ -20,6 +21,7 @@ public class Hole : MonoBehaviour
 	{
 		if (_inited) return;
 		_inited = true;
+		_baseScale = transform.localScale;
 		Pos = transform.Find("Pos") ?? transform;
 		var f = transform.Find("FailNotice");
 		_failNotice = f != null ? f.gameObject : null;
@@ -57,6 +59,6 @@ public class Hole : MonoBehaviour
 		Init();
 		gameObject.SetActive(true);
 		transform.localScale = Vector3.zero;
-		transform.DOScale(1f, 0.3f).SetEase(Ease.OutBack);
+		transform.DOScale(_baseScale, 0.3f).SetEase(Ease.OutBack);
 	}
 }
