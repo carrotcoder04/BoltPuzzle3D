@@ -204,7 +204,19 @@ public class GameController : MonoBehaviour
 
 	void LateUpdate()
 	{
-		if (Screen.width != _fitScreen.x || Screen.height != _fitScreen.y) FitCamerasToAspect();
+		if (Screen.width == _fitScreen.x && Screen.height == _fitScreen.y) return;
+		FitCamerasToAspect();
+		RelayoutToScreen();
+	}
+
+	/// <summary>Kích thước màn hình đổi: đặt lại khay và lỗ chờ theo vị trí UI mới (đợi Canvas tính lại layout).</summary>
+	void RelayoutToScreen()
+	{
+		Canvas.ForceUpdateCanvases();
+		if (_slots != null)
+			for (int i = 0; i < _slots.Length; i++)
+				if (_slots[i] != null) _slots[i].transform.position = SlotWorldPos(i);
+		LayoutHoles(false);
 	}
 
 	static Transform FindRoot(string name)
