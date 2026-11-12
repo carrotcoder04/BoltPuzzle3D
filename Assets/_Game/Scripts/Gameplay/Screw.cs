@@ -21,6 +21,16 @@ public class Screw : MonoBehaviour
 	Collider _col;
 	MaterialPropertyBlock _mpb;
 
+	/// <summary>Màu hiển thị của ốc (dùng cho hiệu ứng hạt).</summary>
+	public Color DisplayColor
+	{
+		get
+		{
+			var cs = GameConfig.Instance != null ? GameConfig.Instance.ScrewColors : null;
+			return cs != null && ScrewColor >= 0 && ScrewColor < cs.Length ? cs[ScrewColor] : Color.white;
+		}
+	}
+
 	public Renderer Renderer => _renderer != null ? _renderer : (_renderer = GetComponent<Renderer>());
 
 	void Awake()
@@ -65,6 +75,7 @@ public class Screw : MonoBehaviour
 		if (VibrationManager.Instance != null) VibrationManager.Instance.Light();
 		transform.DOKill();
 		var p0 = transform.position;
+		FxManager.ScrewPop(p0, DisplayColor);
 		var baseScale = transform.localScale;
 		var seq = DOTween.Sequence();
 		// 1. nảy nhẹ khi chạm
@@ -147,6 +158,7 @@ public class Screw : MonoBehaviour
 			// 3. nảy khi cắm xong
 			transform.DOPunchScale(transform.localScale * 0.22f, 0.22f, 6, 0.6f).SetLink(gameObject);
 			if (VibrationManager.Instance != null) VibrationManager.Instance.Light();
+			FxManager.ScrewLand(finalPos, DisplayColor);
 			onArrive?.Invoke();
 		});
 	}

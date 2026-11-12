@@ -101,7 +101,7 @@ public class BoxScript : MonoBehaviour
 			seq.AppendInterval(0.12f);
 			// nắp rơi xuống, nảy nhẹ
 			seq.Append(_lidRoot.DOLocalMove(target, 0.22f).SetEase(Ease.OutBounce));
-			seq.AppendCallback(() => { HideScrews(); if (AudioManager.Instance != null) AudioManager.Instance.PlaySfx(Sfx.Match); if (VibrationManager.Instance != null) VibrationManager.Instance.Medium(); });
+			seq.AppendCallback(() => { HideScrews(); FxManager.BoxComplete(transform.position, BoxColor); if (AudioManager.Instance != null) AudioManager.Instance.PlaySfx(Sfx.Match); if (VibrationManager.Instance != null) VibrationManager.Instance.Medium(); });
 			// dẹt xuống rồi bật lên
 			seq.Append(transform.DOScale(new Vector3(baseScale.x * 1.2f, baseScale.y * 0.82f, baseScale.z), 0.08f).SetEase(Ease.OutQuad));
 			seq.Append(transform.DOScale(new Vector3(baseScale.x * 0.9f, baseScale.y * 1.15f, baseScale.z), 0.1f).SetEase(Ease.OutQuad));
@@ -115,6 +115,15 @@ public class BoxScript : MonoBehaviour
 			seq.OnComplete(Finish);
 		}
 		else Finish();
+	}
+
+	Color BoxColor
+	{
+		get
+		{
+			var cs = GameConfig.Instance != null ? GameConfig.Instance.ScrewColors : null;
+			return cs != null && Color >= 0 && Color < cs.Length ? cs[Color] : UnityEngine.Color.white;
+		}
 	}
 
 	void HideScrews()

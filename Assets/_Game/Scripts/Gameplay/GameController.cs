@@ -635,6 +635,7 @@ public class GameController : MonoBehaviour
 		SetMode(ToolMode.None);
 		UpdateHoleNotice();
 		if (Managers.Audio != null) Managers.Audio.PlaySfx(Sfx.Win);
+		FxManager.WinConfetti();
 		AnalyticsManager.LevelWin(Level, Time.time - _startTime, TotalScrews, _boostersUsed);
 		DOVirtual.DelayedCall(0.6f, () =>
 		{

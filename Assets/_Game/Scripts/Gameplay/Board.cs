@@ -88,6 +88,10 @@ public class Board : MonoBehaviour
 			_rb.angularVelocity = Random.insideUnitSphere * 6f;
 		}
 		if (AudioManager.Instance != null) AudioManager.Instance.PlaySfx(Sfx.BoardOpen);
+		{
+			var rb = GetComponent<Renderer>();
+			FxManager.BoardFall(rb != null ? rb.bounds.center : transform.position);
+		}
 		transform.DOScale(transform.localScale * 0.6f, 0.6f).SetDelay(1.2f).SetEase(Ease.InQuad).SetLink(gameObject);
 		Destroy(gameObject, 2.5f);
 		if (gc != null) gc.OnBoardFallen(this);
