@@ -112,3 +112,4 @@ MonoBehaviour:
   TutorialTapRing: {fileID: 21300000, guid: 3e38ec4a4c264b22a1da738dd0b9b4cd, type: 3}
   TutorialRotate: {fileID: 21300000, guid: b58ac2ce02d7e674bbf88fbd19d7f685, type: 3}
   StageRewardDialog: {fileID: 1709254077376921, guid: 081b810ab0438e7488c0d9820bc7e310, type: 3}
+  BuyItemDialog: {fileID: 1709254077376921, guid: c405600700c84a8469dfa653159b2178, type: 3}

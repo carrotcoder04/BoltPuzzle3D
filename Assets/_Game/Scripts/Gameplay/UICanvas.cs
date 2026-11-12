@@ -144,7 +144,7 @@ public class UICanvas : MonoBehaviour
 			_adBoxBtns[i].interactable = next;
 			var tt = _adBoxBtns[i].transform.Find("Text");
 			var txt = tt != null ? tt.GetComponent<TMP_Text>() : _adBoxBtns[i].GetComponentInChildren<TMP_Text>(true);
-			EnsureCoinIcon(_adBoxBtns[i], txt);
+			EnsurePlusIcon(_adBoxBtns[i], txt);
 		}
 	}
 
@@ -219,17 +219,39 @@ public class UICanvas : MonoBehaviour
 		if (pt != null) pt.text = BoxSlotPrice.ToString();
 	}
 
-	/// <summary>Mở ô hộp 3/4: luôn trừ coin.</summary>
+	/// <summary>Dấu "+" giữa nút thêm khay (lấy sprite từ dấu + của nút công cụ).</summary>
+	void EnsurePlusIcon(Button btn, TMP_Text txt)
+	{
+		if (btn == null) return;
+		if (txt != null) txt.gameObject.SetActive(false);
+		var old = btn.transform.Find("PriceTag");
+		if (old != null) old.gameObject.SetActive(false);
+		if (btn.transform.Find("Plus") != null) return;
+		var src = transform.FindDeep("Tools");
+		var add = src != null ? src.FindDeep("Add") : null;
+		var srcImg = add != null ? add.GetComponent<Image>() : null;
+		if (srcImg == null || srcImg.sprite == null) return;
+		var go = new GameObject("Plus", typeof(RectTransform), typeof(Image));
+		var rt = (RectTransform)go.transform;
+		rt.SetParent(btn.transform, false);
+		rt.anchorMin = rt.anchorMax = new Vector2(0.5f, 0.5f);
+		rt.anchoredPosition = new Vector2(0f, -6f);
+		rt.sizeDelta = new Vector2(64f, 64f);
+		var im = go.GetComponent<Image>();
+		im.sprite = srcImg.sprite; im.preserveAspect = true; im.raycastTarget = false;
+	}
+
+	/// <summary>Mở ô hộp 3/4: bấm dấu + → popup trả coin.</summary>
 	void OnAdBox(int index)
 	{
 		if (_gc == null || _gc.InputLocked || _gc.UnlockedBoxSlots != 2 + index) return;
 		// Thêm khay luôn phải trả coin (không dùng lượt miễn phí)
-		var ud = Managers.UserData;
-		bool paid = ud != null && ud.TrySpendCoins(BoxSlotPrice, "box_slot");
-		if (!paid) { UIUtil.Deny(_adBoxBtns[index]); return; }
-		if (Managers.Audio != null) Managers.Audio.PlaySfx(Sfx.BigCoinGet);
-		_gc.UnlockBoxSlot();
-		RefreshAdBox();
+		BuyItemDialogContent.Open(BuyItemDialogContent.Kind.Box, BoxSlotPrice, () =>
+		{
+			if (_gc == null || _gc.UnlockedBoxSlots != 2 + index) return;
+			_gc.UnlockBoxSlot();
+			RefreshAdBox();
+		});
 	}
 
 	void OnMode(ToolMode m)

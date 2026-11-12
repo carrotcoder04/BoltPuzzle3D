@@ -40,6 +40,8 @@ public class GameConfig : ScriptableObject
 	public Sprite TutorialTapRing;
 	public Sprite TutorialRotate;
 	public GameObject StageRewardDialog;
+	[Tooltip("Popup mua công cụ / thêm khay bằng coin (BuyToolDialog)")]
+	public GameObject BuyItemDialog;
 	public int ChestEveryLevels = 5;
 	public int ChestCoins = 100;
 
