@@ -546,11 +546,18 @@ public class GameController : MonoBehaviour
 		if (any)
 		{
 			OnUsingBroom = true;
-			if (GameCanvas != null) GameCanvas.PlayBroom(HoleScreenMin(), HoleScreenMax());
+			if (GameCanvas != null) GameCanvas.PlayBroom(HoleScreenMin(), HoleScreenMax(), ActiveHoleCount());
 			StartCoroutine(BroomSweep(list));
 		}
 		UpdateHoleNotice();
 		return any;
+	}
+
+	int ActiveHoleCount()
+	{
+		int n = 0;
+		foreach (var h in _holes) if (h.IsActive) n++;
+		return n;
 	}
 
 	Vector2 HoleScreenMin() => HoleScreenEdge(true);

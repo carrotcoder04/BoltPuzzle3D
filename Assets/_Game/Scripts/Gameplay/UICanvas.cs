@@ -115,7 +115,9 @@ public class UICanvas : MonoBehaviour
 
 	// Animation "animation" của clean.skel (đo bằng spine-csharp): chổi bay vào từ góc dưới phải (0–0.75s),
 	// sự kiện "hit" ở 1.2s, rồi quét TRÁI → PHẢI theo xương "clean" từ x≈-204 tới x≈267, y≈40–52 (1.17–1.57s).
+	// Ảnh khung khay "clean_2" (slot clean_frame) phủ x -381..374, y -34..36: đây là phần phải trùng hàng lỗ.
 	const float BroomSweepFromX = -204f, BroomSweepToX = 267f, BroomSweepY = 45f;
+	const float FrameMinX = -381f, FrameMaxX = 374f, FrameY = 1f;
 	const float BroomTimeScale = 0.85f;
 
 	Spine.Bone _broomBone;
@@ -159,7 +161,7 @@ public class UICanvas : MonoBehaviour
 	/// Phát chổi quét qua hàng lỗ: đặt và co giãn BroomSpine để đường quét của chổi nằm đúng trên hàng lỗ
 	/// (holeMin/holeMax là toạ độ màn hình của lỗ ngoài cùng trái/phải).
 	/// </summary>
-	public void PlayBroom(Vector2 holeMin, Vector2 holeMax)
+	public void PlayBroom(Vector2 holeMin, Vector2 holeMax, int holeCount)
 	{
 		if (_broomSpine == null) return;
 		BroomSweeping = false;
@@ -174,7 +176,7 @@ public class UICanvas : MonoBehaviour
 		if (sg != null)
 		{
 			sg.timeScale = BroomTimeScale;
-			if (_broomRt != null && sg.MeshScale > 0f) AlignBroom(sg, holeMin, holeMax);
+			if (_broomRt != null && sg.MeshScale > 0f) AlignBroom(sg, holeMin, holeMax, holeCount);
 			if (sg.AnimationState != null && !string.IsNullOrEmpty(sg.startingAnimation))
 			{
 				sg.AnimationState.ClearListenerNotifications();
@@ -182,6 +184,8 @@ public class UICanvas : MonoBehaviour
 				if (entry != null && entry.Animation != null) duration = entry.Animation.Duration;
 				entry.Event += (te, ev) => { if (ev.Data.Name == "hit") BroomSweeping = true; };
 				entry.Complete += te => { BroomDone = true; };
+				sg.Update(0f);
+				sg.LateUpdate();
 			}
 		}
 		float real = duration / Mathf.Max(0.1f, BroomTimeScale);
@@ -193,24 +197,31 @@ public class UICanvas : MonoBehaviour
 		}).SetLink(gameObject);
 	}
 
-	void AlignBroom(Spine.Unity.SkeletonGraphic sg, Vector2 holeMin, Vector2 holeMax)
+	void AlignBroom(Spine.Unity.SkeletonGraphic sg, Vector2 holeMin, Vector2 holeMax, int holeCount)
 	{
 		var parent = _broomRt.parent as RectTransform;
 		if (parent == null) return;
 		var cam = UiCam(sg);
-		// 1. co giãn đều để đường quét phủ hàng lỗ (giới hạn để chổi không quá to/nhỏ)
-		float sweepW = Mathf.Abs(SpineToScreen(sg, BroomSweepToX, BroomSweepY).x - SpineToScreen(sg, BroomSweepFromX, BroomSweepY).x);
-		float holesW = Mathf.Abs(holeMax.x - holeMin.x) + Screen.width * 0.08f;
-		if (sweepW > 1f)
+		// 1. co giãn đều để khung khay của animation phủ đúng hàng lỗ (thêm nửa khoảng cách lỗ mỗi bên)
+		float frameW = Mathf.Abs(SpineToScreen(sg, FrameMaxX, FrameY).x - SpineToScreen(sg, FrameMinX, FrameY).x);
+		float span = Mathf.Abs(holeMax.x - holeMin.x);
+		float spacing = holeCount > 1 ? span / (holeCount - 1) : Screen.width * 0.12f;
+		float targetW = span + spacing;
+		if (frameW > 1f)
 		{
-			float k = Mathf.Clamp(holesW / sweepW, 0.8f, 1.35f);
+			float k = Mathf.Clamp(targetW / frameW, 0.5f, 1.8f);
 			_broomRt.localScale = _broomBaseScale * k;
 		}
-		// 2. dời để giữa đường quét trùng giữa hàng lỗ
-		var sweepMid = SpineToScreen(sg, (BroomSweepFromX + BroomSweepToX) * 0.5f, BroomSweepY);
+		// 2. dời để tâm khung khay trùng tâm hàng lỗ
+		var frameMid = SpineToScreen(sg, (FrameMinX + FrameMaxX) * 0.5f, FrameY);
 		var holeMid = (holeMin + holeMax) * 0.5f;
-		if (RectTransformUtility.ScreenPointToLocalPointInRectangle(parent, sweepMid, cam, out var a) &&
+		if (RectTransformUtility.ScreenPointToLocalPointInRectangle(parent, frameMid, cam, out var a) &&
 			RectTransformUtility.ScreenPointToLocalPointInRectangle(parent, holeMid, cam, out var b))
 			_broomRt.anchoredPosition += b - a;
+#if UNITY_EDITOR
+		Debug.Log("[Broom] align holes=" + holeMin.ToString("F0") + ".." + holeMax.ToString("F0") + " n=" + holeCount +
+			" frameW=" + frameW.ToString("F0") + " target=" + targetW.ToString("F0") + " scale=" + _broomRt.localScale.x.ToString("F2") +
+			" pos=" + _broomRt.anchoredPosition.ToString("F0") + " meshScale=" + sg.MeshScale.ToString("F3") + " frameNow=" + SpineToScreen(sg, FrameMinX, FrameY).ToString("F0") + ".." + SpineToScreen(sg, FrameMaxX, FrameY).ToString("F0"));
+#endif
 	}
 }
