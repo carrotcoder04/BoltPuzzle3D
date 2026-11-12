@@ -43,6 +43,132 @@ public class UICanvas : MonoBehaviour
 			root.SetActive(n, false);
 	}
 
+	// ---------------------------------------------------------------- zoom
+	ZoomGesture _zoom;
+	Slider _zoomSlider;
+	bool _zoomDragging;
+
+	/// <summary>
+	/// Cột zoom ở mép phải màn Game: nút căn giữa, nút +, slider dọc, nút -.
+	/// Slider điều khiển ZoomGesture của GameRoot; pinch/con lăn cũng cập nhật lại slider.
+	/// </summary>
+	void BuildZoomPanel()
+	{
+		if (_zoomSlider != null || _gc == null || _gc.GameRoot == null) return;
+		_zoom = _gc.GameRoot.GetComponent<ZoomGesture>();
+		if (_zoom == null) return;
+		var cfg = GameConfig.Instance;
+		var parent = transform.Find("SafeArea") as RectTransform ?? (RectTransform)transform;
+
+		var panel = new GameObject("ZoomPanel", typeof(RectTransform), typeof(VerticalLayoutGroup));
+		var prt = (RectTransform)panel.transform;
+		prt.SetParent(parent, false);
+		prt.anchorMin = prt.anchorMax = new Vector2(1f, 0.5f);
+		prt.pivot = new Vector2(1f, 0.5f);
+		prt.anchoredPosition = new Vector2(-14f, 40f);
+		prt.sizeDelta = new Vector2(64f, 420f);
+		var vlg = panel.GetComponent<VerticalLayoutGroup>();
+		vlg.spacing = 10f;
+		vlg.childAlignment = TextAnchor.UpperCenter;
+		vlg.childControlWidth = vlg.childControlHeight = false;
+		vlg.childForceExpandWidth = vlg.childForceExpandHeight = false;
+
+		ZoomButton(prt, "Focus", cfg != null ? cfg.FocusSprite : null, 60f, () => { _gc.RecenterModel(); SyncZoomSlider(true); });
+		ZoomButton(prt, "ZoomIn", cfg != null ? cfg.ZoomInSprite : null, 52f, () => Step(0.2f));
+
+		// slider dọc
+		var sgo = new GameObject("ZoomSlider", typeof(RectTransform), typeof(Slider));
+		var srt = (RectTransform)sgo.transform;
+		srt.SetParent(prt, false);
+		srt.sizeDelta = new Vector2(44f, 220f);
+		var track = NewImage("Track", srt, null, new Color(0.12f, 0.16f, 0.32f, 0.45f));
+		Stretch(track.rectTransform, new Vector2(15f, 6f), new Vector2(-15f, -6f));
+		var fillArea = new GameObject("FillArea", typeof(RectTransform));
+		var fart = (RectTransform)fillArea.transform;
+		fart.SetParent(srt, false);
+		Stretch(fart, new Vector2(15f, 6f), new Vector2(-15f, -6f));
+		var fill = NewImage("Fill", fart, null, new Color(1f, 0.85f, 0.25f, 0.95f));
+		Stretch(fill.rectTransform, Vector2.zero, Vector2.zero);
+		var handleArea = new GameObject("HandleArea", typeof(RectTransform));
+		var hart = (RectTransform)handleArea.transform;
+		hart.SetParent(srt, false);
+		Stretch(hart, new Vector2(0f, 14f), new Vector2(0f, -14f));
+		var handle = NewImage("Handle", hart, cfg != null ? cfg.ZoomHandleSprite : null, Color.white);
+		handle.preserveAspect = true;
+		handle.rectTransform.sizeDelta = new Vector2(0f, 40f);
+		handle.raycastTarget = true;
+
+		_zoomSlider = sgo.GetComponent<Slider>();
+		_zoomSlider.direction = Slider.Direction.BottomToTop;
+		_zoomSlider.fillRect = fill.rectTransform;
+		_zoomSlider.handleRect = handle.rectTransform;
+		_zoomSlider.targetGraphic = handle;
+		_zoomSlider.minValue = 0f;
+		_zoomSlider.maxValue = 1f;
+		_zoomSlider.value = _zoom.Normalized;
+		_zoomSlider.onValueChanged.AddListener(v => { if (_zoom != null) _zoom.Normalized = v; });
+		var trig = sgo.AddComponent<UnityEngine.EventSystems.EventTrigger>();
+		AddTrigger(trig, UnityEngine.EventSystems.EventTriggerType.PointerDown, () => _zoomDragging = true);
+		AddTrigger(trig, UnityEngine.EventSystems.EventTriggerType.PointerUp, () => _zoomDragging = false);
+
+		ZoomButton(prt, "ZoomOut", cfg != null ? cfg.ZoomOutSprite : null, 52f, () => Step(-0.2f));
+	}
+
+	void Step(float d)
+	{
+		if (_zoom == null) return;
+		_zoom.Normalized = _zoom.Normalized + d;
+		SyncZoomSlider(true);
+	}
+
+	void SyncZoomSlider(bool force)
+	{
+		if (_zoomSlider == null || _zoom == null || (_zoomDragging && !force)) return;
+		float v = _zoom.Normalized;
+		if (force || Mathf.Abs(_zoomSlider.value - v) > 0.001f) _zoomSlider.SetValueWithoutNotify(v);
+	}
+
+	void Update() => SyncZoomSlider(false);
+
+	static void AddTrigger(UnityEngine.EventSystems.EventTrigger t, UnityEngine.EventSystems.EventTriggerType type, System.Action a)
+	{
+		var e = new UnityEngine.EventSystems.EventTrigger.Entry { eventID = type };
+		e.callback.AddListener(_ => a());
+		t.triggers.Add(e);
+	}
+
+	static Image NewImage(string name, Transform parent, Sprite sprite, Color color)
+	{
+		var go = new GameObject(name, typeof(RectTransform), typeof(Image));
+		go.transform.SetParent(parent, false);
+		var img = go.GetComponent<Image>();
+		img.sprite = sprite;
+		img.color = color;
+		img.raycastTarget = false;
+		return img;
+	}
+
+	static void Stretch(RectTransform rt, Vector2 min, Vector2 max)
+	{
+		rt.anchorMin = Vector2.zero; rt.anchorMax = Vector2.one;
+		rt.offsetMin = min; rt.offsetMax = max;
+	}
+
+	static void ZoomButton(RectTransform parent, string name, Sprite sprite, float size, System.Action onClick)
+	{
+		var img = NewImage(name, parent, sprite, sprite != null ? Color.white : new Color(0.55f, 0.6f, 0.72f, 0.9f));
+		img.raycastTarget = true;
+		img.rectTransform.sizeDelta = new Vector2(size, size);
+		var b = img.gameObject.AddComponent<Button>();
+		b.targetGraphic = img;
+		b.onClick.AddListener(() =>
+		{
+			img.transform.DOKill(true);
+			img.transform.DOPunchScale(Vector3.one * 0.15f, 0.2f, 6, 0.5f);
+			onClick?.Invoke();
+		});
+	}
+
 	public RectTransform GetBoxPos(int slot) => slot >= 0 && slot < _boxPos.Length ? _boxPos[slot] : null;
 
 	public void Bind(GameController gc)
@@ -56,6 +182,7 @@ public class UICanvas : MonoBehaviour
 		gc.OnProgressChanged += RefreshProgress;
 		gc.OnModeChanged += OnMode;
 		foreach (var t in GetComponentsInChildren<ToolBase>(true)) t.Bind(gc);
+		BuildZoomPanel();
 		RefreshProgress();
 	}
 
@@ -131,7 +258,7 @@ public class UICanvas : MonoBehaviour
 		UIUtil.SetText(_progressNum, Mathf.RoundToInt(p * 100f) + "%");
 	}
 
-	void RefreshAdBox()
+	public void RefreshAdBox()
 	{
 		if (_gc == null) return;
 		int startSlots = _gc.UnlockedBoxSlots;

@@ -39,6 +39,20 @@ public class ZoomGesture : MonoBehaviour
 			transform.localScale = Vector3.Lerp(transform.localScale, target, 1f - Mathf.Exp(-18f * Time.unscaledDeltaTime));
 	}
 
+	/// <summary>Mức zoom hiện tại (1 = gốc), đặt từ slider; tự kẹp trong [ZoomMin, ZoomMax].</summary>
+	public float Zoom
+	{
+		get => _zoom;
+		set => _zoom = Mathf.Clamp(value, ZoomMin, ZoomMax);
+	}
+
+	/// <summary>Zoom quy về 0..1 trong khoảng [ZoomMin, ZoomMax] (dùng cho slider).</summary>
+	public float Normalized
+	{
+		get => Mathf.InverseLerp(ZoomMin, ZoomMax, _zoom);
+		set => _zoom = Mathf.Lerp(ZoomMin, ZoomMax, Mathf.Clamp01(value));
+	}
+
 	public void ResetZoom()
 	{
 		_zoom = 1f;

@@ -114,3 +114,14 @@ MonoBehaviour:
   StageRewardDialog: {fileID: 1709254077376921, guid: 081b810ab0438e7488c0d9820bc7e310, type: 3}
   BuyItemDialog: {fileID: 1709254077376921, guid: c405600700c84a8469dfa653159b2178, type: 3}
   ToolsSpine: {fileID: 1231814100211528, guid: a439998e84a3dc841b33679fe10c10d9, type: 3}
+  ZoomInSprite: {fileID: 21300000, guid: 1eb75401b44a26e4b956d9e2b330b32f, type: 2}
+  ZoomOutSprite: {fileID: 21300000, guid: 0158bb7481585fe4fbc13a171317f971, type: 2}
+  FocusSprite: {fileID: 21300000, guid: c3b4bc3904ea444418e792dbc417108f, type: 2}
+  ZoomHandleSprite: {fileID: 21300000, guid: 3b451dd0f5066054eb968c7405819e66, type: 2}
+  DailyRewardDialog: {fileID: 1709254077376921, guid: bb746dcda07841bb88248bb3dcc27c5d, type: 3}
+  DailyIconSprite: {fileID: 21300000, guid: 6ff749ef6ec21e74db61b1c89adfa56a, type: 2}
+  RewardCoinSprite: {fileID: 21300000, guid: 0bde3e381e29f264eb3fa993c2de59ee, type: 2}
+  RewardDrillSprite: {fileID: 21300000, guid: 9765ec317c51de0489b246a1e8d77bc3, type: 2}
+  RewardHammerSprite: {fileID: 21300000, guid: bd28b33ada62dc54b848c2661fc8e381, type: 2}
+  RewardBroomSprite: {fileID: 21300000, guid: 675576d1dda823f429a3869de8ae2d74, type: 2}
+  RewardHeartSprite: {fileID: 21300000, guid: 50ad8ca5d1db0be4497c73d729256d03, type: 2}

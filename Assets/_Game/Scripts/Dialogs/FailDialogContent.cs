@@ -43,11 +43,11 @@ public class FailDialogContent : DialogContent
 	/// </summary>
 	void SetupContent(GameController gc)
 	{
-		bool addHole = gc == null || gc.ReviveAddsHole;
+		bool addHole = gc == null || gc.ReviveAddsBox; // nhánh "AddBox": mở thêm khay
 		transform.SetActive(Revive, true);
 		transform.SetActive(Revive + "/AddBox", addHole);
 		transform.SetActive(Revive + "/ClearHole", !addHole);
-		UIUtil.SetText(transform.FindComp<TMP_Text>(Revive + "/AddBox/Describe"), "Add 1 hole and continue!");
+		UIUtil.SetText(transform.FindComp<TMP_Text>(Revive + "/AddBox/Describe"), "Add 1 box and continue!");
 		transform.SetActive(LoseItem, false);
 
 		var img = transform.Find(Revive + (addHole ? "/AddBox/Image" : "/ClearHole/Image")) as RectTransform;

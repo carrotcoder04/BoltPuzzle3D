@@ -255,6 +255,7 @@ public class GameController : MonoBehaviour
 		if (GameCanvas != null) GameCanvas.Bind(this);
 		Canvas.ForceUpdateCanvases();
 		LayoutHoles(false);
+		SaveRootPose();
 		OnProgressChanged?.Invoke();
 		if (Managers.Audio != null) Managers.Audio.PlaySfx(Sfx.Whoosh);
 		_startTime = Time.time;
@@ -299,15 +300,21 @@ public class GameController : MonoBehaviour
 	/// Xếp các lỗ chờ đang mở thành một hàng dưới dãy hộp (vị trí HoleContainer trên UI),
 	/// khoảng cách theo bề rộng dãy hộp. Prefab gốc để mọi lỗ ở cùng một điểm.
 	/// </summary>
-	void LayoutHoles(bool animate)
+	/// <summary>Đặt HoleRoot theo HoleContainer trên UI, trả về khoảng cách giữa 2 lỗ.</summary>
+	float PlaceHoleRoot()
 	{
-		if (HoleRoot == null || _mainCam == null) return;
 		var hc = GameCanvas != null ? GameCanvas.transform.FindDeep("HoleContainer") as RectTransform : null;
-		if (hc != null) HoleRoot.position = UiToWorld(hc);
+		if (hc != null && HoleRoot != null && _mainCam != null) HoleRoot.position = UiToWorld(hc);
 		float width = 7.2f;
 		if (GameCanvas != null && GameCanvas.GetBoxPos(0) != null && GameCanvas.GetBoxPos(3) != null)
 			width = Mathf.Abs(SlotWorldPos(3).x - SlotWorldPos(0).x) * 1.15f;
-		float step = width / 6f;
+		return width / 6f;
+	}
+
+	void LayoutHoles(bool animate)
+	{
+		if (HoleRoot == null || _mainCam == null) return;
+		float step = PlaceHoleRoot();
 		var active = new List<Hole>();
 		foreach (var h in _holes) if (h.IsActive) active.Add(h);
 		for (int i = 0; i < active.Count; i++)
@@ -598,8 +605,7 @@ public class GameController : MonoBehaviour
 		switch (type)
 		{
 			case BoosterType.Drill:
-				SetMode(Mode == ToolMode.Drill ? ToolMode.None : ToolMode.Drill);
-				return true;
+				return UseDrill();
 			case BoosterType.Hammer:
 				SetMode(Mode == ToolMode.Hammer ? ToolMode.None : ToolMode.Hammer);
 				return true;
@@ -619,6 +625,48 @@ public class GameController : MonoBehaviour
 		AnalyticsManager.BoosterUse(type);
 		if (Managers.Audio != null) Managers.Audio.PlaySfx(sfx);
 		SetMode(ToolMode.None);
+	}
+
+	/// <summary>Lỗ khoá kế tiếp (Hole6/Hole7...) mà khoan có thể đục.</summary>
+	Hole NextLockedHole()
+	{
+		foreach (var h in _holes) if (!h.IsActive) return h;
+		return null;
+	}
+
+	/// <summary>Khoan: đục thêm 1 lỗ chờ. Mũi khoan bay vào vị trí lỗ mới, lỗ bật ra đúng lúc khoan chạm.</summary>
+	bool UseDrill()
+	{
+		var hole = NextLockedHole();
+		if (hole == null) return false;
+		SetMode(ToolMode.None);
+		System.Action open = () =>
+		{
+			_toolBusy = false;
+			if (hole.IsActive) return;
+			hole.Unlock();
+			LayoutHoles(true);
+			CompleteTool(BoosterType.Drill, Sfx.ToolDrill);
+			UpdateHoleNotice();
+			RequestCheck();
+		};
+		var world = FutureHoleWorldPos(hole);
+		bool played = GameCanvas != null && _mainCam != null && GameCanvas.PlayToolHit("Drill", _mainCam.WorldToScreenPoint(world), open);
+		if (played) _toolBusy = true;
+		else open();
+		return true;
+	}
+
+	/// <summary>Vị trí world mà lỗ sẽ nằm sau khi được mở (theo cách xếp của LayoutHoles).</summary>
+	Vector3 FutureHoleWorldPos(Hole hole)
+	{
+		float step = PlaceHoleRoot();
+		var active = new List<Hole>();
+		foreach (var h in _holes) if (h.IsActive || h == hole) active.Add(h);
+		int i = active.IndexOf(hole);
+		var lp = new Vector3((i - (active.Count - 1) * 0.5f) * step, 0f, 0f);
+		var p = HoleRoot != null ? HoleRoot.TransformPoint(lp) : hole.transform.position;
+		return hole.Pos != null ? p + (hole.Pos.position - hole.transform.position) : p;
 	}
 
 	static Vector3 BoardCenter(Board board)
@@ -749,6 +797,46 @@ public class GameController : MonoBehaviour
 		seq.OnComplete(() => { t.localScale = sc; ToReserve(s); });
 	}
 
+	/// <summary>Đưa màu ốc xuất hiện nhiều nhất trong lỗ chờ (mà còn trong hàng đợi hộp) lên đầu hàng đợi.</summary>
+	void PrioritizeHoleColor()
+	{
+		var count = new Dictionary<int, int>();
+		foreach (var h in _holes)
+			if (h.IsActive && h.Screw != null) { count.TryGetValue(h.Screw.ScrewColor, out int n); count[h.Screw.ScrewColor] = n + 1; }
+		var list = new List<int>(_queue);
+		int best = -1, bestN = 0;
+		foreach (var kv in count) if (kv.Value > bestN && list.Contains(kv.Key)) { best = kv.Key; bestN = kv.Value; }
+		if (best < 0) return;
+		list.Remove(best);
+		list.Insert(0, best);
+		_queue.Clear();
+		foreach (var c in list) _queue.Enqueue(c);
+	}
+
+	// ---------------------------------------------------------------- căn giữa vật thể (nút focus)
+	Quaternion _rootRot0;
+	Vector3 _rootPos0;
+	bool _rootSaved;
+
+	void SaveRootPose()
+	{
+		if (GameRoot == null) return;
+		_rootRot0 = GameRoot.localRotation;
+		_rootPos0 = GameRoot.localPosition;
+		_rootSaved = true;
+	}
+
+	/// <summary>Đưa mô hình về giữa: xoay và vị trí ban đầu, zoom 1x.</summary>
+	public void RecenterModel()
+	{
+		if (GameRoot == null || !_rootSaved) return;
+		GameRoot.DOKill();
+		GameRoot.DOLocalRotateQuaternion(_rootRot0, 0.35f).SetEase(Ease.OutCubic);
+		GameRoot.DOLocalMove(_rootPos0, 0.35f).SetEase(Ease.OutCubic);
+		var z = GameRoot.GetComponent<ZoomGesture>();
+		if (z != null) z.Zoom = 1f;
+	}
+
 	/// <summary>Mở thêm ô hộp (AdBoxBtn1 = ô 3, AdBoxBtn2 = ô 4).</summary>
 	public bool UnlockBoxSlot()
 	{
@@ -819,12 +907,8 @@ public class GameController : MonoBehaviour
 		}
 	}
 
-	/// <summary>Hồi sinh: mở lỗ Hole6/7 nếu còn, nếu không thì dùng hiệu ứng chổi.</summary>
-	/// <summary>Hồi sinh sẽ mở thêm lỗ (còn lỗ khoá) hay dọn sạch lỗ chờ.</summary>
-	public bool ReviveAddsHole
-	{
-		get { foreach (var h in _holes) if (!h.IsActive) return true; return false; }
-	}
+	/// <summary>Hồi sinh sẽ mở thêm khay (còn ô khay khoá) hay dọn sạch lỗ chờ bằng chổi.</summary>
+	public bool ReviveAddsBox => UnlockedBoxSlots < MaxBoxSlots;
 
 	public void Revive(string method = "coin")
 	{
@@ -832,9 +916,13 @@ public class GameController : MonoBehaviour
 		AnalyticsManager.LevelRevive(Level, method);
 		IsGameFail = false;
 		foreach (var h in _holes) h.ShowFailNotice(false);
-		Hole locked = null;
-		foreach (var h in _holes) if (!h.IsActive) { locked = h; break; }
-		if (locked != null) { locked.Unlock(); LayoutHoles(true); }
+		if (ReviveAddsBox)
+		{
+			// khay mới lấy màu của ốc đang nằm nhiều nhất trong lỗ chờ để giải phóng lỗ ngay
+			PrioritizeHoleColor();
+			UnlockBoxSlot();
+			if (GameCanvas != null) GameCanvas.RefreshAdBox();
+		}
 		else UseBroom();
 		if (Managers.Audio != null) Managers.Audio.PlaySfx(Sfx.Revive);
 		UpdateHoleNotice();

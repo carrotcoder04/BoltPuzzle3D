@@ -44,6 +44,21 @@ public class GameConfig : ScriptableObject
 	public GameObject BuyItemDialog;
 	[Tooltip("Node ToolsSpine (spine Khoan/Búa) trong UiCanvas.prefab, dùng khi UiCanvas của scene không có")]
 	public GameObject ToolsSpine;
+
+	[Header("Zoom (màn Game)")]
+	public Sprite ZoomInSprite;
+	public Sprite ZoomOutSprite;
+	public Sprite FocusSprite;
+	public Sprite ZoomHandleSprite;
+
+	[Header("Điểm danh hằng ngày")]
+	public GameObject DailyRewardDialog;
+	public Sprite DailyIconSprite;
+	public Sprite RewardCoinSprite;
+	public Sprite RewardDrillSprite;
+	public Sprite RewardHammerSprite;
+	public Sprite RewardBroomSprite;
+	public Sprite RewardHeartSprite;
 	public int ChestEveryLevels = 5;
 	public int ChestCoins = 100;
 

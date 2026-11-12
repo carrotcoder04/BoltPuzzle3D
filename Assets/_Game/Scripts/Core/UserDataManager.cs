@@ -18,6 +18,8 @@ public class UserData
 	public int SessionCount;
 	public int StageRewardClaimed;     // số mốc rương Level Chest đã nhận
 	public int SpecialScrewProgress;   // tiến trình Special Screw
+	public int DailyDay;               // ngày điểm danh kế tiếp (0..6)
+	public int DailyLastDate;          // ngày nhận gần nhất, dạng yyyyMMdd (giờ máy)
 }
 
 /// <summary>
