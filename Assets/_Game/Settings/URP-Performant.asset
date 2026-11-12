@@ -9,6 +9,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: bf2edee5c58d82540a51f03df9d42094, type: 3}
   m_Name: URP-Performant
-  m_EditorClassIdentifier:
+  m_EditorClassIdentifier: 
+  m_RendererType: 1
+  m_RendererData: {fileID: 0}
+  m_RendererDataList:
+  - {fileID: 11400000, guid: 9eb05c8230b27da4ca049c53c4b347b4, type: 2}
+  m_DefaultRendererIndex: 0
+  m_RequireDepthTexture: 0
+  m_RequireOpaqueTexture: 0
+  m_SupportsHDR: 0
+  m_MSAA: 1
+  m_RenderScale: 1
+  m_MainLightRenderingMode: 1
+  m_MainLightShadowsSupported: 0
+  m_AdditionalLightsRenderingMode: 0
+  m_AdditionalLightShadowsSupported: 0
+  m_UseSRPBatcher: 1
+  m_SupportsDynamicBatching: 0

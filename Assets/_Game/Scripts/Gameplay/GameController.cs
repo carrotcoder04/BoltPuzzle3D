@@ -254,14 +254,54 @@ public class GameController : MonoBehaviour
 	}
 
 	// ---------------------------------------------------------------- input
+	static readonly List<RaycastHit> _hitBuf = new List<RaycastHit>();
+
+	/// <summary>
+	/// Tìm ốc dưới điểm chạm. Collider tấm là convex hull nên thường trùm lên đầu ốc của chính nó,
+	/// vì vậy bỏ qua tấm chứa ốc; chỉ coi là bị che khi có tấm KHÁC nằm trước ốc.
+	/// </summary>
+	Screw PickScrew(Ray ray, float radius, out Board firstBoard)
+	{
+		firstBoard = null;
+		int mask = ~(1 << TopLayer);
+		var hits = radius > 0f
+			? Physics.SphereCastAll(ray, radius, 200f, mask, QueryTriggerInteraction.Ignore)
+			: Physics.RaycastAll(ray, 200f, mask, QueryTriggerInteraction.Ignore);
+		_hitBuf.Clear();
+		_hitBuf.AddRange(hits);
+		_hitBuf.Sort((a, b) => a.distance.CompareTo(b.distance));
+		foreach (var h in _hitBuf)
+		{
+			var s = h.collider.GetComponentInParent<Screw>();
+			if (s != null)
+			{
+				if (s.IsRemoved) continue;
+				if (firstBoard == null || s.Board == firstBoard) return s;
+				return null;
+			}
+			var b = h.collider.GetComponentInParent<Board>();
+			if (b == null || b.IsFallen) continue;
+			if (firstBoard == null) firstBoard = b;
+			else if (b != firstBoard) return null;
+		}
+		return null;
+	}
+
 	void HandleTap(Vector2 screenPos)
 	{
 		if (InputLocked || _mainCam == null) return;
 		Physics.SyncTransforms();
 		var ray = _mainCam.ScreenPointToRay(screenPos);
-		if (!Physics.Raycast(ray, out var hit, 200f, ~(1 << TopLayer), QueryTriggerInteraction.Ignore)) return;
-		var screw = hit.collider.GetComponentInParent<Screw>();
-		var board = screw != null ? screw.Board : hit.collider.GetComponentInParent<Board>();
+		Board board;
+		var screw = PickScrew(ray, 0f, out board);
+		if (screw == null && Mode != ToolMode.Hammer)
+		{
+			Board b2;
+			screw = PickScrew(ray, 0.2f, out b2);
+			if (board == null) board = b2;
+		}
+		if (screw != null) board = screw.Board;
+		if (screw == null && board == null) return;
 
 		if (Mode == ToolMode.Hammer)
 		{

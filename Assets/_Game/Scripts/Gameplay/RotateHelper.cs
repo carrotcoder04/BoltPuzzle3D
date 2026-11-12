@@ -121,10 +121,25 @@ public class RotateHelper : MonoBehaviour
 		released = Input.GetMouseButtonUp(0);
 	}
 
+	static readonly System.Collections.Generic.List<RaycastResult> _uiHits = new System.Collections.Generic.List<RaycastResult>();
+	static PointerEventData _ped;
+
+	/// <summary>Chỉ coi là "trên UI" khi phần tử UI trên cùng tại điểm chạm nhận được click (nút, dialog...).</summary>
 	bool IsOverUI()
 	{
 		var es = EventSystem.current;
 		if (es == null) return false;
-		return _fingerId >= 0 ? es.IsPointerOverGameObject(_fingerId) : es.IsPointerOverGameObject();
+		if (_ped == null) _ped = new PointerEventData(es);
+		_ped.position = _startPos;
+		_uiHits.Clear();
+		es.RaycastAll(_ped, _uiHits);
+		foreach (var r in _uiHits)
+		{
+			if (r.gameObject == null) continue;
+			if (r.module is UnityEngine.UI.GraphicRaycaster)
+				return ExecuteEvents.GetEventHandler<IPointerClickHandler>(r.gameObject) != null
+					|| ExecuteEvents.GetEventHandler<IPointerDownHandler>(r.gameObject) != null;
+		}
+		return false;
 	}
 }
