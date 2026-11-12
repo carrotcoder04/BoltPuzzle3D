@@ -9,6 +9,18 @@ public static class RewardToast
 {
 	static GameObject _current;
 
+	static TMP_FontAsset _font;
+
+	/// <summary>Font của toast: lấy từ một chữ TMP đang có trong scene (TMP Settings của project có thể không có font mặc định).</summary>
+	static TMP_FontAsset FindFont()
+	{
+		if (_font != null) return _font;
+		foreach (var t in Object.FindObjectsByType<TMP_Text>(FindObjectsInactive.Include, FindObjectsSortMode.None))
+			if (t != null && t.font != null) { _font = t.font; break; }
+		if (_font == null) _font = TMP_Settings.defaultFontAsset;
+		return _font;
+	}
+
 	public static string BoosterName(BoosterType t)
 	{
 		switch (t)
@@ -68,12 +80,14 @@ public static class RewardToast
 		lrt.anchorMin = Vector2.zero; lrt.anchorMax = Vector2.one;
 		lrt.offsetMin = new Vector2(30, 16); lrt.offsetMax = new Vector2(-30, -16);
 		var tmp = label.AddComponent<TextMeshProUGUI>();
-		if (TMP_Settings.defaultFontAsset != null) tmp.font = TMP_Settings.defaultFontAsset;
+		var font = FindFont();
+		if (font != null) { tmp.font = font; tmp.fontSharedMaterial = font.material; }
 		tmp.text = text;
 		tmp.alignment = TextAlignmentOptions.Center;
 		tmp.enableAutoSizing = true;
 		tmp.fontSizeMin = 26; tmp.fontSizeMax = 46;
 		tmp.color = Color.white;
+		tmp.text = text;
 		tmp.raycastTarget = false;
 
 		var cg = panel.GetComponent<CanvasGroup>();
