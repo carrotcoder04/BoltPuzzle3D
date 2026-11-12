@@ -66,10 +66,67 @@ public class UICanvas : MonoBehaviour
 		_gc.OnModeChanged -= OnMode;
 	}
 
+	/// <summary>
+	/// Bắn 'count' ngôi sao từ vị trí world (hộp vừa đóng) bay cong vào biểu tượng tiến độ.
+	/// onArrive gọi một lần khi ngôi sao đầu tiên chạm tới (để thanh tiến độ tăng đúng lúc).
+	/// </summary>
+	public void FlyStars(Vector3 worldPos, int count, System.Action onArrive)
+	{
+		var safe = transform.Find("SafeArea") as RectTransform;
+		var target = transform.Find("SafeArea/TopUI/Progress") as RectTransform;
+		var canvas = GetComponentInParent<Canvas>();
+		var cam = Camera.main;
+		if (safe == null || target == null || canvas == null || cam == null || StarSprite == null) { onArrive?.Invoke(); return; }
+		Camera uiCam = canvas.renderMode != RenderMode.ScreenSpaceOverlay ? canvas.worldCamera : null;
+		Vector2 screen = cam.WorldToScreenPoint(worldPos);
+		if (!RectTransformUtility.ScreenPointToLocalPointInRectangle(safe, screen, uiCam, out var start)) { onArrive?.Invoke(); return; }
+		Vector2 end = safe.InverseTransformPoint(target.position);
+		bool arrived = false;
+		for (int i = 0; i < count; i++)
+		{
+			var go = new GameObject("FlyStar", typeof(RectTransform), typeof(Image));
+			var rt = go.GetComponent<RectTransform>();
+			rt.SetParent(safe, false);
+			rt.SetAsLastSibling();
+			rt.sizeDelta = new Vector2(76f, 73f);
+			var img = go.GetComponent<Image>();
+			img.sprite = StarSprite;
+			img.raycastTarget = false;
+			// toả ra hình quạt phía trên hộp rồi mới bay đi
+			float ang = (i - (count - 1) * 0.5f) * 38f;
+			var spread = start + (Vector2)(Quaternion.Euler(0f, 0f, -ang) * Vector2.up) * 95f;
+			var ctrl = Vector2.Lerp(spread, end, 0.5f) + new Vector2((i - (count - 1) * 0.5f) * 120f, 160f);
+			rt.anchoredPosition = start;
+			rt.localScale = Vector3.zero;
+			float delay = i * 0.09f;
+			var seq = DOTween.Sequence().SetLink(go);
+			seq.AppendInterval(delay);
+			seq.Append(rt.DOScale(1.25f, 0.18f).SetEase(Ease.OutBack));
+			seq.Join(rt.DOAnchorPos(spread, 0.22f).SetEase(Ease.OutCubic));
+			seq.Join(rt.DOLocalRotate(new Vector3(0f, 0f, 20f), 0.22f));
+			seq.AppendInterval(0.08f);
+			seq.Append(DOVirtual.Float(0f, 1f, 0.5f, t =>
+			{
+				float u = 1f - t;
+				rt.anchoredPosition = u * u * spread + 2f * u * t * ctrl + t * t * end;
+			}).SetEase(Ease.InQuad));
+			seq.Join(rt.DOScale(0.55f, 0.5f).SetEase(Ease.InQuad));
+			seq.Join(rt.DOLocalRotate(new Vector3(0f, 0f, -360f), 0.5f, RotateMode.LocalAxisAdd).SetEase(Ease.Linear));
+			seq.OnComplete(() =>
+			{
+				target.DOKill(true);
+				target.DOPunchScale(Vector3.one * 0.22f, 0.25f, 6, 0.6f);
+				if (Managers.Audio != null) Managers.Audio.PlaySfx(Sfx.ScrewInPlace);
+				if (!arrived) { arrived = true; onArrive?.Invoke(); }
+				Destroy(go);
+			});
+		}
+	}
+
 	void RefreshProgress()
 	{
 		if (_gc == null) return;
-		float p = _gc.TotalScrews > 0 ? (float)_gc.CollectedScrews / _gc.TotalScrews : 0f;
+		float p = _gc.TotalScrews > 0 ? (float)_gc.DisplayedCollected / _gc.TotalScrews : 0f;
 		if (_progress != null) { _progress.DOKill(); _progress.DOFillAmount(p, 0.3f); }
 		UIUtil.SetText(_progressNum, Mathf.RoundToInt(p * 100f) + "%");
 	}
@@ -93,6 +150,8 @@ public class UICanvas : MonoBehaviour
 
 	[Tooltip("Icon coin hiện cạnh giá trên nút thêm khay")]
 	public Sprite CoinSprite;
+	[Tooltip("Ngôi sao bay vào thanh tiến độ khi hoàn thành một khay")]
+	public Sprite StarSprite;
 	[Tooltip("Nền viên thuốc (9-slice) cho nhãn giá")]
 	public Sprite PriceTagSprite;
 

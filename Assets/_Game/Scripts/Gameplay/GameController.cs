@@ -44,6 +44,32 @@ public class GameController : MonoBehaviour
 	public int Level { get; private set; }
 	public int TotalScrews { get; private set; }
 	public int CollectedScrews { get; private set; }
+
+	// Hộp đã đóng nắp và sao đã bay tới thanh tiến độ nhưng hộp chưa bay đi hẳn (chưa cộng vào CollectedScrews)
+	readonly HashSet<BoxScript> _starredBoxes = new HashSet<BoxScript>();
+
+	/// <summary>Số ốc hiển thị trên thanh tiến độ: tính cả hộp đã có sao bay tới.</summary>
+	public int DisplayedCollected
+	{
+		get
+		{
+			int n = CollectedScrews;
+			foreach (var b in _starredBoxes) if (b != null) n += b.MaxScrewCount;
+			return Mathf.Min(n, TotalScrews);
+		}
+	}
+
+	/// <summary>Nắp hộp vừa đóng: 3 ngôi sao bay từ hộp vào thanh tiến độ, tới nơi mới tăng tiến độ.</summary>
+	public void OnBoxLidClosed(BoxScript box)
+	{
+		if (box == null) return;
+		if (GameCanvas == null) return;
+		GameCanvas.FlyStars(box.transform.position, 3, () =>
+		{
+			if (box != null && Boxes.Contains(box)) _starredBoxes.Add(box);
+			OnProgressChanged?.Invoke();
+		});
+	}
 	public ToolMode Mode { get; private set; }
 	public int ReviveCount { get; private set; }
 	public int UnlockedBoxSlots { get; private set; }
@@ -272,6 +298,7 @@ public class GameController : MonoBehaviour
 		Boxes.Remove(box);
 		if (box.Slot >= 0 && box.Slot < MaxBoxSlots && _slots[box.Slot] == box) _slots[box.Slot] = null;
 		CollectedScrews += box.MaxScrewCount;
+		_starredBoxes.Remove(box);
 		OnProgressChanged?.Invoke();
 		if (CollectedScrews >= TotalScrews) { Win(); return; }
 		SpawnBox(box.Slot, 0.05f);

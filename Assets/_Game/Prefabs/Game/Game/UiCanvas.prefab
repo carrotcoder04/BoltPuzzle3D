@@ -2506,6 +2506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   CoinSprite: {fileID: 21300000, guid: e9815d54020e26c45839a8e5d60376b6, type: 2}
   PriceTagSprite: {fileID: 21300000, guid: f5f13fdfaa894b24bd3069fa2c431d0f, type: 3}
+  StarSprite: {fileID: 21300000, guid: 3ad49b1dad3dcde498aea3f4150f20be, type: 3}
 --- !u!224 &224066778049879928
 RectTransform:
   serializedVersion: 2
