@@ -109,26 +109,39 @@ public class Screw : MonoBehaviour
 		var startScale = transform.lossyScale.x;
 		if (headWorldSize <= 0f && GameController.Instance != null) headWorldSize = GameController.Instance.ScrewHeadWorldSize;
 		float endScale = headWorldSize > 0f ? headWorldSize / HeadDiameter : startScale;
-		var above = end + toCam * 0.9f;
+		// Đích được tính lại mỗi khung hình: hộp/lỗ có thể đang nảy, đang phóng to khi vừa xuất hiện
+		// hoặc đang dời chỗ, nếu chốt vị trí lúc bắt đầu bay thì ốc sẽ cắm lệch.
+		Func<Vector3> liveEnd = () => (parent != null ? parent.position : end) + toCam * 0.3f;
 		var seq = DOTween.Sequence();
 		// 1. bay theo đường cong tới phía trên lỗ, co dần về kích thước đích
 		seq.Append(DOVirtual.Float(0f, 1f, duration, t =>
 		{
 			float u = 1f - t;
+			var above = liveEnd() + toCam * 0.9f;
 			transform.position = u * u * start + 2f * u * t * mid + t * t * above;
 			SetWorldScale(Mathf.Lerp(startScale, endScale * 1.25f, t));
 		}).SetEase(Ease.InOutSine));
 		seq.Join(transform.DORotateQuaternion(targetRot, duration * 0.8f).SetEase(Ease.OutQuad));
 		// 2. vặn vào lỗ: 1 vòng quanh trục ốc, hạ xuống và thu về đúng cỡ
-		seq.Append(transform.DOMove(end, 0.14f).SetEase(Ease.InQuad));
+		seq.Append(DOVirtual.Float(0f, 1f, 0.14f, t =>
+		{
+			var e = liveEnd();
+			transform.position = Vector3.Lerp(e + toCam * 0.9f, e, t);
+		}).SetEase(Ease.InQuad));
 		seq.Join(transform.DORotateQuaternion(targetRot * Quaternion.Euler(-180f, 0f, 0f), 0.07f).SetEase(Ease.Linear));
-		seq.Append(transform.DORotateQuaternion(targetRot, 0.07f).SetEase(Ease.Linear));
+		seq.Append(DOVirtual.Float(0f, 1f, 0.07f, t => { transform.position = liveEnd(); }));
+		seq.Join(transform.DORotateQuaternion(targetRot, 0.07f).SetEase(Ease.Linear));
 		seq.Join(DOVirtual.Float(endScale * 1.25f, endScale, 0.07f, v => SetWorldScale(v)));
 		seq.SetLink(gameObject);
 		seq.OnComplete(() =>
 		{
+			// Kết thúc ngay các tween nảy/co giãn của hộp/lỗ để tính đúng tỉ lệ khi gắn vào (tránh ốc bị nhỏ/lệch vĩnh viễn).
+			for (var p = parent; p != null && p != parent.root; p = p.parent)
+				if (p.GetComponent<BoxScript>() != null || p.GetComponent<Hole>() != null) { p.DOKill(true); break; }
+			if (parent != null) parent.DOKill(true);
+			var finalPos = liveEnd();
 			transform.SetParent(parent, true);
-			transform.position = end;
+			transform.position = finalPos;
 			transform.rotation = targetRot;
 			SetWorldScale(endScale);
 			// 3. nảy khi cắm xong
