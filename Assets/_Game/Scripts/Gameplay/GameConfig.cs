@@ -59,6 +59,18 @@ public class GameConfig : ScriptableObject
 	public Sprite RewardHammerSprite;
 	public Sprite RewardBroomSprite;
 	public Sprite RewardHeartSprite;
+	public Sprite DailyTitleSprite;
+	public Sprite DailyCellPink;
+	public Sprite DailyCellBlue;
+	public Sprite DailyCellGold;
+	public Sprite DailyCalendar;
+	public Sprite DailyCheck;
+	public Sprite DailyPanel;
+	public Sprite DailyTrack;
+	public Sprite DailyTrackFill;
+	public Sprite DailyBtnFrame;
+	public Sprite DailyPill;
+	public Sprite[] DailyGifts;
 	public int ChestEveryLevels = 5;
 	public int ChestCoins = 100;
 

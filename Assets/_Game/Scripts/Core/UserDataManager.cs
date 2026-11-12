@@ -20,6 +20,7 @@ public class UserData
 	public int SpecialScrewProgress;   // tiến trình Special Screw
 	public int DailyDay;               // ngày điểm danh kế tiếp (0..6)
 	public int DailyLastDate;          // ngày nhận gần nhất, dạng yyyyMMdd (giờ máy)
+	public int DailyTotal;             // tổng số ngày đã điểm danh (mốc quà 10/12/16/22/30)
 }
 
 /// <summary>

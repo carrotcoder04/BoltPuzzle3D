@@ -125,3 +125,20 @@ MonoBehaviour:
   RewardHammerSprite: {fileID: 21300000, guid: bd28b33ada62dc54b848c2661fc8e381, type: 2}
   RewardBroomSprite: {fileID: 21300000, guid: 675576d1dda823f429a3869de8ae2d74, type: 2}
   RewardHeartSprite: {fileID: 21300000, guid: 50ad8ca5d1db0be4497c73d729256d03, type: 2}
+  DailyTitleSprite: {fileID: 21300000, guid: a447ceb4547feef42902c41cc72c8dc5, type: 2}
+  DailyCellPink: {fileID: 21300000, guid: d86f9347594743f4be437cd3ff8da2ea, type: 3}
+  DailyCellBlue: {fileID: 21300000, guid: ea2ed646fb154acab58f7c585e25f934, type: 3}
+  DailyCellGold: {fileID: 21300000, guid: 17baf14ef9f348069bca2037f37b302d, type: 3}
+  DailyCalendar: {fileID: 21300000, guid: 1e86935e99064ba09a318859bafa1ee4, type: 3}
+  DailyCheck: {fileID: 21300000, guid: e47834728dba45998da921dac4dcf5f5, type: 3}
+  DailyPanel: {fileID: 21300000, guid: 5dfd28a68d734bd992d0a0e8dfd4fc09, type: 3}
+  DailyTrack: {fileID: 21300000, guid: 1aea981401284a6e95fda3dd7a55e28a, type: 3}
+  DailyTrackFill: {fileID: 21300000, guid: c52c8d83445c43c0adccdde45d2569c8, type: 3}
+  DailyBtnFrame: {fileID: 21300000, guid: a4879c47e24a4e6aa43e2d0ccfb3c7ec, type: 3}
+  DailyPill: {fileID: 21300000, guid: b3288351251b478ab2cf55626fca7391, type: 3}
+  DailyGifts:
+  - {fileID: 21300000, guid: ada28e91ab7d49a5a0b1715a4b062959, type: 3}
+  - {fileID: 21300000, guid: ebcbb8ec30eb4cf4ba5fd5d403131743, type: 3}
+  - {fileID: 21300000, guid: 02c83ca7f11146a7a5c3850610b03f13, type: 3}
+  - {fileID: 21300000, guid: 7d71e983d073470db523fb71f323f6ed, type: 3}
+  - {fileID: 21300000, guid: 7f356e1a086f48a9bd882ddd5d57c7f1, type: 3}

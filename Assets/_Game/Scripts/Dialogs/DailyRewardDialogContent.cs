@@ -1,3 +1,4 @@
+using System;
 using DG.Tweening;
 using Snui;
 using TMPro;
@@ -5,19 +6,24 @@ using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// Bảng điểm danh 7 ngày (DailyRewardDialog.prefab, dựng trên khung BuyToolDialog):
-/// lưới 7 ô quà (4 + 3), ô hôm nay sáng vàng, ô đã nhận phủ xanh; nút CLAIM nhận quà hôm nay.
+/// Bảng "Daily Gift" (DailyRewardDialog.prefab, dựng trên khung BuyToolDialog):
+/// - Ruy băng tiêu đề hồng, lịch "DAY N" (tổng ngày điểm danh) + thanh tiến độ với 5 hộp quà mốc 10/12/16/22/30.
+/// - Lưới 3x2 ô ngày 1-6 + ô ngày 7 rộng (2 phần quà). Ô đã nhận: đầu xanh + dấu tích; ô hôm nay: vàng, nảy;
+///   ô sắp tới: hồng. Bấm ô hôm nay để nhận.
 /// </summary>
 public class DailyRewardDialogContent : DialogContent
 {
-	static readonly Color CellNormal = new Color(1f, 1f, 1f, 1f);
-	static readonly Color CellToday = new Color(1f, 0.86f, 0.35f, 1f);
-	static readonly Color CellClaimed = new Color(0.62f, 0.9f, 0.55f, 1f);
+	const float W = 680f, H = 1060f;
+	const float CellW = 186f, CellH = 200f, Gap = 12f;
 
 	TMP_Text _fontSrc;
-	Sprite _cellSprite;
+	RectTransform _root;
 	RectTransform[] _cells;
+	Image[] _gifts;
+	Image _trackFill;
+	TMP_Text _dayText, _footer;
 	bool _claimed;
+	float _tick;
 
 	public static void Open()
 	{
@@ -29,73 +35,121 @@ public class DailyRewardDialogContent : DialogContent
 	protected override void Awake()
 	{
 		base.Awake();
+		var cfg = GameConfig.Instance;
+		_root = (RectTransform)transform;
+		_root.sizeDelta = new Vector2(W, H);
 		_fontSrc = transform.FindComp<TMP_Text>("BgTitle/Title");
-		UIUtil.SetText(_fontSrc, "DAILY REWARD");
-		var content = transform.Find("BgContent/Content") as RectTransform;
-		var contentImg = content != null ? content.GetComponent<Image>() : null;
-		_cellSprite = contentImg != null ? contentImg.sprite : null;
-		if (content != null) foreach (Transform c in content) c.gameObject.SetActive(false);
-		transform.SetActive("BtnAd", false);
-		transform.SetActive("BtnClaim", false);
-		transform.SetActive("BtnCoin/Content/Icon", false);
-		var coin = transform.Find("BtnCoin") as RectTransform;
-		if (coin != null) coin.anchoredPosition = new Vector2(0f, coin.anchoredPosition.y);
-		var txt = transform.FindComp<TMP_Text>("BtnCoin/Content/Text");
-		if (txt != null)
-		{
-			txt.rectTransform.anchoredPosition = new Vector2(0f, txt.rectTransform.anchoredPosition.y);
-			txt.rectTransform.sizeDelta = new Vector2(250f, txt.rectTransform.sizeDelta.y);
-			txt.enableAutoSizing = true;
-			txt.fontSizeMin = 20f;
-			txt.enableWordWrapping = false;
-		}
-		transform.BindButton("BtnCoin", OnClaim);
+		UIUtil.SetText(_fontSrc, "DAILY GIFT");
+		var title = transform.FindComp<Image>("BgTitle");
+		if (title != null && cfg != null && cfg.DailyTitleSprite != null) title.sprite = cfg.DailyTitleSprite;
+		foreach (var n in new[] { "BgContent", "Ip", "BtnAd", "BtnClaim", "BtnCoin" }) transform.SetActive(n, false);
 		transform.BindButton("CloseBtn", () => Close(-1));
-		if (content != null) BuildGrid(content);
+		var close = transform.Find("CloseBtn");
+		if (close != null) close.SetAsLastSibling();
+
+		BuildHeader(cfg);
+		BuildGrid(cfg);
+		_footer = Label(_root, "Footer", "", new Vector2(0f, -H * 0.5f + 62f), new Vector2(W - 80f, 46f), 32f);
 		Refresh();
 	}
 
-	void BuildGrid(RectTransform content)
+	// ---------- dựng giao diện ----------
+
+	Image Img(Transform parent, string name, Sprite sp, Vector2 pos, Vector2 size, bool sliced = false)
 	{
+		var go = new GameObject(name, typeof(RectTransform), typeof(Image));
+		var rt = (RectTransform)go.transform;
+		rt.SetParent(parent, false);
+		rt.anchorMin = rt.anchorMax = rt.pivot = new Vector2(0.5f, 0.5f);
+		rt.anchoredPosition = pos;
+		rt.sizeDelta = size;
+		var im = go.GetComponent<Image>();
+		im.sprite = sp;
+		im.raycastTarget = false;
+		if (sp == null) im.color = new Color(1f, 1f, 1f, 0.25f);
+		else if (sliced && sp.border != Vector4.zero) im.type = Image.Type.Sliced;
+		else im.preserveAspect = true;
+		return im;
+	}
+
+	void BuildHeader(GameConfig cfg)
+	{
+		float y = H * 0.5f - 210f;
+		// Lịch "DAY N"
+		var cal = Img(_root, "Calendar", cfg != null ? cfg.DailyCalendar : null, new Vector2(-W * 0.5f + 100f, y), new Vector2(130f, 130f));
+		var dayLbl = Label(cal.rectTransform, "Day", "DAY", new Vector2(0f, -4f), new Vector2(100f, 28f), 24f);
+		dayLbl.color = new Color32(214, 64, 64, 255);
+		_dayText = Label(cal.rectTransform, "Count", "0", new Vector2(0f, -34f), new Vector2(100f, 40f), 40f);
+		_dayText.color = new Color32(214, 64, 64, 255);
+
+		// Thanh tiến độ + 5 hộp quà mốc
+		float x0 = -W * 0.5f + 185f, x1 = W * 0.5f - 50f;
+		float ty = y - 22f;
+		var track = Img(_root, "Track", cfg != null ? cfg.DailyTrack : null, new Vector2((x0 + x1) * 0.5f, ty), new Vector2(x1 - x0, 28f), true);
+		_trackFill = Img(track.rectTransform, "Fill", cfg != null ? cfg.DailyTrackFill : null, Vector2.zero, new Vector2(x1 - x0, 28f), true);
+		var frt = _trackFill.rectTransform;
+		frt.anchorMin = new Vector2(0f, 0f); frt.anchorMax = new Vector2(0f, 1f); frt.pivot = new Vector2(0f, 0.5f);
+		frt.anchoredPosition = Vector2.zero;
+
+		int m = DailyReward.Milestones.Length;
+		_gifts = new Image[m];
+		for (int i = 0; i < m; i++)
+		{
+			float gx = x0 + (x1 - x0) * (i + 1) / m - 30f;
+			var gs = cfg != null && cfg.DailyGifts != null && cfg.DailyGifts.Length > 0 ? cfg.DailyGifts[i % cfg.DailyGifts.Length] : null;
+			var g = Img(_root, "Gift" + (i + 1), gs, new Vector2(gx, ty + 46f), new Vector2(76f, 76f));
+			var lbl = Label(_root, "Mark" + (i + 1), DailyReward.Milestones[i].ToString(), new Vector2(gx, ty - 34f), new Vector2(70f, 34f), 28f);
+			lbl.transform.SetAsLastSibling();
+			_gifts[i] = g;
+		}
+	}
+
+	void BuildGrid(GameConfig cfg)
+	{
+		float gridW = CellW * 3f + Gap * 2f, gridH = CellH * 3f + Gap * 2f;
+		float cy = H * 0.5f - 300f - gridH * 0.5f - 10f;
+		Img(_root, "Panel", cfg != null ? cfg.DailyPanel : null, new Vector2(0f, cy), new Vector2(gridW + 36f, gridH + 36f), true);
+
 		int n = DailyReward.Rewards.Length;
 		_cells = new RectTransform[n];
-		const float w = 118f, h = 140f, gap = 10f;
 		for (int i = 0; i < n; i++)
 		{
-			int row = i < 4 ? 0 : 1;
-			int col = row == 0 ? i : i - 4;
-			int inRow = row == 0 ? 4 : n - 4;
-			float x = (col - (inRow - 1) * 0.5f) * (w + gap);
-			float y = row == 0 ? (h + gap) * 0.5f : -(h + gap) * 0.5f;
+			bool wide = i == n - 1;
+			int row = i / 3, col = i % 3;
+			float x = wide ? 0f : (col - 1) * (CellW + Gap);
+			float y = cy + (1 - row) * (CellH + Gap);
+			var bg = Img(_root, "Day" + (i + 1), cfg != null ? cfg.DailyCellPink : null, new Vector2(x, y), new Vector2(wide ? gridW : CellW, CellH), true);
+			bg.raycastTarget = true;
+			var rt = bg.rectTransform;
+			Label(rt, "Title", "DAY " + (i + 1), new Vector2(0f, CellH * 0.5f - 30f), new Vector2(CellW - 20f, 40f), 32f);
+
 			var r = DailyReward.Rewards[i];
+			bool hasCoin = r.Coins > 0, hasBooster = r.Booster >= 0 && r.BoosterCount > 0;
+			if (hasCoin && hasBooster)
+			{
+				RewardItem(rt, DailyReward.CoinIcon, DailyReward.CoinLabel(r.Coins), -gridW * 0.2f);
+				RewardItem(rt, DailyReward.BoosterIcon(r.Booster), DailyReward.BoosterLabel(r), gridW * 0.2f);
+			}
+			else if (hasBooster) RewardItem(rt, DailyReward.BoosterIcon(r.Booster), DailyReward.BoosterLabel(r), 0f);
+			else RewardItem(rt, DailyReward.CoinIcon, DailyReward.CoinLabel(r.Coins), 0f);
 
-			var cell = new GameObject("Day" + (i + 1), typeof(RectTransform), typeof(Image));
-			var rt = (RectTransform)cell.transform;
-			rt.SetParent(content, false);
-			rt.anchorMin = rt.anchorMax = new Vector2(0.5f, 0.5f);
-			rt.sizeDelta = new Vector2(i == n - 1 ? w * 1.6f : w, h);
-			rt.anchoredPosition = new Vector2(i == n - 1 ? x : x, y);
-			var bg = cell.GetComponent<Image>();
-			bg.sprite = _cellSprite;
-			bg.type = _cellSprite != null && _cellSprite.border != Vector4.zero ? Image.Type.Sliced : Image.Type.Simple;
-			bg.raycastTarget = false;
+			var check = Img(rt, "Check", cfg != null ? cfg.DailyCheck : null, new Vector2(0f, -22f), new Vector2(84f, 84f));
+			check.gameObject.SetActive(false);
 
-			Label(rt, "Day", "Day " + (i + 1), new Vector2(0f, h * 0.5f - 18f), new Vector2(w * 1.5f, 30f), 24f);
-			var icon = new GameObject("Icon", typeof(RectTransform), typeof(Image));
-			var irt = (RectTransform)icon.transform;
-			irt.SetParent(rt, false);
-			irt.sizeDelta = new Vector2(70f, 70f);
-			irt.anchoredPosition = new Vector2(0f, 2f);
-			var im = icon.GetComponent<Image>();
-			im.sprite = DailyReward.Icon(r);
-			im.preserveAspect = true;
-			im.raycastTarget = false;
-			Label(rt, "Amount", DailyReward.Label(r), new Vector2(0f, -h * 0.5f + 20f), new Vector2(rt.sizeDelta.x - 8f, 32f), 24f);
-			var done = Label(rt, "Done", "CLAIMED", Vector2.zero, new Vector2(rt.sizeDelta.x, 40f), 22f);
-			done.color = new Color(0.1f, 0.45f, 0.1f, 1f);
-			done.transform.localRotation = Quaternion.Euler(0f, 0f, 18f);
+			int day = i;
+			var btn = bg.gameObject.AddComponent<Button>();
+			btn.transition = Selectable.Transition.None;
+			btn.onClick.AddListener(() => OnCellClicked(day));
 			_cells[i] = rt;
 		}
+	}
+
+	void RewardItem(RectTransform cell, Sprite icon, string amount, float x)
+	{
+		var im = Img(cell, "Icon", icon, new Vector2(x, -12f), new Vector2(96f, 82f));
+		im.name = "Icon";
+		var t = Label(cell, "Amount", amount, new Vector2(x, -CellH * 0.5f + 28f), new Vector2(CellW - 16f, 40f), 34f);
+		t.color = new Color32(255, 255, 255, 255);
 	}
 
 	TMP_Text Label(RectTransform parent, string name, string text, Vector2 pos, Vector2 size, float fontSize)
@@ -111,11 +165,11 @@ public class DailyRewardDialogContent : DialogContent
 		t.name = name;
 		t.transform.SetParent(parent, false);
 		var rt = t.rectTransform;
-		rt.anchorMin = rt.anchorMax = new Vector2(0.5f, 0.5f);
-		rt.pivot = new Vector2(0.5f, 0.5f);
+		rt.anchorMin = rt.anchorMax = rt.pivot = new Vector2(0.5f, 0.5f);
 		rt.anchoredPosition = pos;
 		rt.sizeDelta = size;
 		rt.localScale = Vector3.one;
+		rt.localRotation = Quaternion.identity;
 		t.text = text;
 		t.enableAutoSizing = true;
 		t.fontSizeMin = 14f;
@@ -126,39 +180,81 @@ public class DailyRewardDialogContent : DialogContent
 		return t;
 	}
 
+	// ---------- trạng thái ----------
+
 	void Refresh()
 	{
+		var cfg = GameConfig.Instance;
 		int today = DailyReward.CurrentDay;
 		int claimedCount = DailyReward.ClaimedCount;
 		bool canClaim = DailyReward.CanClaim;
-		if (_cells != null)
-			for (int i = 0; i < _cells.Length; i++)
-			{
-				bool claimed = i < claimedCount;
-				bool isToday = canClaim && i == today;
-				var bg = _cells[i].GetComponent<Image>();
-				if (bg != null) bg.color = claimed ? CellClaimed : isToday ? CellToday : CellNormal;
-				_cells[i].SetActive("Done", claimed);
-				_cells[i].DOKill(true);
-				_cells[i].localScale = Vector3.one;
-				if (isToday) _cells[i].DOScale(1.06f, 0.6f).SetEase(Ease.InOutSine).SetLoops(-1, LoopType.Yoyo).SetUpdate(true).SetLink(gameObject);
-			}
-		UIUtil.SetText(transform.FindComp<TMP_Text>("BtnCoin/Content/Text"), canClaim ? "CLAIM" : "TOMORROW");
-		var btn = transform.FindComp<Button>("BtnCoin");
-		if (btn != null) btn.interactable = canClaim;
+		for (int i = 0; i < _cells.Length; i++)
+		{
+			bool claimed = i < claimedCount;
+			bool isToday = canClaim && i == today;
+			var bg = _cells[i].GetComponent<Image>();
+			if (cfg != null) bg.sprite = claimed ? cfg.DailyCellBlue : isToday ? cfg.DailyCellGold : cfg.DailyCellPink;
+			_cells[i].SetActive("Check", claimed);
+			foreach (Transform c in _cells[i])
+				if (c.name == "Icon") { var im = c.GetComponent<Image>(); if (im != null) im.color = claimed ? new Color(1f, 1f, 1f, 0.55f) : Color.white; }
+			_cells[i].DOKill(true);
+			_cells[i].localScale = Vector3.one;
+			if (isToday) _cells[i].DOScale(1.05f, 0.6f).SetEase(Ease.InOutSine).SetLoops(-1, LoopType.Yoyo).SetUpdate(true).SetLink(gameObject);
+		}
+
+		int prog = DailyReward.CycleProgress;
+		UIUtil.SetText(_dayText, DailyReward.Total.ToString());
+		var ms = DailyReward.Milestones;
+		// thanh tiến độ: các mốc chia đều, nội suy giữa 2 mốc
+		float frac = 0f;
+		for (int i = 0; i < ms.Length; i++)
+		{
+			int lo = i == 0 ? 0 : ms[i - 1];
+			if (prog >= ms[i]) { frac = (i + 1f) / ms.Length; continue; }
+			frac = (i + Mathf.Clamp01((prog - lo) / (float)(ms[i] - lo))) / ms.Length;
+			break;
+		}
+		var track = (RectTransform)_trackFill.rectTransform.parent;
+		_trackFill.rectTransform.sizeDelta = new Vector2(track.sizeDelta.x * frac, 0f);
+		_trackFill.enabled = frac > 0.001f;
+		for (int i = 0; i < _gifts.Length; i++)
+		{
+			bool got = prog >= ms[i];
+			_gifts[i].color = got ? new Color(1f, 1f, 1f, 0.5f) : Color.white;
+		}
+		UpdateFooter();
 	}
 
-	void OnClaim()
+	void UpdateFooter()
 	{
-		if (_claimed || !DailyReward.CanClaim) return;
+		if (_footer == null) return;
+		_footer.text = DailyReward.CanClaim ? "Tap today's gift to claim!" : "Next gift in " + DailyReward.FormatLong(DailyReward.TimeToNext);
+	}
+
+	void Update()
+	{
+		_tick -= Time.unscaledDeltaTime;
+		if (_tick > 0f) return;
+		_tick = 1f;
+		if (!_claimed && DailyReward.CanClaim && _footer != null && !_footer.text.StartsWith("Tap")) Refresh();
+		else UpdateFooter();
+	}
+
+	void OnCellClicked(int day)
+	{
+		if (_claimed || !DailyReward.CanClaim || day != DailyReward.CurrentDay)
+		{
+			if (day < _cells.Length) { _cells[day].DOKill(true); _cells[day].DOShakeAnchorPos(0.3f, 8f, 20).SetUpdate(true).SetLink(gameObject); Refresh(); }
+			return;
+		}
 		_claimed = true;
-		int day = DailyReward.CurrentDay;
-		DailyReward.Claim();
+		int ms = DailyReward.Claim();
 		if (AudioManager.Instance != null) AudioManager.Instance.PlaySfx(Sfx.BigCoinGet);
-		if (_cells != null && day < _cells.Length) _cells[day].DOPunchScale(Vector3.one * 0.25f, 0.4f, 6, 0.5f).SetUpdate(true).SetLink(gameObject);
 		Refresh();
+		_cells[day].DOPunchScale(Vector3.one * 0.2f, 0.4f, 6, 0.5f).SetUpdate(true).SetLink(gameObject);
+		if (ms >= 0 && ms < _gifts.Length) _gifts[ms].rectTransform.DOPunchScale(Vector3.one * 0.4f, 0.5f, 6, 0.5f).SetUpdate(true).SetLink(gameObject);
 		if (HomeDailyButton.Instance != null) HomeDailyButton.Instance.Refresh();
-		DOVirtual.DelayedCall(0.9f, () => Close(1)).SetUpdate(true).SetLink(gameObject);
+		DOVirtual.DelayedCall(1.2f, () => Close(1)).SetUpdate(true).SetLink(gameObject);
 	}
 
 	protected override void OnCloseClicked() => Close(-1);
