@@ -75,6 +75,30 @@ public class GameController : MonoBehaviour
 	public int UnlockedBoxSlots { get; private set; }
 
 	public event System.Action OnProgressChanged;
+	/// <summary>Một con ốc trên mô hình vừa được tháo (đi vào hộp, lỗ chờ hoặc kho).</summary>
+	public event System.Action<Screw> OnScrewMoved;
+	/// <summary>Một con ốc vừa nằm vào lỗ chờ.</summary>
+	public event System.Action OnScrewToHole;
+	public Camera MainCamera => _mainCam != null ? _mainCam : Camera.main;
+
+	/// <summary>Con ốc nên bấm (cho hướng dẫn): không bị chặn, ưu tiên ốc có hộp cùng màu, gần camera.</summary>
+	public Screw FindHintScrew()
+	{
+		Physics.SyncTransforms();
+		Screw best = null;
+		float bestScore = float.MaxValue;
+		var cam = MainCamera;
+		foreach (var s in _boardScrews)
+		{
+			if (s == null || s.IsRemoved || GameCreator.IsBlocked(s)) continue;
+			// đầu ốc phải hướng về phía camera thì người chơi mới thấy
+			if (cam != null && Vector3.Dot(s.ExtractDir, -cam.transform.forward) < 0.2f) continue;
+			float score = FindBoxFor(s.ScrewColor) != null ? 0f : 1000f;
+			if (cam != null) score += Vector3.Distance(cam.transform.position, s.transform.position);
+			if (score < bestScore) { bestScore = score; best = s; }
+		}
+		return best;
+	}
 	public event System.Action<ToolMode> OnModeChanged;
 
 	GameConfig _cfg;
@@ -213,6 +237,7 @@ public class GameController : MonoBehaviour
 		if (Managers.Audio != null) Managers.Audio.PlaySfx(Sfx.Whoosh);
 		_startTime = Time.time;
 		AnalyticsManager.LevelStart(Level, puzzle.name, ud != null ? ud.Data.LevelAttempt : 1);
+		if (!PlayableConfig.IsPlayable && TutorialLevel1.ShouldRun(Level)) TutorialLevel1.Begin(this);
 	}
 
 	public bool InputLocked => IsGameOver || IsGameFail || DialogManager.Count > 0;
@@ -449,6 +474,7 @@ public class GameController : MonoBehaviour
 			if (hole == null && !allowReserve) return false;
 		}
 		_boardScrews.Remove(s);
+		OnScrewMoved?.Invoke(s);
 		MovingScrewCount++;
 		if (box != null)
 		{
@@ -467,6 +493,7 @@ public class GameController : MonoBehaviour
 			{
 				MovingScrewCount--;
 				hole.Place(s);
+				OnScrewToHole?.Invoke();
 				var b = FindBoxFor(s.ScrewColor);
 				if (b != null) SendToBox(hole.Take(), b);
 				UpdateHoleNotice();

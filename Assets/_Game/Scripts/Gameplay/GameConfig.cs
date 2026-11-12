@@ -33,6 +33,12 @@ public class GameConfig : ScriptableObject
 	[Tooltip("Khoảng trống dưới danh sách Shop ở tab Home để không bị thanh điều hướng che")]
 	public float ShopPageBottomPadding = 220f;
 	public GameObject SettingsDialog;
+
+	[Header("Tutorial màn 1")]
+	public GameObject TutorialGuide;
+	public Sprite TutorialHand;
+	public Sprite TutorialTapRing;
+	public Sprite TutorialRotate;
 	public GameObject StageRewardDialog;
 	public int ChestEveryLevels = 5;
 	public int ChestCoins = 100;
