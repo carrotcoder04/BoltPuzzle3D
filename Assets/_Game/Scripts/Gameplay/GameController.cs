@@ -181,20 +181,30 @@ public class GameController : MonoBehaviour
 	}
 
 	/// <summary>
-	/// Camera ortho giữ chiều cao cố định, nên trên máy dài và hẹp (19.5:9 trở lên) mô hình và dãy hộp bị cắt hai bên.
-	/// Khi màn hình hẹp hơn thiết kế 750x1624 thì nới orthographicSize để giữ đủ bề ngang.
+	/// Camera ortho giữ chiều cao cố định, nên trên màn hẹp hơn thiết kế 750x1624 (máy dài 19.5:9...) mô hình và dãy hộp bị cắt hai bên.
+	/// Khi hẹp hơn thì nới orthographicSize để giữ đủ bề ngang. Tính lại mỗi khi kích thước màn hình đổi
+	/// (xoay máy, kéo cửa sổ trình duyệt ở bản WebGL).
 	/// </summary>
+	readonly System.Collections.Generic.Dictionary<Camera, float> _baseOrtho = new System.Collections.Generic.Dictionary<Camera, float>();
+	Vector2Int _fitScreen;
+
 	void FitCamerasToAspect()
 	{
+		_fitScreen = new Vector2Int(Screen.width, Screen.height);
 		const float refAspect = 750f / 1624f;
 		float aspect = (float)Screen.width / Mathf.Max(1, Screen.height);
-		if (aspect >= refAspect) return;
-		float k = refAspect / aspect;
+		float k = aspect >= refAspect ? 1f : refAspect / aspect;
 		foreach (var c in FindObjectsByType<Camera>(FindObjectsSortMode.None))
 		{
 			if (!c.orthographic || c == _uiCam || c.name.Contains("UI")) continue;
-			c.orthographicSize *= k;
+			if (!_baseOrtho.TryGetValue(c, out float baseSize)) { baseSize = c.orthographicSize; _baseOrtho[c] = baseSize; }
+			c.orthographicSize = baseSize * k;
 		}
+	}
+
+	void LateUpdate()
+	{
+		if (Screen.width != _fitScreen.x || Screen.height != _fitScreen.y) FitCamerasToAspect();
 	}
 
 	static Transform FindRoot(string name)
