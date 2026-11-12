@@ -12,6 +12,13 @@ public class SettingsDialog : MonoBehaviour
 		foreach (Transform c in content)
 			if (c.GetComponent<UnityEngine.UI.Button>() != null && Array.IndexOf(keep, c.name) < 0) c.gameObject.SetActive(false);
 
+		// Chữ gốc được bản địa hoá lúc chạy nên prefab rip ra để trống: gán lại nhãn tiếng Anh.
+		SetLabel(content, "MusicBtn", "Music");
+		SetLabel(content, "SoundBtn", "Sound");
+		SetLabel(content, "VibrationBtn", "Vibration");
+		SetLabel(content, "BlindModeBtn", "Color Blind Mode");
+		SetLabel(content, "RestoreBtn", "Restore Purchases");
+
 		var ud = UserDataManager.Instance;
 		if (ud != null)
 		{
@@ -23,8 +30,16 @@ public class SettingsDialog : MonoBehaviour
 		content.BindButton("RestoreBtn", () => { if (IapManager.Instance != null) IapManager.Instance.Restore(); });
 
 		var dialog = GetComponent<Dialog>();
-		foreach (var n in new[] { "CloseBtn", "CloseButton", "BackBtn" })
+		foreach (var n in new[] { "CloseBtn", "CloseButton", "BackBtn", "BackButton" })
 			transform.BindButton(n, () => { if (dialog != null) dialog.Close(); else Destroy(gameObject); });
+	}
+
+	static void SetLabel(Transform root, string btn, string text)
+	{
+		var b = root.Find(btn);
+		var t = b != null ? b.Find("Text") : null;
+		var tmp = t != null ? t.GetComponent<TMPro.TMP_Text>() : null;
+		if (tmp != null) tmp.text = text;
 	}
 
 	static void Toggle(Transform root, string name, Func<bool> get, Action<bool> set)
