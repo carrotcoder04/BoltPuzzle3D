@@ -17,7 +17,12 @@ public class GameCreator : MonoBehaviour
 	/// <summary>Thứ tự màu các hộp sẽ xuất hiện (mỗi hộp 3 ốc).</summary>
 	public List<int> BoxQueue { get; } = new List<int>();
 
-	const float RayLength = 60f;
+	/// <summary>
+	/// Độ dài kiểm tra đường rút ốc, tính theo cỡ ốc (đơn vị local của ốc).
+	/// Trước đây tia dài 60 nên hai tấm ở xa nhau mà ốc chĩa vào nhau sẽ chặn lẫn nhau (kẹt vĩnh viễn);
+	/// giờ chỉ tấm nằm gần trên đường rút mới chặn.
+	/// </summary>
+	public static float BlockCheckLength = 3f;
 
 	public PuzzlePrefab Create(int level, Transform root)
 	{
@@ -117,7 +122,8 @@ public class GameCreator : MonoBehaviour
 	{
 		blocker = null;
 		var dir = s.ExtractDir;
-		var hits = Physics.RaycastAll(s.transform.position, dir, RayLength, ~0, QueryTriggerInteraction.Ignore);
+		float len = BlockCheckLength * Mathf.Max(0.01f, s.transform.lossyScale.x);
+		var hits = Physics.RaycastAll(s.transform.position, dir, len, ~0, QueryTriggerInteraction.Ignore);
 		foreach (var h in hits)
 		{
 			var b = h.collider.GetComponentInParent<Board>();
