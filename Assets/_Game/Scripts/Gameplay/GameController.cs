@@ -535,7 +535,7 @@ public class GameController : MonoBehaviour
 
 	/// <summary>Chổi: dọn toàn bộ ốc trong lỗ chờ vào kho ẩn (sẽ tự bay vào hộp cùng màu sau).</summary>
 	/// <summary>Thời gian tối đa chờ chổi quét qua; ốc nào chổi chưa chạm tới thì văng theo nhịp sau đó.</summary>
-	const float BroomMaxWait = 2.0f;
+	const float BroomMaxWait = 3.5f;
 
 	public bool UseBroom()
 	{
@@ -546,62 +546,69 @@ public class GameController : MonoBehaviour
 		if (any)
 		{
 			OnUsingBroom = true;
-			if (GameCanvas != null) GameCanvas.PlayBroom();
+			if (GameCanvas != null) GameCanvas.PlayBroom(HoleScreenMin(), HoleScreenMax());
 			StartCoroutine(BroomSweep(list));
 		}
 		UpdateHoleNotice();
 		return any;
 	}
 
+	Vector2 HoleScreenMin() => HoleScreenEdge(true);
+	Vector2 HoleScreenMax() => HoleScreenEdge(false);
+
+	Vector2 HoleScreenEdge(bool min)
+	{
+		var cam = _mainCam != null ? _mainCam : Camera.main;
+		Vector2 best = new Vector2(Screen.width * 0.5f, Screen.height * 0.75f);
+		bool found = false;
+		if (cam == null) return best;
+		foreach (var h in _holes)
+		{
+			if (!h.IsActive) continue;
+			Vector2 p = cam.WorldToScreenPoint(h.Pos != null ? h.Pos.position : h.transform.position);
+			if (!found || (min ? p.x < best.x : p.x > best.x)) { best = p; found = true; }
+		}
+		return best;
+	}
+
 	/// <summary>
-	/// Đồng bộ với Spine cây chổi: mỗi khung hình lấy vị trí đầu chổi trên màn hình,
-	/// ốc nào bị đầu chổi lướt qua (theo trục ngang) thì văng đi theo hướng chổi đang quét.
+	/// Đồng bộ với Spine cây chổi: chờ tới pha quét (sự kiện "hit"), rồi mỗi khung hình
+	/// ốc nào bị đầu chổi lướt tới (theo trục ngang, hướng quét trái → phải) thì văng đi.
 	/// </summary>
 	IEnumerator BroomSweep(List<Screw> list)
 	{
-		// sắp trái → phải để phần dự phòng cũng quét theo thứ tự
 		var cam = _mainCam != null ? _mainCam : Camera.main;
 		if (cam != null) list.Sort((a, b) => cam.WorldToScreenPoint(a.transform.position).x.CompareTo(cam.WorldToScreenPoint(b.transform.position).x));
 		var pending = new List<Screw>(list);
 		float t = 0f;
-		bool hasPrev = false;
-		Vector2 prev = Vector2.zero;
-		float hitRange = Screen.width * 0.035f;
-		while (pending.Count > 0 && t < BroomMaxWait && cam != null)
+		float hitRange = Screen.width * 0.02f;
+		var ui = GameCanvas;
+		while (pending.Count > 0 && t < BroomMaxWait && cam != null && ui != null && !ui.BroomDone)
 		{
-			if (GameCanvas != null && GameCanvas.TryGetBroomScreenPos(out var bp))
+			if (ui.BroomSweeping && ui.TryGetBroomScreenPos(out var bp))
 			{
-				float step = hasPrev ? bp.x - prev.x : 0f;
-				float dir = step != 0f ? Mathf.Sign(step) : 1f;
-				// Spine có thể nhảy từ tư thế mặc định sang tư thế đầu ở vài khung đầu: bỏ qua các bước nhảy lớn
-				bool jump = Mathf.Abs(step) > Screen.width * 0.08f;
-				bool moving = hasPrev && !jump && Mathf.Abs(step) > 0.5f && t > 0.05f;
-#if UNITY_EDITOR
-				Debug.Log("[Broom] t=" + t.ToString("F2") + " x=" + bp.x.ToString("F0") + " y=" + bp.y.ToString("F0") + " step=" + step.ToString("F0") + (jump ? " JUMP" : ""));
-#endif
-				for (int i = pending.Count - 1; i >= 0; i--)
+				int k = 0;
+				for (int i = 0; i < pending.Count; i++)
 				{
 					var s = pending[i];
-					if (s == null) { pending.RemoveAt(i); continue; }
+					if (s == null) { pending.RemoveAt(i--); continue; }
 					float sx = cam.WorldToScreenPoint(s.transform.position).x;
-					bool crossed = (prev.x - sx) * (bp.x - sx) <= 0f;
-					if (moving && (crossed || Mathf.Abs(bp.x - sx) < hitRange))
+					if (bp.x + hitRange >= sx)
 					{
 #if UNITY_EDITOR
-						Debug.Log("[Broom] hit " + s.name + " sx=" + sx.ToString("F0") + " at t=" + t.ToString("F2"));
+						Debug.Log("[Broom] hit " + s.name + " sx=" + sx.ToString("F0") + " broom=" + bp.ToString("F0") + " t=" + t.ToString("F2"));
 #endif
-						SweepScrew(s, dir, 0f);
-						pending.RemoveAt(i);
+						// ốc nằm sau điểm bắt đầu quét thì văng gần như cùng lúc, lệch nhịp nhỏ cho tự nhiên
+						SweepScrew(s, 1f, k++ * 0.04f);
+						pending.RemoveAt(i--);
 					}
 				}
-				prev = bp;
-				hasPrev = true;
 			}
 			t += Time.deltaTime;
 			yield return null;
 		}
 		for (int i = 0; i < pending.Count; i++)
-			if (pending[i] != null) SweepScrew(pending[i], 1f, i * 0.1f);
+			if (pending[i] != null) SweepScrew(pending[i], 1f, i * 0.06f);
 		yield return new WaitForSeconds(0.7f);
 		OnUsingBroom = false;
 	}

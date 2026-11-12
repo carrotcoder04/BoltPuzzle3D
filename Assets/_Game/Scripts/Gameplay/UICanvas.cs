@@ -113,46 +113,104 @@ public class UICanvas : MonoBehaviour
 		else if (m == ToolMode.Hammer) _tip.text = "Tap a plate to smash it";
 	}
 
-	Spine.Bone _broomBone;
+	// Animation "animation" của clean.skel (đo bằng spine-csharp): chổi bay vào từ góc dưới phải (0–0.75s),
+	// sự kiện "hit" ở 1.2s, rồi quét TRÁI → PHẢI theo xương "clean" từ x≈-204 tới x≈267, y≈40–52 (1.17–1.57s).
+	const float BroomSweepFromX = -204f, BroomSweepToX = 267f, BroomSweepY = 45f;
+	const float BroomTimeScale = 0.85f;
 
-	/// <summary>Vị trí đầu chổi (xương gắn ảnh cây chổi) trên màn hình, dùng để đồng bộ ốc bị quét.</summary>
+	Spine.Bone _broomBone;
+	Spine.Unity.SkeletonGraphic _broomSg;
+	RectTransform _broomRt;
+	Vector2 _broomBasePos;
+	Vector3 _broomBaseScale;
+	bool _broomBaseSaved;
+	Tween _broomHide;
+
+	/// <summary>Chổi đã tới pha quét (sau sự kiện "hit").</summary>
+	public bool BroomSweeping { get; private set; }
+	/// <summary>Chổi đã quét xong (hết pha quét hoặc animation kết thúc).</summary>
+	public bool BroomDone { get; private set; }
+
+	Camera UiCam(Spine.Unity.SkeletonGraphic sg)
+	{
+		var canvas = sg != null ? sg.canvas : null;
+		return canvas != null && canvas.renderMode != RenderMode.ScreenSpaceOverlay ? canvas.worldCamera : null;
+	}
+
+	Vector2 SpineToScreen(Spine.Unity.SkeletonGraphic sg, float x, float y)
+	{
+		var world = sg.transform.TransformPoint(new Vector3(x * sg.MeshScale, y * sg.MeshScale, 0f));
+		return RectTransformUtility.WorldToScreenPoint(UiCam(sg), world);
+	}
+
+	/// <summary>Vị trí đầu chổi (xương "clean") trên màn hình.</summary>
 	public bool TryGetBroomScreenPos(out Vector2 screen)
 	{
 		screen = Vector2.zero;
-		if (_broomSpine == null || !_broomSpine.activeInHierarchy) return false;
-		var sg = _broomSpine.GetComponentInChildren<Spine.Unity.SkeletonGraphic>();
-		if (sg == null || sg.Skeleton == null) return false;
-		if (_broomBone == null || _broomBone.Skeleton != sg.Skeleton)
-		{
-			_broomBone = null;
-			// ảnh cây chổi trong atlas là "clean_3_2"; nếu không thấy thì lấy xương "clean"
-			foreach (var slot in sg.Skeleton.Slots)
-			{
-				var att = slot.Attachment;
-				if (att != null && att.Name != null && att.Name.StartsWith("clean_3")) { _broomBone = slot.Bone; break; }
-			}
-			if (_broomBone == null) _broomBone = sg.Skeleton.FindBone("clean");
-			if (_broomBone == null) return false;
-		}
-		var world = Spine.Unity.SkeletonExtensions.GetWorldPosition(_broomBone, sg.transform, sg.MeshScale);
-		var canvas = sg.canvas;
-		Camera uiCam = canvas != null && canvas.renderMode != RenderMode.ScreenSpaceOverlay ? canvas.worldCamera : null;
-		screen = RectTransformUtility.WorldToScreenPoint(uiCam, world);
+		var sg = _broomSg;
+		if (_broomSpine == null || !_broomSpine.activeInHierarchy || sg == null || sg.Skeleton == null) return false;
+		if (_broomBone == null || _broomBone.Skeleton != sg.Skeleton) _broomBone = sg.Skeleton.FindBone("clean");
+		if (_broomBone == null) return false;
+		screen = SpineToScreen(sg, _broomBone.WorldX, _broomBone.WorldY);
 		return true;
 	}
 
-	public void PlayBroom()
+	/// <summary>
+	/// Phát chổi quét qua hàng lỗ: đặt và co giãn BroomSpine để đường quét của chổi nằm đúng trên hàng lỗ
+	/// (holeMin/holeMax là toạ độ màn hình của lỗ ngoài cùng trái/phải).
+	/// </summary>
+	public void PlayBroom(Vector2 holeMin, Vector2 holeMax)
 	{
 		if (_broomSpine == null) return;
+		BroomSweeping = false;
+		BroomDone = false;
+		_broomRt = _broomSpine.transform as RectTransform;
+		if (_broomRt != null && !_broomBaseSaved) { _broomBasePos = _broomRt.anchoredPosition; _broomBaseScale = _broomRt.localScale; _broomBaseSaved = true; }
+		if (_broomRt != null) { _broomRt.anchoredPosition = _broomBasePos; _broomRt.localScale = _broomBaseScale; }
 		_broomSpine.SetActive(true);
-		// chạy chậm lại cho người chơi kịp thấy chổi quét qua, và luôn phát lại từ đầu
-		var sg = _broomSpine.GetComponentInChildren<Spine.Unity.SkeletonGraphic>(true);
+		_broomSg = _broomSpine.GetComponentInChildren<Spine.Unity.SkeletonGraphic>(true);
+		var sg = _broomSg;
+		float duration = 2.5f;
 		if (sg != null)
 		{
-			sg.timeScale = 0.7f;
+			sg.timeScale = BroomTimeScale;
+			if (_broomRt != null && sg.MeshScale > 0f) AlignBroom(sg, holeMin, holeMax);
 			if (sg.AnimationState != null && !string.IsNullOrEmpty(sg.startingAnimation))
-				sg.AnimationState.SetAnimation(0, sg.startingAnimation, false);
+			{
+				sg.AnimationState.ClearListenerNotifications();
+				var entry = sg.AnimationState.SetAnimation(0, sg.startingAnimation, false);
+				if (entry != null && entry.Animation != null) duration = entry.Animation.Duration;
+				entry.Event += (te, ev) => { if (ev.Data.Name == "hit") BroomSweeping = true; };
+				entry.Complete += te => { BroomDone = true; };
+			}
 		}
-		DOVirtual.DelayedCall(2.2f, () => { if (_broomSpine != null) _broomSpine.SetActive(false); }).SetLink(gameObject);
+		float real = duration / Mathf.Max(0.1f, BroomTimeScale);
+		_broomHide?.Kill();
+		_broomHide = DOVirtual.DelayedCall(real + 0.05f, () =>
+		{
+			BroomDone = true;
+			if (_broomSpine != null) _broomSpine.SetActive(false);
+		}).SetLink(gameObject);
+	}
+
+	void AlignBroom(Spine.Unity.SkeletonGraphic sg, Vector2 holeMin, Vector2 holeMax)
+	{
+		var parent = _broomRt.parent as RectTransform;
+		if (parent == null) return;
+		var cam = UiCam(sg);
+		// 1. co giãn đều để đường quét phủ hàng lỗ (giới hạn để chổi không quá to/nhỏ)
+		float sweepW = Mathf.Abs(SpineToScreen(sg, BroomSweepToX, BroomSweepY).x - SpineToScreen(sg, BroomSweepFromX, BroomSweepY).x);
+		float holesW = Mathf.Abs(holeMax.x - holeMin.x) + Screen.width * 0.08f;
+		if (sweepW > 1f)
+		{
+			float k = Mathf.Clamp(holesW / sweepW, 0.8f, 1.35f);
+			_broomRt.localScale = _broomBaseScale * k;
+		}
+		// 2. dời để giữa đường quét trùng giữa hàng lỗ
+		var sweepMid = SpineToScreen(sg, (BroomSweepFromX + BroomSweepToX) * 0.5f, BroomSweepY);
+		var holeMid = (holeMin + holeMax) * 0.5f;
+		if (RectTransformUtility.ScreenPointToLocalPointInRectangle(parent, sweepMid, cam, out var a) &&
+			RectTransformUtility.ScreenPointToLocalPointInRectangle(parent, holeMid, cam, out var b))
+			_broomRt.anchoredPosition += b - a;
 	}
 }
