@@ -20,7 +20,7 @@ public class StageRewardDialog : MonoBehaviour
 		var rt = transform as RectTransform;
 		if (rt != null) { rt.anchorMin = Vector2.zero; rt.anchorMax = Vector2.one; rt.offsetMin = rt.offsetMax = Vector2.zero; }
 		UIUtil.SetText(transform.FindComp<TMP_Text>("SafeArea/Top/Ribbon/Count"), "+" + LevelChest.Coins);
-		UIUtil.SetText(transform.FindComp<TMP_Text>("SafeArea/Top/Desc"), "Reward for completing " + (LevelChest.Earned * LevelChest.Target) + " levels!");
+		UIUtil.SetText(transform.FindComp<TMP_Text>("SafeArea/Top/Desc"), "Reward for completing " + ((LevelChest.Claimed + 1) * LevelChest.Target) + " levels!\n+" + LevelChest.Coins + " coins & +1 " + RewardToast.BoosterName(LevelChest.NextBooster));
 		var btn = gameObject.GetOrAdd<Button>();
 		btn.onClick.AddListener(Claim);
 		Play(EnterSound);

@@ -72,6 +72,7 @@ public class IapManager : MonoBehaviour
 		if (p.Kind == IapProductKind.NonConsumable) { PlayerPrefs.SetInt(OwnedKey + p.Id, 1); PlayerPrefs.Save(); }
 		AnalyticsManager.IapSuccess(p.Id, price, currency);
 		if (AudioManager.Instance != null) AudioManager.Instance.PlaySfx(Sfx.BigCoinGet);
+		RewardToast.Show(RewardToast.Describe(p.Coins, p.Boosters, p.UnlimitedHeartMinutes, p.RemoveAds));
 		OnPurchased?.Invoke(p);
 	}
 

@@ -9,7 +9,7 @@ public class HeartHud : MonoBehaviour
 	public UnityEvent AutoUpdateEvent = new UnityEvent();
 
 	TMP_Text _count, _time, _full;
-	GameObject _infinite, _countGo;
+	GameObject _infinite, _countGo, _icon;
 	float _tick;
 
 	void Awake()
@@ -20,6 +20,8 @@ public class HeartHud : MonoBehaviour
 		var inf = transform.FindDeep("InfiniteIcon");
 		_infinite = inf != null ? inf.gameObject : null;
 		_countGo = _count != null ? _count.gameObject : null;
+		var ic = transform.Find("Bg/Icon");
+		_icon = ic != null ? ic.gameObject : null;
 		transform.SetActive("FreeHeart", false);
 	}
 
@@ -52,6 +54,7 @@ public class HeartHud : MonoBehaviour
 		bool full = !unlimited && inv.Hearts >= InventoryManager.MaxHearts;
 		if (_infinite != null) _infinite.SetActive(unlimited);
 		if (_countGo != null) _countGo.SetActive(!unlimited);
+		if (_icon != null && _infinite != null) _icon.SetActive(!unlimited);
 		UIUtil.SetText(_count, inv.Hearts.ToString());
 		if (_full != null) _full.gameObject.SetActive(full);
 		if (_time != null)

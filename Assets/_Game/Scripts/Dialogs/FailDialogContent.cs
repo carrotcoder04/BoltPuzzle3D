@@ -115,7 +115,8 @@ public class FailDialogContent : DialogContent
 		// nút X có thể vừa được DialogContent gắn sẵn vừa được bind ở trên: bỏ lần gọi trùng trong cùng khung hình
 		if (_closeFrame == Time.frameCount) return;
 		_closeFrame = Time.frameCount;
-		if (!_warned) { _warned = true; ShowLoseWarning(); return; }
+		bool unlimited = Managers.Inventory != null && Managers.Inventory.IsUnlimitedHeart;
+		if (!_warned && !unlimited) { _warned = true; ShowLoseWarning(); return; }
 		if (GameController.Instance != null) GameController.Instance.QuitLevel();
 	}
 }
