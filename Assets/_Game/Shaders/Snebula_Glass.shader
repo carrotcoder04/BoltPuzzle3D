@@ -1,60 +1,84 @@
-Shader "Snebula/Glass" {
-	Properties {
-		_Color ("Color Tint", Vector) = (1,1,1,1)
+// Kính trong suốt cho các tấm Board (URP). Viết lại từ shader gốc "Snebula/Glass" (bản AssetRipper chỉ là shader giả).
+Shader "Snebula/Glass"
+{
+	Properties
+	{
+		_Color ("Color Tint", Color) = (1,1,1,1)
 		_MainTex ("Main Tex", 2D) = "white" {}
 		_AlphaScale ("Alpha Scale", Range(0, 1)) = 1
 	}
-	//DummyShaderTextExporter
-	SubShader{
-		Tags { "RenderType"="Opaque" }
-		LOD 200
+	SubShader
+	{
+		Tags { "RenderPipeline"="UniversalPipeline" "RenderType"="Transparent" "Queue"="Transparent" "IgnoreProjector"="True" }
 
 		Pass
 		{
+			Name "ForwardGlass"
+			Tags { "LightMode"="UniversalForward" }
+			Blend SrcAlpha OneMinusSrcAlpha
+			ZWrite Off
+			Cull Back
+
 			HLSLPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
+			#pragma multi_compile_instancing
+			#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
+			#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
 
-			float4x4 unity_ObjectToWorld;
-			float4x4 unity_MatrixVP;
-			float4 _MainTex_ST;
+			TEXTURE2D(_MainTex); SAMPLER(sampler_MainTex);
+			CBUFFER_START(UnityPerMaterial)
+				float4 _MainTex_ST;
+				half4 _Color;
+				half _AlphaScale;
+			CBUFFER_END
 
-			struct Vertex_Stage_Input
+			struct Attributes
 			{
-				float4 pos : POSITION;
+				float4 positionOS : POSITION;
+				float3 normalOS : NORMAL;
 				float2 uv : TEXCOORD0;
+				UNITY_VERTEX_INPUT_INSTANCE_ID
 			};
 
-			struct Vertex_Stage_Output
+			struct Varyings
 			{
+				float4 positionCS : SV_POSITION;
 				float2 uv : TEXCOORD0;
-				float4 pos : SV_POSITION;
+				float3 normalWS : TEXCOORD1;
+				float3 positionWS : TEXCOORD2;
+				UNITY_VERTEX_OUTPUT_STEREO
 			};
 
-			Vertex_Stage_Output vert(Vertex_Stage_Input input)
+			Varyings vert(Attributes v)
 			{
-				Vertex_Stage_Output output;
-				output.uv = (input.uv.xy * _MainTex_ST.xy) + _MainTex_ST.zw;
-				output.pos = mul(unity_MatrixVP, mul(unity_ObjectToWorld, input.pos));
-				return output;
+				Varyings o;
+				UNITY_SETUP_INSTANCE_ID(v);
+				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
+				o.positionWS = TransformObjectToWorld(v.positionOS.xyz);
+				o.positionCS = TransformWorldToHClip(o.positionWS);
+				o.normalWS = TransformObjectToWorldNormal(v.normalOS);
+				o.uv = TRANSFORM_TEX(v.uv, _MainTex);
+				return o;
 			}
 
-			Texture2D<float4> _MainTex;
-			SamplerState sampler_MainTex;
-			float4 _Color;
-
-			struct Fragment_Stage_Input
+			half4 frag(Varyings i) : SV_Target
 			{
-				float2 uv : TEXCOORD0;
-			};
+				half4 tex = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, i.uv);
+				half3 n = normalize(i.normalWS);
+				half3 v = GetWorldSpaceNormalizeViewDir(i.positionWS);
+				Light light = GetMainLight();
+				half ndl = saturate(dot(n, light.direction)) * 0.5 + 0.5;
+				half3 h = normalize(light.direction + v);
+				half spec = pow(saturate(dot(n, h)), 48.0);
+				half fresnel = pow(1.0 - saturate(dot(n, v)), 3.0);
 
-			float4 frag(Fragment_Stage_Input input) : SV_TARGET
-			{
-				return _MainTex.Sample(sampler_MainTex, input.uv.xy) * _Color;
+				half3 col = tex.rgb * _Color.rgb * (0.65 + 0.35 * ndl) + spec * 0.6 + fresnel * 0.25;
+				half alpha = saturate(tex.a * _Color.a * _AlphaScale + fresnel * 0.35 + spec);
+				return half4(col, alpha);
 			}
-
 			ENDHLSL
 		}
 	}
-	Fallback "Transparent/VertexLit"
+	Fallback Off
 }

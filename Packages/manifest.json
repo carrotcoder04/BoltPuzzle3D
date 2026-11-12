@@ -5,6 +5,10 @@
     "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.5.10",
     "com.esotericsoftware.spine.spine-csharp": "https://github.com/EsotericSoftware/spine-runtimes.git?path=spine-csharp/src#4.1",
     "com.esotericsoftware.spine.spine-unity": "https://github.com/EsotericSoftware/spine-runtimes.git?path=spine-unity/Assets/Spine#4.1",
+    "com.unity.multiplayer.center": "1.0.0",
+    "com.unity.purchasing": "5.0.4",
+    "com.unity.render-pipelines.universal": "17.2.0",
+    "com.unity.ugui": "2.0.0",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
@@ -36,10 +40,6 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0",
-    "com.unity.multiplayer.center": "1.0.0",
-    "com.unity.purchasing": "4.12.2",
-    "com.unity.render-pipelines.universal": "17.2.0",
-    "com.unity.ugui": "2.0.0"
+    "com.unity.modules.xr": "1.0.0"
   }
 }

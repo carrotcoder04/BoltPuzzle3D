@@ -1,60 +1,93 @@
-Shader "LightModel/Matcap" {
-	Properties {
-		_MainTex ("MainTex", 2D) = "white" {}
-		_MainColor ("MainColor", Vector) = (1,1,1,1)
-		[HideInInspector] __dirty ("", Float) = 1
+// Matcap không cần đèn (URP). Viết lại từ shader gốc "LightModel/Matcap".
+Shader "LightModel/Matcap"
+{
+	Properties
+	{
+		_MainTex ("MainTex (Matcap)", 2D) = "white" {}
+		_MainColor ("MainColor", Color) = (1,1,1,1)
 	}
-	//DummyShaderTextExporter
-	SubShader{
-		Tags { "RenderType"="Opaque" }
-		LOD 200
+	SubShader
+	{
+		Tags { "RenderPipeline"="UniversalPipeline" "RenderType"="Opaque" "Queue"="Geometry" }
 
 		Pass
 		{
+			Name "ForwardMatcap"
+			Tags { "LightMode"="UniversalForward" }
+
 			HLSLPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
+			#pragma multi_compile_instancing
+			#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 
-			float4x4 unity_ObjectToWorld;
-			float4x4 unity_MatrixVP;
-			float4 _MainTex_ST;
+			TEXTURE2D(_MainTex); SAMPLER(sampler_MainTex);
+			CBUFFER_START(UnityPerMaterial)
+				float4 _MainTex_ST;
+				half4 _MainColor;
+			CBUFFER_END
 
-			struct Vertex_Stage_Input
+			struct Attributes
 			{
-				float4 pos : POSITION;
-				float2 uv : TEXCOORD0;
+				float4 positionOS : POSITION;
+				float3 normalOS : NORMAL;
+				UNITY_VERTEX_INPUT_INSTANCE_ID
 			};
 
-			struct Vertex_Stage_Output
+			struct Varyings
 			{
-				float2 uv : TEXCOORD0;
-				float4 pos : SV_POSITION;
+				float4 positionCS : SV_POSITION;
+				float2 muv : TEXCOORD0;
+				UNITY_VERTEX_OUTPUT_STEREO
 			};
 
-			Vertex_Stage_Output vert(Vertex_Stage_Input input)
+			Varyings vert(Attributes v)
 			{
-				Vertex_Stage_Output output;
-				output.uv = (input.uv.xy * _MainTex_ST.xy) + _MainTex_ST.zw;
-				output.pos = mul(unity_MatrixVP, mul(unity_ObjectToWorld, input.pos));
-				return output;
+				Varyings o;
+				UNITY_SETUP_INSTANCE_ID(v);
+				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
+				o.positionCS = TransformObjectToHClip(v.positionOS.xyz);
+				float3 nWS = TransformObjectToWorldNormal(v.normalOS);
+				o.muv = TransformWorldToViewDir(nWS, true).xy * 0.5 + 0.5;
+				return o;
 			}
 
-			Texture2D<float4> _MainTex;
-			SamplerState sampler_MainTex;
-
-			struct Fragment_Stage_Input
+			half4 frag(Varyings i) : SV_Target
 			{
-				float2 uv : TEXCOORD0;
-			};
-
-			float4 frag(Fragment_Stage_Input input) : SV_TARGET
-			{
-				return _MainTex.Sample(sampler_MainTex, input.uv.xy);
+				half4 c = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, i.muv) * _MainColor;
+				return half4(c.rgb, 1);
 			}
+			ENDHLSL
+		}
 
+		Pass
+		{
+			Name "DepthOnly"
+			Tags { "LightMode"="DepthOnly" }
+			ZWrite On
+			ColorMask R
+
+			HLSLPROGRAM
+			#pragma vertex vert
+			#pragma fragment frag
+			#pragma multi_compile_instancing
+			#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
+			CBUFFER_START(UnityPerMaterial)
+				float4 _MainTex_ST;
+				half4 _MainColor;
+			CBUFFER_END
+			struct Attributes { float4 positionOS : POSITION; UNITY_VERTEX_INPUT_INSTANCE_ID };
+			struct Varyings { float4 positionCS : SV_POSITION; };
+			Varyings vert(Attributes v)
+			{
+				Varyings o;
+				UNITY_SETUP_INSTANCE_ID(v);
+				o.positionCS = TransformObjectToHClip(v.positionOS.xyz);
+				return o;
+			}
+			half4 frag(Varyings i) : SV_Target { return 0; }
 			ENDHLSL
 		}
 	}
-	Fallback "Diffuse"
-	//CustomEditor "ASEMaterialInspector"
+	Fallback Off
 }

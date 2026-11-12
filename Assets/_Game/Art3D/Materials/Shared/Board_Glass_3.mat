@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Board_Glass
-  m_Shader: {fileID: 4800000, guid: 41321f5983e1e9e4682795825dbaf6dc, type: 3}
+  m_Shader: {fileID: 4800000, guid: c9e65f1a11517834eb46e4cdfef6e56b, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords:
   - TCP2_DISABLE_WRAPPED_LIGHT

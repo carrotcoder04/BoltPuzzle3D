@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: UIImageGammaColorCorrection
-  m_Shader: {fileID: 4800000, guid: a95f2b4a398765f469297dd7bf21c16d, type: 3}
+  m_Shader: {fileID: 4800000, guid: 158725c6459ffe7499c17a832d35d4bf, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
