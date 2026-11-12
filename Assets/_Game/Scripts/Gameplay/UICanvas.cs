@@ -85,8 +85,8 @@ public class UICanvas : MonoBehaviour
 			bool next = startSlots == 2 + i;
 			_adBoxBtns[i].gameObject.SetActive(!unlocked);
 			_adBoxBtns[i].interactable = next;
-			var txt = _adBoxBtns[i].GetComponentInChildren<TMP_Text>(true);
-			if (txt != null) txt.text = BoxSlotPrice.ToString();
+			var tt = _adBoxBtns[i].transform.Find("Text");
+			var txt = tt != null ? tt.GetComponent<TMP_Text>() : _adBoxBtns[i].GetComponentInChildren<TMP_Text>(true);
 			EnsureCoinIcon(_adBoxBtns[i], txt);
 		}
 	}
@@ -96,32 +96,60 @@ public class UICanvas : MonoBehaviour
 
 	static int BoxSlotPrice => GameConfig.Instance != null ? GameConfig.Instance.BoxSlotPrice : 200;
 
-	/// <summary>Gắn icon coin (lấy từ một Image coin có sẵn trong UI) cạnh giá trên nút thêm khay.</summary>
+	/// <summary>
+	/// Nhãn giá ở mép dưới nút thêm khay: [icon coin][giá], căn giữa bằng HorizontalLayoutGroup.
+	/// Chữ gốc của nút (UNLOCK) được ẩn đi; số được nhân bản từ chữ gốc để giữ font.
+	/// </summary>
 	void EnsureCoinIcon(Button btn, TMP_Text txt)
 	{
-		if (btn == null || txt == null || btn.transform.Find("CoinIcon") != null) return;
-		Sprite coin = CoinSprite;
-		if (coin == null)
-		foreach (var img in GetComponentsInChildren<Image>(true))
-			if (img.sprite != null && img.sprite.name.ToLowerInvariant().Contains("coin")) { coin = img.sprite; break; }
-		if (coin == null) return;
-		var go = new GameObject("CoinIcon", typeof(RectTransform), typeof(Image));
-		var rt = go.GetComponent<RectTransform>();
-		rt.SetParent(txt.transform.parent, false);
-		var trt = txt.rectTransform;
-		float h = Mathf.Max(24f, txt.fontSize * 1.1f);
-		rt.anchorMin = rt.anchorMax = trt.anchorMin == trt.anchorMax ? trt.anchorMin : new Vector2(0.5f, 0.5f);
-		rt.sizeDelta = new Vector2(h, h);
-		var im = go.GetComponent<Image>();
-		im.sprite = coin;
-		im.preserveAspect = true;
-		im.raycastTarget = false;
-		// đặt icon bên trái số, dời số sang phải nửa icon để cả cụm nằm giữa nút
-		float textW = Mathf.Max(txt.preferredWidth, 30f);
-		var orig = trt.anchoredPosition;
-		float shift = h * 0.5f;
-		trt.anchoredPosition = orig + new Vector2(shift, 0f);
-		rt.anchoredPosition = orig + new Vector2(shift - textW * 0.5f - h * 0.5f - 4f, 0f);
+		if (btn == null || txt == null) return;
+		var tag = btn.transform.Find("PriceTag");
+		if (tag == null)
+		{
+			var go = new GameObject("PriceTag", typeof(RectTransform), typeof(HorizontalLayoutGroup), typeof(ContentSizeFitter));
+			var rt = go.GetComponent<RectTransform>();
+			rt.SetParent(btn.transform, false);
+			rt.anchorMin = rt.anchorMax = new Vector2(0.5f, 0f);
+			rt.pivot = new Vector2(0.5f, 0.5f);
+			rt.anchoredPosition = new Vector2(0f, 30f);
+			var hlg = go.GetComponent<HorizontalLayoutGroup>();
+			hlg.spacing = 4f;
+			hlg.childAlignment = TextAnchor.MiddleCenter;
+			hlg.childControlWidth = hlg.childControlHeight = true;
+			hlg.childForceExpandWidth = hlg.childForceExpandHeight = false;
+			var fit = go.GetComponent<ContentSizeFitter>();
+			fit.horizontalFit = fit.verticalFit = ContentSizeFitter.FitMode.PreferredSize;
+
+			Sprite coin = CoinSprite;
+			if (coin != null)
+			{
+				var ic = new GameObject("Coin", typeof(RectTransform), typeof(Image), typeof(LayoutElement));
+				ic.transform.SetParent(rt, false);
+				var im = ic.GetComponent<Image>();
+				im.sprite = coin; im.preserveAspect = true; im.raycastTarget = false;
+				var le = ic.GetComponent<LayoutElement>();
+				le.preferredWidth = le.preferredHeight = 38f;
+			}
+			var num = Instantiate(txt, rt, false);
+			num.name = "Price";
+			num.gameObject.SetActive(true);
+			num.enableAutoSizing = false;
+			num.fontSize = 32f;
+			num.alignment = TextAlignmentOptions.Midline;
+			num.enableWordWrapping = false;
+			num.color = Color.white;
+			num.outlineWidth = 0.28f;
+			num.outlineColor = new Color32(40, 70, 20, 255);
+			num.raycastTarget = false;
+			foreach (Transform c in num.transform) Destroy(c.gameObject);
+			// bỏ các script phụ (Snui_Text...) có thể ghi đè chữ, chỉ giữ TMP
+			foreach (var mb in num.GetComponents<MonoBehaviour>()) if (!(mb is TMP_Text)) Destroy(mb);
+			tag = rt;
+		}
+		txt.gameObject.SetActive(false);
+		var price = tag.Find("Price");
+		var pt = price != null ? price.GetComponent<TMP_Text>() : null;
+		if (pt != null) pt.text = BoxSlotPrice.ToString();
 	}
 
 	/// <summary>Mở ô hộp 3/4: luôn trừ coin.</summary>
