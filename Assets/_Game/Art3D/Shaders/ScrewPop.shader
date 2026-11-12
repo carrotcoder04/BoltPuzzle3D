@@ -180,8 +180,8 @@ Shader "BoltPuzzle/ScrewPop"
             ENDHLSL
         }
 
-        UsePass "Universal Render Pipeline/SimpleLit/SHADOWCASTER"
-        UsePass "Universal Render Pipeline/SimpleLit/DEPTHONLY"
+        UsePass "Universal Render Pipeline/Simple Lit/SHADOWCASTER"
+        UsePass "Universal Render Pipeline/Simple Lit/DEPTHONLY"
     }
-    FallBack "Universal Render Pipeline/SimpleLit"
+    FallBack "Universal Render Pipeline/Simple Lit"
 }
