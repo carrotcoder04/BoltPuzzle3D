@@ -8645,7 +8645,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: $9.99
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b6064903aa5acd8489454b3656ac7636, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0e34da7feec5cf54081420835cf1c1dc, type: 2}
   m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials:
   - {fileID: 0}
