@@ -262,7 +262,10 @@ public class GameController : MonoBehaviour
 		if (!PlayableConfig.IsPlayable && TutorialLevel1.ShouldRun(Level)) TutorialLevel1.Begin(this);
 	}
 
-	public bool InputLocked => IsGameOver || IsGameFail || DialogManager.Count > 0;
+	/// <summary>Đang chạy animation khoan/búa: khoá chạm cho tới lúc công cụ chạm mục tiêu.</summary>
+	bool _toolBusy;
+
+	public bool InputLocked => IsGameOver || IsGameFail || _toolBusy || DialogManager.Count > 0;
 
 	// ---------------------------------------------------------------- boxes
 	Vector3 SlotWorldPos(int slot)
@@ -465,13 +468,30 @@ public class GameController : MonoBehaviour
 
 		if (Mode == ToolMode.Hammer)
 		{
-			if (board != null && !board.IsFallen) UseHammerOn(board);
+			if (board == null || board.IsFallen) return;
+			var b = board;
+			bool played = GameCanvas != null && GameCanvas.PlayToolHit("Hammer", _mainCam.WorldToScreenPoint(BoardCenter(b)), () =>
+			{
+				_toolBusy = false;
+				if (b != null && !b.IsFallen) UseHammerOn(b);
+				else SetMode(ToolMode.None);
+			});
+			if (played) _toolBusy = true;
+			else UseHammerOn(board);
 			return;
 		}
 		if (screw == null || screw.IsRemoved) return;
 		if (Mode == ToolMode.Drill)
 		{
-			if (TryRoute(screw, true)) CompleteTool(BoosterType.Drill, Sfx.ToolDrill);
+			var target = screw;
+			bool played = GameCanvas != null && GameCanvas.PlayToolHit("Drill", _mainCam.WorldToScreenPoint(target.transform.position), () =>
+			{
+				_toolBusy = false;
+				if (target != null && !target.IsRemoved && TryRoute(target, true)) CompleteTool(BoosterType.Drill, Sfx.ToolDrill);
+				else SetMode(ToolMode.None);
+			});
+			if (played) _toolBusy = true;
+			else if (TryRoute(screw, true)) CompleteTool(BoosterType.Drill, Sfx.ToolDrill);
 			return;
 		}
 		if (GameCreator.IsBlocked(screw, null, out var blocker))
@@ -597,6 +617,15 @@ public class GameController : MonoBehaviour
 		AnalyticsManager.BoosterUse(type);
 		if (Managers.Audio != null) Managers.Audio.PlaySfx(sfx);
 		SetMode(ToolMode.None);
+	}
+
+	static Vector3 BoardCenter(Board board)
+	{
+		var rs = board.GetComponentsInChildren<Renderer>();
+		if (rs.Length == 0) return board.transform.position;
+		var bb = rs[0].bounds;
+		for (int i = 1; i < rs.Length; i++) bb.Encapsulate(rs[i].bounds);
+		return bb.center;
 	}
 
 	void UseHammerOn(Board board)

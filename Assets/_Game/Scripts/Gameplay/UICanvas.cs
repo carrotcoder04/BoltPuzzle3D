@@ -39,7 +39,7 @@ public class UICanvas : MonoBehaviour
 		if (_broomSpine != null) _broomSpine.SetActive(false);
 
 		// Các node chưa dùng / chỉ để debug
-		foreach (var n in new[] { "ViewRoot", "ViewScale", "Ad_Mask", "AdMask", "PuzzlePreview", "ToolsSpine", "GameProgressSpark", "SpecialNode" })
+		foreach (var n in new[] { "ViewRoot", "ViewScale", "Ad_Mask", "AdMask", "PuzzlePreview", "GameProgressSpark", "SpecialNode" })
 			root.SetActive(n, false);
 	}
 
@@ -266,6 +266,59 @@ public class UICanvas : MonoBehaviour
 	Vector3 _broomBaseScale;
 	bool _broomBaseSaved;
 	Tween _broomHide;
+
+	// ---------------------------------------------------------------- khoan / búa
+	// drill.skel / hammer.skel (đo bằng spine-csharp): mũi khoan / đầu búa chạm gốc toạ độ (0,0) của skeleton
+	// đúng lúc sự kiện "hit" (khoan 1.23s / 2.43s, búa 0.8s / 1.63s); tia sáng cuối animation toả quanh gốc.
+	/// <summary>
+	/// Phát animation khoan/búa ("Drill"/"Hammer" dưới ToolsSpine) sao cho điểm chạm rơi đúng vị trí màn hình <paramref name="screen"/>.
+	/// onHit gọi ở sự kiện "hit" (hoặc theo giờ nếu không nhận được sự kiện); trả về false nếu không có spine.
+	/// </summary>
+	public bool PlayToolHit(string tool, Vector2 screen, System.Action onHit)
+	{
+		var root = transform.FindDeep("ToolsSpine");
+		var t = root != null ? root.Find(tool) : null;
+		var sg = t != null ? t.GetComponentInChildren<Spine.Unity.SkeletonGraphic>(true) : null;
+		if (sg == null) return false;
+		root.gameObject.SetActive(true);
+		foreach (Transform c in root) if (c != t) c.gameObject.SetActive(false);
+		t.gameObject.SetActive(true);
+		var rt = t as RectTransform;
+		var parent = rt != null ? rt.parent as RectTransform : null;
+
+		bool hitDone = false;
+		System.Action hit = () => { if (hitDone) return; hitDone = true; onHit?.Invoke(); };
+		float duration = 2f, hitTime = 1f;
+		if (sg.AnimationState != null)
+		{
+			sg.AnimationState.ClearListenerNotifications();
+			string anim = !string.IsNullOrEmpty(sg.startingAnimation) ? sg.startingAnimation : "animation";
+			var entry = sg.AnimationState.SetAnimation(0, anim, false);
+			if (entry != null && entry.Animation != null)
+			{
+				duration = entry.Animation.Duration;
+				foreach (var tl in entry.Animation.Timelines)
+					if (tl is Spine.EventTimeline et)
+						foreach (var e in et.Events) if (e.Data.Name == "hit") hitTime = e.Time;
+				entry.Event += (te, ev) => { if (ev.Data.Name == "hit") hit(); };
+			}
+		}
+		sg.Update(0f);
+		sg.LateUpdate();
+		// dời để gốc skeleton (điểm chạm) trùng vị trí mục tiêu
+		if (rt != null && parent != null && sg.MeshScale > 0f)
+		{
+			var cam = UiCam(sg);
+			var origin = RawToScreen(sg, 0f, 0f);
+			if (RectTransformUtility.ScreenPointToLocalPointInRectangle(parent, origin, cam, out var a) &&
+				RectTransformUtility.ScreenPointToLocalPointInRectangle(parent, screen, cam, out var b))
+				rt.anchoredPosition += b - a;
+		}
+		float ts = Mathf.Max(0.1f, sg.timeScale);
+		DOVirtual.DelayedCall(hitTime / ts + 0.1f, () => hit()).SetLink(t.gameObject);
+		DOVirtual.DelayedCall(duration / ts + 0.05f, () => { if (t != null) t.gameObject.SetActive(false); }).SetLink(gameObject);
+		return true;
+	}
 
 	/// <summary>Chổi đã tới pha quét (sau sự kiện "hit").</summary>
 	public bool BroomSweeping { get; private set; }
