@@ -97,6 +97,7 @@ public class GameController : MonoBehaviour
 			if (c.name == "UICamera") _uiCam = c;
 		}
 		if (_mainCam == null) _mainCam = Camera.main;
+		FitCamerasToAspect();
 
 		if (GameRoot != null)
 		{
@@ -126,6 +127,23 @@ public class GameController : MonoBehaviour
 			_reserveRoot.SetParent(HoleRoot, false);
 		}
 		if (_oneLeft != null) _oneLeft.SetActive(false);
+	}
+
+	/// <summary>
+	/// Camera ortho giữ chiều cao cố định, nên trên máy dài và hẹp (19.5:9 trở lên) mô hình và dãy hộp bị cắt hai bên.
+	/// Khi màn hình hẹp hơn thiết kế 750x1624 thì nới orthographicSize để giữ đủ bề ngang.
+	/// </summary>
+	void FitCamerasToAspect()
+	{
+		const float refAspect = 750f / 1624f;
+		float aspect = (float)Screen.width / Mathf.Max(1, Screen.height);
+		if (aspect >= refAspect) return;
+		float k = refAspect / aspect;
+		foreach (var c in FindObjectsByType<Camera>(FindObjectsSortMode.None))
+		{
+			if (!c.orthographic || c == _uiCam || c.name.Contains("UI")) continue;
+			c.orthographicSize *= k;
+		}
 	}
 
 	static Transform FindRoot(string name)

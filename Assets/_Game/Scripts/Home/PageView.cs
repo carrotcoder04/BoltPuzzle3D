@@ -53,8 +53,20 @@ namespace Sugar.UI
 			if (Mathf.Approximately(w, _lastWidth) || w <= 0f) return;
 			_lastWidth = w;
 			float h = vp.rect.height;
+			// Layout group gốc không điều khiển kích thước con (childControlWidth = false) nên LayoutElement bị bỏ qua,
+			// trang giữ nguyên bề rộng 750 của thiết kế và lộ trang bên cạnh trên màn hình rộng (iPad, máy gập).
+			var hlg = _scroll.content.GetComponent<HorizontalLayoutGroup>();
+			if (hlg != null)
+			{
+				hlg.childControlWidth = hlg.childControlHeight = true;
+				hlg.childForceExpandWidth = hlg.childForceExpandHeight = false;
+				hlg.spacing = 0f;
+				hlg.padding = new RectOffset();
+			}
 			foreach (var p in _pages)
 			{
+				var prt = (RectTransform)p.transform;
+				prt.sizeDelta = new Vector2(w, h);
 				var le = p.GetComponent<LayoutElement>() ?? p.gameObject.AddComponent<LayoutElement>();
 				le.minWidth = le.preferredWidth = w;
 				le.minHeight = le.preferredHeight = h;

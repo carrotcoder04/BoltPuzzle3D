@@ -34,6 +34,7 @@ public class NavigationController : MonoBehaviour
 			transform.SetActive(key + "Cell", false);
 		}
 		if (_pageView != null) _pageView.Refresh();
+		LayoutCells();
 
 		foreach (var cell in _bar.Cells)
 		{
@@ -44,6 +45,25 @@ public class NavigationController : MonoBehaviour
 			if (c.Button != null) c.Button.onClick.AddListener(() => GoTo(page));
 		}
 		GoTo("HomePage", false);
+	}
+
+	/// <summary>Chia đều bề rộng thanh tab cho các tab còn hiện (thiết kế gốc đặt cứng vị trí cho 5 tab trên màn 750).</summary>
+	void LayoutCells()
+	{
+		var active = new List<NavigationCell>();
+		foreach (var c in _bar.Cells) if (c != null && c.gameObject.activeSelf) active.Add(c);
+		active.Sort((a, b) => a.transform.GetSiblingIndex().CompareTo(b.transform.GetSiblingIndex()));
+		int n = active.Count;
+		for (int i = 0; i < n; i++)
+		{
+			var rt = (RectTransform)active[i].transform;
+			rt.anchorMin = new Vector2((float)i / n, rt.anchorMin.y);
+			rt.anchorMax = new Vector2((float)(i + 1) / n, rt.anchorMax.y);
+			rt.pivot = new Vector2(0.5f, rt.pivot.y);
+			rt.offsetMin = new Vector2(0f, rt.offsetMin.y);
+			rt.offsetMax = new Vector2(0f, rt.offsetMax.y);
+		}
+		Canvas.ForceUpdateCanvases();
 	}
 
 	void OnDestroy() { if (Instance == this) Instance = null; }

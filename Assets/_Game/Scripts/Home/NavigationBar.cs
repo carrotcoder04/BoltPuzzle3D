@@ -26,9 +26,12 @@ namespace Snui
 			}
 		}
 
+		float _cursorBaseWidth = -1f;
+
 		void Awake()
 		{
 			if (_cursor == null) _cursor = transform.Find("Cursor") as RectTransform;
+			if (_cursor != null) _cursorBaseWidth = _cursor.sizeDelta.x;
 		}
 
 		public void Select(NavigationCell cell, bool animate = true)
@@ -39,7 +42,9 @@ namespace Snui
 			if (crt != null)
 			{
 				var size = _cursor.sizeDelta;
+				// tab có thể rất rộng trên màn hình ngang/iPad: giữ con trỏ đúng cỡ thiết kế
 				size.x = crt.rect.width * Mathf.Max(1f, CursorExpand) / 1.6f;
+				if (_cursorBaseWidth > 0f) size.x = Mathf.Min(size.x, _cursorBaseWidth);
 				_cursor.sizeDelta = size;
 			}
 			_cursor.DOKill();
