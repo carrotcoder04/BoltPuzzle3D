@@ -57,6 +57,8 @@ public class TutorialLevel1 : MonoBehaviour
 		if (_ring != null) _ring.SetAsLastSibling();
 		if (_hand != null) _hand.SetAsLastSibling();
 		SetVisible(_rotateImg, false);
+		SetVisible(_hand, false);
+		SetVisible(_ring, false);
 
 		_gc.OnScrewMoved += OnScrewMoved;
 		_gc.OnScrewToHole += OnScrewToHole;
@@ -74,8 +76,7 @@ public class TutorialLevel1 : MonoBehaviour
 			PointAt(_target);
 			yield return null;
 		}
-		SetVisible(_hand, false);
-		SetVisible(_ring, false);
+		HideHand();
 
 		// bước 2: xoay mô hình
 		_rotated = false;
@@ -200,22 +201,51 @@ public class TutorialLevel1 : MonoBehaviour
 		t.DOScale(1f, 0.3f).SetEase(Ease.OutBack).SetLink(_panel);
 	}
 
-	Tween _tapLoop;
+	// Chỉ hiện tay khi vị trí ốc trên màn hình đã đứng yên (mô hình/camera xong hiệu ứng vào màn).
+	const float StableTime = 0.2f, StableDist = 3f;
+	Screw _lastTarget;
+	Vector2 _lastOffset;
+	float _stableFor;
+	bool _handShown;
+
+	void HideHand()
+	{
+		_handShown = false;
+		_stableFor = 0f;
+		SetVisible(_hand, false);
+		SetVisible(_ring, false);
+	}
 
 	void PointAt(Screw s)
 	{
-		bool show = s != null && !s.IsRemoved && !_gc.InputLocked;
-		SetVisible(_hand, show);
-		SetVisible(_ring, show);
-		if (!show) return;
+		if (s == null || s.IsRemoved || _gc.InputLocked) { HideHand(); return; }
 		var cam = _gc.MainCamera;
 		var canvas = _gc.GameCanvas.GetComponentInParent<Canvas>();
-		if (cam == null || canvas == null) return;
+		if (cam == null || canvas == null) { HideHand(); return; }
 		Camera uiCam = canvas.renderMode != RenderMode.ScreenSpaceOverlay ? canvas.worldCamera : null;
 		Vector2 screen = cam.WorldToScreenPoint(s.transform.position);
-		if (!RectTransformUtility.ScreenPointToLocalPointInRectangle(_safe, screen, uiCam, out var local)) return;
+		if (!RectTransformUtility.ScreenPointToLocalPointInRectangle(_safe, screen, uiCam, out var local)) { HideHand(); return; }
 		// toạ độ local của SafeArea → anchoredPosition (neo giữa)
 		var offset = local - _safe.rect.center;
+
+		if (!_handShown)
+		{
+			// chờ đúng mục tiêu và vị trí ổn định một chút rồi mới hiện
+			if (s != _lastTarget || (offset - _lastOffset).sqrMagnitude > StableDist * StableDist) _stableFor = 0f;
+			else _stableFor += Time.deltaTime;
+			_lastTarget = s;
+			_lastOffset = offset;
+			if (_stableFor < StableTime) return;
+			_handShown = true;
+			SetVisible(_hand, true);
+			SetVisible(_ring, true);
+			if (_hand != null)
+			{
+				var hi = _hand.GetComponent<Image>();
+				if (hi != null) { hi.DOKill(); hi.color = new Color(1f, 1f, 1f, 0f); hi.DOFade(1f, 0.2f).SetLink(_hand.gameObject); }
+			}
+		}
+		else if (s != _lastTarget) { _lastTarget = s; HideHand(); return; }
 		if (_ring != null) _ring.anchoredPosition = offset;
 		if (_hand != null)
 		{

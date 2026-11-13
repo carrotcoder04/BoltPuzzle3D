@@ -19,6 +19,9 @@ namespace Snui
 		/// <summary>Gọi khi dialog đã đóng, kèm kết quả cuối của content.</summary>
 		public event Action<Dialog, int> Closed;
 
+		/// <summary>Hiệu ứng đóng tuỳ chỉnh: nhận callback phải gọi khi chạy xong (nền tối mờ song song).</summary>
+		public Action<Action> ExitAnimation;
+
 		public DialogContent Content { get; private set; }
 		public int Result { get; private set; } = -1;
 		public bool IsClosing { get; private set; }
@@ -77,7 +80,12 @@ namespace Snui
 			if (IsClosing) return;
 			IsClosing = true;
 			Result = result;
-			if (ExitAnim && _dim != null)
+			if (ExitAnimation != null)
+			{
+				if (_dim != null) { _dim.DOKill(); _dim.DOFade(0f, 0.24f).SetUpdate(true); }
+				ExitAnimation(Finish);
+			}
+			else if (ExitAnim && _dim != null)
 			{
 				_dim.DOKill();
 				_dim.DOFade(0f, Mathf.Max(FadeInOutDuration, 0.15f)).SetUpdate(true).OnComplete(Finish);
