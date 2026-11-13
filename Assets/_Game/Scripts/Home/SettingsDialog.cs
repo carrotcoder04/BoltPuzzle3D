@@ -2,13 +2,13 @@ using System;
 using Snui;
 using UnityEngine;
 
-/// <summary>Cài đặt: Nhạc, Âm thanh, Rung, Chế độ mù màu, Khôi phục giao dịch. Ẩn các mục online.</summary>
+/// <summary>Cài đặt: Nhạc, Âm thanh, Rung, Chế độ mù màu. Ẩn các mục online.</summary>
 public class SettingsDialog : MonoBehaviour
 {
 	void Awake()
 	{
 		var content = transform.FindDeep("Content") ?? transform;
-		var keep = new[] { "MusicBtn", "SoundBtn", "VibrationBtn", "BlindModeBtn", "RestoreBtn" };
+		var keep = new[] { "MusicBtn", "SoundBtn", "VibrationBtn", "BlindModeBtn" };
 		foreach (Transform c in content)
 			if (c.GetComponent<UnityEngine.UI.Button>() != null && Array.IndexOf(keep, c.name) < 0) c.gameObject.SetActive(false);
 
@@ -17,7 +17,7 @@ public class SettingsDialog : MonoBehaviour
 		SetLabel(content, "SoundBtn", "Sound");
 		SetLabel(content, "VibrationBtn", "Vibration");
 		content.SetActive("BlindModeBtn", false);
-		SetLabel(content, "RestoreBtn", "Restore Purchases");
+		content.SetActive("RestoreBtn", false);
 
 		var ud = UserDataManager.Instance;
 		if (ud != null)
@@ -26,7 +26,6 @@ public class SettingsDialog : MonoBehaviour
 			Toggle(content, "SoundBtn", () => ud.SoundOn, v => ud.SoundOn = v);
 			Toggle(content, "VibrationBtn", () => ud.VibrationOn, v => ud.VibrationOn = v);
 		}
-		content.BindButton("RestoreBtn", () => { if (IapManager.Instance != null) IapManager.Instance.Restore(); });
 
 		var dialog = GetComponent<Dialog>();
 		foreach (var n in new[] { "CloseBtn", "CloseButton", "BackBtn", "BackButton" })
