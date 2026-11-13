@@ -149,11 +149,15 @@ public class CheatLevel : MonoBehaviour
 	void OnGUI()
 	{
 		if (_capturing || !InGame) return;
+		// tránh tai thỏ / vùng camera: đặt panel trong Screen.safeArea, co lại nếu màn hẹp
+		var safe = Screen.safeArea;
 		float s = Mathf.Max(1f, Screen.height / 1000f);
+		s = Mathf.Min(s, (safe.width - 12f) / 460f);
 		var m = GUI.matrix;
 		GUI.matrix = Matrix4x4.Scale(new Vector3(s, s, 1f));
-		float w = Screen.width / s;
-		var r = new Rect(w * 0.5f - 230f, 6f, 460f, 72f);
+		float top = (Screen.height - safe.yMax) / s;   // GUI tính y từ trên xuống
+		float cx = (safe.x + safe.width * 0.5f) / s;
+		var r = new Rect(cx - 230f, top + 6f, 460f, 72f);
 		GUI.Box(r, GUIContent.none);
 		var big = new GUIStyle(GUI.skin.button) { fontSize = 18 };
 		var lbl = new GUIStyle(GUI.skin.label) { fontSize = 18, alignment = TextAnchor.MiddleCenter, normal = { textColor = Color.white } };
