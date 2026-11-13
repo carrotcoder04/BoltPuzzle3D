@@ -46,17 +46,6 @@ on screen yet, park the screw in a holding hole, but don't let the holes fill up
   <img src="Docs/images/shop_coins.jpg" width="200" alt="Shop coins">
 </p>
 
-## Level gallery
-
-Captured with the in-game level cheat (see [Cheat & screenshots](#cheat--screenshots)), then
-`python3 tools/update_level_gallery.py` rebuilds this table.
-
-<!-- LEVELS:START -->
-<table>
-<tr><td align="center"><img src="Docs/levels/level_001.jpg" width="150"><br><sub>Level 1</sub></td></tr>
-</table>
-<!-- LEVELS:END -->
-
 ## Tech stack
 
 - **Unity 6000.2.10f1**, Universal Render Pipeline 17.2
@@ -79,7 +68,6 @@ Assets/
 │   │   ├── IAP/         Catalog + IapManager
 │   │   ├── UI/          Dialog system, toasts, buttons
 │   │   ├── Audio/       Music, SFX, vibration
-│   │   ├── Debug/       CheatLevel (level switcher + screenshots)
 │   │   └── Editor/      Build helpers
 │   ├── Prefabs/         Levels (puzzle prefabs), UI, dialogs
 │   ├── Resources/       GameConfig.asset (levels, prices, rewards, sprites)
@@ -87,7 +75,7 @@ Assets/
 ├── Editor/WebOptimizer.cs   Tools ▸ Apply Web Release Settings
 └── WebGLTemplates/Responsive
 Docs/                    README images
-tools/                   auto_commit.sh, update_level_gallery.py
+tools/                   auto_commit.sh
 ```
 
 Most tuning lives in **`Assets/_Game/Resources/GameConfig.asset`**: level list and loop point, starting holes and box slots,
@@ -108,17 +96,3 @@ booster price, win reward, revive prices, chest interval and the sprites.
 
 The build is uncompressed (no `.unityweb`), so any static host can serve it. If your server can send
 `Content-Encoding: br`, switch the compression to Brotli in `WebOptimizer.cs` for a smaller download.
-
-## Cheat & screenshots
-
-Available in the Editor, in Development builds, and on the web build when the URL contains `?cheat=1`.
-A small bar at the top of the game screen gives you:
-
-| Control | Key | Action |
-| --- | --- | --- |
-| ◀ / ▶, number + **Go** | ← / → | Change level |
-| **UI-** | H | Hide the HUD for clean shots |
-| **Shot** | K | Save `Screenshots/Levels/Level_XXX.png` |
-| **All** | Shift+K | Visit every level and capture each one (Esc stops) |
-
-Then run `python3 tools/update_level_gallery.py` to refresh the gallery above.
