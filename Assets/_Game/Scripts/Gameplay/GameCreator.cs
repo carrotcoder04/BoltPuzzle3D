@@ -91,7 +91,9 @@ public class GameCreator : MonoBehaviour
 			var rb = b.GetComponent<Rigidbody>();
 			if (rb != null && !rb.isKinematic) continue;
 			foreach (var mc in b.GetComponents<MeshCollider>())
-				if (mc.sharedMesh != null) mc.convex = false;
+				// mesh phải bật Read/Write thì bản build mới tạo được collider non-convex lúc chạy;
+				// nếu không, giữ convex (đã bake sẵn) để tấm không bị mất collider.
+				if (mc.sharedMesh != null && mc.sharedMesh.isReadable) mc.convex = false;
 		}
 	}
 
