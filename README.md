@@ -72,7 +72,6 @@ Assets/
 │   ├── Prefabs/         Levels (puzzle prefabs), UI, dialogs
 │   ├── Resources/       GameConfig.asset (levels, prices, rewards, sprites)
 │   └── Art2D / Art3D / Audio / UIKit / Particles / Shaders
-├── Editor/WebOptimizer.cs   Tools ▸ Apply Web Release Settings
 └── WebGLTemplates/Responsive
 Docs/                    README images
 tools/                   auto_commit.sh
@@ -89,10 +88,8 @@ booster price, win reward, revive prices, chest interval and the sprites.
 
 ## Building for the web
 
-1. **Tools ▸ Apply Web Release Settings** applies the release settings: engine and managed code stripping, Optimize
-   Size, data caching, memory and so on. They are also applied once automatically when the project is opened.
-2. **File ▸ Build Profiles ▸ Web ▸ Build**.
-3. Upload the entire output folder, and replace the whole `Build/` folder each time because file names are hashed.
+1. **File ▸ Build Profiles ▸ Web ▸ Build**.
+2. Upload the entire output folder. Replace the whole `Build/` folder each time.
 
-The build is uncompressed (no `.unityweb`), so any static host can serve it. If your server can send
-`Content-Encoding: br`, switch the compression to Brotli in `WebOptimizer.cs` for a smaller download.
+The web build uses the custom template `Assets/WebGLTemplates/Responsive`: full screen on phones, and a centred
+9:16 column with a loading bar on desktop.
